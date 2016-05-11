@@ -4,9 +4,9 @@
   <subtitle>技术分享</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://joryhe.github.io/"/>
   <updated>2016-05-10T07:46:24.551Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://joryhe.github.io/</id>
   
   <author>
     <name>Jory He</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/05/10/hello-world/"/>
-    <id>http://yoursite.com/2016/05/10/hello-world/</id>
+    <link href="https://joryhe.github.io/2016/05/10/hello-world/"/>
+    <id>https://joryhe.github.io/2016/05/10/hello-world/</id>
     <published>2016-05-10T07:46:24.547Z</published>
     <updated>2016-05-10T07:46:24.551Z</updated>
     
