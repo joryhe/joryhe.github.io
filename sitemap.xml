@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://joryhe.github.io/2016/05/15/muscic-technolocy-v4a.html</loc>
+    
+    <lastmod>2016-05-15T14:59:40.894Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://joryhe.github.io/2016/05/15/xenserver-add-local-disk.html</loc>
+    
+    <lastmod>2016-05-15T14:39:18.277Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://joryhe.github.io/2016/05/15/git_and_hexo_create_blog.html</loc>
     
     <lastmod>2016-05-15T07:40:50.121Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>https://joryhe.github.io/2016/05/12/git_and_hexo_create_blog.html</loc>
     
     <lastmod>2016-05-12T15:00:26.392Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://joryhe.github.io/2016/05/10/hello-world.html</loc>
-    
-    <lastmod>2016-05-12T05:51:49.236Z</lastmod>
     
   </url>
   

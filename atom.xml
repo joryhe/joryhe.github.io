@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://joryhe.github.io/"/>
-  <updated>2016-05-15T07:40:50.121Z</updated>
+  <updated>2016-05-15T14:39:18.277Z</updated>
   <id>https://joryhe.github.io/</id>
   
   <author>
@@ -14,6 +14,67 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>xenserver_add_local_disk</title>
+    <link href="https://joryhe.github.io/2016/05/15/xenserver-add-local-disk.html"/>
+    <id>https://joryhe.github.io/2016/05/15/xenserver-add-local-disk.html</id>
+    <published>2016-05-15T14:21:52.000Z</published>
+    <updated>2016-05-15T14:39:18.277Z</updated>
+    
+    <content type="html">&lt;p&gt;摘要：&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要：&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+    
+    
+      <category term="存储" scheme="https://joryhe.github.io/tags/%E5%AD%98%E5%82%A8/"/>
+    
+      <category term="xenserver" scheme="https://joryhe.github.io/tags/xenserver/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>V4A系列 V4A设置的基本介绍指引</title>
+    <link href="https://joryhe.github.io/2016/05/15/muscic-technolocy-v4a.html"/>
+    <id>https://joryhe.github.io/2016/05/15/muscic-technolocy-v4a.html</id>
+    <published>2016-05-15T14:16:07.000Z</published>
+    <updated>2016-05-15T14:59:40.894Z</updated>
+    
+    <content type="html">&lt;p&gt;摘要：”ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解”ViPER4Android FX”&lt;br&gt;并知道如何安装.如果不了解请点击”V4A系列 简单用上ViPER4Android”&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/2e5e1462335032.gif&quot;&gt;
+&lt;h1 id=&quot;以下针对几个参数进行简单介绍&quot;&gt;&lt;a href=&quot;#以下针对几个参数进行简单介绍&quot; class=&quot;headerlink&quot; title=&quot;以下针对几个参数进行简单介绍&quot;&gt;&lt;/a&gt;以下针对几个参数进行简单介绍&lt;/h1&gt;&lt;h2 id=&quot;效果总开关&quot;&gt;&lt;a href=&quot;#效果总开关&quot; class=&quot;headerlink&quot; title=&quot;效果总开关&quot;&gt;&lt;/a&gt;效果总开关&lt;/h2&gt;&lt;p&gt;该选项定义了是否启用V4A的耳机音效，是总开关&lt;/p&gt;
+&lt;h2 id=&quot;回放增益控制&quot;&gt;&lt;a href=&quot;#回放增益控制&quot; class=&quot;headerlink&quot; title=&quot;回放增益控制&quot;&gt;&lt;/a&gt;回放增益控制&lt;/h2&gt;&lt;p&gt;回放增益控制主要用于动态控制音频的音量，放大或衰减。&lt;br&gt;    (1)、启用。是否启用该效果。&lt;br&gt;    (2)、效果强度。效果强度代表音量放大或衰减的速度，越强则速度越快，最终音量也越大，越弱则速度越慢，最终音量越接近音频原始音量。推荐中等。&lt;br&gt;    (3)、最大增益倍数。当音频的音量过小时，回放增益为了将音量放大到设定的水准，可能会有非常大的放大倍数。该值越大则音量越大，太大时也会将歌曲内的噪音放大。推荐4倍。&lt;br&gt;    (4)、最大音量。该值定义了从回放增益出来的声音的最大音量分贝值，值越大音量越大0分贝代表数字信号的最大值。为了使声音更柔和，推荐-1.9分贝 &lt;/p&gt;
+&lt;h2 id=&quot;FIR均衡器&quot;&gt;&lt;a href=&quot;#FIR均衡器&quot; class=&quot;headerlink&quot; title=&quot;FIR均衡器&quot;&gt;&lt;/a&gt;FIR均衡器&lt;/h2&gt;&lt;p&gt;10段511阶FIR线性均衡器。&lt;br&gt;    (1)、启用。是否启用该效果。&lt;br&gt;    (2)、选择预设。在这里可以选择程序中预设的几种均衡器效果。当选择自定义时将采用手动调节图形均衡器的设置。&lt;br&gt;    (3)、图形均衡器手动调节。当触摸图形均衡器时将会弹出图形均衡较调的界面，可以分别自定义调节10个频段的增益的衰减 &lt;/p&gt;
+&lt;h2 id=&quot;脉冲反馈效果&quot;&gt;&lt;a href=&quot;#脉冲反馈效果&quot; class=&quot;headerlink&quot; title=&quot;脉冲反馈效果&quot;&gt;&lt;/a&gt;脉冲反馈效果&lt;/h2&gt;&lt;p&gt;脉冲反馈效果的作用是当给定一个样本文件后，播放器的音乐便会呈现出与该样本一模一样的声音特征，如均衡、混响、环绕、耳机、热胆机等。&lt;br&gt;    首先需要确保SD卡根目录下存在ViPER4Android/Kernel目录，样本文件均存在于该目录下。若没有，可以下载最新包，并提取SDCard_V4A.zip。&lt;br&gt;    (1)、启用。是否启用该效果。&lt;br&gt;    (2)、选择脉冲反馈样本。这里可以选择ViPER4Android/Kernel目录下的脉冲文件&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;此功能非常棒，你可以通过下载对应的脉冲文件模拟&amp;quot;杜比&amp;quot;，7.1声道等音效。 
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;场环绕&quot;&gt;&lt;a href=&quot;#场环绕&quot; class=&quot;headerlink&quot; title=&quot;场环绕&quot;&gt;&lt;/a&gt;场环绕&lt;/h2&gt;&lt;p&gt;场环绕是指针对声场进行环绕效果作业。声场可以理解为水平面音场或立体声场。&lt;br&gt;    (1)、启用。是否启用该效果。&lt;br&gt;    (2)、场环绕强度。该值定义了场环绕效果的强弱。越强则会让声音的立体声感觉越明显，声音将会从耳朵左右两边过来。建议中等。&lt;br&gt;    (3)、中央强度。该值定义了中央人声的强度。越强人声越清晰，越弱声音越飘渺。 &lt;/p&gt;
+&lt;h2 id=&quot;数字混响&quot;&gt;&lt;a href=&quot;#数字混响&quot; class=&quot;headerlink&quot; title=&quot;数字混响&quot;&gt;&lt;/a&gt;数字混响&lt;/h2&gt;&lt;p&gt;数字混响是指使用数学的方法模拟一个设定的环境内的声音听感。比如一首歌可以获得听起来像在大礼堂、客厅、浴室等等里面的感觉。&lt;br&gt;    (1)、启用。是否启用该效果。&lt;br&gt;    (2)、房间大小。该值设定了虚拟环境的场地面积。该值越大，声音听起来则越空旷，回音越多。&lt;br&gt;    (3)、声场大小。该值设定了上面所定房间的宽度，单位是米。假定上面设定房间大小为100平米，此处设定宽度为14米，那么房间的另一长度就是7.14米。也就说房间大小和声场大小定义了这个虚拟环境的面积和长宽比。该值越大声音听起来从两边传来的感觉越明显。&lt;br&gt;    (4)、水汽含量。该值定义了上述环境的空气的潮湿度，空气中的水汽会强烈的吸收回音，因此该值越大回音越少。&lt;br&gt;    (5)、混响信号比例。该值定义了模拟的环境声音的音量。&lt;br&gt;    (6)、原始信号比例。该值定义了原始声音的音量。&lt;br&gt;    对于模拟客厅、大礼堂等室内无大量水分的环境时，可使用房间大小和声场大小来定义环境的面积，水汽含量取值0~20，混响信号比例取值20~50，原始信号比例取值50左右。&lt;br&gt;    对于模式浴室等室内含有大量水分的环境时，可使用房间大小和声场大小来定义环境的面积，水汽含量取值50~100，混响信号比例取值40~80，原始信号比例取值50左右。 &lt;/p&gt;
+&lt;h2 id=&quot;动态系统&quot;&gt;&lt;a href=&quot;#动态系统&quot; class=&quot;headerlink&quot; title=&quot;动态系统&quot;&gt;&lt;/a&gt;动态系统&lt;/h2&gt;&lt;p&gt;动态系统在V4A中扮演的角色是处理声音的动态范围。通俗的说就是低音、高音、限幅等。&lt;br&gt;    (1)、启用。是否启用该效果。&lt;br&gt;    (2)、监听设备。该值用于设定耳机插孔接驳的耳机类型。如果在所有设备中调不出自己喜欢的低音，那就选择耳塞。耳塞是个通用的选择。建议耳塞。&lt;br&gt;    (3)、动态低音。该值定义了动态低音的平均水平，越大则低音越强。建议33%。&lt;br&gt;    (4)、电子管模拟器。该选项定义了是否启用电子管模拟器效果。V4A中的电子管模拟器是一个简化的使用数学方法模拟电子管声音的效果。开启后将会大量削弱高频的奇次谐波失真，增加电子管特有的偶次谐波失真。&lt;/p&gt;
+&lt;h2 id=&quot;总输出门&quot;&gt;&lt;a href=&quot;#总输出门&quot; class=&quot;headerlink&quot; title=&quot;总输出门&quot;&gt;&lt;/a&gt;总输出门&lt;/h2&gt;&lt;p&gt;这个选项就是V4A的输出限幅器，用于防止音量过大造成削波失真。&lt;br&gt;    (1)、限制级别。该值定义了限幅器限制的波形幅度最大级别，0分贝是数字信号的最大值。该值越小则越容易出现音频被压缩的听感(音量也越小)，会损失声音细节，但可以有效控制最终输出的音量。建议0分贝。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要：”ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解”ViPER4Android FX”&lt;br&gt;并知道如何安装.如果不了解请点击”V4A系列 简单用上ViPER4Android”&lt;br&gt;
+    
+    </summary>
+    
+      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
+    
+    
+      <category term="v4a" scheme="https://joryhe.github.io/tags/v4a/"/>
+    
+      <category term="音效" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E6%95%88/"/>
+    
+  </entry>
   
   <entry>
     <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
@@ -54,9 +115,9 @@
       <category term="网站技术" scheme="https://joryhe.github.io/categories/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
-    
       <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
+    
+      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -102,38 +163,11 @@
       <category term="网站技术" scheme="https://joryhe.github.io/categories/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Git" scheme="https://joryhe.github.io/tags/Git/"/>
-    
       <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
     
+      <category term="Git" scheme="https://joryhe.github.io/tags/Git/"/>
+    
       <category term="日记" scheme="https://joryhe.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://joryhe.github.io/2016/05/10/hello-world.html"/>
-    <id>https://joryhe.github.io/2016/05/10/hello-world.html</id>
-    <published>2016-05-10T07:46:24.547Z</published>
-    <updated>2016-05-12T05:51:49.236Z</updated>
-    
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
-    
-    </summary>
-    
     
   </entry>
   
