@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://joryhe.github.io/"/>
-  <updated>2016-05-15T14:39:18.277Z</updated>
+  <updated>2016-05-16T13:16:46.916Z</updated>
   <id>https://joryhe.github.io/</id>
   
   <author>
@@ -16,19 +16,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>xenserver_add_local_disk</title>
+    <title>为Xenserver服务器添加本地磁盘</title>
     <link href="https://joryhe.github.io/2016/05/15/xenserver-add-local-disk.html"/>
     <id>https://joryhe.github.io/2016/05/15/xenserver-add-local-disk.html</id>
     <published>2016-05-15T14:21:52.000Z</published>
-    <updated>2016-05-15T14:39:18.277Z</updated>
+    <updated>2016-05-16T13:16:46.916Z</updated>
     
-    <content type="html">&lt;p&gt;摘要：&lt;/p&gt;
+    <content type="html">&lt;p&gt;摘要：Xenserver在何种场景，你需要进行添加本地磁盘&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;当你需要在Xenserver添加磁盘作为扩容&lt;/li&gt;
+&lt;li&gt;当你需要对Xenserver本地磁盘进行维护优化&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;如何添加本地磁盘&quot;&gt;&lt;a href=&quot;#如何添加本地磁盘&quot; class=&quot;headerlink&quot; title=&quot;如何添加本地磁盘&quot;&gt;&lt;/a&gt;如何添加本地磁盘&lt;/h1&gt;&lt;h2 id=&quot;步骤：&quot;&gt;&lt;a href=&quot;#步骤：&quot; class=&quot;headerlink&quot; title=&quot;步骤：&quot;&gt;&lt;/a&gt;步骤：&lt;/h2&gt;&lt;p&gt;整体的操作过程如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1、挂接磁盘到Xenserver服务器&lt;/li&gt;
+&lt;li&gt;2、通过Linux命令（fdisk -l）,检查挂接的磁盘设备号&lt;/li&gt;
+&lt;li&gt;3、通过xenserver系统挂接命令挂接磁盘,命名并格式化分区系统为EXT&lt;/li&gt;
+&lt;li&gt;4、通过XenCenter 工具检查挂接的磁盘情况&lt;h2 id=&quot;操作过程：&quot;&gt;&lt;a href=&quot;#操作过程：&quot; class=&quot;headerlink&quot; title=&quot;操作过程：&quot;&gt;&lt;/a&gt;操作过程：&lt;/h2&gt;&lt;h3 id=&quot;挂接磁盘到Xenserver服务器&quot;&gt;&lt;a href=&quot;#挂接磁盘到Xenserver服务器&quot; class=&quot;headerlink&quot; title=&quot;挂接磁盘到Xenserver服务器&quot;&gt;&lt;/a&gt;挂接磁盘到Xenserver服务器&lt;/h3&gt;关闭Xenserver服务器，将相应的磁盘设备接入到Xenserver服务器&lt;h3 id=&quot;通过Linux命令（fdisk-l）-检查挂接的磁盘设备号&quot;&gt;&lt;a href=&quot;#通过Linux命令（fdisk-l）-检查挂接的磁盘设备号&quot; class=&quot;headerlink&quot; title=&quot;通过Linux命令（fdisk -l）,检查挂接的磁盘设备号&quot;&gt;&lt;/a&gt;通过Linux命令（fdisk -l）,检查挂接的磁盘设备号&lt;/h3&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329110546403.jpg&quot;&gt;
+&lt;h3 id=&quot;通过xenserver系统挂接命令挂接磁盘-命名并格式化分区系统为EXT&quot;&gt;&lt;a href=&quot;#通过xenserver系统挂接命令挂接磁盘-命名并格式化分区系统为EXT&quot; class=&quot;headerlink&quot; title=&quot;通过xenserver系统挂接命令挂接磁盘,命名并格式化分区系统为EXT&quot;&gt;&lt;/a&gt;通过xenserver系统挂接命令挂接磁盘,命名并格式化分区系统为EXT&lt;/h3&gt;&lt;strong&gt;命令解析：&lt;/strong&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;xe sr-create name-label= shared=false device-config-device= type=lvm &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Name of Storage is the name of the Storage Repository you require &lt;/li&gt;
+&lt;li&gt;Path of the Storage device is the path as noted in the preceding tasks, /dev/sdc)&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329110929256.jpg&quot;&gt;
+&lt;h3 id=&quot;通过XenCenter-工具检查挂接的磁盘情况&quot;&gt;&lt;a href=&quot;#通过XenCenter-工具检查挂接的磁盘情况&quot; class=&quot;headerlink&quot; title=&quot;通过XenCenter 工具检查挂接的磁盘情况&quot;&gt;&lt;/a&gt;通过XenCenter 工具检查挂接的磁盘情况&lt;/h3&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329111259195.jpg&quot;&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;摘要：&lt;/p&gt;
-
+      &lt;p&gt;摘要：Xenserver在何种场景，你需要进行添加本地磁盘&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;当你需要在Xenserver添加磁盘作为扩容&lt;/li&gt;
+&lt;li&gt;当你需要对Xenserver本地磁盘进行维护优化&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;如何添加本地磁盘&quot;&gt;&lt;a href=
     
     </summary>
     
@@ -115,9 +137,9 @@
       <category term="网站技术" scheme="https://joryhe.github.io/categories/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
-    
       <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+    
+      <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
     
   </entry>
   
@@ -163,9 +185,9 @@
       <category term="网站技术" scheme="https://joryhe.github.io/categories/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
-    
       <category term="Git" scheme="https://joryhe.github.io/tags/Git/"/>
+    
+      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
     
       <category term="日记" scheme="https://joryhe.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
