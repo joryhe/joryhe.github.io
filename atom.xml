@@ -103,7 +103,7 @@
     <link href="https://joryhe.github.io/2016/05/15/git_and_hexo_create_blog.html"/>
     <id>https://joryhe.github.io/2016/05/15/git_and_hexo_create_blog.html</id>
     <published>2016-05-15T06:46:06.000Z</published>
-    <updated>2016-05-15T07:40:50.121Z</updated>
+    <updated>2016-05-16T13:27:46.377Z</updated>
     
     <content type="html">&lt;p&gt;摘要:本文介绍如何利用Lazyload是图片慢加载，简单的针对lazyload去做慢加载，网上的文章有很多。&lt;br&gt;而且也有很多说法，主要是围绕是否能真正的实现慢加载，还是加重了服务器负担，本文基础，我已经&lt;br&gt;在搜索大量的上网技术文章和结合自己的此时得出的慢加载方法，是否成功请关注本章最后的GIF图片，&lt;br&gt;图片简单的发出了我关于慢加载的测试截图。不说其他，先回到正题：”如和批量修改HTML TAG实现，慢&lt;br&gt;加载”。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -134,12 +134,14 @@
     
     </summary>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
     
+      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
     
       <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
+    
+      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -148,7 +150,7 @@
     <link href="https://joryhe.github.io/2016/05/12/git_and_hexo_create_blog.html"/>
     <id>https://joryhe.github.io/2016/05/12/git_and_hexo_create_blog.html</id>
     <published>2016-05-12T05:05:14.000Z</published>
-    <updated>2016-05-12T15:00:26.392Z</updated>
+    <updated>2016-05-16T13:27:05.745Z</updated>
     
     <content type="html">&lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -182,12 +184,14 @@
     
     </summary>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
     
+      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="Git" scheme="https://joryhe.github.io/tags/Git/"/>
     
       <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+    
+      <category term="Git" scheme="https://joryhe.github.io/tags/Git/"/>
     
       <category term="日记" scheme="https://joryhe.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
