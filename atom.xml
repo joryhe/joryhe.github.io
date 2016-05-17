@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://joryhe.github.io/"/>
-  <updated>2016-05-16T14:30:32.889Z</updated>
+  <updated>2016-05-17T14:32:07.727Z</updated>
   <id>https://joryhe.github.io/</id>
   
   <author>
@@ -14,6 +14,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HEXO技巧分享-文章列表实现</title>
+    <link href="https://joryhe.github.io/2016/05/17/hexo-series-for-tips-01.html"/>
+    <id>https://joryhe.github.io/2016/05/17/hexo-series-for-tips-01.html</id>
+    <published>2016-05-17T13:48:37.000Z</published>
+    <updated>2016-05-17T14:32:07.727Z</updated>
+    
+    <content type="html">&lt;p&gt;摘要:本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示&lt;br&gt;相关文章列表，如图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg&quot;&gt;&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;为实现文章列表的显示方式，我们通过HEXO的分类功能实现。&lt;br&gt;&lt;strong&gt;操作步骤主：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1、修改HEXO POST模板，添加categories。                作用：以后的文章将会以此作为模板新增。&lt;/li&gt;
+&lt;li&gt;2、新增一文章，并修改分类属性。                       作用：分类属性如果被设置，在HEXO编译会生成对应分类目录&lt;/li&gt;
+&lt;li&gt;3、修改主题配置文件(config.yml),添加MENU分类字段      作用: 导航栏显示分类链接&lt;/li&gt;
+&lt;li&gt;4、假定为中文网站，修改主题目录下的语言配置文件(zh-Hans.yml)  作用：导航栏链接显示中文&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;实施细节：&quot;&gt;&lt;a href=&quot;#实施细节：&quot; class=&quot;headerlink&quot; title=&quot;实施细节：&quot;&gt;&lt;/a&gt;实施细节：&lt;/h2&gt;&lt;h3 id=&quot;修改HEXO-POST模板，添加categories&quot;&gt;&lt;a href=&quot;#修改HEXO-POST模板，添加categories&quot; class=&quot;headerlink&quot; title=&quot;修改HEXO POST模板，添加categories&quot;&gt;&lt;/a&gt;修改HEXO POST模板，添加categories&lt;/h3&gt;&lt;p&gt;在你的HEXO根目录下，找到文件夹scaffolds，此文件夹下定义创建文章的基本模型，你可以修改此模板&lt;br&gt;实现每次进行HEXO NEW 文章名，文章会以您的模板进行对应配置属性创建。这里我们主要是新增categories&lt;br&gt;字段，让每次新增文章都会打上此属性字段。&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517221913.jpg&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;新增一文章，并修改分类属性&quot;&gt;&lt;a href=&quot;#新增一文章，并修改分类属性&quot; class=&quot;headerlink&quot; title=&quot;新增一文章，并修改分类属性&quot;&gt;&lt;/a&gt;新增一文章，并修改分类属性&lt;/h3&gt;&lt;p&gt;通过git bash 新建文章 hexo new 你的文章名，并打开您的文章，在categories写上你的分类名字，&lt;br&gt;此操作后并保存文档，在你进行hexo g编译的时候会在PUBLIC目录下的 categories下建立以你分类名字的&lt;br&gt;文件夹，这一步很重要，以后的链接将定向到此文件夹。(本文的测试分类名为：ittech 中文名技术)&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/t20160517222214.jpg&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;修改主题配置文件-config-yml-添加MENU分类字段&quot;&gt;&lt;a href=&quot;#修改主题配置文件-config-yml-添加MENU分类字段&quot; class=&quot;headerlink&quot; title=&quot;修改主题配置文件(config.yml),添加MENU分类字段&quot;&gt;&lt;/a&gt;修改主题配置文件(config.yml),添加MENU分类字段&lt;/h3&gt;&lt;p&gt;此部分主要在导航栏显示你的分类作为链接字段。 就如第三部的分类目录位置 为/categories/ittech&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/0160517222733.jpg&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;修改主题目录下的语言配置文件-zh-Hans-yml&quot;&gt;&lt;a href=&quot;#修改主题目录下的语言配置文件-zh-Hans-yml&quot; class=&quot;headerlink&quot; title=&quot;修改主题目录下的语言配置文件(zh-Hans.yml)&quot;&gt;&lt;/a&gt;修改主题目录下的语言配置文件(zh-Hans.yml)&lt;/h3&gt;&lt;p&gt;此部分是将ittech翻译为中文的”技术”，请修改语言的文件zh-Hans.yml 文件在对应的主题目录下的languages&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160517223020.jpg&quot;&gt;&lt;br&gt;到此你已经完成所有的操作，请重新编译你的网站文件&lt;/p&gt;
+&lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要:本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示&lt;br&gt;相关文章列表，如图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg&quot;&gt;&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+    
+      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="HEXO技巧" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>为Xenserver服务器添加本地磁盘</title>
@@ -100,10 +140,10 @@
   
   <entry>
     <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
-    <link href="https://joryhe.github.io/2016/05/15/git_and_hexo_create_blog.html"/>
-    <id>https://joryhe.github.io/2016/05/15/git_and_hexo_create_blog.html</id>
+    <link href="https://joryhe.github.io/2016/05/15/create-lazy-tag-in-html.html"/>
+    <id>https://joryhe.github.io/2016/05/15/create-lazy-tag-in-html.html</id>
     <published>2016-05-15T06:46:06.000Z</published>
-    <updated>2016-05-17T07:12:38.302Z</updated>
+    <updated>2016-05-17T13:53:16.141Z</updated>
     
     <content type="html">&lt;p&gt;摘要:本文介绍如何利用Lazyload是图片慢加载，简单的针对lazyload去做慢加载，网上的文章有很多。&lt;br&gt;而且也有很多说法，主要是围绕是否能真正的实现慢加载，还是加重了服务器负担，本文基础，我已经&lt;br&gt;在搜索大量的上网技术文章和结合自己的此时得出的慢加载方法，是否成功请关注本章最后的GIF图片，&lt;br&gt;图片简单的发出了我关于慢加载的测试截图。不说其他，先回到正题：”如和批量修改HTML TAG实现，慢&lt;br&gt;加载”。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -138,12 +178,12 @@
     
       <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo_series_for_optimization_site" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo-series-for-optimization-site/"/>
+      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/"/>
     
-    
-      <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
     
       <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+    
+      <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
     
   </entry>
   
@@ -152,11 +192,9 @@
     <link href="https://joryhe.github.io/2016/05/12/git_and_hexo_create_blog.html"/>
     <id>https://joryhe.github.io/2016/05/12/git_and_hexo_create_blog.html</id>
     <published>2016-05-12T05:05:14.000Z</published>
-    <updated>2016-05-17T07:09:39.801Z</updated>
+    <updated>2016-05-17T14:32:49.965Z</updated>
     
-    <content type="html">&lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多&lt;br&gt;关于HEXO建站技术 请点击:&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;mydomain&quot; href=&quot;#&quot; onclick=&quot;GO_url()&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo-series-for-build-site/&quot;&gt;HEXO系列-建站&lt;/a&gt;&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+    <content type="html">&lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多&lt;br&gt;关于HEXO建站技术 请点击以下推荐的系列:&lt;br&gt;相关推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在进行搭建博客之前，我们有必要先了解什么事git,什么是hexo.了解此部分更加让你对通过git结合hexo&lt;br&gt;搭建个人博客的兴趣&lt;/p&gt;
 &lt;h3 id=&quot;Git是什么&quot;&gt;&lt;a href=&quot;#Git是什么&quot; class=&quot;headerlink&quot; title=&quot;Git是什么&quot;&gt;&lt;/a&gt;Git是什么&lt;/h3&gt;&lt;p&gt;我这里说的Git主要是指&lt;strong&gt;GitHub Pages&lt;/strong&gt;，GitHub Pages本用于托管在GitHub的项目，由于他的空间免费稳定，&lt;br&gt;非常适合做博客。&lt;/p&gt;
 &lt;h3 id=&quot;Hexo是什么&quot;&gt;&lt;a href=&quot;#Hexo是什么&quot; class=&quot;headerlink&quot; title=&quot;Hexo是什么&quot;&gt;&lt;/a&gt;Hexo是什么&lt;/h3&gt;&lt;p&gt;Hexo是一个开源的静态博客生成器,用node.js开发,作者是台湾大学生tommy351,鉴于其静态架构，&lt;br&gt;用来做博客非常简洁，性能好&lt;/p&gt;
@@ -183,8 +221,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多&lt;br&gt;关于HEXO建站技术 请点击:&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;mydomain&quot; href=&quot;#&quot; onclick=&quot;GO_url()&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo-series-for-build-site/&quot;&gt;HEXO系列-建站&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多&lt;br&gt;关于HEXO建站技术 请点击以下推荐的系列:&lt;br&gt;相关推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
@@ -192,14 +229,12 @@
     
       <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo_series_for_build_site" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo-series-for-build-site/"/>
+      <category term="HEXO建站" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/"/>
     
     
       <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
     
       <category term="Git" scheme="https://joryhe.github.io/tags/Git/"/>
-    
-      <category term="日记" scheme="https://joryhe.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
