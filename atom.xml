@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://joryhe.github.io/"/>
-  <updated>2016-05-16T13:16:46.916Z</updated>
+  <updated>2016-05-16T14:30:32.889Z</updated>
   <id>https://joryhe.github.io/</id>
   
   <author>
@@ -20,13 +20,14 @@
     <link href="https://joryhe.github.io/2016/05/15/xenserver-add-local-disk.html"/>
     <id>https://joryhe.github.io/2016/05/15/xenserver-add-local-disk.html</id>
     <published>2016-05-15T14:21:52.000Z</published>
-    <updated>2016-05-16T13:16:46.916Z</updated>
+    <updated>2016-05-16T14:30:32.889Z</updated>
     
     <content type="html">&lt;p&gt;摘要：Xenserver在何种场景，你需要进行添加本地磁盘&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;当你需要在Xenserver添加磁盘作为扩容&lt;/li&gt;
 &lt;li&gt;当你需要对Xenserver本地磁盘进行维护优化&lt;/li&gt;
 &lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h1 id=&quot;如何添加本地磁盘&quot;&gt;&lt;a href=&quot;#如何添加本地磁盘&quot; class=&quot;headerlink&quot; title=&quot;如何添加本地磁盘&quot;&gt;&lt;/a&gt;如何添加本地磁盘&lt;/h1&gt;&lt;h2 id=&quot;步骤：&quot;&gt;&lt;a href=&quot;#步骤：&quot; class=&quot;headerlink&quot; title=&quot;步骤：&quot;&gt;&lt;/a&gt;步骤：&lt;/h2&gt;&lt;p&gt;整体的操作过程如下：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1、挂接磁盘到Xenserver服务器&lt;/li&gt;
@@ -50,7 +51,6 @@
 &lt;li&gt;当你需要在Xenserver添加磁盘作为扩容&lt;/li&gt;
 &lt;li&gt;当你需要对Xenserver本地磁盘进行维护优化&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&quot;如何添加本地磁盘&quot;&gt;&lt;a href=
     
     </summary>
     
@@ -103,7 +103,7 @@
     <link href="https://joryhe.github.io/2016/05/15/git_and_hexo_create_blog.html"/>
     <id>https://joryhe.github.io/2016/05/15/git_and_hexo_create_blog.html</id>
     <published>2016-05-15T06:46:06.000Z</published>
-    <updated>2016-05-16T13:27:46.377Z</updated>
+    <updated>2016-05-17T07:12:38.302Z</updated>
     
     <content type="html">&lt;p&gt;摘要:本文介绍如何利用Lazyload是图片慢加载，简单的针对lazyload去做慢加载，网上的文章有很多。&lt;br&gt;而且也有很多说法，主要是围绕是否能真正的实现慢加载，还是加重了服务器负担，本文基础，我已经&lt;br&gt;在搜索大量的上网技术文章和结合自己的此时得出的慢加载方法，是否成功请关注本章最后的GIF图片，&lt;br&gt;图片简单的发出了我关于慢加载的测试截图。不说其他，先回到正题：”如和批量修改HTML TAG实现，慢&lt;br&gt;加载”。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -138,6 +138,8 @@
     
       <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
+      <category term="hexo_series_for_optimization_site" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo-series-for-optimization-site/"/>
+    
     
       <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
     
@@ -150,9 +152,10 @@
     <link href="https://joryhe.github.io/2016/05/12/git_and_hexo_create_blog.html"/>
     <id>https://joryhe.github.io/2016/05/12/git_and_hexo_create_blog.html</id>
     <published>2016-05-12T05:05:14.000Z</published>
-    <updated>2016-05-16T13:27:05.745Z</updated>
+    <updated>2016-05-17T07:09:39.801Z</updated>
     
-    <content type="html">&lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。&lt;/p&gt;
+    <content type="html">&lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多&lt;br&gt;关于HEXO建站技术 请点击:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;mydomain&quot; href=&quot;#&quot; onclick=&quot;GO_url()&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo-series-for-build-site/&quot;&gt;HEXO系列-建站&lt;/a&gt;&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在进行搭建博客之前，我们有必要先了解什么事git,什么是hexo.了解此部分更加让你对通过git结合hexo&lt;br&gt;搭建个人博客的兴趣&lt;/p&gt;
 &lt;h3 id=&quot;Git是什么&quot;&gt;&lt;a href=&quot;#Git是什么&quot; class=&quot;headerlink&quot; title=&quot;Git是什么&quot;&gt;&lt;/a&gt;Git是什么&lt;/h3&gt;&lt;p&gt;我这里说的Git主要是指&lt;strong&gt;GitHub Pages&lt;/strong&gt;，GitHub Pages本用于托管在GitHub的项目，由于他的空间免费稳定，&lt;br&gt;非常适合做博客。&lt;/p&gt;
@@ -180,13 +183,16 @@
     
     <summary type="html">
     
-      &lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。&lt;/p&gt;
+      &lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多&lt;br&gt;关于HEXO建站技术 请点击:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;mydomain&quot; href=&quot;#&quot; onclick=&quot;GO_url()&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo-series-for-build-site/&quot;&gt;HEXO系列-建站&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
       <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
     
       <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="hexo_series_for_build_site" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo-series-for-build-site/"/>
     
     
       <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>

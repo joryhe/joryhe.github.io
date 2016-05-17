@@ -1,0 +1,1 @@
+function GO_url(){host=window.location.href,http_or_https=host.split("//")[0],hostdomain=host.split("//")[1].split("/")[0],replace_url=http_or_https+"//"+hostdomain+"/",dir_path=$("a.mydomain").attr("linkme"),new_urlss=replace_url+dir_path,window.open(new_urlss)}
