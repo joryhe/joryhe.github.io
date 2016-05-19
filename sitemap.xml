@@ -2,56 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://joryhe.github.io/2016/05/15/xenserver-add-local-disk.html</loc>
+    <loc>http://joryhe.coding.me/2016/05/15/create-lazy-tag-in-html.html</loc>
     
-    <lastmod>2016-05-18T09:09:12.216Z</lastmod>
+    <lastmod>2016-05-19T05:41:43.799Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://joryhe.github.io/2016/05/17/hexoxo-series-for-site-build-basic.html</loc>
+    <loc>http://joryhe.coding.me/2016/05/17/hexo-series-for-tips-01.html</loc>
+    
+    <lastmod>2016-05-19T05:35:55.216Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://joryhe.coding.me/2016/05/15/xenserver-add-local-disk.html</loc>
+    
+    <lastmod>2016-05-19T05:35:01.440Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://joryhe.coding.me/2016/05/15/muscic-technolocy-v4a.html</loc>
+    
+    <lastmod>2016-05-19T05:13:38.915Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://joryhe.coding.me/2016/05/18/muscic-technolocy-v4a-introduce.html</loc>
+    
+    <lastmod>2016-05-18T15:19:56.973Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://joryhe.coding.me/2016/05/17/hexoxo-series-for-site-build-basic.html</loc>
     
     <lastmod>2016-05-17T15:44:55.961Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://joryhe.github.io/2016/05/12/git_and_hexo_create_blog.html</loc>
+    <loc>http://joryhe.coding.me/2016/05/12/git_and_hexo_create_blog.html</loc>
     
     <lastmod>2016-05-17T14:32:49.965Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://joryhe.github.io/2016/05/17/hexo-series-for-tips-01.html</loc>
-    
-    <lastmod>2016-05-17T14:32:07.727Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://joryhe.github.io/2016/05/15/create-lazy-tag-in-html.html</loc>
-    
-    <lastmod>2016-05-17T13:53:16.141Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://joryhe.github.io/2016/05/15/muscic-technolocy-v4a.html</loc>
-    
-    <lastmod>2016-05-15T14:59:40.894Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://joryhe.github.io/tags/index.html</loc>
+    <loc>http://joryhe.coding.me/tags/index.html</loc>
     
     <lastmod>2016-05-11T05:20:00.765Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://joryhe.github.io/categories/index.html</loc>
+    <loc>http://joryhe.coding.me/categories/index.html</loc>
     
     <lastmod>2016-05-11T03:53:36.272Z</lastmod>
     

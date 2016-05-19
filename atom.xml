@@ -4,9 +4,9 @@
   <subtitle>技术分享</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://joryhe.github.io/"/>
-  <updated>2016-05-17T15:44:55.961Z</updated>
-  <id>https://joryhe.github.io/</id>
+  <link href="http://joryhe.coding.me/"/>
+  <updated>2016-05-18T15:19:56.973Z</updated>
+  <id>http://joryhe.coding.me/</id>
   
   <author>
     <name>Jory He</name>
@@ -16,9 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>V4A系列-VIPER音效系统-安卓音效神器</title>
+    <link href="http://joryhe.coding.me/2016/05/18/muscic-technolocy-v4a-introduce.html"/>
+    <id>http://joryhe.coding.me/2016/05/18/muscic-technolocy-v4a-introduce.html</id>
+    <published>2016-05-18T15:16:20.000Z</published>
+    <updated>2016-05-18T15:19:56.973Z</updated>
+    
+    <content type="html">&lt;p&gt;摘要：本文将介绍一款安卓音效提升的软件，此款软件系统在安卓的音效江湖上一度猖獗，&lt;br&gt;我也是在无疑中了解到此款音效系统，咱一试之下就爱不惜手。此款软件商名字为：ViPER （蝰蛇），&lt;br&gt;是一个音效更改系统，即可以通过软件系统来改变音乐的音效&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要：本文将介绍一款安卓音效提升的软件，此款软件系统在安卓的音效江湖上一度猖獗，&lt;br&gt;我也是在无疑中了解到此款音效系统，咱一试之下就爱不惜手。此款软件商名字为：ViPER （蝰蛇），&lt;br&gt;是一个音效更改系统，即可以通过软件系统来改变音乐的音效&lt;br&gt;
+    
+    </summary>
+    
+      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+    
+      <category term="音效" scheme="http://joryhe.coding.me/categories/essay/%E9%9F%B3%E6%95%88/"/>
+    
+    
+      <category term="v4a" scheme="http://joryhe.coding.me/tags/v4a/"/>
+    
+      <category term="音效" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E6%95%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HEXO建站-基本设置</title>
-    <link href="https://joryhe.github.io/2016/05/17/hexoxo-series-for-site-build-basic.html"/>
-    <id>https://joryhe.github.io/2016/05/17/hexoxo-series-for-site-build-basic.html</id>
+    <link href="http://joryhe.coding.me/2016/05/17/hexoxo-series-for-site-build-basic.html"/>
+    <id>http://joryhe.coding.me/2016/05/17/hexoxo-series-for-site-build-basic.html</id>
     <published>2016-05-17T14:40:20.000Z</published>
     <updated>2016-05-17T15:44:55.961Z</updated>
     
@@ -88,7 +115,7 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -96,25 +123,25 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="HEXO建站" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/"/>
+      <category term="HEXO建站" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/"/>
     
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>HEXO技巧分享-文章列表实现</title>
-    <link href="https://joryhe.github.io/2016/05/17/hexo-series-for-tips-01.html"/>
-    <id>https://joryhe.github.io/2016/05/17/hexo-series-for-tips-01.html</id>
+    <link href="http://joryhe.coding.me/2016/05/17/hexo-series-for-tips-01.html"/>
+    <id>http://joryhe.coding.me/2016/05/17/hexo-series-for-tips-01.html</id>
     <published>2016-05-17T13:48:37.000Z</published>
-    <updated>2016-05-17T14:32:07.727Z</updated>
+    <updated>2016-05-19T05:35:55.216Z</updated>
     
-    <content type="html">&lt;p&gt;摘要:本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示&lt;br&gt;相关文章列表，如图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg&quot;&gt;&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;摘要:本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示&lt;br&gt;相关文章列表，如图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg&quot;&gt;&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;为实现文章列表的显示方式，我们通过HEXO的分类功能实现。&lt;br&gt;&lt;strong&gt;操作步骤主：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1、修改HEXO POST模板，添加categories。                作用：以后的文章将会以此作为模板新增。&lt;/li&gt;
@@ -122,37 +149,37 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
 &lt;li&gt;3、修改主题配置文件(config.yml),添加MENU分类字段      作用: 导航栏显示分类链接&lt;/li&gt;
 &lt;li&gt;4、假定为中文网站，修改主题目录下的语言配置文件(zh-Hans.yml)  作用：导航栏链接显示中文&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;实施细节：&quot;&gt;&lt;a href=&quot;#实施细节：&quot; class=&quot;headerlink&quot; title=&quot;实施细节：&quot;&gt;&lt;/a&gt;实施细节：&lt;/h2&gt;&lt;h3 id=&quot;修改HEXO-POST模板，添加categories&quot;&gt;&lt;a href=&quot;#修改HEXO-POST模板，添加categories&quot; class=&quot;headerlink&quot; title=&quot;修改HEXO POST模板，添加categories&quot;&gt;&lt;/a&gt;修改HEXO POST模板，添加categories&lt;/h3&gt;&lt;p&gt;在你的HEXO根目录下，找到文件夹scaffolds，此文件夹下定义创建文章的基本模型，你可以修改此模板&lt;br&gt;实现每次进行HEXO NEW 文章名，文章会以您的模板进行对应配置属性创建。这里我们主要是新增categories&lt;br&gt;字段，让每次新增文章都会打上此属性字段。&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517221913.jpg&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;新增一文章，并修改分类属性&quot;&gt;&lt;a href=&quot;#新增一文章，并修改分类属性&quot; class=&quot;headerlink&quot; title=&quot;新增一文章，并修改分类属性&quot;&gt;&lt;/a&gt;新增一文章，并修改分类属性&lt;/h3&gt;&lt;p&gt;通过git bash 新建文章 hexo new 你的文章名，并打开您的文章，在categories写上你的分类名字，&lt;br&gt;此操作后并保存文档，在你进行hexo g编译的时候会在PUBLIC目录下的 categories下建立以你分类名字的&lt;br&gt;文件夹，这一步很重要，以后的链接将定向到此文件夹。(本文的测试分类名为：ittech 中文名技术)&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/t20160517222214.jpg&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;修改主题配置文件-config-yml-添加MENU分类字段&quot;&gt;&lt;a href=&quot;#修改主题配置文件-config-yml-添加MENU分类字段&quot; class=&quot;headerlink&quot; title=&quot;修改主题配置文件(config.yml),添加MENU分类字段&quot;&gt;&lt;/a&gt;修改主题配置文件(config.yml),添加MENU分类字段&lt;/h3&gt;&lt;p&gt;此部分主要在导航栏显示你的分类作为链接字段。 就如第三部的分类目录位置 为/categories/ittech&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/0160517222733.jpg&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;修改主题目录下的语言配置文件-zh-Hans-yml&quot;&gt;&lt;a href=&quot;#修改主题目录下的语言配置文件-zh-Hans-yml&quot; class=&quot;headerlink&quot; title=&quot;修改主题目录下的语言配置文件(zh-Hans.yml)&quot;&gt;&lt;/a&gt;修改主题目录下的语言配置文件(zh-Hans.yml)&lt;/h3&gt;&lt;p&gt;此部分是将ittech翻译为中文的”技术”，请修改语言的文件zh-Hans.yml 文件在对应的主题目录下的languages&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160517223020.jpg&quot;&gt;&lt;br&gt;到此你已经完成所有的操作，请重新编译你的网站文件&lt;/p&gt;
+&lt;h2 id=&quot;实施细节：&quot;&gt;&lt;a href=&quot;#实施细节：&quot; class=&quot;headerlink&quot; title=&quot;实施细节：&quot;&gt;&lt;/a&gt;实施细节：&lt;/h2&gt;&lt;h3 id=&quot;修改HEXO-POST模板，添加categories&quot;&gt;&lt;a href=&quot;#修改HEXO-POST模板，添加categories&quot; class=&quot;headerlink&quot; title=&quot;修改HEXO POST模板，添加categories&quot;&gt;&lt;/a&gt;修改HEXO POST模板，添加categories&lt;/h3&gt;&lt;p&gt;在你的HEXO根目录下，找到文件夹scaffolds，此文件夹下定义创建文章的基本模型，你可以修改此模板&lt;br&gt;实现每次进行HEXO NEW 文章名，文章会以您的模板进行对应配置属性创建。这里我们主要是新增categories&lt;br&gt;字段，让每次新增文章都会打上此属性字段。&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517221913.jpg&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;新增一文章，并修改分类属性&quot;&gt;&lt;a href=&quot;#新增一文章，并修改分类属性&quot; class=&quot;headerlink&quot; title=&quot;新增一文章，并修改分类属性&quot;&gt;&lt;/a&gt;新增一文章，并修改分类属性&lt;/h3&gt;&lt;p&gt;通过git bash 新建文章 hexo new 你的文章名，并打开您的文章，在categories写上你的分类名字，&lt;br&gt;此操作后并保存文档，在你进行hexo g编译的时候会在PUBLIC目录下的 categories下建立以你分类名字的&lt;br&gt;文件夹，这一步很重要，以后的链接将定向到此文件夹。(本文的测试分类名为：ittech 中文名技术)&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/t20160517222214.jpg&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;修改主题配置文件-config-yml-添加MENU分类字段&quot;&gt;&lt;a href=&quot;#修改主题配置文件-config-yml-添加MENU分类字段&quot; class=&quot;headerlink&quot; title=&quot;修改主题配置文件(config.yml),添加MENU分类字段&quot;&gt;&lt;/a&gt;修改主题配置文件(config.yml),添加MENU分类字段&lt;/h3&gt;&lt;p&gt;此部分主要在导航栏显示你的分类作为链接字段。 就如第三部的分类目录位置 为/categories/ittech&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/0160517222733.jpg&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;修改主题目录下的语言配置文件-zh-Hans-yml&quot;&gt;&lt;a href=&quot;#修改主题目录下的语言配置文件-zh-Hans-yml&quot; class=&quot;headerlink&quot; title=&quot;修改主题目录下的语言配置文件(zh-Hans.yml)&quot;&gt;&lt;/a&gt;修改主题目录下的语言配置文件(zh-Hans.yml)&lt;/h3&gt;&lt;p&gt;此部分是将ittech翻译为中文的”技术”，请修改语言的文件zh-Hans.yml 文件在对应的主题目录下的languages&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160517223020.jpg&quot;&gt;&lt;br&gt;到此你已经完成所有的操作，请重新编译你的网站文件&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;摘要:本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示&lt;br&gt;相关文章列表，如图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg&quot;&gt;&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;
+      &lt;p&gt;摘要:本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示&lt;br&gt;相关文章列表，如图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg&quot;&gt;&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="HEXO技巧" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/"/>
+      <category term="HEXO技巧" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/"/>
     
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>为Xenserver服务器添加本地磁盘</title>
-    <link href="https://joryhe.github.io/2016/05/15/xenserver-add-local-disk.html"/>
-    <id>https://joryhe.github.io/2016/05/15/xenserver-add-local-disk.html</id>
+    <link href="http://joryhe.coding.me/2016/05/15/xenserver-add-local-disk.html"/>
+    <id>http://joryhe.coding.me/2016/05/15/xenserver-add-local-disk.html</id>
     <published>2016-05-15T14:21:52.000Z</published>
-    <updated>2016-05-18T09:09:12.216Z</updated>
+    <updated>2016-05-19T05:35:01.440Z</updated>
     
     <content type="html">&lt;p&gt;摘要：Xenserver在何种场景，你需要进行添加本地磁盘&lt;/p&gt;
 &lt;ol&gt;
@@ -165,13 +192,13 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
 &lt;li&gt;1、挂接磁盘到Xenserver服务器&lt;/li&gt;
 &lt;li&gt;2、通过Linux命令（fdisk -l）,检查挂接的磁盘设备号&lt;/li&gt;
 &lt;li&gt;3、通过xenserver系统挂接命令挂接磁盘,命名并格式化分区系统为EXT&lt;/li&gt;
-&lt;li&gt;4、通过XenCenter 工具检查挂接的磁盘情况&lt;h2 id=&quot;操作过程：&quot;&gt;&lt;a href=&quot;#操作过程：&quot; class=&quot;headerlink&quot; title=&quot;操作过程：&quot;&gt;&lt;/a&gt;操作过程：&lt;/h2&gt;&lt;h3 id=&quot;挂接磁盘到Xenserver服务器&quot;&gt;&lt;a href=&quot;#挂接磁盘到Xenserver服务器&quot; class=&quot;headerlink&quot; title=&quot;挂接磁盘到Xenserver服务器&quot;&gt;&lt;/a&gt;挂接磁盘到Xenserver服务器&lt;/h3&gt;关闭Xenserver服务器，将相应的磁盘设备接入到Xenserver服务器&lt;h3 id=&quot;通过Linux命令（fdisk-l）-检查挂接的磁盘设备号&quot;&gt;&lt;a href=&quot;#通过Linux命令（fdisk-l）-检查挂接的磁盘设备号&quot; class=&quot;headerlink&quot; title=&quot;通过Linux命令（fdisk -l）,检查挂接的磁盘设备号&quot;&gt;&lt;/a&gt;通过Linux命令（fdisk -l）,检查挂接的磁盘设备号&lt;/h3&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329110546403.jpg&quot;&gt;
+&lt;li&gt;4、通过XenCenter 工具检查挂接的磁盘情况&lt;h2 id=&quot;操作过程：&quot;&gt;&lt;a href=&quot;#操作过程：&quot; class=&quot;headerlink&quot; title=&quot;操作过程：&quot;&gt;&lt;/a&gt;操作过程：&lt;/h2&gt;&lt;h3 id=&quot;挂接磁盘到Xenserver服务器&quot;&gt;&lt;a href=&quot;#挂接磁盘到Xenserver服务器&quot; class=&quot;headerlink&quot; title=&quot;挂接磁盘到Xenserver服务器&quot;&gt;&lt;/a&gt;挂接磁盘到Xenserver服务器&lt;/h3&gt;关闭Xenserver服务器，将相应的磁盘设备接入到Xenserver服务器&lt;h3 id=&quot;通过Linux命令（fdisk-l）-检查挂接的磁盘设备号&quot;&gt;&lt;a href=&quot;#通过Linux命令（fdisk-l）-检查挂接的磁盘设备号&quot; class=&quot;headerlink&quot; title=&quot;通过Linux命令（fdisk -l）,检查挂接的磁盘设备号&quot;&gt;&lt;/a&gt;通过Linux命令（fdisk -l）,检查挂接的磁盘设备号&lt;/h3&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329110546403.jpg&quot;&gt;
 &lt;h3 id=&quot;通过xenserver系统挂接命令挂接磁盘-命名并格式化分区系统为EXT&quot;&gt;&lt;a href=&quot;#通过xenserver系统挂接命令挂接磁盘-命名并格式化分区系统为EXT&quot; class=&quot;headerlink&quot; title=&quot;通过xenserver系统挂接命令挂接磁盘,命名并格式化分区系统为EXT&quot;&gt;&lt;/a&gt;通过xenserver系统挂接命令挂接磁盘,命名并格式化分区系统为EXT&lt;/h3&gt;&lt;strong&gt;命令解析：&lt;/strong&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;xe sr-create name-label= shared=false device-config-device= type=lvm &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
 &lt;li&gt;Name of Storage is the name of the Storage Repository you require &lt;/li&gt;
-&lt;li&gt;Path of the Storage device is the path as noted in the preceding tasks, /dev/sdc)&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329110929256.jpg&quot;&gt;
-&lt;h3 id=&quot;通过XenCenter-工具检查挂接的磁盘情况&quot;&gt;&lt;a href=&quot;#通过XenCenter-工具检查挂接的磁盘情况&quot; class=&quot;headerlink&quot; title=&quot;通过XenCenter 工具检查挂接的磁盘情况&quot;&gt;&lt;/a&gt;通过XenCenter 工具检查挂接的磁盘情况&lt;/h3&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329111259195.jpg&quot;&gt;
+&lt;li&gt;Path of the Storage device is the path as noted in the preceding tasks, /dev/sdc)&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329110929256.jpg&quot;&gt;
+&lt;h3 id=&quot;通过XenCenter-工具检查挂接的磁盘情况&quot;&gt;&lt;a href=&quot;#通过XenCenter-工具检查挂接的磁盘情况&quot; class=&quot;headerlink&quot; title=&quot;通过XenCenter 工具检查挂接的磁盘情况&quot;&gt;&lt;/a&gt;通过XenCenter 工具检查挂接的磁盘情况&lt;/h3&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329111259195.jpg&quot;&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -186,24 +213,24 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
     
-      <category term="存储" scheme="https://joryhe.github.io/tags/%E5%AD%98%E5%82%A8/"/>
+      <category term="存储" scheme="http://joryhe.coding.me/tags/%E5%AD%98%E5%82%A8/"/>
     
-      <category term="xenserver" scheme="https://joryhe.github.io/tags/xenserver/"/>
+      <category term="xenserver" scheme="http://joryhe.coding.me/tags/xenserver/"/>
     
   </entry>
   
   <entry>
     <title>V4A系列 V4A设置的基本介绍指引</title>
-    <link href="https://joryhe.github.io/2016/05/15/muscic-technolocy-v4a.html"/>
-    <id>https://joryhe.github.io/2016/05/15/muscic-technolocy-v4a.html</id>
+    <link href="http://joryhe.coding.me/2016/05/15/muscic-technolocy-v4a.html"/>
+    <id>http://joryhe.coding.me/2016/05/15/muscic-technolocy-v4a.html</id>
     <published>2016-05-15T14:16:07.000Z</published>
-    <updated>2016-05-15T14:59:40.894Z</updated>
+    <updated>2016-05-19T05:13:38.915Z</updated>
     
     <content type="html">&lt;p&gt;摘要：”ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解”ViPER4Android FX”&lt;br&gt;并知道如何安装.如果不了解请点击”V4A系列 简单用上ViPER4Android”&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/2e5e1462335032.gif&quot;&gt;
+&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/2e5e1462335032.gif&quot;&gt;
 &lt;h1 id=&quot;以下针对几个参数进行简单介绍&quot;&gt;&lt;a href=&quot;#以下针对几个参数进行简单介绍&quot; class=&quot;headerlink&quot; title=&quot;以下针对几个参数进行简单介绍&quot;&gt;&lt;/a&gt;以下针对几个参数进行简单介绍&lt;/h1&gt;&lt;h2 id=&quot;效果总开关&quot;&gt;&lt;a href=&quot;#效果总开关&quot; class=&quot;headerlink&quot; title=&quot;效果总开关&quot;&gt;&lt;/a&gt;效果总开关&lt;/h2&gt;&lt;p&gt;该选项定义了是否启用V4A的耳机音效，是总开关&lt;/p&gt;
 &lt;h2 id=&quot;回放增益控制&quot;&gt;&lt;a href=&quot;#回放增益控制&quot; class=&quot;headerlink&quot; title=&quot;回放增益控制&quot;&gt;&lt;/a&gt;回放增益控制&lt;/h2&gt;&lt;p&gt;回放增益控制主要用于动态控制音频的音量，放大或衰减。&lt;br&gt;    (1)、启用。是否启用该效果。&lt;br&gt;    (2)、效果强度。效果强度代表音量放大或衰减的速度，越强则速度越快，最终音量也越大，越弱则速度越慢，最终音量越接近音频原始音量。推荐中等。&lt;br&gt;    (3)、最大增益倍数。当音频的音量过小时，回放增益为了将音量放大到设定的水准，可能会有非常大的放大倍数。该值越大则音量越大，太大时也会将歌曲内的噪音放大。推荐4倍。&lt;br&gt;    (4)、最大音量。该值定义了从回放增益出来的声音的最大音量分贝值，值越大音量越大0分贝代表数字信号的最大值。为了使声音更柔和，推荐-1.9分贝 &lt;/p&gt;
 &lt;h2 id=&quot;FIR均衡器&quot;&gt;&lt;a href=&quot;#FIR均衡器&quot; class=&quot;headerlink&quot; title=&quot;FIR均衡器&quot;&gt;&lt;/a&gt;FIR均衡器&lt;/h2&gt;&lt;p&gt;10段511阶FIR线性均衡器。&lt;br&gt;    (1)、启用。是否启用该效果。&lt;br&gt;    (2)、选择预设。在这里可以选择程序中预设的几种均衡器效果。当选择自定义时将采用手动调节图形均衡器的设置。&lt;br&gt;    (3)、图形均衡器手动调节。当触摸图形均衡器时将会弹出图形均衡较调的界面，可以分别自定义调节10个频段的增益的衰减 &lt;/p&gt;
@@ -221,21 +248,23 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     </summary>
     
-      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
+      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+    
+      <category term="音效" scheme="http://joryhe.coding.me/categories/essay/%E9%9F%B3%E6%95%88/"/>
     
     
-      <category term="v4a" scheme="https://joryhe.github.io/tags/v4a/"/>
+      <category term="v4a" scheme="http://joryhe.coding.me/tags/v4a/"/>
     
-      <category term="音效" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E6%95%88/"/>
+      <category term="音效" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E6%95%88/"/>
     
   </entry>
   
   <entry>
     <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
-    <link href="https://joryhe.github.io/2016/05/15/create-lazy-tag-in-html.html"/>
-    <id>https://joryhe.github.io/2016/05/15/create-lazy-tag-in-html.html</id>
+    <link href="http://joryhe.coding.me/2016/05/15/create-lazy-tag-in-html.html"/>
+    <id>http://joryhe.coding.me/2016/05/15/create-lazy-tag-in-html.html</id>
     <published>2016-05-15T06:46:06.000Z</published>
-    <updated>2016-05-17T13:53:16.141Z</updated>
+    <updated>2016-05-19T05:41:43.799Z</updated>
     
     <content type="html">&lt;p&gt;摘要:本文介绍如何利用Lazyload是图片慢加载，简单的针对lazyload去做慢加载，网上的文章有很多。&lt;br&gt;而且也有很多说法，主要是围绕是否能真正的实现慢加载，还是加重了服务器负担，本文基础，我已经&lt;br&gt;在搜索大量的上网技术文章和结合自己的此时得出的慢加载方法，是否成功请关注本章最后的GIF图片，&lt;br&gt;图片简单的发出了我关于慢加载的测试截图。不说其他，先回到正题：”如和批量修改HTML TAG实现，慢&lt;br&gt;加载”。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -256,9 +285,9 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
 &lt;h4 id=&quot;在-var-cheerio-load-source-decodeEntities-false-后面加入&quot;&gt;&lt;a href=&quot;#在-var-cheerio-load-source-decodeEntities-false-后面加入&quot; class=&quot;headerlink&quot; title=&quot;在  var $ = cheerio.load(source, {decodeEntities: false});后面加入&quot;&gt;&lt;/a&gt;在  var $ = cheerio.load(source, {decodeEntities: false});后面加入&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;  $(&amp;apos;img&amp;apos;).each(function(index, element) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      oldsrc = $(element).attr(&amp;apos;src&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;if (oldsrc &amp;amp;&amp;amp; !$(element).hasClass(&amp;apos;lazy&amp;apos;) &amp;amp;&amp;amp; !$(element).hasClass(&amp;apos;skip&amp;apos;)) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          $(element).addClass(&amp;apos;lazy&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          $(element).attr(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              src: loading,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &amp;apos;data-original&amp;apos;: baseUrl + oldsrc &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;全部修改后保存。&lt;/p&gt;
 &lt;h4 id=&quot;修改后引用：&quot;&gt;&lt;a href=&quot;#修改后引用：&quot; class=&quot;headerlink&quot; title=&quot;修改后引用：&quot;&gt;&lt;/a&gt;修改后引用：&lt;/h4&gt;&lt;p&gt;可以将引用代码放到”你的出题”下的”layout”下的”_layout.swg”文件的最后面即可&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      jQuery(function() &amp;#123;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          jQuery(&amp;quot;img.lazy&amp;quot;).lazyload(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              effect:&amp;quot;fadeIn&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;/script&amp;gt; &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;可以进行hexo clean&amp;amp;hexo g&amp;amp; hexo s 启用本地测试浏览，看看是否在你img上加入标签和是否实现慢加载效果。&lt;br&gt;附件为我实现慢加载的GIF截图：&lt;/p&gt;
-&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/ssssss.gif&quot;&gt;
+&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/ssssss.gif&quot;&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -266,23 +295,23 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="HEXO优化" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
+      <category term="lazyload" scheme="http://joryhe.coding.me/tags/lazyload/"/>
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Git + Hexo 搭建个人博客网站</title>
-    <link href="https://joryhe.github.io/2016/05/12/git_and_hexo_create_blog.html"/>
-    <id>https://joryhe.github.io/2016/05/12/git_and_hexo_create_blog.html</id>
+    <link href="http://joryhe.coding.me/2016/05/12/git_and_hexo_create_blog.html"/>
+    <id>http://joryhe.coding.me/2016/05/12/git_and_hexo_create_blog.html</id>
     <published>2016-05-12T05:05:14.000Z</published>
     <updated>2016-05-17T14:32:49.965Z</updated>
     
@@ -297,18 +326,18 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
 &lt;li&gt;2、注册和配置Github&lt;/li&gt;
 &lt;li&gt;3、使用Github搭建和配置Hexo网站&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;Git安装&quot;&gt;&lt;a href=&quot;#Git安装&quot; class=&quot;headerlink&quot; title=&quot;Git安装&quot;&gt;&lt;/a&gt;Git安装&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;访问一下链接获取Git windows 安装包&lt;/strong&gt;&lt;a href=&quot;https://git-scm.com/download/win&quot; title=&quot;Git&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;Git_download&lt;/a&gt;&lt;br&gt;安装过程，默认即可，安装后的截图是：&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512104156059.jpg&quot;&gt;&lt;br&gt;&lt;strong&gt;支持右键打开Git Bash&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512110106091.jpg&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Git安装&quot;&gt;&lt;a href=&quot;#Git安装&quot; class=&quot;headerlink&quot; title=&quot;Git安装&quot;&gt;&lt;/a&gt;Git安装&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;访问一下链接获取Git windows 安装包&lt;/strong&gt;&lt;a href=&quot;https://git-scm.com/download/win&quot; title=&quot;Git&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;Git_download&lt;/a&gt;&lt;br&gt;安装过程，默认即可，安装后的截图是：&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512104156059.jpg&quot;&gt;&lt;br&gt;&lt;strong&gt;支持右键打开Git Bash&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512110106091.jpg&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;注册和配置Github&quot;&gt;&lt;a href=&quot;#注册和配置Github&quot; class=&quot;headerlink&quot; title=&quot;注册和配置Github&quot;&gt;&lt;/a&gt;注册和配置Github&lt;/h3&gt;&lt;h4 id=&quot;注册GitHub&quot;&gt;&lt;a href=&quot;#注册GitHub&quot; class=&quot;headerlink&quot; title=&quot;注册GitHub&quot;&gt;&lt;/a&gt;&lt;strong&gt;注册GitHub&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;访问：&lt;a href=&quot;http://www.github.com/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;http://www.github.com/&lt;/a&gt; ，一步一步注册即可，邮件要写好，很多配置需要结合邮箱.&lt;/p&gt;
-&lt;h4 id=&quot;建立Repository（建立Git库）&quot;&gt;&lt;a href=&quot;#建立Repository（建立Git库）&quot; class=&quot;headerlink&quot; title=&quot;建立Repository（建立Git库）&quot;&gt;&lt;/a&gt;&lt;strong&gt;建立Repository（建立Git库）&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;当你注册完成后，点击右下脚&lt;strong&gt;new repository&lt;/strong&gt;，开始建立Git库&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512110106091.jpg&quot;&gt;&lt;br&gt;填写对应的信息&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/1790186582016051211160601.jpg&quot;&gt;&lt;br&gt;完成库的建立&lt;/p&gt;
-&lt;h4 id=&quot;配置SSH-Keys&quot;&gt;&lt;a href=&quot;#配置SSH-Keys&quot; class=&quot;headerlink&quot; title=&quot;配置SSH Keys&quot;&gt;&lt;/a&gt;&lt;strong&gt;配置SSH Keys&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;配置SSH Keys翻遍你通过Git bash链接到Git。如果您是第一次设置SSH Keys,如下操作&lt;br&gt;&lt;strong&gt;生成SSH KEYS&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ ssh-keygen -t rsa -C &amp;quot;邮件地址@youremail.com&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Generating public/private rsa key pair.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa):&amp;lt;回车&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;系统会要求你输入密码，这里设置的密码主要是在你提交Git时弹出密码认证&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Enter passphrase (empty for no passphrase):&amp;lt;输入加密串&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Enter same passphrase again:&amp;lt;再次输入加密串&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;成功后的截图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512115222052.jpg&quot;&gt;&lt;/p&gt;
-&lt;h4 id=&quot;添加SSH-Key到GitHub&quot;&gt;&lt;a href=&quot;#添加SSH-Key到GitHub&quot; class=&quot;headerlink&quot; title=&quot;添加SSH Key到GitHub&quot;&gt;&lt;/a&gt;添加SSH Key到GitHub&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;找到id_rsa.pub 并复制文件内容&lt;/strong&gt;&lt;br&gt;id_rsa.pub文件一般位于电脑用户配置文件夹下的一个.ssh文件下C:\Users\你的用户名.ssh&lt;br&gt;&lt;strong&gt;登录Github并添加密钥&lt;/strong&gt;&lt;br&gt;登录GitHub并点击右上角-&amp;gt;点击Settings-&amp;gt;点击左面板SSH and GPG keys&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512111057053.jpg&quot;&gt;&lt;br&gt;将您从id_rsa_pub复制的内容黏贴到，完成添加SSH KEYS**&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512120704030.jpg&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;建立Repository（建立Git库）&quot;&gt;&lt;a href=&quot;#建立Repository（建立Git库）&quot; class=&quot;headerlink&quot; title=&quot;建立Repository（建立Git库）&quot;&gt;&lt;/a&gt;&lt;strong&gt;建立Repository（建立Git库）&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;当你注册完成后，点击右下脚&lt;strong&gt;new repository&lt;/strong&gt;，开始建立Git库&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512110106091.jpg&quot;&gt;&lt;br&gt;填写对应的信息&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/1790186582016051211160601.jpg&quot;&gt;&lt;br&gt;完成库的建立&lt;/p&gt;
+&lt;h4 id=&quot;配置SSH-Keys&quot;&gt;&lt;a href=&quot;#配置SSH-Keys&quot; class=&quot;headerlink&quot; title=&quot;配置SSH Keys&quot;&gt;&lt;/a&gt;&lt;strong&gt;配置SSH Keys&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;配置SSH Keys翻遍你通过Git bash链接到Git。如果您是第一次设置SSH Keys,如下操作&lt;br&gt;&lt;strong&gt;生成SSH KEYS&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ ssh-keygen -t rsa -C &amp;quot;邮件地址@youremail.com&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Generating public/private rsa key pair.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa):&amp;lt;回车&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;系统会要求你输入密码，这里设置的密码主要是在你提交Git时弹出密码认证&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Enter passphrase (empty for no passphrase):&amp;lt;输入加密串&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Enter same passphrase again:&amp;lt;再次输入加密串&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;成功后的截图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512115222052.jpg&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;添加SSH-Key到GitHub&quot;&gt;&lt;a href=&quot;#添加SSH-Key到GitHub&quot; class=&quot;headerlink&quot; title=&quot;添加SSH Key到GitHub&quot;&gt;&lt;/a&gt;添加SSH Key到GitHub&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;找到id_rsa.pub 并复制文件内容&lt;/strong&gt;&lt;br&gt;id_rsa.pub文件一般位于电脑用户配置文件夹下的一个.ssh文件下C:\Users\你的用户名.ssh&lt;br&gt;&lt;strong&gt;登录Github并添加密钥&lt;/strong&gt;&lt;br&gt;登录GitHub并点击右上角-&amp;gt;点击Settings-&amp;gt;点击左面板SSH and GPG keys&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512111057053.jpg&quot;&gt;&lt;br&gt;将您从id_rsa_pub复制的内容黏贴到，完成添加SSH KEYS**&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/17901865820160512120704030.jpg&quot;&gt;&lt;/p&gt;
 &lt;h4 id=&quot;测试通过git-bash链接到Git&quot;&gt;&lt;a href=&quot;#测试通过git-bash链接到Git&quot; class=&quot;headerlink&quot; title=&quot;测试通过git bash链接到Git&quot;&gt;&lt;/a&gt;测试通过git bash链接到Git&lt;/h4&gt;&lt;p&gt;链接Git&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ ssh -T git@github.com&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;提示如下：yes&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;The authenticity of host &amp;apos;github.com (207.65.227.44)&amp;apos; can&amp;apos;t be established.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;RSA key fingerprint is 16:27:42:18:60:1d:7b:13:d2:b5:c4:20:7e:56:86:d8:71:f3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Are you sure you want to continue connecting (yes/no)?&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;以下为成功链接到Git&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Enter passphrase for key &amp;apos;/c/Users/jory.he/.ssh/id_rsa&amp;apos;:输入你设置的SSH KEY的密码&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Hi joryhe! You&amp;apos;ve successfully authenticated, but GitHub does not provide shell access.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;使用Git bash简单的设置一下用户信息：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git config --global user.name &amp;quot;joryhe&amp;quot;//用户名&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git config --global user.email  &amp;quot;1032473410@qq.com&amp;quot;//填写自己的邮箱&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id=&quot;使用Github搭建和配置Hexo网站&quot;&gt;&lt;a href=&quot;#使用Github搭建和配置Hexo网站&quot; class=&quot;headerlink&quot; title=&quot;使用Github搭建和配置Hexo网站&quot;&gt;&lt;/a&gt;使用Github搭建和配置Hexo网站&lt;/h3&gt;&lt;p&gt;在开始前，请记住我们在 “注册和配置Git”过程中提到的 建立repository，期间的repository 名字需要记录下来&lt;/p&gt;
 &lt;h4 id=&quot;安装hexo并初始化&quot;&gt;&lt;a href=&quot;#安装hexo并初始化&quot; class=&quot;headerlink&quot; title=&quot;安装hexo并初始化&quot;&gt;&lt;/a&gt;安装hexo并初始化&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;安装hexo&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install -g hexo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;&lt;strong&gt;初始化&lt;/strong&gt;&lt;br&gt;初始化需要你建立一个本地hexo文件夹作为存放你的Hexo文件，本例是桌面的下的myblog，进入此文件夹&lt;br&gt;右键点击git bash并输入初始化命令&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;等待完成后，发现myblog文件夹下会生成初始化文件，这些文件是建站所需要的文件。&lt;br&gt;运行以下命令实现 建立网站并本地运行一个测试访问：默认是&lt;a href=&quot;http://localhost:4000&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;http://localhost:4000&lt;/a&gt;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo s&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;到此，网站建立完成，但是您还需要上传到Github，操作如下&lt;br&gt;修改主配置文件_config.yml，在你的myblog根目录下，并找到以下内容并修改&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  type: git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  repository: git@github.com:你的repository名字/你的repository名字.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  branch: master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;修改完成后，使用以下命令上传到Git&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo clean&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;成功上传后&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;jory_lazyimg&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/1790186582016051212592209.jpg&quot;&gt;&lt;br&gt;hexo网站已经建立完成，你可以使用&lt;a href=&quot;https://你的repository名字.github.io.git&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;https://你的repository名字.github.io.git&lt;/a&gt; 去访问你的网站&lt;/p&gt;
+&lt;p&gt;修改完成后，使用以下命令上传到Git&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo clean&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;成功上传后&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/1790186582016051212592209.jpg&quot;&gt;&lt;br&gt;hexo网站已经建立完成，你可以使用&lt;a href=&quot;https://你的repository名字.github.io.git&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;https://你的repository名字.github.io.git&lt;/a&gt; 去访问你的网站&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 </content>
     
     <summary type="html">
@@ -317,16 +346,16 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="HEXO建站" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/"/>
+      <category term="HEXO建站" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/"/>
     
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
     
-      <category term="Git" scheme="https://joryhe.github.io/tags/Git/"/>
+      <category term="Git" scheme="http://joryhe.coding.me/tags/Git/"/>
     
   </entry>
   
