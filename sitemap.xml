@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://joryhe.coding.me/2016/05/15/create-lazy-tag-in-html.html</loc>
-    
-    <lastmod>2016-05-21T03:21:43.900Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://joryhe.coding.me/2016/05/17/hexo-series-for-tips-01.html</loc>
     
-    <lastmod>2016-05-21T03:21:36.847Z</lastmod>
+    <lastmod>2016-05-21T03:33:19.775Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://joryhe.coding.me/2016/05/17/hexoxo-series-for-site-build-basic.html</loc>
+    <loc>http://joryhe.coding.me/2016/05/15/create-lazy-tag-in-html.html</loc>
     
-    <lastmod>2016-05-21T03:21:19.144Z</lastmod>
+    <lastmod>2016-05-21T03:33:13.407Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://joryhe.coding.me/2016/05/12/git_and_hexo_create_blog.html</loc>
     
-    <lastmod>2016-05-21T02:29:53.033Z</lastmod>
+    <lastmod>2016-05-21T03:33:04.183Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://joryhe.coding.me/2016/05/17/hexoxo-series-for-site-build-basic.html</loc>
+    
+    <lastmod>2016-05-21T03:32:56.379Z</lastmod>
     
   </url>
   
