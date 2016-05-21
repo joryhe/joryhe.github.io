@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://joryhe.coding.me/"/>
-  <updated>2016-05-18T15:19:56.973Z</updated>
+  <updated>2016-05-21T03:43:33.790Z</updated>
   <id>http://joryhe.coding.me/</id>
   
   <author>
@@ -20,14 +20,29 @@
     <link href="http://joryhe.coding.me/2016/05/18/muscic-technolocy-v4a-introduce.html"/>
     <id>http://joryhe.coding.me/2016/05/18/muscic-technolocy-v4a-introduce.html</id>
     <published>2016-05-18T15:16:20.000Z</published>
-    <updated>2016-05-18T15:19:56.973Z</updated>
+    <updated>2016-05-21T03:43:33.790Z</updated>
     
-    <content type="html">&lt;p&gt;摘要：本文将介绍一款安卓音效提升的软件，此款软件系统在安卓的音效江湖上一度猖獗，&lt;br&gt;我也是在无疑中了解到此款音效系统，咱一试之下就爱不惜手。此款软件商名字为：ViPER （蝰蛇），&lt;br&gt;是一个音效更改系统，即可以通过软件系统来改变音乐的音效&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
+    <content type="html">&lt;p&gt;摘要：本文将介绍一款安卓音效提升的软件，此款软件系统在安卓的音效江湖上一度猖獗，&lt;br&gt;我也是在无疑中了解到此款音效系统，咱一试之下就爱不惜手。此款软件商名字为：ViPER （蝰蛇），&lt;br&gt;是一个音效更改系统，即可以通过软件系统来改变音乐的音效.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;ViPER音频渲染系统&quot;&gt;&lt;a href=&quot;#ViPER音频渲染系统&quot; class=&quot;headerlink&quot; title=&quot;ViPER音频渲染系统&quot;&gt;&lt;/a&gt;ViPER音频渲染系统&lt;/h2&gt;&lt;p&gt;ViPER音频渲染系统是一个用于多媒体音频效果渲染的整体方案。&lt;br&gt;该方案使用了先进的声场分析技术，将音源中的声音信号分解成布满360度球体表面的多音源，&lt;br&gt;再使用ViPER的HRTF技术混合为立体声。最终给用户带来最逼真的现场环绕和震撼感.&lt;/p&gt;
+&lt;p&gt;应用场景：电影、现场录音版音乐和游戏，针对耳机设计。&lt;br&gt;支持平台：带有SSE指令加速的x86处理器、带有NEON浮点指令加速的ARM、4xMAC的浮点DSP，需要4M的RAM。&lt;br&gt;音源要求：5.1/7.1/9.1/12.1多声道输入、立体声输入，立体声输出。&lt;/p&gt;
+&lt;h2 id=&quot;ViPER智能音量系统&quot;&gt;&lt;a href=&quot;#ViPER智能音量系统&quot; class=&quot;headerlink&quot; title=&quot;ViPER智能音量系统&quot;&gt;&lt;/a&gt;ViPER智能音量系统&lt;/h2&gt;&lt;p&gt;ViPER智能音量系统是一个用于耳机或扬声器的智能音量控制方案。&lt;br&gt;该方案使用了先进的音量追踪、控制和声场分析技术，以A/C权计为模型。最终给用户带来最佳的音量体验。&lt;br&gt;该技术有音乐和电影两种模式。音乐模式中以人声和乐器的主观听觉音量为准，电影模式中以电影环境音的主观听觉音量为准。&lt;br&gt;用户在使用时，只需要设定一个期望的听感音量，该系统便可以将所有输入的音频音量以听感为基础进行智能控制(增益或衰减)，&lt;br&gt;完美解决电影和广告的音量问题，用户不再需要频繁调节音量。&lt;/p&gt;
+&lt;p&gt;应用场景：电影、音乐和游戏，支持耳机、音箱和一般扬声器，该技术是目前电视机内音量控制的完美替换方案。&lt;br&gt;支持平台：x86处理器、主频为80MHz的ARM、24位定点DSP，需要8K的RAM。&lt;br&gt;音源要求：任何通道数量 &lt;/p&gt;
+&lt;h2 id=&quot;ViPER环境虚拟化技术&quot;&gt;&lt;a href=&quot;#ViPER环境虚拟化技术&quot; class=&quot;headerlink&quot; title=&quot;ViPER环境虚拟化技术&quot;&gt;&lt;/a&gt;ViPER环境虚拟化技术&lt;/h2&gt;&lt;p&gt;ViPER环境虚拟化技术是一个用于耳机或扬声器的逼真环境虚拟化方案。&lt;br&gt;该方案使用了先进的声场分析和反射、穿透、散射模型，可以为最终用户带来极度逼真的环境虚拟化声音效果。&lt;br&gt;该技术支持最大256兆平方公里面积的空间模拟，支持单空间内设置最多6万5千个内容物或材质属性，向下兼容EAX接口标准。&lt;br&gt;方案配套80种常用环境配置。&lt;/p&gt;
+&lt;p&gt;应用场景：电影声音加工、游戏和K歌，支持耳机、一般扬声器和群组音箱(如电影院)。&lt;br&gt;支持平台(立体声环境)：x86处理器、主频为500MHz的ARM、4xMAC的24位定点DSP，需要512K的RAM。&lt;br&gt;支持平台(群组音箱环境)：带有SSE指令加速的x86处理器、Cortex-A15的ARM、两个4xMAC的浮点DSP，需要至少4M的RAM。&lt;br&gt;音源要求：立体声输入或多通道输入，立体声输出或最多896通道输出.&lt;/p&gt;
+&lt;h2 id=&quot;ViPER动态低音&quot;&gt;&lt;a href=&quot;#ViPER动态低音&quot; class=&quot;headerlink&quot; title=&quot;ViPER动态低音&quot;&gt;&lt;/a&gt;ViPER动态低音&lt;/h2&gt;&lt;p&gt; ViPER动态低音是一个用于耳机或扬声器的动态低音放大方案。&lt;br&gt;该方案使用了先进的音量和低音分析技术，以A/C权计为模型。最终给用户带来震撼的低音。&lt;br&gt;该技术支持耳塞、耳机和音箱的自然低音和超强低音配置。&lt;br&gt;应用场景：电影、音乐和游戏，支持耳机、音箱和一般扬声器。&lt;/p&gt;
+&lt;p&gt;支持平台：x86处理器、主频为80MHz的ARM、16位定点DSP，需要8K的RAM。&lt;br&gt;音源要求：任何通道数量 &lt;/p&gt;
+&lt;h2 id=&quot;ViPER-DRC还原技术&quot;&gt;&lt;a href=&quot;#ViPER-DRC还原技术&quot; class=&quot;headerlink&quot; title=&quot;ViPER DRC还原技术&quot;&gt;&lt;/a&gt;ViPER DRC还原技术&lt;/h2&gt;&lt;p&gt;ViPER DRC还原技术是一个用于耳机、扬声器或音箱声音还原/补偿方案。&lt;br&gt;该方案使用了先进的音频分析技术，通过DRC对声音进行校准。最终给用户带来最佳的音乐听感。&lt;br&gt;该技术在应用时需要对每一个放音设备进行针对的配置。&lt;/p&gt;
+&lt;p&gt;应用场景：音乐，支持耳机、音箱和一般扬声器。&lt;br&gt;支持平台：带有SSE指令加速的x86处理器、带有NEON指令加速的ARM、4xMAC的浮点DSP，需要256K的RAM。&lt;br&gt;音源要求：任何通道数量。&lt;/p&gt;
+&lt;h2 id=&quot;ViPER-DDC还原技术&quot;&gt;&lt;a href=&quot;#ViPER-DDC还原技术&quot; class=&quot;headerlink&quot; title=&quot;ViPER DDC还原技术&quot;&gt;&lt;/a&gt;ViPER DDC还原技术&lt;/h2&gt;&lt;p&gt;ViPER DDC还原技术是一个用于耳机、扬声器或音箱声音校准方案。&lt;br&gt;该方案使用了先进的音频分析和频谱跟踪技术，在校准放音设备频响曲线的同时使用频谱跟踪来处理声音以达到校准放音设备瞬态响应的目的。&lt;br&gt;最终给用户带来Hi-Fi的声音体验。&lt;br&gt;该技术在应用时需要对每一个放音设备进行针对的配置。&lt;/p&gt;
+&lt;p&gt;应用场景：电影、音乐和游戏，支持耳机、音箱和一般扬声器。&lt;br&gt;支持平台：带有SSE指令加速的x86处理器、带有NEON指令加速的ARM、4xMAC的浮点DSP，需要384K的RAM。&lt;br&gt;音源要求：任何通道数量。 &lt;/p&gt;
+&lt;p&gt;以上技术原理均摘自 蝰蛇官网&lt;/p&gt;
+&lt;p&gt;如果您很喜欢音乐，而且手机使用的是安卓系统，而且又希望以一般的耳塞获取到更好的音乐效果，&lt;br&gt;强烈推荐蝰蛇音效（V4A）,蝰蛇音效软件系统可以安装在电脑系统，也可以安装到安卓手机.&lt;br&gt;Enjoy your music 点击 **&lt;a href=&quot;http://vipersaudio.com/demo.html&quot; title=&quot;传送门&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;传送门&lt;/a&gt; 测试享受V4A的效果.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
-      &lt;p&gt;摘要：本文将介绍一款安卓音效提升的软件，此款软件系统在安卓的音效江湖上一度猖獗，&lt;br&gt;我也是在无疑中了解到此款音效系统，咱一试之下就爱不惜手。此款软件商名字为：ViPER （蝰蛇），&lt;br&gt;是一个音效更改系统，即可以通过软件系统来改变音乐的音效&lt;br&gt;
+      &lt;p&gt;摘要：本文将介绍一款安卓音效提升的软件，此款软件系统在安卓的音效江湖上一度猖獗，&lt;br&gt;我也是在无疑中了解到此款音效系统，咱一试之下就爱不惜手。此款软件商名字为：ViPER （蝰蛇），&lt;br&gt;是一个音效更改系统，即可以通过软件系统来改变音乐的音效.&lt;br&gt;
     
     </summary>
     
