@@ -47,9 +47,9 @@
     <link href="http://joryhe.coding.me/2016/05/17/hexoxo-series-for-site-build-basic.html"/>
     <id>http://joryhe.coding.me/2016/05/17/hexoxo-series-for-site-build-basic.html</id>
     <published>2016-05-17T14:40:20.000Z</published>
-    <updated>2016-05-17T15:44:55.961Z</updated>
+    <updated>2016-05-21T02:30:49.824Z</updated>
     
-    <content type="html">&lt;p&gt;摘要:或许您已经通&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/12/git_and_hexo_create_blog.html&quot;&gt;Git + Hexo 搭建个人博客网站&lt;/a&gt;了解到&lt;br&gt;如何通过HEXO + GIT 实现个人博客网站的建立。但是尽管您已经成功建立博客网站，但是你需要对网站做合适的配置和调&lt;br&gt;整才能迎合你的网站要求。本文主要介绍HEXO的基本操作命令和网站的基本配置方法。&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;摘要:或许您已经通&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/12/git_and_hexo_create_blog.html&quot;&gt;Git + Hexo 搭建个人博客网站&lt;/a&gt;了解到&lt;br&gt;如何通过HEXO + GIT 实现个人博客网站的建立。但是尽管您已经成功建立博客网站，但是你需要对网站做合适的配置和调&lt;br&gt;整才能迎合你的网站要求。本文主要介绍HEXO的基本操作命令和网站的基本配置方法。&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本文主要围绕两部分进行介绍：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1、HEXO的基本命令与基本目录结构&lt;/li&gt;
@@ -119,7 +119,7 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     <summary type="html">
     
-      &lt;p&gt;摘要:或许您已经通&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/12/git_and_hexo_create_blog.html&quot;&gt;Git + Hexo 搭建个人博客网站&lt;/a&gt;了解到&lt;br&gt;如何通过HEXO + GIT 实现个人博客网站的建立。但是尽管您已经成功建立博客网站，但是你需要对网站做合适的配置和调&lt;br&gt;整才能迎合你的网站要求。本文主要介绍HEXO的基本操作命令和网站的基本配置方法。&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;
+      &lt;p&gt;摘要:或许您已经通&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/12/git_and_hexo_create_blog.html&quot;&gt;Git + Hexo 搭建个人博客网站&lt;/a&gt;了解到&lt;br&gt;如何通过HEXO + GIT 实现个人博客网站的建立。但是尽管您已经成功建立博客网站，但是你需要对网站做合适的配置和调&lt;br&gt;整才能迎合你的网站要求。本文主要介绍HEXO的基本操作命令和网站的基本配置方法。&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
@@ -127,7 +127,9 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
       <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="HEXO建站" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/"/>
+      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+    
+      <category term="HEXO建站" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/"/>
     
     
       <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
@@ -139,9 +141,9 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     <link href="http://joryhe.coding.me/2016/05/17/hexo-series-for-tips-01.html"/>
     <id>http://joryhe.coding.me/2016/05/17/hexo-series-for-tips-01.html</id>
     <published>2016-05-17T13:48:37.000Z</published>
-    <updated>2016-05-19T05:35:55.216Z</updated>
+    <updated>2016-05-19T14:53:08.416Z</updated>
     
-    <content type="html">&lt;p&gt;摘要:本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示&lt;br&gt;相关文章列表，如图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg&quot;&gt;&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;摘要:本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示&lt;br&gt;相关文章列表，如图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg&quot;&gt;&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;为实现文章列表的显示方式，我们通过HEXO的分类功能实现。&lt;br&gt;&lt;strong&gt;操作步骤主：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1、修改HEXO POST模板，添加categories。                作用：以后的文章将会以此作为模板新增。&lt;/li&gt;
@@ -159,7 +161,7 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     <summary type="html">
     
-      &lt;p&gt;摘要:本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示&lt;br&gt;相关文章列表，如图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg&quot;&gt;&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;
+      &lt;p&gt;摘要:本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示&lt;br&gt;相关文章列表，如图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg&quot;&gt;&lt;br&gt;系列推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
@@ -167,7 +169,9 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
       <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="HEXO技巧" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/"/>
+      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+    
+      <category term="HEXO进阶" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
     
     
       <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
@@ -264,9 +268,9 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     <link href="http://joryhe.coding.me/2016/05/15/create-lazy-tag-in-html.html"/>
     <id>http://joryhe.coding.me/2016/05/15/create-lazy-tag-in-html.html</id>
     <published>2016-05-15T06:46:06.000Z</published>
-    <updated>2016-05-19T05:41:43.799Z</updated>
+    <updated>2016-05-21T02:30:37.328Z</updated>
     
-    <content type="html">&lt;p&gt;摘要:本文介绍如何利用Lazyload是图片慢加载，简单的针对lazyload去做慢加载，网上的文章有很多。&lt;br&gt;而且也有很多说法，主要是围绕是否能真正的实现慢加载，还是加重了服务器负担，本文基础，我已经&lt;br&gt;在搜索大量的上网技术文章和结合自己的此时得出的慢加载方法，是否成功请关注本章最后的GIF图片，&lt;br&gt;图片简单的发出了我关于慢加载的测试截图。不说其他，先回到正题：”如和批量修改HTML TAG实现，慢&lt;br&gt;加载”。&lt;/p&gt;
+    <content type="html">&lt;p&gt;摘要:本文介绍如何利用Lazyload是图片慢加载，简单的针对lazyload去做慢加载，网上的文章有很多。&lt;br&gt;而且也有很多说法，主要是围绕是否能真正的实现慢加载，还是加重了服务器负担，本文基础，我已经&lt;br&gt;在搜索大量的上网技术文章和结合自己的此时得出的慢加载方法，是否成功请关注本章最后的GIF图片，&lt;br&gt;图片简单的发出了我关于慢加载的测试截图。不说其他，先回到正题：”如和批量修改HTML TAG实现，慢&lt;br&gt;加载”。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;LAZYLOAD简单介绍&quot;&gt;&lt;a href=&quot;#LAZYLOAD简单介绍&quot; class=&quot;headerlink&quot; title=&quot;LAZYLOAD简单介绍&quot;&gt;&lt;/a&gt;LAZYLOAD简单介绍&lt;/h2&gt;&lt;h3 id=&quot;LAZYLOAD是什么？&quot;&gt;&lt;a href=&quot;#LAZYLOAD是什么？&quot; class=&quot;headerlink&quot; title=&quot;LAZYLOAD是什么？&quot;&gt;&lt;/a&gt;LAZYLOAD是什么？&lt;/h3&gt;&lt;p&gt;在进行操作前，我们有必要先了解LAZYLOAD是什么，和要实现LAZYLOAD的要求。&lt;br&gt;LAZYLOAD是一款实现图片慢加载的JS,原理是通过对IMG标签下的SRC和结合其他的属性协同操作，实现&lt;br&gt;用户浏览器界面浏览到图片位置才加载的技术，当然浏览到图片位置才加载只是其中的一个实现事件&lt;br&gt;你也可以定义点击，或者鼠标移动到图片实现加载。里面还有很多设置，不是本章要讲的，这里只是&lt;br&gt;简单提到。更多的内容：请移步 “**&lt;a href=&quot;http://www.appelsiini.net/projects/lazyload&quot; title=&quot;lazyload&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;LAZYLOAD官网&lt;/a&gt;“&lt;/p&gt;
 &lt;h3 id=&quot;LAZYLOAD使用要求！&quot;&gt;&lt;a href=&quot;#LAZYLOAD使用要求！&quot; class=&quot;headerlink&quot; title=&quot;LAZYLOAD使用要求！&quot;&gt;&lt;/a&gt;LAZYLOAD使用要求！&lt;/h3&gt;&lt;p&gt;使用LAZYLOAD你需要满足以下的标签要求：&lt;/p&gt;
@@ -291,7 +295,7 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     <summary type="html">
     
-      &lt;p&gt;摘要:本文介绍如何利用Lazyload是图片慢加载，简单的针对lazyload去做慢加载，网上的文章有很多。&lt;br&gt;而且也有很多说法，主要是围绕是否能真正的实现慢加载，还是加重了服务器负担，本文基础，我已经&lt;br&gt;在搜索大量的上网技术文章和结合自己的此时得出的慢加载方法，是否成功请关注本章最后的GIF图片，&lt;br&gt;图片简单的发出了我关于慢加载的测试截图。不说其他，先回到正题：”如和批量修改HTML TAG实现，慢&lt;br&gt;加载”。&lt;/p&gt;
+      &lt;p&gt;摘要:本文介绍如何利用Lazyload是图片慢加载，简单的针对lazyload去做慢加载，网上的文章有很多。&lt;br&gt;而且也有很多说法，主要是围绕是否能真正的实现慢加载，还是加重了服务器负担，本文基础，我已经&lt;br&gt;在搜索大量的上网技术文章和结合自己的此时得出的慢加载方法，是否成功请关注本章最后的GIF图片，&lt;br&gt;图片简单的发出了我关于慢加载的测试截图。不说其他，先回到正题：”如和批量修改HTML TAG实现，慢&lt;br&gt;加载”。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -299,12 +303,14 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
       <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="HEXO优化" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
+      <category term="HEXO优化" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
-      <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
     
       <category term="lazyload" scheme="http://joryhe.coding.me/tags/lazyload/"/>
+    
+      <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
     
   </entry>
   
@@ -313,9 +319,9 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     <link href="http://joryhe.coding.me/2016/05/12/git_and_hexo_create_blog.html"/>
     <id>http://joryhe.coding.me/2016/05/12/git_and_hexo_create_blog.html</id>
     <published>2016-05-12T05:05:14.000Z</published>
-    <updated>2016-05-17T14:32:49.965Z</updated>
+    <updated>2016-05-21T02:29:53.033Z</updated>
     
-    <content type="html">&lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多&lt;br&gt;关于HEXO建站技术 请点击以下推荐的系列:&lt;br&gt;相关推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多&lt;br&gt;关于HEXO建站技术 请点击以下推荐的系列:&lt;br&gt;相关推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在进行搭建博客之前，我们有必要先了解什么事git,什么是hexo.了解此部分更加让你对通过git结合hexo&lt;br&gt;搭建个人博客的兴趣&lt;/p&gt;
 &lt;h3 id=&quot;Git是什么&quot;&gt;&lt;a href=&quot;#Git是什么&quot; class=&quot;headerlink&quot; title=&quot;Git是什么&quot;&gt;&lt;/a&gt;Git是什么&lt;/h3&gt;&lt;p&gt;我这里说的Git主要是指&lt;strong&gt;GitHub Pages&lt;/strong&gt;，GitHub Pages本用于托管在GitHub的项目，由于他的空间免费稳定，&lt;br&gt;非常适合做博客。&lt;/p&gt;
 &lt;h3 id=&quot;Hexo是什么&quot;&gt;&lt;a href=&quot;#Hexo是什么&quot; class=&quot;headerlink&quot; title=&quot;Hexo是什么&quot;&gt;&lt;/a&gt;Hexo是什么&lt;/h3&gt;&lt;p&gt;Hexo是一个开源的静态博客生成器,用node.js开发,作者是台湾大学生tommy351,鉴于其静态架构，&lt;br&gt;用来做博客非常简洁，性能好&lt;/p&gt;
@@ -342,7 +348,7 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     <summary type="html">
     
-      &lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多&lt;br&gt;关于HEXO建站技术 请点击以下推荐的系列:&lt;br&gt;相关推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E6%8A%80%E5%B7%A7/&quot;&gt;HEXO-技巧系列&lt;/a&gt;&lt;br&gt;
+      &lt;p&gt;摘要:本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo&lt;br&gt;安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多&lt;br&gt;关于HEXO建站技术 请点击以下推荐的系列:&lt;br&gt;相关推荐:&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
@@ -350,12 +356,14 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
       <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="HEXO建站" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/HEXO%E5%BB%BA%E7%AB%99/"/>
+      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
+      <category term="HEXO建站" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/"/>
     
-      <category term="Git" scheme="http://joryhe.coding.me/tags/Git/"/>
     
       <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
+    
+      <category term="Git" scheme="http://joryhe.coding.me/tags/Git/"/>
     
   </entry>
   
