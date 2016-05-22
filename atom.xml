@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://joryhe.coding.me/"/>
-  <updated>2016-05-22T10:11:40.053Z</updated>
+  <updated>2016-05-22T10:27:27.094Z</updated>
   <id>http://joryhe.coding.me/</id>
   
   <author>
@@ -14,6 +14,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>V4A系列 简单用上ViPER4Android</title>
+    <link href="http://joryhe.coding.me/2016/05/22/easy-use-viper4android.html"/>
+    <id>http://joryhe.coding.me/2016/05/22/easy-use-viper4android.html</id>
+    <published>2016-05-22T10:14:59.000Z</published>
+    <updated>2016-05-22T10:27:27.094Z</updated>
+    
+    <content type="html">&lt;p&gt;摘要：&lt;br&gt;如果您有看过V4A”系列 ViPER音效系统-安卓音效神器” ，我想你已经了解到V4A的魅力，&lt;br&gt;现在我们就体验一下安卓手机上的V4A音效系统 ViPER4Android是怎么样的一个界面，我&lt;br&gt;会简单的以我使用的理解来简介一下 重要的几个功能的作用。和安装指引。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;ViPER4Android安装指引&quot;&gt;&lt;a href=&quot;#ViPER4Android安装指引&quot; class=&quot;headerlink&quot; title=&quot;ViPER4Android安装指引&quot;&gt;&lt;/a&gt;ViPER4Android安装指引&lt;/h2&gt;&lt;h3 id=&quot;前期准备&quot;&gt;&lt;a href=&quot;#前期准备&quot; class=&quot;headerlink&quot; title=&quot;前期准备&quot;&gt;&lt;/a&gt;前期准备&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;神级工具箱 Busybox专业版   点击”&lt;a href=&quot;http://www.baidu.com/baidu?wd=ViPER4Android%B0%B2%D7%B0%D6%B8%D2%FD&amp;tn=93046097_13_pg&quot; title=&quot;搜一下此款软件&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;搜一下此款软件&lt;/a&gt;“&lt;/li&gt;
+&lt;li&gt;ViPER4Android FX 音效软件  点击”&lt;a href=&quot;http://forum.vipersaudio.com/forum.php?mod=viewthread&amp;tid=10&amp;extra=page%3D1&quot; title=&quot;去V4A论坛找找&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;去V4A论坛找找&lt;/a&gt;“&lt;/li&gt;
+&lt;li&gt;确保您的手机能够对软件授权ROOT权限 &lt;h3 id=&quot;安装过程&quot;&gt;&lt;a href=&quot;#安装过程&quot; class=&quot;headerlink&quot; title=&quot;安装过程&quot;&gt;&lt;/a&gt;安装过程&lt;/h3&gt;按照顺序安装 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;神级工具箱 Busybox专业版软件安装（安装完成不要打开）  -&amp;gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ViPER4Android FX 音效驱动软件安装  （安装完成不要打开）-&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;授权两款已经安装的软件-&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;安装busybox-&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;安装V4A音效驱动-&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;检查V4A驱动状态-&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ENJOY V4A音效&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;过程：&quot;&gt;&lt;a href=&quot;#过程：&quot; class=&quot;headerlink&quot; title=&quot;过程：&quot;&gt;&lt;/a&gt;过程：&lt;/h3&gt;&lt;h4 id=&quot;一、Busybox专业版软件安装（略）；&quot;&gt;&lt;a href=&quot;#一、Busybox专业版软件安装（略）；&quot; class=&quot;headerlink&quot; title=&quot;一、Busybox专业版软件安装（略）；&quot;&gt;&lt;/a&gt;一、Busybox专业版软件安装（略）；&lt;/h4&gt;&lt;h4 id=&quot;二、ViPER4Android-FX-音效驱动软件（略）&quot;&gt;&lt;a href=&quot;#二、ViPER4Android-FX-音效驱动软件（略）&quot; class=&quot;headerlink&quot; title=&quot;二、ViPER4Android FX 音效驱动软件（略）&quot;&gt;&lt;/a&gt;二、ViPER4Android FX 音效驱动软件（略）&lt;/h4&gt;&lt;h4 id=&quot;三、授权软件ROOT&quot;&gt;&lt;a href=&quot;#三、授权软件ROOT&quot; class=&quot;headerlink&quot; title=&quot;三、授权软件ROOT&quot;&gt;&lt;/a&gt;三、授权软件ROOT&lt;/h4&gt;&lt;p&gt;以小米手机为例，其他安卓手机自行查找root防范（除手机已经ROOT）&lt;br&gt;进安全中心就有提示root授予开关。在安全中心-授权管理-自启动管理，把busybox和v4a&lt;br&gt;设置开机自启动 &lt;/p&gt;
+&lt;h4 id=&quot;四、安装-“Busybox”&quot;&gt;&lt;a href=&quot;#四、安装-“Busybox”&quot; class=&quot;headerlink&quot; title=&quot;四、安装 “Busybox”&quot;&gt;&lt;/a&gt;四、安装 “Busybox”&lt;/h4&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/8ab81462268341.jpg&quot;&gt;
+&lt;h4 id=&quot;五、安装”音效驱动”&quot;&gt;&lt;a href=&quot;#五、安装”音效驱动”&quot; class=&quot;headerlink&quot; title=&quot;五、安装”音效驱动”&quot;&gt;&lt;/a&gt;五、安装”音效驱动”&lt;/h4&gt;&lt;p&gt;打开已经安装的”ViPER4Android FX 音效驱动软”将会提示”驱动安装”&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/285f1462268306.jpg&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;六、检查V4A驱动状态&quot;&gt;&lt;a href=&quot;#六、检查V4A驱动状态&quot; class=&quot;headerlink&quot; title=&quot;六、检查V4A驱动状态&quot;&gt;&lt;/a&gt;六、检查V4A驱动状态&lt;/h4&gt;&lt;p&gt;点击右上角 三个点，移步到驱动程序状态（确保显示正常，否则重新安装驱动）&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/aa211462269175.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/d26b1462269383.jpg&quot;&gt;    &lt;/p&gt;
+&lt;h4 id=&quot;结束总结&quot;&gt;&lt;a href=&quot;#结束总结&quot; class=&quot;headerlink&quot; title=&quot;结束总结&quot;&gt;&lt;/a&gt;结束总结&lt;/h4&gt;&lt;p&gt;到此所有的安装指引结束，在开始ENJOY YOUR MUSIC前，你还需要了解一下软件各个设置的&lt;br&gt;大概意思，才能实现音质按照您的要求设置，当然，我对里面您的设置也是菜鸟一个，这里&lt;br&gt;我只是简单以我理解描述一下几个常用设置的功能和作用, 请移步”V4A系列 V4A设置的基本介绍指引” &lt;/p&gt;
+&lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要：&lt;br&gt;如果您有看过V4A”系列 ViPER音效系统-安卓音效神器” ，我想你已经了解到V4A的魅力，&lt;br&gt;现在我们就体验一下安卓手机上的V4A音效系统 ViPER4Android是怎么样的一个界面，我&lt;br&gt;会简单的以我使用的理解来简介一下 重要的几个功能的作用。和安装指引。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+    
+      <category term="音效" scheme="http://joryhe.coding.me/categories/essay/%E9%9F%B3%E6%95%88/"/>
+    
+    
+      <category term="v4a" scheme="http://joryhe.coding.me/tags/v4a/"/>
+    
+      <category term="音效" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E6%95%88/"/>
+    
+  </entry>
   
   <entry>
     <title>大数据分析，你在那哪个位置？</title>
