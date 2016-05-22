@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://joryhe.coding.me/"/>
-  <updated>2016-05-22T10:27:27.094Z</updated>
+  <updated>2016-05-22T10:42:07.643Z</updated>
   <id>http://joryhe.coding.me/</id>
   
   <author>
@@ -16,11 +16,42 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>V4A系列 V4A设置的基本介绍指引</title>
+    <link href="http://joryhe.coding.me/2016/05/22/v4a-basic-setting-introduce.html"/>
+    <id>http://joryhe.coding.me/2016/05/22/v4a-basic-setting-introduce.html</id>
+    <published>2016-05-22T10:30:34.000Z</published>
+    <updated>2016-05-22T10:42:07.643Z</updated>
+    
+    <content type="html">&lt;p&gt;摘要：&lt;br&gt;本章为 “ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解&lt;br&gt;ViPER4Android FX”并知道如何安装，如果不了解请点击”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/22/easy-use-viper4android.html&quot;&gt;V4A系列 简单用上ViPER4Android&lt;/a&gt;“&lt;br&gt;以下针对主要的几个设置进行简单介绍：&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/2e5e1462335032www.gif&quot;&gt;
+&lt;h2 id=&quot;功能介绍&quot;&gt;&lt;a href=&quot;#功能介绍&quot; class=&quot;headerlink&quot; title=&quot;功能介绍:&quot;&gt;&lt;/a&gt;功能介绍:&lt;/h2&gt;&lt;h3 id=&quot;效果总开关&quot;&gt;&lt;a href=&quot;#效果总开关&quot; class=&quot;headerlink&quot; title=&quot;效果总开关&quot;&gt;&lt;/a&gt;效果总开关&lt;/h3&gt;&lt;p&gt;该选项定义了是否启用V4A的耳机音效，是总开关&lt;/p&gt;
+&lt;h3 id=&quot;回放增益控制&quot;&gt;&lt;a href=&quot;#回放增益控制&quot; class=&quot;headerlink&quot; title=&quot;回放增益控制&quot;&gt;&lt;/a&gt;回放增益控制&lt;/h3&gt;&lt;p&gt;回放增益控制主要用于动态控制音频的音量，放大或衰减。&lt;br&gt;    (1)、启用。是否启用该效果。&lt;br&gt;    (2)、效果强度。效果强度代表音量放大或衰减的速度，越强则速度越快，最终&lt;br&gt;    音量也越大，越弱则速度越慢，最终音量越接近音频原始音量。推荐中等。&lt;br&gt;    (3)、最大增益倍数。当音频的音量过小时，回放增益为了将音量放大到设定的&lt;br&gt;    水准，可能会有非常大的放大倍数。该值越大则音量越大，太大时也会将歌曲内的噪音放大。推荐4倍。&lt;br&gt;    (4)、最大音量。该值定义了从回放增益出来的声音的最大音量分贝值，值越大音&lt;br&gt;    量越大0分贝代表数字信号的最大值。为了使声音更柔和，推荐-1.9分贝 &lt;/p&gt;
+&lt;h3 id=&quot;FIR均衡器&quot;&gt;&lt;a href=&quot;#FIR均衡器&quot; class=&quot;headerlink&quot; title=&quot;FIR均衡器&quot;&gt;&lt;/a&gt;FIR均衡器&lt;/h3&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要：&lt;br&gt;本章为 “ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解&lt;br&gt;ViPER4Android FX”并知道如何安装，如果不了解请点击”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/22/easy-use-viper4android.html&quot;&gt;V4A系列 简单用上ViPER4Android&lt;/a&gt;“&lt;br&gt;以下针对主要的几个设置进行简单介绍：&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+    
+      <category term="音效" scheme="http://joryhe.coding.me/categories/essay/%E9%9F%B3%E6%95%88/"/>
+    
+    
+      <category term="v4a" scheme="http://joryhe.coding.me/tags/v4a/"/>
+    
+      <category term="音效" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E6%95%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>V4A系列 简单用上ViPER4Android</title>
     <link href="http://joryhe.coding.me/2016/05/22/easy-use-viper4android.html"/>
     <id>http://joryhe.coding.me/2016/05/22/easy-use-viper4android.html</id>
     <published>2016-05-22T10:14:59.000Z</published>
-    <updated>2016-05-22T10:27:27.094Z</updated>
+    <updated>2016-05-22T10:44:50.921Z</updated>
     
     <content type="html">&lt;p&gt;摘要：&lt;br&gt;如果您有看过V4A”系列 ViPER音效系统-安卓音效神器” ，我想你已经了解到V4A的魅力，&lt;br&gt;现在我们就体验一下安卓手机上的V4A音效系统 ViPER4Android是怎么样的一个界面，我&lt;br&gt;会简单的以我使用的理解来简介一下 重要的几个功能的作用。和安装指引。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;ViPER4Android安装指引&quot;&gt;&lt;a href=&quot;#ViPER4Android安装指引&quot; class=&quot;headerlink&quot; title=&quot;ViPER4Android安装指引&quot;&gt;&lt;/a&gt;ViPER4Android安装指引&lt;/h2&gt;&lt;h3 id=&quot;前期准备&quot;&gt;&lt;a href=&quot;#前期准备&quot; class=&quot;headerlink&quot; title=&quot;前期准备&quot;&gt;&lt;/a&gt;前期准备&lt;/h3&gt;&lt;ol&gt;
@@ -33,7 +64,7 @@
 &lt;h4 id=&quot;四、安装-“Busybox”&quot;&gt;&lt;a href=&quot;#四、安装-“Busybox”&quot; class=&quot;headerlink&quot; title=&quot;四、安装 “Busybox”&quot;&gt;&lt;/a&gt;四、安装 “Busybox”&lt;/h4&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/8ab81462268341.jpg&quot;&gt;
 &lt;h4 id=&quot;五、安装”音效驱动”&quot;&gt;&lt;a href=&quot;#五、安装”音效驱动”&quot; class=&quot;headerlink&quot; title=&quot;五、安装”音效驱动”&quot;&gt;&lt;/a&gt;五、安装”音效驱动”&lt;/h4&gt;&lt;p&gt;打开已经安装的”ViPER4Android FX 音效驱动软”将会提示”驱动安装”&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/285f1462268306.jpg&quot;&gt;&lt;/p&gt;
 &lt;h4 id=&quot;六、检查V4A驱动状态&quot;&gt;&lt;a href=&quot;#六、检查V4A驱动状态&quot; class=&quot;headerlink&quot; title=&quot;六、检查V4A驱动状态&quot;&gt;&lt;/a&gt;六、检查V4A驱动状态&lt;/h4&gt;&lt;p&gt;点击右上角 三个点，移步到驱动程序状态（确保显示正常，否则重新安装驱动）&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/aa211462269175.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/d26b1462269383.jpg&quot;&gt;    &lt;/p&gt;
-&lt;h4 id=&quot;结束总结&quot;&gt;&lt;a href=&quot;#结束总结&quot; class=&quot;headerlink&quot; title=&quot;结束总结&quot;&gt;&lt;/a&gt;结束总结&lt;/h4&gt;&lt;p&gt;到此所有的安装指引结束，在开始ENJOY YOUR MUSIC前，你还需要了解一下软件各个设置的&lt;br&gt;大概意思，才能实现音质按照您的要求设置，当然，我对里面您的设置也是菜鸟一个，这里&lt;br&gt;我只是简单以我理解描述一下几个常用设置的功能和作用, 请移步”V4A系列 V4A设置的基本介绍指引” &lt;/p&gt;
+&lt;h4 id=&quot;结束总结&quot;&gt;&lt;a href=&quot;#结束总结&quot; class=&quot;headerlink&quot; title=&quot;结束总结&quot;&gt;&lt;/a&gt;结束总结&lt;/h4&gt;&lt;p&gt;到此所有的安装指引结束，在开始ENJOY YOUR MUSIC前，你还需要了解一下软件各个设置的&lt;br&gt;大概意思，才能实现音质按照您的要求设置，当然，我对里面您的设置也是菜鸟一个，这里&lt;br&gt;我只是简单以我理解描述一下几个常用设置的功能和作用, 请移步”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/15/muscic-technolocy-v4a.html&quot;&gt;V4A系列 V4A设置的基本介绍指引&lt;/a&gt;“ &lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
 &lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 </content>
@@ -482,9 +513,9 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     <link href="http://joryhe.coding.me/2016/05/15/muscic-technolocy-v4a.html"/>
     <id>http://joryhe.coding.me/2016/05/15/muscic-technolocy-v4a.html</id>
     <published>2016-05-15T14:16:07.000Z</published>
-    <updated>2016-05-19T05:13:38.915Z</updated>
+    <updated>2016-05-22T10:44:22.056Z</updated>
     
-    <content type="html">&lt;p&gt;摘要：”ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解”ViPER4Android FX”&lt;br&gt;并知道如何安装.如果不了解请点击”V4A系列 简单用上ViPER4Android”&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;摘要：”ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解”ViPER4Android FX”&lt;br&gt;并知道如何安装.如果不了解请点击”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/22/easy-use-viper4android.html&quot;&gt;V4A系列 简单用上ViPER4Android&lt;/a&gt;“&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/2e5e1462335032.gif&quot;&gt;
 &lt;h1 id=&quot;以下针对几个参数进行简单介绍&quot;&gt;&lt;a href=&quot;#以下针对几个参数进行简单介绍&quot; class=&quot;headerlink&quot; title=&quot;以下针对几个参数进行简单介绍&quot;&gt;&lt;/a&gt;以下针对几个参数进行简单介绍&lt;/h1&gt;&lt;h2 id=&quot;效果总开关&quot;&gt;&lt;a href=&quot;#效果总开关&quot; class=&quot;headerlink&quot; title=&quot;效果总开关&quot;&gt;&lt;/a&gt;效果总开关&lt;/h2&gt;&lt;p&gt;该选项定义了是否启用V4A的耳机音效，是总开关&lt;/p&gt;
 &lt;h2 id=&quot;回放增益控制&quot;&gt;&lt;a href=&quot;#回放增益控制&quot; class=&quot;headerlink&quot; title=&quot;回放增益控制&quot;&gt;&lt;/a&gt;回放增益控制&lt;/h2&gt;&lt;p&gt;回放增益控制主要用于动态控制音频的音量，放大或衰减。&lt;br&gt;    (1)、启用。是否启用该效果。&lt;br&gt;    (2)、效果强度。效果强度代表音量放大或衰减的速度，越强则速度越快，最终音量也越大，越弱则速度越慢，最终音量越接近音频原始音量。推荐中等。&lt;br&gt;    (3)、最大增益倍数。当音频的音量过小时，回放增益为了将音量放大到设定的水准，可能会有非常大的放大倍数。该值越大则音量越大，太大时也会将歌曲内的噪音放大。推荐4倍。&lt;br&gt;    (4)、最大音量。该值定义了从回放增益出来的声音的最大音量分贝值，值越大音量越大0分贝代表数字信号的最大值。为了使声音更柔和，推荐-1.9分贝 &lt;/p&gt;
@@ -499,7 +530,7 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     <summary type="html">
     
-      &lt;p&gt;摘要：”ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解”ViPER4Android FX”&lt;br&gt;并知道如何安装.如果不了解请点击”V4A系列 简单用上ViPER4Android”&lt;br&gt;
+      &lt;p&gt;摘要：”ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解”ViPER4Android FX”&lt;br&gt;并知道如何安装.如果不了解请点击”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/22/easy-use-viper4android.html&quot;&gt;V4A系列 简单用上ViPER4Android&lt;/a&gt;“&lt;br&gt;
     
     </summary>
     
