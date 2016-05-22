@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://joryhe.coding.me/"/>
-  <updated>2016-05-22T10:42:07.643Z</updated>
+  <updated>2016-05-22T14:02:20.737Z</updated>
   <id>http://joryhe.coding.me/</id>
   
   <author>
@@ -14,6 +14,75 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RockBox播放器的均衡器详解（EQ）</title>
+    <link href="http://joryhe.coding.me/2016/05/22/rockbox-eq-introduce.html"/>
+    <id>http://joryhe.coding.me/2016/05/22/rockbox-eq-introduce.html</id>
+    <published>2016-05-22T13:37:25.000Z</published>
+    <updated>2016-05-22T14:02:20.737Z</updated>
+    
+    <content type="html">&lt;p&gt;摘要：&lt;br&gt;通过”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/22/rockbox-musci-player.html&quot;&gt;rockbox 安卓强大的音乐播放神器&lt;/a&gt;“你应该了解rockbox的强大之处，或者你已经成功&lt;br&gt;安装上rockbox，但是想要发挥rockbox的好音质，你还需要了解一下rockbox的均衡器，活&lt;br&gt;用Rockbox的均衡器（EQ），rockbox才会更好的发挥好音质效果。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Rockbox均衡器介绍&quot;&gt;&lt;a href=&quot;#Rockbox均衡器介绍&quot; class=&quot;headerlink&quot; title=&quot;Rockbox均衡器介绍&quot;&gt;&lt;/a&gt;Rockbox均衡器介绍&lt;/h2&gt;&lt;p&gt;rockbox所使用的均衡器为“参量均衡器”，而我们比较常见的有许多推子的叫“图示均衡器”。&lt;br&gt;这两种均衡器的作用都是调解声音的不同频段的增益，以达到调解某部分频段的声响强度&lt;br&gt;来改变声音的风格。“图示均衡器”的每个频段（下面有说明）的频率是固定的，我们要调&lt;br&gt;节的只有增益，调节相对比较简单所以比较常见，而“参量均衡器”的频率和增益都是可调的，&lt;br&gt;可以满足更高场合的要求，但操作相对比较复杂，因此一般只有在专业音响器材上才能看到，&lt;br&gt;当然效果也会比普通的“图示均衡器”好一点. &lt;/p&gt;
+&lt;h3 id=&quot;音质词汇介绍&quot;&gt;&lt;a href=&quot;#音质词汇介绍&quot; class=&quot;headerlink&quot; title=&quot;音质词汇介绍&quot;&gt;&lt;/a&gt;音质词汇介绍&lt;/h3&gt;&lt;p&gt;1.频率：这里所说的频率是指理论上人耳所能听到的声音范围也就是20-20K（2万）赫兹的频&lt;br&gt;率范围，频率越低所表达出来的声音就越低沉，当频率低于160赫兹我们称之为“低音”（20-160赫兹）&lt;br&gt;，当频率高于5000赫兹时我们称之为“高音”（5000-20K）。&lt;/p&gt;
+&lt;p&gt;2.增益：增益的表达单位为（dB）0dB表示为不增加也不衰减，每+6dB为一个声压级也就是比原&lt;br&gt;来的大一倍，-6dB就是小一倍&lt;/p&gt;
+&lt;p&gt;3.频段：以某个频率为中心向两边延伸的范围我们称之为频段，比如以500赫兹为中心向左（低音）&lt;br&gt;延伸到250赫兹向右（高音）延伸到1000赫兹也就是250赫兹到1000赫兹我们称之为中音频段。&lt;/p&gt;
+&lt;p&gt;4.Q值：简单的说控制频段延伸范围的大小我们称之为Q值，Q值越小频段的截止频率（也就是延伸范围）&lt;br&gt;就越大，这个有详细的计算公式我就不一一列出了！比如说当Q值=1.0，中心频率为500赫兹时，该频段&lt;br&gt;的截止范围大概为200-1100赫兹，当Q值=2.0，中心频率为500赫兹时，该频段的截止范围大概为350-800赫兹&lt;/p&gt;
+&lt;p&gt;5.音色：不同频率范围的声音都具有不同的特点，我们且称之为音色。比如我们经常听说到的高音刺耳、&lt;br&gt;声音发闷、沙哑等等都是对音色的反面描述。” &lt;/p&gt;
+&lt;h2 id=&quot;Rockbox的均衡器设置指引&quot;&gt;&lt;a href=&quot;#Rockbox的均衡器设置指引&quot; class=&quot;headerlink&quot; title=&quot;Rockbox的均衡器设置指引&quot;&gt;&lt;/a&gt;Rockbox的均衡器设置指引&lt;/h2&gt;&lt;p&gt;设置的位置：设置-声音设置-均衡器-高级均衡器&lt;/p&gt;
+&lt;p&gt;1.“低峰值过滤/低通滤波器”截断频率设置为；80赫兹、Q值=1.2、Gain（增益）增加或减少增益就可以控制低音&lt;br&gt;的轻、重，可根据自己的耳机来调节正常增加到4.5dB即可，这里记住增益最好不要超过+6dB，否则音量开大时会&lt;br&gt;出现严重的过载失真（因为我们手机的功率太小了！）&lt;/p&gt;
+&lt;p&gt;2.“高峰值过滤/高通滤波器”截断频率设置为;8000赫兹、Q值=1.2、增加或减少增益可控制高音的声压，适当的增&lt;br&gt;加声音会比较清亮悦耳，这里一般设为+2dB&lt;/p&gt;
+&lt;p&gt;3.“峰值过滤1/带通滤波1”中心频率200HZ、Q值=2.0，如果觉得声音太闷可以适当的减少增益，不过这里通常都设&lt;br&gt;为0dB，（也就是不加也不减！）&lt;br&gt;4.“峰值过滤2/带通滤波2”中心频率2000HZ、Q值1.2，这段如果增加增益声音会比较嘈！（MP3本来就够嘈了）适当&lt;br&gt;的衰减可以让声音比较宁静耐听，建议-4dB。&lt;/p&gt;
+&lt;p&gt;5.“峰值过滤3/带通滤波3”中心频率4000HZ、Q值2.0，如果你觉得声音钻耳难受可以适当衰减增益，声音太闷没有&lt;br&gt;气氛可以适当的增加增益，建议-2dB。&lt;/p&gt;
+&lt;p&gt;以上都是最基本的了解，网络上已经有很多大牛调配住很多适应不同耳塞的现成EQ配置。附件为：”500个30频段三&lt;br&gt;合一EQ设置”-500个30频段三合一EQ设置.zip&lt;a href=&quot;http://o6sn177if.bkt.clouddn.com/zip/bddd1462500276%281%29.zip&quot; title=&quot;500个30频段三合一EQ设置&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;500个30频段三合一EQ设置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;将EQ加压后的文件放到sdcard\rockbox\eqs\目录下，这个根据的ROCKBOX安装位置而定 &lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要：&lt;br&gt;通过”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/22/rockbox-musci-player.html&quot;&gt;rockbox 安卓强大的音乐播放神器&lt;/a&gt;“你应该了解rockbox的强大之处，或者你已经成功&lt;br&gt;安装上rockbox，但是想要发挥rockbox的好音质，你还需要了解一下rockbox的均衡器，活&lt;br&gt;用Rockbox的均衡器（EQ），rockbox才会更好的发挥好音质效果。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+    
+    
+      <category term="音乐播放器" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rockbox 安卓强大的音乐播放神器</title>
+    <link href="http://joryhe.coding.me/2016/05/22/rockbox-musci-player.html"/>
+    <id>http://joryhe.coding.me/2016/05/22/rockbox-musci-player.html</id>
+    <published>2016-05-22T13:23:50.000Z</published>
+    <updated>2016-05-22T13:34:49.173Z</updated>
+    
+    <content type="html">&lt;p&gt;摘要：&lt;br&gt;如果您是音乐的发烧人物，我想rockbox播放器很适合你，只需要您有一定的音乐基础和一点点手机动&lt;br&gt;手能力，如果您成功安装上rockbox和最佳配置，我相信rockbox播放器会每天让你最佳的&lt;br&gt;Enjoy Your Music!&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;介绍：&quot;&gt;&lt;a href=&quot;#介绍：&quot; class=&quot;headerlink&quot; title=&quot;介绍：&quot;&gt;&lt;/a&gt;介绍：&lt;/h2&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/636e1462497540.jpg&quot;&gt;
+&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/c0121462497623.jpg&quot;&gt;
+&lt;h2 id=&quot;rockbox特点&quot;&gt;&lt;a href=&quot;#rockbox特点&quot; class=&quot;headerlink&quot; title=&quot;rockbox特点&quot;&gt;&lt;/a&gt;rockbox特点&lt;/h2&gt;&lt;h3 id=&quot;支持CUE&quot;&gt;&lt;a href=&quot;#支持CUE&quot; class=&quot;headerlink&quot; title=&quot;支持CUE&quot;&gt;&lt;/a&gt;支持CUE&lt;/h3&gt;&lt;p&gt;Rockbox播放器是个功能强大的音乐播放器，它支持声轨间的无间隙播放，更有甚者，它还支持cue文件&lt;br&gt;的播放。这意味着你可以把一个CD转轨成一个大 文件，同时把声轨信息放在小文件cue上。只要cue和&lt;br&gt;大文件同名，又在同一个目录下，播放音乐文件的时候，系统就能把cue文件里的信息显示，也可以对&lt;br&gt;大音乐文件提供分规信息，并可以象CD一样前进后退&lt;/p&gt;
+&lt;h3 id=&quot;支持多种音乐格式&quot;&gt;&lt;a href=&quot;#支持多种音乐格式&quot; class=&quot;headerlink&quot; title=&quot;支持多种音乐格式&quot;&gt;&lt;/a&gt;支持多种音乐格式&lt;/h3&gt;&lt;p&gt;rockbox几乎支持所有的高质量音乐格式：FLAC,MP3,WAV等，你可以以最好质量的歌曲进行播放。 &lt;/p&gt;
+&lt;h3 id=&quot;强大的音效配置功能&quot;&gt;&lt;a href=&quot;#强大的音效配置功能&quot; class=&quot;headerlink&quot; title=&quot;强大的音效配置功能&quot;&gt;&lt;/a&gt;强大的音效配置功能&lt;/h3&gt;&lt;p&gt;Rockbox播放器提供的多种强大的高低音，均衡器，平衡，立体声等的调控方式，当然还支持很多专业&lt;br&gt;的音效调整，有待你的挖掘，而且均衡器为参量均衡器(了解更多，请查看”RockBox播放器的均衡器详解（EQ）”)，&lt;br&gt;对音质更加精细化。&lt;/p&gt;
+&lt;h3 id=&quot;用户自定义系统&quot;&gt;&lt;a href=&quot;#用户自定义系统&quot; class=&quot;headerlink&quot; title=&quot;用户自定义系统&quot;&gt;&lt;/a&gt;用户自定义系统&lt;/h3&gt;&lt;p&gt;Rockbox播放器是一个能够支持用户自定义的系统，只要用户喜欢，就可以根据自己的喜好设定的非常多的东西，&lt;br&gt;比如背景，用户界面等等。由于支持用户自定义，您需要有一定的编程设计基础，当然互联网上有很多大牛制作&lt;br&gt;免费的自定义主题系统。 &lt;/p&gt;
+&lt;h2 id=&quot;rockbox缺点&quot;&gt;&lt;a href=&quot;#rockbox缺点&quot; class=&quot;headerlink&quot; title=&quot;rockbox缺点&quot;&gt;&lt;/a&gt;rockbox缺点&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;由于其强大的功能配置，rockbox的上手教其他的播放器困难，你需要一段时间适应rockbox的使用&lt;/li&gt;
+&lt;li&gt;由于rockbox支持自定制系统，所以初始安装的系统界面并不友好，而且软件界面并不会自适应手机分辨路，&lt;br&gt;你需要下载对应分辨率的rockbox安装包(apk) &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;尽管在操作和界面上并不如其他播放器的人性化，但是对于一个音乐的发烧者。这些都不是问题。为追求更好&lt;br&gt;的音质。去折腾一下吧 。&lt;br&gt;下载链接：&lt;a href=&quot;http://pan.baidu.com/s/1slorIhR&quot; title=&quot;全分辨率直装版APK&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;全分辨率直装版APK&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要：&lt;br&gt;如果您是音乐的发烧人物，我想rockbox播放器很适合你，只需要您有一定的音乐基础和一点点手机动&lt;br&gt;手能力，如果您成功安装上rockbox和最佳配置，我相信rockbox播放器会每天让你最佳的&lt;br&gt;Enjoy Your Music!&lt;br&gt;
+    
+    </summary>
+    
+      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+    
+    
+      <category term="音乐播放器" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>V4A系列 V4A设置的基本介绍指引</title>
@@ -228,9 +297,9 @@
       <category term="音乐播放器" scheme="http://joryhe.coding.me/categories/essay/%E9%9F%B3%E4%B9%90/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
     
-      <category term="音乐" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90/"/>
-    
       <category term="音乐播放器" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+    
+      <category term="音乐" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
