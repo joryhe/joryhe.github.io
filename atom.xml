@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://joryhe.coding.me/"/>
-  <updated>2016-05-23T15:33:40.190Z</updated>
+  <updated>2016-05-26T15:16:52.429Z</updated>
   <id>http://joryhe.coding.me/</id>
   
   <author>
@@ -14,6 +14,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>强大的免费监控平台 WeADMIN ITBOSS</title>
+    <link href="http://joryhe.coding.me/2016/05/26/itboss-monitor-recommand.html"/>
+    <id>http://joryhe.coding.me/2016/05/26/itboss-monitor-recommand.html</id>
+    <published>2016-05-26T15:06:36.000Z</published>
+    <updated>2016-05-26T15:16:52.429Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;您是否再找一款免费的IT运维监控软件，你是否希望找到免费而且又好用的IT运维监控软件&lt;br&gt;来这里有所需，介绍一个意外发现好用的IT运维监控软件，ITBOSS是一款免费IT运维监控平台。&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; alt=&quot;ITBOSS&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/f2651462503811.jpg&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;ITBOSS的特点&quot;&gt;&lt;a href=&quot;#ITBOSS的特点&quot; class=&quot;headerlink&quot; title=&quot;ITBOSS的特点&quot;&gt;&lt;/a&gt;ITBOSS的特点&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;历史悠久&lt;/strong&gt;： 基于SITEVIEW，15年潜心修炼，成熟稳定，界面飞快，正在被中国移动南方基地这样高大上用户使用的系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;功能强大&lt;/strong&gt;：一体化ITOSS管理，Web界面, 覆盖网络，服务器、应用、资产和服务管理，简单易用，支持Windows和Linux部署&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;软件免费&lt;/strong&gt;：软件不限时间，不限规模，不限功能，完善的技术支持服务&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;移动平台&lt;/strong&gt;：随时随地管理运维，支持云和微信平台远程管理，关注WeADMIN公共账户就可以管理运维&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;使用简单&lt;/strong&gt;：云平台，下载安装（1.99MB），十分方便、5分钟搞定&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;来 &lt;a href=&quot;http://www.weadmin.com/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;去官网看看&lt;/a&gt;  &lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;您是否再找一款免费的IT运维监控软件，你是否希望找到免费而且又好用的IT运维监控软件&lt;br&gt;来这里有所需，介绍一个意外发现好用的IT运维监控软件，ITBOSS是一款免费IT运维监控平台。&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; alt=&quot;ITBOSS&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/f2651462503811.jpg&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+    
+      <category term="IT运维" scheme="http://joryhe.coding.me/categories/essay/IT%E8%BF%90%E7%BB%B4/"/>
+    
+    
+      <category term="IT运维" scheme="http://joryhe.coding.me/tags/IT%E8%BF%90%E7%BB%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>区分国内与国外GIT，分别显示多说与DISQUS</title>
