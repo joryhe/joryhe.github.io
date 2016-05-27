@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://joryhe.coding.me/2016/05/26/itboss-monitor-recommand.html</loc>
+    <loc>http://joryhe.coding.me/2016/05/21/jory_cdn_lazyload.html</loc>
     
-    <lastmod>2016-05-26T15:16:52.429Z</lastmod>
+    <lastmod>2016-05-27T08:11:05.855Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://joryhe.coding.me/2016/05/22/create_the_custom_status_file.html</loc>
+    
+    <lastmod>2016-05-27T07:24:21.120Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://joryhe.coding.me/2016/05/23/how_to_both_duoshuo_and_disqus.html</loc>
     
-    <lastmod>2016-05-23T15:33:40.190Z</lastmod>
+    <lastmod>2016-05-27T07:15:10.030Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://joryhe.coding.me/2016/05/26/itboss-monitor-recommand.html</loc>
+    
+    <lastmod>2016-05-26T15:16:52.429Z</lastmod>
     
   </url>
   
@@ -54,20 +68,6 @@
     <loc>http://joryhe.coding.me/2016/05/22/big_data_where_are_you.html</loc>
     
     <lastmod>2016-05-22T10:11:40.053Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://joryhe.coding.me/2016/05/22/create_the_custom_status_file.html</loc>
-    
-    <lastmod>2016-05-22T09:59:24.823Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://joryhe.coding.me/2016/05/21/jory_cdn_lazyload.html</loc>
-    
-    <lastmod>2016-05-22T09:13:14.159Z</lastmod>
     
   </url>
   
