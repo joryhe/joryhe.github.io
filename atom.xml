@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://joryhe.coding.me/"/>
-  <updated>2016-05-26T15:16:52.429Z</updated>
+  <updated>2016-05-29T15:38:31.316Z</updated>
   <id>http://joryhe.coding.me/</id>
   
   <author>
@@ -14,6 +14,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>leanCloud,实现文章阅读量统计</title>
+    <link href="http://joryhe.coding.me/2016/05/29/how_to_create_leancloud_read_Counter.html"/>
+    <id>http://joryhe.coding.me/2016/05/29/how_to_create_leancloud_read_Counter.html</id>
+    <published>2016-05-29T15:03:50.000Z</published>
+    <updated>2016-05-29T15:38:31.316Z</updated>
+    
+    <content type="html">&lt;p&gt;摘要:本章介绍如何实现通过leanCloud统计您网站的文章阅读量，并介绍一些基本实现方法。&lt;br&gt;值得庆喜的是Next主题默认就支持leanCloud的相关设置，您只需要进行几部操作就可以实现&lt;br&gt;你的网站文章阅读量的统计。如果您需要了解更多关于HEXO资料，请点击以下链接。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;实现操作&quot;&gt;&lt;a href=&quot;#实现操作&quot; class=&quot;headerlink&quot; title=&quot;实现操作&quot;&gt;&lt;/a&gt;实现操作&lt;/h2&gt;&lt;p&gt;总体的过程是：你需要注册leancloud账户并完成验证后登录leanCloud的，创建应用并配置相关操作&lt;br&gt;获取对应的AppID和AppKey.完成阅读文章的数量的统计。&lt;/p&gt;
+&lt;h3 id=&quot;注册LeanCloud&quot;&gt;&lt;a href=&quot;#注册LeanCloud&quot; class=&quot;headerlink&quot; title=&quot;注册LeanCloud&quot;&gt;&lt;/a&gt;注册LeanCloud&lt;/h3&gt;&lt;p&gt;注册&lt;a href=&quot;https://leancloud.cn&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;leanCloud&lt;/a&gt;,操作过程(略)&lt;/p&gt;
+&lt;h3 id=&quot;创建应用&quot;&gt;&lt;a href=&quot;#创建应用&quot; class=&quot;headerlink&quot; title=&quot;创建应用&quot;&gt;&lt;/a&gt;创建应用&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;创建应用&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160529231630.jpg&quot;&gt;&lt;br&gt;&lt;strong&gt;设置应用名&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160529231944.jpg&quot;&gt;&lt;br&gt;&lt;strong&gt;创建完成&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160529232140.jpg&quot;&gt;&lt;br&gt;&lt;strong&gt;进入应用界面&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160529232321.jpg&quot;&gt;&lt;br&gt;&lt;strong&gt;到此，你的应用创建成功，继续表的创建&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;创建阅读统计表&quot;&gt;&lt;a href=&quot;#创建阅读统计表&quot; class=&quot;headerlink&quot; title=&quot;创建阅读统计表&quot;&gt;&lt;/a&gt;创建阅读统计表&lt;/h3&gt;&lt;p&gt;创建表类似于你的数据库，存放关于你网站文章的相关信息，包括阅读数量等&lt;br&gt;创建表，并将表的名字命名为：&lt;code&gt;Counter&lt;/code&gt;&lt;br&gt;&lt;strong&gt;创建表&lt;/strong&gt;&lt;br&gt;点击右上角的齿轮图标，并创建&lt;code&gt;class&lt;/code&gt;，将&lt;code&gt;class&lt;/code&gt;名字命名为:&lt;code&gt;Counter&lt;/code&gt;&lt;br&gt;第一步操作：&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160529232633.jpg&quot;&gt;&lt;br&gt;第二步操作：&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160529232808.jpg&quot;&gt;&lt;br&gt;操作完成，在左边您会看到Counter的表&lt;/p&gt;
+&lt;h3 id=&quot;获取AppID和AppKey&quot;&gt;&lt;a href=&quot;#获取AppID和AppKey&quot; class=&quot;headerlink&quot; title=&quot;获取AppID和AppKey&quot;&gt;&lt;/a&gt;获取AppID和AppKey&lt;/h3&gt;&lt;p&gt;点击上方的设置&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160529233054.jpg&quot;&gt;&lt;br&gt;获取AppID和AppKey&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160529233210.jpg&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;设置主题配置文件&quot;&gt;&lt;a href=&quot;#设置主题配置文件&quot; class=&quot;headerlink&quot; title=&quot;设置主题配置文件&quot;&gt;&lt;/a&gt;设置主题配置文件&lt;/h3&gt;&lt;p&gt;设置主题配置文件&lt;code&gt;_config.yml&lt;/code&gt;相关字段，实现阅读数量的统计&lt;br&gt;添加以下字段&lt;br&gt;&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;leancloud_visitors:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  enable:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  app_id:&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;#你的app_id&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  app_key:&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;#你的的app_key&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;完成配置并重新编译。到此您已经成功设置了阅读量的统计。你可以从你的文章页面标题附近&lt;br&gt;找到阅读次数。同时你也可以从你的leanCloud的后台看到相关文章的统计内容&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160529233733.jpg&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要:本章介绍如何实现通过leanCloud统计您网站的文章阅读量，并介绍一些基本实现方法。&lt;br&gt;值得庆喜的是Next主题默认就支持leanCloud的相关设置，您只需要进行几部操作就可以实现&lt;br&gt;你的网站文章阅读量的统计。如果您需要了解更多关于HEXO资料，请点击以下链接。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
+    
+      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+    
+      <category term="HEXO优化" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
+    
+    
+      <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>强大的免费监控平台 WeADMIN ITBOSS</title>
@@ -392,9 +430,9 @@
       <category term="音乐播放器" scheme="http://joryhe.coding.me/categories/essay/%E9%9F%B3%E4%B9%90/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
     
-      <category term="音乐" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90/"/>
-    
       <category term="音乐播放器" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+    
+      <category term="音乐" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
