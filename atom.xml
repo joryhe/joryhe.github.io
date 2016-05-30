@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://joryhe.coding.me/"/>
-  <updated>2016-05-30T06:03:07.014Z</updated>
+  <updated>2016-05-30T06:06:23.652Z</updated>
   <id>http://joryhe.coding.me/</id>
   
   <author>
@@ -20,32 +20,16 @@
     <link href="http://joryhe.coding.me/2016/05/30/shadowsocks_serices_setup_jieshao.html"/>
     <id>http://joryhe.coding.me/2016/05/30/shadowsocks_serices_setup_jieshao.html</id>
     <published>2016-05-30T05:41:48.000Z</published>
-    <updated>2016-05-30T06:03:07.014Z</updated>
+    <updated>2016-05-30T06:06:23.652Z</updated>
     
     <content type="html">&lt;p&gt;摘要：本部分开始介绍如何安装shadowsocks，如果您不了解shadowsocks是什么，请点击此链接以&lt;br&gt;获取相关资料&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;安装Shadowsocks&quot;&gt;&lt;a href=&quot;#安装Shadowsocks&quot; class=&quot;headerlink&quot; title=&quot;安装Shadowsocks&quot;&gt;&lt;/a&gt;安装Shadowsocks&lt;/h2&gt;&lt;h3 id=&quot;安装概览&quot;&gt;&lt;a href=&quot;#安装概览&quot; class=&quot;headerlink&quot; title=&quot;安装概览&quot;&gt;&lt;/a&gt;安装概览&lt;/h3&gt;&lt;p&gt;在安装shadowsocks之前，我们需要了解shadowsocks有哪些版本&lt;br&gt;目前shadowsocks的服务器端有四个版本： &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;ol&gt;
+&lt;ol&gt;
 &lt;li&gt;Shadowsocks-Python&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;ol&gt;
 &lt;li&gt;Shadowsocks-libev&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;ol&gt;
 &lt;li&gt;Shadowsocks-Go&lt;/li&gt;
+&lt;li&gt;Shadowsocks-NodeJS&lt;br&gt;本次介绍将介绍安装Shadowsocks-Python版本，由于Python版本用的较多，其他版本自行搜索。&lt;br&gt;其次本次安装适合于Centos系统版本&lt;br&gt;安装的步骤：&lt;br&gt;1.安装PIP&lt;br&gt;2.安装Shadowsocks&lt;br&gt;3.配置Shadowsocks&lt;br&gt;4.运行并检查Shadowsocks运行状态 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;ol&gt;
-&lt;li&gt;Shadowsocks-NodeJS&lt;br&gt;本次介绍将介绍安装Shadowsocks-Python版本，由于Python版本用的较多，其他版本自行搜索。&lt;br&gt;其次本次安装适合于Centos系统版本&lt;br&gt;安装的步骤：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;1.安装PIP&lt;/li&gt;
-&lt;li&gt;2.安装Shadowsocks&lt;/li&gt;
-&lt;li&gt;3.配置Shadowsocks&lt;/li&gt;
-&lt;li&gt;4.运行并检查Shadowsocks运行状态 &lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3 id=&quot;PIP安装&quot;&gt;&lt;a href=&quot;#PIP安装&quot; class=&quot;headerlink&quot; title=&quot;PIP安装&quot;&gt;&lt;/a&gt;PIP安装&lt;/h3&gt;&lt;figure class=&quot;highlight stylus&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;wget --no-check-certificate https:&lt;span class=&quot;comment&quot;&gt;//github.com/pypa/pip/archive/1.5.5.tar.gz&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar zvxf &lt;span class=&quot;number&quot;&gt;1.5&lt;/span&gt;.&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;selector-class&quot;&gt;.tar&lt;/span&gt;&lt;span class=&quot;selector-class&quot;&gt;.gz&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cd pip-&lt;span class=&quot;number&quot;&gt;1.5&lt;/span&gt;.&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;python setup&lt;span class=&quot;selector-class&quot;&gt;.py&lt;/span&gt; install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;如果您安装PIP时候提示”&lt;code&gt;ImportError: No module named setuptools&lt;/code&gt;“，请尝试以下方案修复&lt;br&gt;&lt;figure class=&quot;highlight stylus&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;wget http:&lt;span class=&quot;comment&quot;&gt;//pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar zxvf setuptools-&lt;span class=&quot;number&quot;&gt;0.6&lt;/span&gt;c11&lt;span class=&quot;selector-class&quot;&gt;.tar&lt;/span&gt;&lt;span class=&quot;selector-class&quot;&gt;.gz&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cd setuptools-&lt;span class=&quot;number&quot;&gt;0.6&lt;/span&gt;c11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;python setup&lt;span class=&quot;selector-class&quot;&gt;.py&lt;/span&gt; build&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;python setup&lt;span class=&quot;selector-class&quot;&gt;.py&lt;/span&gt; install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Shadowsocks安装&quot;&gt;&lt;a href=&quot;#Shadowsocks安装&quot; class=&quot;headerlink&quot; title=&quot;Shadowsocks安装&quot;&gt;&lt;/a&gt;Shadowsocks安装&lt;/h3&gt;&lt;figure class=&quot;highlight cmake&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pip &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; shadowsocks&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
