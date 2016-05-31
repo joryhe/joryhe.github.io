@@ -4,11 +4,40 @@
 
     
   <url>
-    <loc>http://joryhe.coding.me/2016/05/31/use_lazyload_add_nofollow.html</loc>
-    <lastmod>2016-05-31T06:23:08.308Z</lastmod>
+    <loc>http://joryhe.coding.me/2016/05/31/baidu_google_both_tijiao.html</loc>
+    <lastmod>2016-05-31T14:39:39.895Z</lastmod>
     <data>
         <display>
-        <title>活用Lazyload.js，为你的CDN图片加上nofollow(绝)</title>
+        <title>Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)</title>
+        <pubTime>2016-05-31T12:31:54.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>sitemap</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://joryhe.coding.me/categories/ittech/"/>
+          
+             
+              <breadCrumb title="网站技术" url="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="hexo" url="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+          
+             
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://joryhe.coding.me/2016/05/31/use_lazyload_add_nofollow.html</loc>
+    <lastmod>2016-05-31T12:40:30.388Z</lastmod>
+    <data>
+        <display>
+        <title>活用Lazyload.js，为你的CDN图片加上nofollow(绝招来啦！)</title>
         <pubTime>2016-05-31T05:21:17.000Z</pubTime>
         
         <tag>lazyload</tag>
