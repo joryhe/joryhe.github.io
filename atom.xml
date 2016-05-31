@@ -4,9 +4,9 @@
   <subtitle>技术分享</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://joryhe.coding.me/"/>
+  <link href="https://joryhe.github.io/"/>
   <updated>2016-05-31T06:23:08.308Z</updated>
-  <id>http://joryhe.coding.me/</id>
+  <id>https://joryhe.github.io/</id>
   
   <author>
     <name>Jory He</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>活用Lazyload.js，为你的CDN图片加上nofollow(绝)</title>
-    <link href="http://joryhe.coding.me/2016/05/31/use_lazyload_add_nofollow.html"/>
-    <id>http://joryhe.coding.me/2016/05/31/use_lazyload_add_nofollow.html</id>
+    <link href="https://joryhe.github.io/2016/05/31/use_lazyload_add_nofollow.html"/>
+    <id>https://joryhe.github.io/2016/05/31/use_lazyload_add_nofollow.html</id>
     <published>2016-05-31T05:21:17.000Z</published>
     <updated>2016-05-31T06:23:08.308Z</updated>
     
@@ -45,7 +45,7 @@
 &lt;h5 id=&quot;代码修改后的结果&quot;&gt;&lt;a href=&quot;#代码修改后的结果&quot; class=&quot;headerlink&quot; title=&quot;代码修改后的结果&quot;&gt;&lt;/a&gt;代码修改后的结果&lt;/h5&gt;&lt;figure class=&quot;highlight php&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$(&lt;span class=&quot;string&quot;&gt;&quot;&amp;lt;img /&amp;gt;&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     .bind(&lt;span class=&quot;string&quot;&gt;&quot;load&quot;&lt;/span&gt;, &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; original = $self.attr(&lt;span class=&quot;string&quot;&gt;&quot;data-&quot;&lt;/span&gt; + settings.data_attribute);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                            $self.hide();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; ($self.is(&lt;span class=&quot;string&quot;&gt;&quot;img&quot;&lt;/span&gt;)) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                                $self.attr(&lt;span class=&quot;string&quot;&gt;&quot;src&quot;&lt;/span&gt;, original);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;comment&quot;&gt;/* 新加代码的操作位置 */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		$self.&lt;span class=&quot;keyword&quot;&gt;parent&lt;/span&gt;().attr(&lt;span class=&quot;string&quot;&gt;&quot;href&quot;&lt;/span&gt;,original);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		$self.&lt;span class=&quot;keyword&quot;&gt;parent&lt;/span&gt;().attr(&lt;span class=&quot;string&quot;&gt;&quot;rel&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&#39;external nofollow&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;								&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125; &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           $self.css(&lt;span class=&quot;string&quot;&gt;&quot;background-image&quot;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&quot;url(&#39;&quot;&lt;/span&gt; + original + &lt;span class=&quot;string&quot;&gt;&quot;&#39;)&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    $self[settings.effect](settings.effect_speed);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;self&lt;/span&gt;.loaded = &lt;span class=&quot;keyword&quot;&gt;true&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h5 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h5&gt;&lt;p&gt;通过以上操作你成功的实现了&lt;br&gt;&lt;em&gt;1. Fancybox的A标签并没有加上nofollow的属性&lt;/em&gt;&lt;br&gt;&lt;em&gt;2. fancybox弹出的框框无法正常显示图片&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -53,25 +53,25 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
     
-      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO优化" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="lazyload" scheme="http://joryhe.coding.me/tags/lazyload/"/>
+      <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
     
-      <category term="nofollow" scheme="http://joryhe.coding.me/tags/nofollow/"/>
+      <category term="nofollow" scheme="https://joryhe.github.io/tags/nofollow/"/>
     
   </entry>
   
   <entry>
     <title>shadowsocks系列之四 Bash实现限制端口IP连接数</title>
-    <link href="http://joryhe.coding.me/2016/05/31/shadowsocks_bash_limmit_ip.html"/>
-    <id>http://joryhe.coding.me/2016/05/31/shadowsocks_bash_limmit_ip.html</id>
+    <link href="https://joryhe.github.io/2016/05/31/shadowsocks_bash_limmit_ip.html"/>
+    <id>https://joryhe.github.io/2016/05/31/shadowsocks_bash_limmit_ip.html</id>
     <published>2016-05-31T01:35:04.000Z</published>
     <updated>2016-05-31T01:42:04.581Z</updated>
     
@@ -79,7 +79,7 @@
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本部分主要的目的是实现：限制端口IP连接数&lt;br&gt;使用的方法是：通过bash脚本，不间断时间监控链接情况&lt;br&gt;为了爬墙到国外，访问国外网站，我部署了shadowsock代理服务，成功访问到国外网站如google,&lt;br&gt;youutube等，但为了链接稳定，我们希望对代理端口进行限制链接的IP数，我翻阅了很多网上资料，&lt;br&gt;并没有关于如何对shadowsock的简易限制配置方法，故自己制作一个端口监视脚本，脚本的原理是&lt;br&gt;对某个端口的IP链接会话进行监控，并限制对应端口的IP链接数量。这样很好了解决防止一个端口&lt;br&gt;被过多人使用。&lt;/p&gt;
 &lt;h2 id=&quot;脚本代码&quot;&gt;&lt;a href=&quot;#脚本代码&quot; class=&quot;headerlink&quot; title=&quot;脚本代码&quot;&gt;&lt;/a&gt;脚本代码&lt;/h2&gt;&lt;p&gt;列出脚本的设置参数&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/031b1462098227.jpg&quot;&gt;&lt;br&gt;运行脚本时，建议通过nohup 命令后台运行，其次脚本会根据设置产生文件如下：&lt;br&gt;ip.txt  可以看到已经在线的用户IP地址&lt;br&gt;log.txt  可以看到地址登录情况，是否有地址被block掉&lt;br&gt;&lt;a href=&quot;http://o6sn177if.bkt.clouddn.com/zip/f5121462098630.zip&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;附件下载&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -87,19 +87,19 @@
     
     </summary>
     
-      <category term="翻墙" scheme="http://joryhe.coding.me/categories/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="https://joryhe.github.io/categories/%E7%BF%BB%E5%A2%99/"/>
     
     
-      <category term="翻墙" scheme="http://joryhe.coding.me/tags/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="https://joryhe.github.io/tags/%E7%BF%BB%E5%A2%99/"/>
     
-      <category term="shadowsocks" scheme="http://joryhe.coding.me/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="https://joryhe.github.io/tags/shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title>shadowsocks系列之三 Shadowsock优化与加速</title>
-    <link href="http://joryhe.coding.me/2016/05/31/shadowsocks_serices_speeder_optmime.html"/>
-    <id>http://joryhe.coding.me/2016/05/31/shadowsocks_serices_speeder_optmime.html</id>
+    <link href="https://joryhe.github.io/2016/05/31/shadowsocks_serices_speeder_optmime.html"/>
+    <id>https://joryhe.github.io/2016/05/31/shadowsocks_serices_speeder_optmime.html</id>
     <published>2016-05-31T01:07:42.000Z</published>
     <updated>2016-05-31T01:27:23.136Z</updated>
     
@@ -130,7 +130,7 @@
 &lt;p&gt;&lt;em&gt;配置结束，到此已经完成关于内核与速度的优化&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;到此你已经完成了shadowsocks优化，Enjory 吧！&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -138,19 +138,19 @@
     
     </summary>
     
-      <category term="翻墙" scheme="http://joryhe.coding.me/categories/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="https://joryhe.github.io/categories/%E7%BF%BB%E5%A2%99/"/>
     
     
-      <category term="翻墙" scheme="http://joryhe.coding.me/tags/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="https://joryhe.github.io/tags/%E7%BF%BB%E5%A2%99/"/>
     
-      <category term="shadowsocks" scheme="http://joryhe.coding.me/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="https://joryhe.github.io/tags/shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title>多说优化，高级CSS设置</title>
-    <link href="http://joryhe.coding.me/2016/05/30/duoshuo_advance_setting_css.html"/>
-    <id>http://joryhe.coding.me/2016/05/30/duoshuo_advance_setting_css.html</id>
+    <link href="https://joryhe.github.io/2016/05/30/duoshuo_advance_setting_css.html"/>
+    <id>https://joryhe.github.io/2016/05/30/duoshuo_advance_setting_css.html</id>
     <published>2016-05-30T14:40:58.000Z</published>
     <updated>2016-05-30T15:00:59.380Z</updated>
     
@@ -163,7 +163,7 @@
 &lt;h3 id=&quot;添加对应的多说CSS&quot;&gt;&lt;a href=&quot;#添加对应的多说CSS&quot; class=&quot;headerlink&quot; title=&quot;添加对应的多说CSS&quot;&gt;&lt;/a&gt;添加对应的多说CSS&lt;/h3&gt;&lt;p&gt;登录到你的多说后台，并拷贝以下css代码&lt;br&gt;&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;59&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;60&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;61&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;62&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;63&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;64&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;65&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;66&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;67&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;68&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;69&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;70&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;71&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;72&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;73&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;74&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;75&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;76&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;77&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;78&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;79&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;80&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;81&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;82&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;83&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;84&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;85&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;86&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;87&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;88&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;89&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;90&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;91&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;92&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;93&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;94&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;95&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;96&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;97&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;98&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;99&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;100&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;101&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;102&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;103&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;104&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;105&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;106&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;107&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;108&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;109&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;110&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;111&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;112&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;113&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;114&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;115&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;116&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;117&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;118&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;119&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;120&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;121&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;122&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;123&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;124&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;125&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;126&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;127&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;128&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;129&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;130&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;131&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;132&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;133&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;134&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;135&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;136&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;137&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;138&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;139&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;140&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;141&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;142&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;143&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;144&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;145&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;146&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;147&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;148&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;149&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;150&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;151&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;152&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;153&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;154&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;155&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;156&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;157&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;158&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;159&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;160&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;161&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;162&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;163&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;164&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;165&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;166&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;167&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;168&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;169&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;170&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;171&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;172&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;173&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;174&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;175&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;176&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;177&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;178&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;179&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;180&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;181&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;182&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;183&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;184&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;185&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;186&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;187&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;188&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;189&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;190&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;191&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;192&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;193&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;194&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;195&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;196&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;197&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;198&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;199&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;200&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;201&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;202&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;203&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;204&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;205&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;206&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;207&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;208&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;209&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;210&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;211&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;212&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;213&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;214&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;215&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;216&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;217&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;218&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;219&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;220&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;221&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;222&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;223&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;224&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;225&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;226&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;227&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;228&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-tag&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;: inline-block &lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;margin&lt;/span&gt;: auto &lt;span class=&quot;number&quot;&gt;1px&lt;/span&gt; .&lt;span class=&quot;number&quot;&gt;3em&lt;/span&gt; &lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#fff&lt;/span&gt; &lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_other&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#bdb2a7&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#fff&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1px&lt;/span&gt; solid &lt;span class=&quot;number&quot;&gt;#BBB&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_other&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#bdb2a7&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#fff&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1px&lt;/span&gt; solid &lt;span class=&quot;number&quot;&gt;#BBB&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_other&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_other&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_ie&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#428bca&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#357ebd&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_ie&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_firefox&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#f0ad4e&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#eea236&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_firefox&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_maxthon&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#7373B9&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#7373B9&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_maxthon&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_ucweb&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#FF740F&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#d43f3a&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_ucweb&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_sogou&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#78ACE9&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#4cae4c&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_sogou&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_2345explorer&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#2478B8&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#4cae4c&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_2345explorer&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_2345chrome&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#F9D024&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#4cae4c&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_2345chrome&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_mi&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#FF4A00&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#4cae4c&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_mi&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_lbbrowser&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#FC9D2E&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#4cae4c&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_lbbrowser&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_chrome&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#EE6252&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#4cae4c&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_chrome&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_qq&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#3D88A8&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#4cae4c&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_qq&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_apple&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#E95620&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#4cae4c&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_apple&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_opera&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#d9534f&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#d43f3a&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.ua_opera&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_vista&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_2000&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_windows&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_xp&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_7&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_8&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_8_1&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#39b3d7&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#46b8da&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_vista&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_2000&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_windows&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_xp&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_7&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_8&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.os_8_1&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_android&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#98C13D&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#01B171&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_android&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_ubuntu&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#DD4814&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#01B171&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_ubuntu&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_linux&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#3A3A3A&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#1F1F1F&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_linux&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_mac&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#666666&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#1F1F1F&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_mac&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_unix&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#006600&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#1F1F1F&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_unix&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_nokia&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#014485&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#1F1F1F&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;4px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: .&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.os_nokia&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:hover&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;/*UA End*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;通过以上部分的设置你成功设置好多说的优化样式&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -171,25 +171,25 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
     
-      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO优化" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="多说" scheme="http://joryhe.coding.me/tags/%E5%A4%9A%E8%AF%B4/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
     
-      <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
+      <category term="多说" scheme="https://joryhe.github.io/tags/%E5%A4%9A%E8%AF%B4/"/>
     
   </entry>
   
   <entry>
     <title>shadowsocks系列之二 Shadowsocks安装与基本配置</title>
-    <link href="http://joryhe.coding.me/2016/05/30/shadowsocks_serices_setup_jieshao.html"/>
-    <id>http://joryhe.coding.me/2016/05/30/shadowsocks_serices_setup_jieshao.html</id>
+    <link href="https://joryhe.github.io/2016/05/30/shadowsocks_serices_setup_jieshao.html"/>
+    <id>https://joryhe.github.io/2016/05/30/shadowsocks_serices_setup_jieshao.html</id>
     <published>2016-05-30T05:41:48.000Z</published>
     <updated>2016-05-30T06:06:23.652Z</updated>
     
@@ -213,7 +213,7 @@
 &lt;p&gt;&lt;strong&gt;加入自启动&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight dts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;vim &lt;span class=&quot;meta-keyword&quot;&gt;/etc/&lt;/span&gt;rc.local       &lt;span class=&quot;meta&quot;&gt;#编辑rc.local文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta-keyword&quot;&gt;/usr/&lt;/span&gt;local&lt;span class=&quot;meta-keyword&quot;&gt;/bin/&lt;/span&gt;ssserver -c &lt;span class=&quot;meta-keyword&quot;&gt;/etc/&lt;/span&gt;shadowsocks.json -d start    &lt;span class=&quot;meta&quot;&gt;#默认是什么都没有的空文件，如果原本有内容，只需要在exit 0前面加上保存&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;测试&lt;/strong&gt;&lt;br&gt;到此，Shadowsocks服务端已经部署完成，现在您需要获取到Shadowsock的链接客户端进行连接并代理上网&lt;br&gt;客户端的链接视图&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/17d61462171142.png&quot;&gt;&lt;br&gt;客户端下载地址：&lt;a href=&quot;http://o6sn177if.bkt.clouddn.com/zip/619a1462171243.zip&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;Shadowsocks&lt;/a&gt;    &lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -221,19 +221,19 @@
     
     </summary>
     
-      <category term="翻墙" scheme="http://joryhe.coding.me/categories/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="https://joryhe.github.io/categories/%E7%BF%BB%E5%A2%99/"/>
     
     
-      <category term="翻墙" scheme="http://joryhe.coding.me/tags/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="https://joryhe.github.io/tags/%E7%BF%BB%E5%A2%99/"/>
     
-      <category term="shadowsocks" scheme="http://joryhe.coding.me/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="https://joryhe.github.io/tags/shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title>shadowsocks系列之一 Shadowsock介绍</title>
-    <link href="http://joryhe.coding.me/2016/05/30/shadowsocks_serices_one_inroduce.html"/>
-    <id>http://joryhe.coding.me/2016/05/30/shadowsocks_serices_one_inroduce.html</id>
+    <link href="https://joryhe.github.io/2016/05/30/shadowsocks_serices_one_inroduce.html"/>
+    <id>https://joryhe.github.io/2016/05/30/shadowsocks_serices_one_inroduce.html</id>
     <published>2016-05-30T05:26:57.000Z</published>
     <updated>2016-05-30T06:03:03.611Z</updated>
     
@@ -246,7 +246,7 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
 &lt;h2 id=&quot;安全性&quot;&gt;&lt;a href=&quot;#安全性&quot; class=&quot;headerlink&quot; title=&quot;安全性&quot;&gt;&lt;/a&gt;安全性&lt;/h2&gt;&lt;p&gt;然而Shadowsocks自行设计的加密协议对双方的身份验证仅限于预共享密钥，亦无完全前向保密，也&lt;br&gt;未曾有安全专家公开分析或评估协议及其实现。Shadowsocks不能替代TLS或者VPN，本质上只是设置&lt;br&gt;了密码的网络代理协议，不能用作匿名通信方案，该协议的目标不在于提供完整的通信安全机制，&lt;br&gt;主要是为了协助上网用户在严苛的网络环境中突破封锁。在某些极端的环境下，通过深度包检测&lt;br&gt;（DPI）也有可能识别出协议特征。为了确保安全，用户应做好额外的加密和验证措施，以免泄露信&lt;br&gt;息，无论使用的服务器来源是否可靠。&lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;&lt;code&gt;shadowsocks&lt;/code&gt;是一个基于python的轻量级socks代理软件，如果您有国外的&lt;code&gt;VPS&lt;/code&gt;，您可以通过部署&lt;br&gt;&lt;code&gt;shadowsocks&lt;/code&gt;代理来实现翻墙。它并不是VPN，是一个代理软件&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 </content>
     
     <summary type="html">
@@ -257,19 +257,19 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="翻墙" scheme="http://joryhe.coding.me/categories/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="https://joryhe.github.io/categories/%E7%BF%BB%E5%A2%99/"/>
     
     
-      <category term="翻墙" scheme="http://joryhe.coding.me/tags/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="https://joryhe.github.io/tags/%E7%BF%BB%E5%A2%99/"/>
     
-      <category term="shadowsocks" scheme="http://joryhe.coding.me/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="https://joryhe.github.io/tags/shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title>leanCloud,实现文章阅读量统计</title>
-    <link href="http://joryhe.coding.me/2016/05/29/how_to_create_leancloud_read_Counter.html"/>
-    <id>http://joryhe.coding.me/2016/05/29/how_to_create_leancloud_read_Counter.html</id>
+    <link href="https://joryhe.github.io/2016/05/29/how_to_create_leancloud_read_Counter.html"/>
+    <id>https://joryhe.github.io/2016/05/29/how_to_create_leancloud_read_Counter.html</id>
     <published>2016-05-29T15:03:50.000Z</published>
     <updated>2016-05-30T05:03:17.009Z</updated>
     
@@ -296,7 +296,7 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
 &lt;h2 id=&quot;设置完成&quot;&gt;&lt;a href=&quot;#设置完成&quot; class=&quot;headerlink&quot; title=&quot;设置完成&quot;&gt;&lt;/a&gt;设置完成&lt;/h2&gt;&lt;p&gt;以上部分设置完成，就可以正常使用leanCloudS实现文章阅读统计&lt;/p&gt;
 &lt;h2 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h2&gt;&lt;p&gt;你可以从你的文章页面标题附近&lt;br&gt;找到阅读次数。同时你也可以从你的leanCloud的后台看到相关文章的统计内容&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160529233733.jpg&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 </content>
     
     <summary type="html">
@@ -305,23 +305,23 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
     
-      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO优化" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>强大的免费监控平台 WeADMIN ITBOSS</title>
-    <link href="http://joryhe.coding.me/2016/05/26/itboss-monitor-recommand.html"/>
-    <id>http://joryhe.coding.me/2016/05/26/itboss-monitor-recommand.html</id>
+    <link href="https://joryhe.github.io/2016/05/26/itboss-monitor-recommand.html"/>
+    <id>https://joryhe.github.io/2016/05/26/itboss-monitor-recommand.html</id>
     <published>2016-05-26T15:06:36.000Z</published>
     <updated>2016-05-26T15:16:52.429Z</updated>
     
@@ -351,19 +351,19 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
     
-      <category term="IT运维" scheme="http://joryhe.coding.me/categories/essay/IT%E8%BF%90%E7%BB%B4/"/>
+      <category term="IT运维" scheme="https://joryhe.github.io/categories/essay/IT%E8%BF%90%E7%BB%B4/"/>
     
     
-      <category term="IT运维" scheme="http://joryhe.coding.me/tags/IT%E8%BF%90%E7%BB%B4/"/>
+      <category term="IT运维" scheme="https://joryhe.github.io/tags/IT%E8%BF%90%E7%BB%B4/"/>
     
   </entry>
   
   <entry>
     <title>区分国内与国外GIT，分别显示多说与DISQUS</title>
-    <link href="http://joryhe.coding.me/2016/05/23/how_to_both_duoshuo_and_disqus.html"/>
-    <id>http://joryhe.coding.me/2016/05/23/how_to_both_duoshuo_and_disqus.html</id>
+    <link href="https://joryhe.github.io/2016/05/23/how_to_both_duoshuo_and_disqus.html"/>
+    <id>https://joryhe.github.io/2016/05/23/how_to_both_duoshuo_and_disqus.html</id>
     <published>2016-05-23T14:47:42.000Z</published>
     <updated>2016-05-27T07:15:10.030Z</updated>
     
@@ -389,7 +389,7 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
 &lt;p&gt;```&lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;当你修改完并保存后，就可以实现coding加载多说，github加载disqus.实现国外与国内评论框的分别加载&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 </content>
     
     <summary type="html">
@@ -398,25 +398,25 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
     
-      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO进阶" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
+      <category term="HEXO进阶" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
     
     
-      <category term="多说" scheme="http://joryhe.coding.me/tags/%E5%A4%9A%E8%AF%B4/"/>
+      <category term="多说" scheme="https://joryhe.github.io/tags/%E5%A4%9A%E8%AF%B4/"/>
     
-      <category term="disqus" scheme="http://joryhe.coding.me/tags/disqus/"/>
+      <category term="disqus" scheme="https://joryhe.github.io/tags/disqus/"/>
     
   </entry>
   
   <entry>
     <title>RockBox播放器的均衡器详解（EQ）</title>
-    <link href="http://joryhe.coding.me/2016/05/22/rockbox-eq-introduce.html"/>
-    <id>http://joryhe.coding.me/2016/05/22/rockbox-eq-introduce.html</id>
+    <link href="https://joryhe.github.io/2016/05/22/rockbox-eq-introduce.html"/>
+    <id>https://joryhe.github.io/2016/05/22/rockbox-eq-introduce.html</id>
     <published>2016-05-22T13:37:25.000Z</published>
     <updated>2016-05-22T14:02:20.737Z</updated>
     
@@ -442,17 +442,17 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
     
     
-      <category term="音乐播放器" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+      <category term="音乐播放器" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>rockbox 安卓强大的音乐播放神器</title>
-    <link href="http://joryhe.coding.me/2016/05/22/rockbox-musci-player.html"/>
-    <id>http://joryhe.coding.me/2016/05/22/rockbox-musci-player.html</id>
+    <link href="https://joryhe.github.io/2016/05/22/rockbox-musci-player.html"/>
+    <id>https://joryhe.github.io/2016/05/22/rockbox-musci-player.html</id>
     <published>2016-05-22T13:23:50.000Z</published>
     <updated>2016-05-22T13:34:49.173Z</updated>
     
@@ -475,17 +475,17 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
     
     
-      <category term="音乐播放器" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+      <category term="音乐播放器" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>V4A系列 V4A设置的基本介绍指引</title>
-    <link href="http://joryhe.coding.me/2016/05/22/v4a-basic-setting-introduce.html"/>
-    <id>http://joryhe.coding.me/2016/05/22/v4a-basic-setting-introduce.html</id>
+    <link href="https://joryhe.github.io/2016/05/22/v4a-basic-setting-introduce.html"/>
+    <id>https://joryhe.github.io/2016/05/22/v4a-basic-setting-introduce.html</id>
     <published>2016-05-22T10:30:34.000Z</published>
     <updated>2016-05-22T10:42:07.643Z</updated>
     
@@ -502,21 +502,21 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
     
-      <category term="音效" scheme="http://joryhe.coding.me/categories/essay/%E9%9F%B3%E6%95%88/"/>
+      <category term="音效" scheme="https://joryhe.github.io/categories/essay/%E9%9F%B3%E6%95%88/"/>
     
     
-      <category term="v4a" scheme="http://joryhe.coding.me/tags/v4a/"/>
+      <category term="v4a" scheme="https://joryhe.github.io/tags/v4a/"/>
     
-      <category term="音效" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E6%95%88/"/>
+      <category term="音效" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E6%95%88/"/>
     
   </entry>
   
   <entry>
     <title>V4A系列 简单用上ViPER4Android</title>
-    <link href="http://joryhe.coding.me/2016/05/22/easy-use-viper4android.html"/>
-    <id>http://joryhe.coding.me/2016/05/22/easy-use-viper4android.html</id>
+    <link href="https://joryhe.github.io/2016/05/22/easy-use-viper4android.html"/>
+    <id>https://joryhe.github.io/2016/05/22/easy-use-viper4android.html</id>
     <published>2016-05-22T10:14:59.000Z</published>
     <updated>2016-05-22T10:44:50.921Z</updated>
     
@@ -533,7 +533,7 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
 &lt;h4 id=&quot;六、检查V4A驱动状态&quot;&gt;&lt;a href=&quot;#六、检查V4A驱动状态&quot; class=&quot;headerlink&quot; title=&quot;六、检查V4A驱动状态&quot;&gt;&lt;/a&gt;六、检查V4A驱动状态&lt;/h4&gt;&lt;p&gt;点击右上角 三个点，移步到驱动程序状态（确保显示正常，否则重新安装驱动）&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/aa211462269175.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/d26b1462269383.jpg&quot;&gt;    &lt;/p&gt;
 &lt;h4 id=&quot;结束总结&quot;&gt;&lt;a href=&quot;#结束总结&quot; class=&quot;headerlink&quot; title=&quot;结束总结&quot;&gt;&lt;/a&gt;结束总结&lt;/h4&gt;&lt;p&gt;到此所有的安装指引结束，在开始ENJOY YOUR MUSIC前，你还需要了解一下软件各个设置的&lt;br&gt;大概意思，才能实现音质按照您的要求设置，当然，我对里面您的设置也是菜鸟一个，这里&lt;br&gt;我只是简单以我理解描述一下几个常用设置的功能和作用, 请移步”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/15/muscic-technolocy-v4a.html&quot;&gt;V4A系列 V4A设置的基本介绍指引&lt;/a&gt;“ &lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 </content>
     
     <summary type="html">
@@ -542,21 +542,21 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
     
-      <category term="音效" scheme="http://joryhe.coding.me/categories/essay/%E9%9F%B3%E6%95%88/"/>
+      <category term="音效" scheme="https://joryhe.github.io/categories/essay/%E9%9F%B3%E6%95%88/"/>
     
     
-      <category term="v4a" scheme="http://joryhe.coding.me/tags/v4a/"/>
+      <category term="v4a" scheme="https://joryhe.github.io/tags/v4a/"/>
     
-      <category term="音效" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E6%95%88/"/>
+      <category term="音效" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E6%95%88/"/>
     
   </entry>
   
   <entry>
     <title>大数据分析，你在那哪个位置？</title>
-    <link href="http://joryhe.coding.me/2016/05/22/big_data_where_are_you.html"/>
-    <id>http://joryhe.coding.me/2016/05/22/big_data_where_are_you.html</id>
+    <link href="https://joryhe.github.io/2016/05/22/big_data_where_are_you.html"/>
+    <id>https://joryhe.github.io/2016/05/22/big_data_where_are_you.html</id>
     <published>2016-05-22T10:05:10.000Z</published>
     <updated>2016-05-22T10:11:40.053Z</updated>
     
@@ -570,19 +570,19 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
     
     
-      <category term="大数据" scheme="http://joryhe.coding.me/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+      <category term="大数据" scheme="https://joryhe.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
-      <category term="数据分析" scheme="http://joryhe.coding.me/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+      <category term="数据分析" scheme="https://joryhe.github.io/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>NEXT 加载您自定以的静态文件</title>
-    <link href="http://joryhe.coding.me/2016/05/22/create_the_custom_status_file.html"/>
-    <id>http://joryhe.coding.me/2016/05/22/create_the_custom_status_file.html</id>
+    <link href="https://joryhe.github.io/2016/05/22/create_the_custom_status_file.html"/>
+    <id>https://joryhe.github.io/2016/05/22/create_the_custom_status_file.html</id>
     <published>2016-05-22T09:15:59.000Z</published>
     <updated>2016-05-27T07:24:21.120Z</updated>
     
@@ -598,7 +598,7 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
 &lt;p&gt;贴出对应的&lt;code&gt;vendors.swig&lt;/code&gt;的代码：&lt;br&gt;&lt;figure class=&quot;highlight twig&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;&lt;/span&gt; theme.customjs %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;set&lt;/span&gt;&lt;/span&gt; js_vendors.customjs  = &#39;custom/custom.js&#39; %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;endif&lt;/span&gt;&lt;/span&gt; %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;通过以上的修改你就实现的个人的静态文件的加载。&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -606,23 +606,23 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
     
-      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO进阶" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
+      <category term="HEXO进阶" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
     
     
-      <category term="lazyload" scheme="http://joryhe.coding.me/tags/lazyload/"/>
+      <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
     
   </entry>
   
   <entry>
     <title>CDN图片加速，实现图片慢加载</title>
-    <link href="http://joryhe.coding.me/2016/05/21/jory_cdn_lazyload.html"/>
-    <id>http://joryhe.coding.me/2016/05/21/jory_cdn_lazyload.html</id>
+    <link href="https://joryhe.github.io/2016/05/21/jory_cdn_lazyload.html"/>
+    <id>https://joryhe.github.io/2016/05/21/jory_cdn_lazyload.html</id>
     <published>2016-05-21T14:50:35.000Z</published>
     <updated>2016-05-27T08:11:05.855Z</updated>
     
@@ -644,7 +644,7 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
 &lt;h3 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h3&gt;&lt;p&gt;到此您经已经设置好CDN慢加载的所有设置&lt;br&gt;测试方法：&lt;br&gt;你可以是IMG的swig语法或者其他语法，本以SWIG语法为例，图片您只需要填写相对位置即可。我的脚本会自动协助您加上您的CDN地址:&lt;a href=&quot;http://cndurl/images/yourpic&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;http://cndurl/images/yourpic&lt;/a&gt;&lt;br&gt;&lt;figure class=&quot;highlight django&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;img&lt;/span&gt; /images/20160522164827.jpg %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;直接的测试效果图&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/ssssss.gif&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -652,25 +652,25 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
     
-      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO优化" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="lazyload" scheme="http://joryhe.coding.me/tags/lazyload/"/>
+      <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
     
-      <category term="CDN加速" scheme="http://joryhe.coding.me/tags/CDN%E5%8A%A0%E9%80%9F/"/>
+      <category term="CDN加速" scheme="https://joryhe.github.io/tags/CDN%E5%8A%A0%E9%80%9F/"/>
     
   </entry>
   
   <entry>
     <title>好用的安卓音乐播放器介绍</title>
-    <link href="http://joryhe.coding.me/2016/05/21/music_player_recommend_anzhuo.html"/>
-    <id>http://joryhe.coding.me/2016/05/21/music_player_recommend_anzhuo.html</id>
+    <link href="https://joryhe.github.io/2016/05/21/music_player_recommend_anzhuo.html"/>
+    <id>https://joryhe.github.io/2016/05/21/music_player_recommend_anzhuo.html</id>
     <published>2016-05-21T13:42:29.000Z</published>
     <updated>2016-05-21T13:54:08.406Z</updated>
     
@@ -679,7 +679,7 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
 &lt;h2 id=&quot;中子播放器&quot;&gt;&lt;a href=&quot;#中子播放器&quot; class=&quot;headerlink&quot; title=&quot;中子播放器&quot;&gt;&lt;/a&gt;中子播放器&lt;/h2&gt;&lt;p&gt;中子播放器Neutron Music Player是一款专业播放器，具有专业高清32位音频渲染的核心，有助于从你的Android设备提供最佳音质外接扬声器或耳机&lt;br&gt;中子播放器 声音感觉是带有中子播放器独有的味道这就是 中    平和平淡和产品意义相称（因为中子播放器加了几个比较少见的音调功能）&lt;br&gt;这是一款实力大于名气的产品，不得不说是一批黑马，令人印象深刻的是它对乐器声音的 表现3个播放器表现最好的，加上不错的界面，&lt;br&gt;不太复杂的设置（许多复杂细节性的音调都已经调好的，只是罗列了几种不同口味让用户选择相比ROCKBOX要不太复杂的设置（许多复杂细节性的音调都已经调好的，&lt;br&gt;只是罗列了几种不同口味让用户选择相比ROCKBOX要 简单很多），可以作为主推音乐播放器之一 &lt;/p&gt;
 &lt;h2 id=&quot;Rockbox播播放器&quot;&gt;&lt;a href=&quot;#Rockbox播播放器&quot; class=&quot;headerlink&quot; title=&quot;Rockbox播播放器&quot;&gt;&lt;/a&gt;Rockbox播播放器&lt;/h2&gt;&lt;p&gt; ROCKBOX  声音感觉没有自己的个性味道（因为ROCKBOX最初就不是一个播放器，也不是针对普通用户的）最反人类体验的播放器（各种BUG也很 多）但也是上升空间最大的播放器，&lt;br&gt; 前提是你要懂，你要知道如何自己设置，自己心目中的那种感觉，最好不要去复制别人的EQ因为每个EQ都是和 ROCKBOX庞大复杂的声音设置想配套的，&lt;br&gt; 而且不同的硬件 耳机 最重要的是个人感觉都是不一样的。&lt;br&gt;三个播放器而言，我更加喜欢rockbox,rockbox播放器可以跳出个人合适音质，合适自己的才是最好，其他两个播放器也很是不错，其内置的音质效果非常棒，&lt;br&gt;如果你是发烧级的音乐爱好者，rockbox很适合您（现在去了解Rockbox？）,强大的EQ(什么是EQ?)设置让你随心所欲的设置您的音质，如果您是音乐爱好者，&lt;br&gt;Powercam,中子播放器也是强烈推荐。 &lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;+根据播放器的上手难易度来说（从难道易）  rockbox &amp;gt; powercamp&amp;gt;种子播放器&lt;br&gt;+根据播放器的音质来说：rockbox &amp;gt;powercamp &amp;gt;中子播放器&lt;br&gt;+根据界面友好来说：powercamp&amp;gt; 中子播放器&amp;gt;rockBox&lt;br&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于IT技术的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -688,23 +688,23 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
     
-      <category term="音乐" scheme="http://joryhe.coding.me/categories/essay/%E9%9F%B3%E4%B9%90/"/>
+      <category term="音乐" scheme="https://joryhe.github.io/categories/essay/%E9%9F%B3%E4%B9%90/"/>
     
-      <category term="音乐播放器" scheme="http://joryhe.coding.me/categories/essay/%E9%9F%B3%E4%B9%90/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+      <category term="音乐播放器" scheme="https://joryhe.github.io/categories/essay/%E9%9F%B3%E4%B9%90/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
     
-      <category term="音乐" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90/"/>
+      <category term="音乐" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E4%B9%90/"/>
     
-      <category term="音乐播放器" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+      <category term="音乐播放器" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>HEXO 进阶-SWIG高级语法</title>
-    <link href="http://joryhe.coding.me/2016/05/21/hexo-swig-advance-grammar.html"/>
-    <id>http://joryhe.coding.me/2016/05/21/hexo-swig-advance-grammar.html</id>
+    <link href="https://joryhe.github.io/2016/05/21/hexo-swig-advance-grammar.html"/>
+    <id>https://joryhe.github.io/2016/05/21/hexo-swig-advance-grammar.html</id>
     <published>2016-05-21T03:57:11.000Z</published>
     <updated>2016-05-21T09:43:25.876Z</updated>
     
@@ -725,7 +725,7 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
 &lt;p&gt;swig模板经过编译后：&lt;br&gt;&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;head&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;charset&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;title&lt;/span&gt;&amp;gt;&lt;/span&gt;My Page&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;title&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;This is just an awesome page.&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;h1&lt;/span&gt;&amp;gt;&lt;/span&gt;hello,lego.&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;h1&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;test&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;actionscript&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;comment&quot;&gt;//require(&#39;pages/index/main&#39;);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;通过简单的了解，我们发现swig非常用上手，同时功能强大，掌握以上的标签和变量，多多测试和联系，我相信您&lt;br&gt;很快会掌握其中的技巧。通过简单的标签按你所需要更改你的页面.更多的swig信息了解，请移步”SWIG网站”&lt;a href=&quot;http://paularmstrong.github.io/swig/docs/#inheritance&quot; title=&quot;SWIG网站&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;SWIG网站&lt;/a&gt;。&lt;br&gt;以上部分仅仅是对swig的语法介绍.如果您并不了解哪些swig文件对应的是哪些页面，请继续 关注”HEXO进阶-SWIG引擎渲染结构”.&lt;br&gt;本文简单的介绍了关于如何找到你页面对应的SWIG文件。和简单的SWIG引擎模板结构介绍。&lt;/p&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 </content>
     
     <summary type="html">
@@ -734,25 +734,25 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
     
-      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO进阶" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
+      <category term="HEXO进阶" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
     
     
-      <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
     
-      <category term="SWIG" scheme="http://joryhe.coding.me/tags/SWIG/"/>
+      <category term="SWIG" scheme="https://joryhe.github.io/tags/SWIG/"/>
     
   </entry>
   
   <entry>
     <title>V4A系列-VIPER音效系统-安卓音效神器</title>
-    <link href="http://joryhe.coding.me/2016/05/18/muscic-technolocy-v4a-introduce.html"/>
-    <id>http://joryhe.coding.me/2016/05/18/muscic-technolocy-v4a-introduce.html</id>
+    <link href="https://joryhe.github.io/2016/05/18/muscic-technolocy-v4a-introduce.html"/>
+    <id>https://joryhe.github.io/2016/05/18/muscic-technolocy-v4a-introduce.html</id>
     <published>2016-05-18T15:16:20.000Z</published>
     <updated>2016-05-21T03:43:33.790Z</updated>
     
@@ -772,7 +772,7 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
 &lt;p&gt;以上技术原理均摘自 蝰蛇官网&lt;/p&gt;
 &lt;p&gt;如果您很喜欢音乐，而且手机使用的是安卓系统，而且又希望以一般的耳塞获取到更好的音乐效果，&lt;br&gt;强烈推荐蝰蛇音效（V4A）,蝰蛇音效软件系统可以安装在电脑系统，也可以安装到安卓手机.&lt;br&gt;Enjoy your music 点击 **&lt;a href=&quot;http://vipersaudio.com/demo.html&quot; title=&quot;传送门&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;传送门&lt;/a&gt; 测试享受V4A的效果.&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -780,21 +780,21 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="http://joryhe.coding.me/categories/essay/"/>
+      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
     
-      <category term="音效" scheme="http://joryhe.coding.me/categories/essay/%E9%9F%B3%E6%95%88/"/>
+      <category term="音效" scheme="https://joryhe.github.io/categories/essay/%E9%9F%B3%E6%95%88/"/>
     
     
-      <category term="v4a" scheme="http://joryhe.coding.me/tags/v4a/"/>
+      <category term="v4a" scheme="https://joryhe.github.io/tags/v4a/"/>
     
-      <category term="音效" scheme="http://joryhe.coding.me/tags/%E9%9F%B3%E6%95%88/"/>
+      <category term="音效" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E6%95%88/"/>
     
   </entry>
   
   <entry>
     <title>HEXO建站-基本设置</title>
-    <link href="http://joryhe.coding.me/2016/05/17/hexoxo-series-for-site-build-basic.html"/>
-    <id>http://joryhe.coding.me/2016/05/17/hexoxo-series-for-site-build-basic.html</id>
+    <link href="https://joryhe.github.io/2016/05/17/hexoxo-series-for-site-build-basic.html"/>
+    <id>https://joryhe.github.io/2016/05/17/hexoxo-series-for-site-build-basic.html</id>
     <published>2016-05-17T14:40:20.000Z</published>
     <updated>2016-05-21T03:32:56.379Z</updated>
     
@@ -864,7 +864,7 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -872,16 +872,16 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     </summary>
     
-      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
+      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
     
-      <category term="网站技术" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO建站" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/"/>
+      <category term="HEXO建站" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/"/>
     
     
-      <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
+      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
     
   </entry>
   
