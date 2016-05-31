@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://joryhe.coding.me/"/>
-  <updated>2016-05-31T01:27:23.136Z</updated>
+  <updated>2016-05-31T01:42:04.581Z</updated>
   <id>http://joryhe.coding.me/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>shadowsocks系列之四 Bash实现限制端口IP连接数</title>
+    <link href="http://joryhe.coding.me/2016/05/31/shadowsocks_bash_limmit_ip.html"/>
+    <id>http://joryhe.coding.me/2016/05/31/shadowsocks_bash_limmit_ip.html</id>
+    <published>2016-05-31T01:35:04.000Z</published>
+    <updated>2016-05-31T01:42:04.581Z</updated>
+    
+    <content type="html">&lt;p&gt;摘要：本部分开始介绍如何简单保护一下Shadowsocks链接安全，如果你之前并没了解Shadowsocks，或者您还没成功&lt;br&gt;搭建您的Shadowsocks服务器，点击一下：获取相关资料&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本部分主要的目的是实现：限制端口IP连接数&lt;br&gt;使用的方法是：通过bash脚本，不间断时间监控链接情况&lt;br&gt;为了爬墙到国外，访问国外网站，我部署了shadowsock代理服务，成功访问到国外网站如google,&lt;br&gt;youutube等，但为了链接稳定，我们希望对代理端口进行限制链接的IP数，我翻阅了很多网上资料，&lt;br&gt;并没有关于如何对shadowsock的简易限制配置方法，故自己制作一个端口监视脚本，脚本的原理是&lt;br&gt;对某个端口的IP链接会话进行监控，并限制对应端口的IP链接数量。这样很好了解决防止一个端口&lt;br&gt;被过多人使用。&lt;/p&gt;
+&lt;h2 id=&quot;脚本代码&quot;&gt;&lt;a href=&quot;#脚本代码&quot; class=&quot;headerlink&quot; title=&quot;脚本代码&quot;&gt;&lt;/a&gt;脚本代码&lt;/h2&gt;&lt;p&gt;列出脚本的设置参数&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/031b1462098227.jpg&quot;&gt;&lt;br&gt;运行脚本时，建议通过nohup 命令后台运行，其次脚本会根据设置产生文件如下：&lt;br&gt;ip.txt  可以看到已经在线的用户IP地址&lt;br&gt;log.txt  可以看到地址登录情况，是否有地址被block掉&lt;br&gt;&lt;a href=&quot;http://o6sn177if.bkt.clouddn.com/zip/f5121462098630.zip&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;附件下载&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;Jory He&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要：本部分开始介绍如何简单保护一下Shadowsocks链接安全，如果你之前并没了解Shadowsocks，或者您还没成功&lt;br&gt;搭建您的Shadowsocks服务器，点击一下：获取相关资料&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="翻墙" scheme="http://joryhe.coding.me/categories/%E7%BF%BB%E5%A2%99/"/>
+    
+    
+      <category term="翻墙" scheme="http://joryhe.coding.me/tags/%E7%BF%BB%E5%A2%99/"/>
+    
+      <category term="shadowsocks" scheme="http://joryhe.coding.me/tags/shadowsocks/"/>
+    
+  </entry>
   
   <entry>
     <title>shadowsocks系列之三 Shadowsock优化与加速</title>
@@ -99,9 +127,9 @@
       <category term="HEXO优化" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="多说" scheme="http://joryhe.coding.me/tags/%E5%A4%9A%E8%AF%B4/"/>
-    
       <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
+    
+      <category term="多说" scheme="http://joryhe.coding.me/tags/%E5%A4%9A%E8%AF%B4/"/>
     
   </entry>
   
@@ -843,54 +871,6 @@ npm uninstall &amp;lt;plugin-name&amp;gt; #卸载
     
     
       <category term="hexo" scheme="http://joryhe.coding.me/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为Xenserver服务器添加本地磁盘</title>
-    <link href="http://joryhe.coding.me/2016/05/15/xenserver-add-local-disk.html"/>
-    <id>http://joryhe.coding.me/2016/05/15/xenserver-add-local-disk.html</id>
-    <published>2016-05-15T14:21:52.000Z</published>
-    <updated>2016-05-19T05:35:01.440Z</updated>
-    
-    <content type="html">&lt;p&gt;摘要：Xenserver在何种场景，你需要进行添加本地磁盘&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;当你需要在Xenserver添加磁盘作为扩容&lt;/li&gt;
-&lt;li&gt;当你需要对Xenserver本地磁盘进行维护优化&lt;/li&gt;
-&lt;/ol&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;如何添加本地磁盘&quot;&gt;&lt;a href=&quot;#如何添加本地磁盘&quot; class=&quot;headerlink&quot; title=&quot;如何添加本地磁盘&quot;&gt;&lt;/a&gt;如何添加本地磁盘&lt;/h1&gt;&lt;h2 id=&quot;步骤：&quot;&gt;&lt;a href=&quot;#步骤：&quot; class=&quot;headerlink&quot; title=&quot;步骤：&quot;&gt;&lt;/a&gt;步骤：&lt;/h2&gt;&lt;p&gt;整体的操作过程如下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;1、挂接磁盘到Xenserver服务器&lt;/li&gt;
-&lt;li&gt;2、通过Linux命令（fdisk -l）,检查挂接的磁盘设备号&lt;/li&gt;
-&lt;li&gt;3、通过xenserver系统挂接命令挂接磁盘,命名并格式化分区系统为EXT&lt;/li&gt;
-&lt;li&gt;4、通过XenCenter 工具检查挂接的磁盘情况&lt;h2 id=&quot;操作过程：&quot;&gt;&lt;a href=&quot;#操作过程：&quot; class=&quot;headerlink&quot; title=&quot;操作过程：&quot;&gt;&lt;/a&gt;操作过程：&lt;/h2&gt;&lt;h3 id=&quot;挂接磁盘到Xenserver服务器&quot;&gt;&lt;a href=&quot;#挂接磁盘到Xenserver服务器&quot; class=&quot;headerlink&quot; title=&quot;挂接磁盘到Xenserver服务器&quot;&gt;&lt;/a&gt;挂接磁盘到Xenserver服务器&lt;/h3&gt;关闭Xenserver服务器，将相应的磁盘设备接入到Xenserver服务器&lt;h3 id=&quot;通过Linux命令（fdisk-l）-检查挂接的磁盘设备号&quot;&gt;&lt;a href=&quot;#通过Linux命令（fdisk-l）-检查挂接的磁盘设备号&quot; class=&quot;headerlink&quot; title=&quot;通过Linux命令（fdisk -l）,检查挂接的磁盘设备号&quot;&gt;&lt;/a&gt;通过Linux命令（fdisk -l）,检查挂接的磁盘设备号&lt;/h3&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329110546403.jpg&quot;&gt;
-&lt;h3 id=&quot;通过xenserver系统挂接命令挂接磁盘-命名并格式化分区系统为EXT&quot;&gt;&lt;a href=&quot;#通过xenserver系统挂接命令挂接磁盘-命名并格式化分区系统为EXT&quot; class=&quot;headerlink&quot; title=&quot;通过xenserver系统挂接命令挂接磁盘,命名并格式化分区系统为EXT&quot;&gt;&lt;/a&gt;通过xenserver系统挂接命令挂接磁盘,命名并格式化分区系统为EXT&lt;/h3&gt;&lt;strong&gt;命令解析：&lt;/strong&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;figcaption&gt;&lt;span&gt;code&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;xe sr-&lt;span class=&quot;keyword&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;name&lt;/span&gt;-label= &lt;span class=&quot;keyword&quot;&gt;shared&lt;/span&gt;=&lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt; device-config-device= &lt;span class=&quot;keyword&quot;&gt;type&lt;/span&gt;=lvm &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Name of Storage is the name of the Storage Repository you require &lt;/li&gt;
-&lt;li&gt;Path of the Storage device is the path as noted in the preceding tasks, /dev/sdc)&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329110929256.jpg&quot;&gt;
-&lt;h3 id=&quot;通过XenCenter-工具检查挂接的磁盘情况&quot;&gt;&lt;a href=&quot;#通过XenCenter-工具检查挂接的磁盘情况&quot; class=&quot;headerlink&quot; title=&quot;通过XenCenter 工具检查挂接的磁盘情况&quot;&gt;&lt;/a&gt;通过XenCenter 工具检查挂接的磁盘情况&lt;/h3&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160329111259195.jpg&quot;&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;摘要：Xenserver在何种场景，你需要进行添加本地磁盘&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;当你需要在Xenserver添加磁盘作为扩容&lt;/li&gt;
-&lt;li&gt;当你需要对Xenserver本地磁盘进行维护优化&lt;/li&gt;
-&lt;/ol&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
-    
-    
-      <category term="存储" scheme="http://joryhe.coding.me/tags/%E5%AD%98%E5%82%A8/"/>
-    
-      <category term="xenserver" scheme="http://joryhe.coding.me/tags/xenserver/"/>
     
   </entry>
   
