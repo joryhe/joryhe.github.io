@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://joryhe.github.io/"/>
-  <updated>2016-06-01T01:25:31.934Z</updated>
+  <updated>2016-06-01T06:22:02.638Z</updated>
   <id>https://joryhe.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://joryhe.github.io/2016/05/31/baidu_google_both_tijiao.html"/>
     <id>https://joryhe.github.io/2016/05/31/baidu_google_both_tijiao.html</id>
     <published>2016-05-31T12:31:54.000Z</published>
-    <updated>2016-06-01T01:25:31.934Z</updated>
+    <updated>2016-06-01T06:22:02.638Z</updated>
     
     <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -36,7 +36,10 @@
 &lt;li&gt;[] CNAME验证&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;文件验证&lt;/strong&gt;：您需要下载验证文件，将文件上传至您的服务器，放置于域名根目录下&lt;br&gt;&lt;strong&gt;html标签验证&lt;/strong&gt;：将html标签添加至网站首页html代码的&lt;head&gt;标签与&lt;/head&gt;标签之间&lt;br&gt;&lt;strong&gt;CNAME验证&lt;/strong&gt;：您需要登录域名提供商或托管服务提供商的网站，添加新的DNS记录。&lt;/p&gt;
-&lt;p&gt;本人推荐的验证手段是&lt;strong&gt;文件验证&lt;/strong&gt;&lt;br&gt;操作方式如下：&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160531210802.png&quot;&gt;&lt;br&gt;验证文件的放置位置(建议在编译完后放到&lt;code&gt;Pubilc&lt;/code&gt;根目录在提交，由于编译会更改验证文件的内容)&lt;br&gt;导致验证失败，其次Google的操作方式雷同&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160531211339.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160531211451.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;本人推荐的验证手段是&lt;strong&gt;文件验证&lt;/strong&gt;&lt;br&gt;操作方式如下：&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160531210802.png&quot;&gt;&lt;br&gt;验证文件的放置位置(建议在编译完后放到&lt;code&gt;Pubilc&lt;/code&gt;根目录在提交，由于编译会更改验证文件的内容)导致验证失败，其次Google的操作方式雷同。当然你也可以放到主站点目录的&lt;code&gt;source&lt;/code&gt;下，但是你需要修改验证文件如下(添加&lt;code&gt;layout: False&lt;/code&gt;禁止Hexo编译转换)：&lt;br&gt;&lt;strong&gt;Google验证文件&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;layout:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;google-site-verification:&lt;/span&gt; googlee8f47d983650c060.html&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;百度验证文件&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;layout:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;KAy0GB8nPs&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160531211339.png&quot;&gt;
+&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160531211451.png&quot;&gt;
 &lt;h3 id=&quot;推送方式&quot;&gt;&lt;a href=&quot;#推送方式&quot; class=&quot;headerlink&quot; title=&quot;推送方式&quot;&gt;&lt;/a&gt;推送方式&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;如何选择链接提交方式&lt;br&gt;1、主动推送：最为快速的提交方式，推荐您将站点当天新产出链接立即通过此方式推送给百度，以保证新链接可以及时被百度收录。&lt;br&gt;2、自动推送：最为便捷的提交方式，请将自动推送的JS代码部署在站点的每一个页面源代码中，部署代码的页面在每次被浏览时，链接会被自动推送给百度。可以与主动推送配合使用。&lt;br&gt;3、sitemap：您可以定期将网站链接放到sitemap中，然后将sitemap提交给百度。百度会周期性的抓取检查您提交的sitemap，对其中的链接进行处理，但收录速度慢于主动推送。&lt;br&gt;4、手动提交：一次性提交链接给百度，可以使用此种方式&lt;/p&gt;
 &lt;/blockquote&gt;

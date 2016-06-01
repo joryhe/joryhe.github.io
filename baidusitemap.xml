@@ -4,6 +4,35 @@
 
     
   <url>
+    <loc>http://joryhe.coding.me/2016/05/31/baidu_google_both_tijiao.html</loc>
+    <lastmod>2016-06-01T06:22:02.638Z</lastmod>
+    <data>
+        <display>
+        <title>Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)</title>
+        <pubTime>2016-05-31T12:31:54.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>sitemap</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://joryhe.coding.me/categories/ittech/"/>
+          
+             
+              <breadCrumb title="网站技术" url="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="hexo" url="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+          
+             
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://joryhe.coding.me/2016/05/22/big_data_where_are_you.html</loc>
     <lastmod>2016-06-01T01:44:44.324Z</lastmod>
     <data>
@@ -33,9 +62,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>lazyload</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>lazyload</tag>
          
          
            
@@ -619,35 +648,6 @@
         <tag>lazyload</tag>
          
         <tag>nofollow</tag>
-         
-         
-           
-             
-              <breadCrumb title="ittech" url="http://joryhe.coding.me/categories/ittech/"/>
-          
-             
-              <breadCrumb title="网站技术" url="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-          
-             
-              <breadCrumb title="hexo" url="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-          
-             
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://joryhe.coding.me/2016/05/31/baidu_google_both_tijiao.html</loc>
-    <lastmod>2016-06-01T01:25:31.934Z</lastmod>
-    <data>
-        <display>
-        <title>Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)</title>
-        <pubTime>2016-05-31T12:31:54.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>sitemap</tag>
          
          
            
