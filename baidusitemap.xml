@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://joryhe.coding.me/2016/05/31/baidu_google_both_tijiao.html</loc>
-    <lastmod>2016-05-31T14:39:39.895Z</lastmod>
+    <lastmod>2016-06-01T01:25:31.934Z</lastmod>
     <data>
         <display>
         <title>Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)</title>
@@ -567,9 +567,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>lazyload</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>lazyload</tag>
          
          
            
