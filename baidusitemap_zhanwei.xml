@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://joryhe.coding.me/2016/05/31/baidu_google_both_tijiao.html</loc>
+    <lastmod>2016-06-01T06:26:37.079Z</lastmod>
+    <data>
+        <display>
+        <title>Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)</title>
+        <pubTime>2016-05-31T12:31:54.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>sitemap</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://joryhe.coding.me/categories/ittech/"/>
+          
+             
+              <breadCrumb title="网站技术" url="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="hexo" url="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+          
+             
+        </display>
+    </data>
+    </url>
+
+
+    
+    
+</urlset>

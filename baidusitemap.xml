@@ -4,8 +4,37 @@
 
     
   <url>
+    <loc>http://joryhe.coding.me/2016/06/01/update_info_baidupush_python.html</loc>
+    <lastmod>2016-06-01T15:04:56.990Z</lastmod>
+    <data>
+        <display>
+        <title>推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。</title>
+        <pubTime>2016-06-01T14:12:28.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>sitemap</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://joryhe.coding.me/categories/ittech/"/>
+          
+             
+              <breadCrumb title="网站技术" url="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="hexo" url="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+          
+             
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://joryhe.coding.me/2016/05/31/baidu_google_both_tijiao.html</loc>
-    <lastmod>2016-06-01T06:26:37.079Z</lastmod>
+    <lastmod>2016-06-01T14:07:57.466Z</lastmod>
     <data>
         <display>
         <title>Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)</title>
