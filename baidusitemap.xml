@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://joryhe.coding.me/2016/06/01/update_info_baidupush_python.html</loc>
-    <lastmod>2016-06-01T15:04:56.990Z</lastmod>
+    <lastmod>2016-06-01T15:12:33.028Z</lastmod>
     <data>
         <display>
         <title>推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。</title>
@@ -91,9 +91,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>lazyload</tag>
+         
+        <tag>hexo</tag>
          
          
            
