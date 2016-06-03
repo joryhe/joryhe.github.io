@@ -4,9 +4,9 @@
   <subtitle>技术分享</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://joryhe.github.io/"/>
+  <link href="http://blog.joryhe.com/"/>
   <updated>2016-06-01T15:12:33.028Z</updated>
-  <id>https://joryhe.github.io/</id>
+  <id>http://blog.joryhe.com/</id>
   
   <author>
     <name>Jory He</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。</title>
-    <link href="https://joryhe.github.io/2016/06/01/update_info_baidupush_python.html"/>
-    <id>https://joryhe.github.io/2016/06/01/update_info_baidupush_python.html</id>
+    <link href="http://blog.joryhe.com/2016/06/01/update_info_baidupush_python.html"/>
+    <id>http://blog.joryhe.com/2016/06/01/update_info_baidupush_python.html</id>
     <published>2016-06-01T14:12:28.000Z</published>
     <updated>2016-06-01T15:12:33.028Z</updated>
     
@@ -50,7 +50,7 @@
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
 &lt;footer&gt;&lt;strong&gt;Jory&#39;s Coding&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory&#39;s Github&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;https://joryhe.github.io/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;footer&gt;&lt;strong&gt;Jory&#39;s Github&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;https://joryhe.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 </content>
     
     <summary type="html">
@@ -59,25 +59,25 @@
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
     
-      <category term="sitemap" scheme="https://joryhe.github.io/tags/sitemap/"/>
+      <category term="sitemap" scheme="http://blog.joryhe.com/tags/sitemap/"/>
     
   </entry>
   
   <entry>
     <title>Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)</title>
-    <link href="https://joryhe.github.io/2016/05/31/baidu_google_both_tijiao.html"/>
-    <id>https://joryhe.github.io/2016/05/31/baidu_google_both_tijiao.html</id>
+    <link href="http://blog.joryhe.com/2016/05/31/baidu_google_both_tijiao.html"/>
+    <id>http://blog.joryhe.com/2016/05/31/baidu_google_both_tijiao.html</id>
     <published>2016-05-31T12:31:54.000Z</published>
     <updated>2016-06-01T14:07:57.466Z</updated>
     
@@ -132,7 +132,7 @@
 &lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
 &lt;footer&gt;&lt;strong&gt;Jory&#39;s Coding&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;http://joryhe.coding.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;&lt;p&gt;如果你还需要了解更多关于Hexo的文章信息，请继续关注Jory博客&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Jory&#39;s Github&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;https://joryhe.github.io/&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
+&lt;footer&gt;&lt;strong&gt;Jory&#39;s Github&lt;/strong&gt;&lt;cite&gt;&lt;a href=&quot;https://joryhe.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Welcome to JORY&#39;S BLOG&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;</content>
     
     <summary type="html">
     
@@ -140,25 +140,25 @@
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
     
-      <category term="sitemap" scheme="https://joryhe.github.io/tags/sitemap/"/>
+      <category term="sitemap" scheme="http://blog.joryhe.com/tags/sitemap/"/>
     
   </entry>
   
   <entry>
     <title>活用Lazyload.js，为你的CDN图片加上nofollow(绝招来啦！)</title>
-    <link href="https://joryhe.github.io/2016/05/31/use_lazyload_add_nofollow.html"/>
-    <id>https://joryhe.github.io/2016/05/31/use_lazyload_add_nofollow.html</id>
+    <link href="http://blog.joryhe.com/2016/05/31/use_lazyload_add_nofollow.html"/>
+    <id>http://blog.joryhe.com/2016/05/31/use_lazyload_add_nofollow.html</id>
     <published>2016-05-31T05:21:17.000Z</published>
     <updated>2016-06-01T01:32:18.752Z</updated>
     
@@ -194,25 +194,25 @@
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
+      <category term="lazyload" scheme="http://blog.joryhe.com/tags/lazyload/"/>
     
-      <category term="nofollow" scheme="https://joryhe.github.io/tags/nofollow/"/>
+      <category term="nofollow" scheme="http://blog.joryhe.com/tags/nofollow/"/>
     
   </entry>
   
   <entry>
     <title>shadowsocks系列之四 Bash实现限制端口IP连接数</title>
-    <link href="https://joryhe.github.io/2016/05/31/shadowsocks_bash_limmit_ip.html"/>
-    <id>https://joryhe.github.io/2016/05/31/shadowsocks_bash_limmit_ip.html</id>
+    <link href="http://blog.joryhe.com/2016/05/31/shadowsocks_bash_limmit_ip.html"/>
+    <id>http://blog.joryhe.com/2016/05/31/shadowsocks_bash_limmit_ip.html</id>
     <published>2016-05-31T01:35:04.000Z</published>
     <updated>2016-06-01T01:38:23.323Z</updated>
     
@@ -229,19 +229,19 @@
     
     </summary>
     
-      <category term="翻墙" scheme="https://joryhe.github.io/categories/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://blog.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
     
     
-      <category term="翻墙" scheme="https://joryhe.github.io/tags/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://blog.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
     
-      <category term="shadowsocks" scheme="https://joryhe.github.io/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="http://blog.joryhe.com/tags/shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title>shadowsocks系列之三 Shadowsock优化与加速</title>
-    <link href="https://joryhe.github.io/2016/05/31/shadowsocks_serices_speeder_optmime.html"/>
-    <id>https://joryhe.github.io/2016/05/31/shadowsocks_serices_speeder_optmime.html</id>
+    <link href="http://blog.joryhe.com/2016/05/31/shadowsocks_serices_speeder_optmime.html"/>
+    <id>http://blog.joryhe.com/2016/05/31/shadowsocks_serices_speeder_optmime.html</id>
     <published>2016-05-31T01:07:42.000Z</published>
     <updated>2016-06-01T01:36:51.474Z</updated>
     
@@ -281,19 +281,19 @@
     
     </summary>
     
-      <category term="翻墙" scheme="https://joryhe.github.io/categories/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://blog.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
     
     
-      <category term="翻墙" scheme="https://joryhe.github.io/tags/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://blog.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
     
-      <category term="shadowsocks" scheme="https://joryhe.github.io/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="http://blog.joryhe.com/tags/shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title>多说优化，高级CSS设置</title>
-    <link href="https://joryhe.github.io/2016/05/30/duoshuo_advance_setting_css.html"/>
-    <id>https://joryhe.github.io/2016/05/30/duoshuo_advance_setting_css.html</id>
+    <link href="http://blog.joryhe.com/2016/05/30/duoshuo_advance_setting_css.html"/>
+    <id>http://blog.joryhe.com/2016/05/30/duoshuo_advance_setting_css.html</id>
     <published>2016-05-30T14:40:58.000Z</published>
     <updated>2016-06-01T01:44:06.369Z</updated>
     
@@ -315,25 +315,25 @@
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
     
-      <category term="多说" scheme="https://joryhe.github.io/tags/%E5%A4%9A%E8%AF%B4/"/>
+      <category term="多说" scheme="http://blog.joryhe.com/tags/%E5%A4%9A%E8%AF%B4/"/>
     
   </entry>
   
   <entry>
     <title>shadowsocks系列之二 Shadowsocks安装与基本配置</title>
-    <link href="https://joryhe.github.io/2016/05/30/shadowsocks_serices_setup_jieshao.html"/>
-    <id>https://joryhe.github.io/2016/05/30/shadowsocks_serices_setup_jieshao.html</id>
+    <link href="http://blog.joryhe.com/2016/05/30/shadowsocks_serices_setup_jieshao.html"/>
+    <id>http://blog.joryhe.com/2016/05/30/shadowsocks_serices_setup_jieshao.html</id>
     <published>2016-05-30T05:41:48.000Z</published>
     <updated>2016-06-01T01:37:37.523Z</updated>
     
@@ -366,19 +366,19 @@
     
     </summary>
     
-      <category term="翻墙" scheme="https://joryhe.github.io/categories/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://blog.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
     
     
-      <category term="翻墙" scheme="https://joryhe.github.io/tags/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://blog.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
     
-      <category term="shadowsocks" scheme="https://joryhe.github.io/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="http://blog.joryhe.com/tags/shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title>shadowsocks系列之一 Shadowsock介绍</title>
-    <link href="https://joryhe.github.io/2016/05/30/shadowsocks_serices_one_inroduce.html"/>
-    <id>https://joryhe.github.io/2016/05/30/shadowsocks_serices_one_inroduce.html</id>
+    <link href="http://blog.joryhe.com/2016/05/30/shadowsocks_serices_one_inroduce.html"/>
+    <id>http://blog.joryhe.com/2016/05/30/shadowsocks_serices_one_inroduce.html</id>
     <published>2016-05-30T05:26:57.000Z</published>
     <updated>2016-06-01T01:37:59.479Z</updated>
     
@@ -403,19 +403,19 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="翻墙" scheme="https://joryhe.github.io/categories/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://blog.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
     
     
-      <category term="翻墙" scheme="https://joryhe.github.io/tags/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://blog.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
     
-      <category term="shadowsocks" scheme="https://joryhe.github.io/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="http://blog.joryhe.com/tags/shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title>leanCloud,实现文章阅读量统计</title>
-    <link href="https://joryhe.github.io/2016/05/29/how_to_create_leancloud_read_Counter.html"/>
-    <id>https://joryhe.github.io/2016/05/29/how_to_create_leancloud_read_Counter.html</id>
+    <link href="http://blog.joryhe.com/2016/05/29/how_to_create_leancloud_read_Counter.html"/>
+    <id>http://blog.joryhe.com/2016/05/29/how_to_create_leancloud_read_Counter.html</id>
     <published>2016-05-29T15:03:50.000Z</published>
     <updated>2016-06-01T01:42:57.871Z</updated>
     
@@ -452,23 +452,23 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>强大的免费监控平台 WeADMIN ITBOSS</title>
-    <link href="https://joryhe.github.io/2016/05/26/itboss-monitor-recommand.html"/>
-    <id>https://joryhe.github.io/2016/05/26/itboss-monitor-recommand.html</id>
+    <link href="http://blog.joryhe.com/2016/05/26/itboss-monitor-recommand.html"/>
+    <id>http://blog.joryhe.com/2016/05/26/itboss-monitor-recommand.html</id>
     <published>2016-05-26T15:06:36.000Z</published>
     <updated>2016-06-01T01:41:52.050Z</updated>
     
@@ -498,19 +498,19 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
+      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
     
-      <category term="IT运维" scheme="https://joryhe.github.io/categories/essay/IT%E8%BF%90%E7%BB%B4/"/>
+      <category term="IT运维" scheme="http://blog.joryhe.com/categories/essay/IT%E8%BF%90%E7%BB%B4/"/>
     
     
-      <category term="IT运维" scheme="https://joryhe.github.io/tags/IT%E8%BF%90%E7%BB%B4/"/>
+      <category term="IT运维" scheme="http://blog.joryhe.com/tags/IT%E8%BF%90%E7%BB%B4/"/>
     
   </entry>
   
   <entry>
     <title>区分国内与国外GIT，分别显示多说与DISQUS</title>
-    <link href="https://joryhe.github.io/2016/05/23/how_to_both_duoshuo_and_disqus.html"/>
-    <id>https://joryhe.github.io/2016/05/23/how_to_both_duoshuo_and_disqus.html</id>
+    <link href="http://blog.joryhe.com/2016/05/23/how_to_both_duoshuo_and_disqus.html"/>
+    <id>http://blog.joryhe.com/2016/05/23/how_to_both_duoshuo_and_disqus.html</id>
     <published>2016-05-23T14:47:42.000Z</published>
     <updated>2016-06-01T01:43:11.081Z</updated>
     
@@ -546,25 +546,25 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO进阶" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
+      <category term="HEXO进阶" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
     
     
-      <category term="多说" scheme="https://joryhe.github.io/tags/%E5%A4%9A%E8%AF%B4/"/>
+      <category term="多说" scheme="http://blog.joryhe.com/tags/%E5%A4%9A%E8%AF%B4/"/>
     
-      <category term="disqus" scheme="https://joryhe.github.io/tags/disqus/"/>
+      <category term="disqus" scheme="http://blog.joryhe.com/tags/disqus/"/>
     
   </entry>
   
   <entry>
     <title>RockBox播放器的均衡器详解（EQ）</title>
-    <link href="https://joryhe.github.io/2016/05/22/rockbox-eq-introduce.html"/>
-    <id>https://joryhe.github.io/2016/05/22/rockbox-eq-introduce.html</id>
+    <link href="http://blog.joryhe.com/2016/05/22/rockbox-eq-introduce.html"/>
+    <id>http://blog.joryhe.com/2016/05/22/rockbox-eq-introduce.html</id>
     <published>2016-05-22T13:37:25.000Z</published>
     <updated>2016-06-01T01:38:57.537Z</updated>
     
@@ -591,17 +591,17 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
+      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
     
     
-      <category term="音乐播放器" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+      <category term="音乐播放器" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>rockbox 安卓强大的音乐播放神器</title>
-    <link href="https://joryhe.github.io/2016/05/22/rockbox-musci-player.html"/>
-    <id>https://joryhe.github.io/2016/05/22/rockbox-musci-player.html</id>
+    <link href="http://blog.joryhe.com/2016/05/22/rockbox-musci-player.html"/>
+    <id>http://blog.joryhe.com/2016/05/22/rockbox-musci-player.html</id>
     <published>2016-05-22T13:23:50.000Z</published>
     <updated>2016-06-01T01:38:42.843Z</updated>
     
@@ -625,17 +625,17 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
+      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
     
     
-      <category term="音乐播放器" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+      <category term="音乐播放器" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>V4A系列 V4A设置的基本介绍指引</title>
-    <link href="https://joryhe.github.io/2016/05/22/v4a-basic-setting-introduce.html"/>
-    <id>https://joryhe.github.io/2016/05/22/v4a-basic-setting-introduce.html</id>
+    <link href="http://blog.joryhe.com/2016/05/22/v4a-basic-setting-introduce.html"/>
+    <id>http://blog.joryhe.com/2016/05/22/v4a-basic-setting-introduce.html</id>
     <published>2016-05-22T10:30:34.000Z</published>
     <updated>2016-06-01T01:36:07.864Z</updated>
     
@@ -653,21 +653,21 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
+      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
     
-      <category term="音效" scheme="https://joryhe.github.io/categories/essay/%E9%9F%B3%E6%95%88/"/>
+      <category term="音效" scheme="http://blog.joryhe.com/categories/essay/%E9%9F%B3%E6%95%88/"/>
     
     
-      <category term="v4a" scheme="https://joryhe.github.io/tags/v4a/"/>
+      <category term="v4a" scheme="http://blog.joryhe.com/tags/v4a/"/>
     
-      <category term="音效" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E6%95%88/"/>
+      <category term="音效" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E6%95%88/"/>
     
   </entry>
   
   <entry>
     <title>V4A系列 简单用上ViPER4Android</title>
-    <link href="https://joryhe.github.io/2016/05/22/easy-use-viper4android.html"/>
-    <id>https://joryhe.github.io/2016/05/22/easy-use-viper4android.html</id>
+    <link href="http://blog.joryhe.com/2016/05/22/easy-use-viper4android.html"/>
+    <id>http://blog.joryhe.com/2016/05/22/easy-use-viper4android.html</id>
     <published>2016-05-22T10:14:59.000Z</published>
     <updated>2016-06-01T01:43:55.489Z</updated>
     
@@ -694,21 +694,21 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
+      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
     
-      <category term="音效" scheme="https://joryhe.github.io/categories/essay/%E9%9F%B3%E6%95%88/"/>
+      <category term="音效" scheme="http://blog.joryhe.com/categories/essay/%E9%9F%B3%E6%95%88/"/>
     
     
-      <category term="v4a" scheme="https://joryhe.github.io/tags/v4a/"/>
+      <category term="v4a" scheme="http://blog.joryhe.com/tags/v4a/"/>
     
-      <category term="音效" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E6%95%88/"/>
+      <category term="音效" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E6%95%88/"/>
     
   </entry>
   
   <entry>
     <title>大数据分析，你在那哪个位置？</title>
-    <link href="https://joryhe.github.io/2016/05/22/big_data_where_are_you.html"/>
-    <id>https://joryhe.github.io/2016/05/22/big_data_where_are_you.html</id>
+    <link href="http://blog.joryhe.com/2016/05/22/big_data_where_are_you.html"/>
+    <id>http://blog.joryhe.com/2016/05/22/big_data_where_are_you.html</id>
     <published>2016-05-22T10:05:10.000Z</published>
     <updated>2016-06-01T01:44:44.324Z</updated>
     
@@ -723,19 +723,19 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
+      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
     
     
-      <category term="大数据" scheme="https://joryhe.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+      <category term="大数据" scheme="http://blog.joryhe.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
-      <category term="数据分析" scheme="https://joryhe.github.io/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+      <category term="数据分析" scheme="http://blog.joryhe.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>NEXT 加载您自定以的静态文件</title>
-    <link href="https://joryhe.github.io/2016/05/22/create_the_custom_status_file.html"/>
-    <id>https://joryhe.github.io/2016/05/22/create_the_custom_status_file.html</id>
+    <link href="http://blog.joryhe.com/2016/05/22/create_the_custom_status_file.html"/>
+    <id>http://blog.joryhe.com/2016/05/22/create_the_custom_status_file.html</id>
     <published>2016-05-22T09:15:59.000Z</published>
     <updated>2016-06-01T01:44:19.749Z</updated>
     
@@ -760,23 +760,23 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO进阶" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
+      <category term="HEXO进阶" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
     
     
-      <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
+      <category term="lazyload" scheme="http://blog.joryhe.com/tags/lazyload/"/>
     
   </entry>
   
   <entry>
     <title>CDN图片加速，实现图片慢加载</title>
-    <link href="https://joryhe.github.io/2016/05/21/jory_cdn_lazyload.html"/>
-    <id>https://joryhe.github.io/2016/05/21/jory_cdn_lazyload.html</id>
+    <link href="http://blog.joryhe.com/2016/05/21/jory_cdn_lazyload.html"/>
+    <id>http://blog.joryhe.com/2016/05/21/jory_cdn_lazyload.html</id>
     <published>2016-05-21T14:50:35.000Z</published>
     <updated>2016-06-01T01:41:39.727Z</updated>
     
@@ -807,25 +807,25 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO优化" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
+      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="lazyload" scheme="https://joryhe.github.io/tags/lazyload/"/>
+      <category term="lazyload" scheme="http://blog.joryhe.com/tags/lazyload/"/>
     
-      <category term="CDN加速" scheme="https://joryhe.github.io/tags/CDN%E5%8A%A0%E9%80%9F/"/>
+      <category term="CDN加速" scheme="http://blog.joryhe.com/tags/CDN%E5%8A%A0%E9%80%9F/"/>
     
   </entry>
   
   <entry>
     <title>好用的安卓音乐播放器介绍</title>
-    <link href="https://joryhe.github.io/2016/05/21/music_player_recommend_anzhuo.html"/>
-    <id>https://joryhe.github.io/2016/05/21/music_player_recommend_anzhuo.html</id>
+    <link href="http://blog.joryhe.com/2016/05/21/music_player_recommend_anzhuo.html"/>
+    <id>http://blog.joryhe.com/2016/05/21/music_player_recommend_anzhuo.html</id>
     <published>2016-05-21T13:42:29.000Z</published>
     <updated>2016-06-01T01:40:08.038Z</updated>
     
@@ -844,23 +844,23 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="essay" scheme="https://joryhe.github.io/categories/essay/"/>
+      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
     
-      <category term="音乐" scheme="https://joryhe.github.io/categories/essay/%E9%9F%B3%E4%B9%90/"/>
+      <category term="音乐" scheme="http://blog.joryhe.com/categories/essay/%E9%9F%B3%E4%B9%90/"/>
     
-      <category term="音乐播放器" scheme="https://joryhe.github.io/categories/essay/%E9%9F%B3%E4%B9%90/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+      <category term="音乐播放器" scheme="http://blog.joryhe.com/categories/essay/%E9%9F%B3%E4%B9%90/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
     
-      <category term="音乐" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E4%B9%90/"/>
+      <category term="音乐" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E4%B9%90/"/>
     
-      <category term="音乐播放器" scheme="https://joryhe.github.io/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+      <category term="音乐播放器" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>HEXO 进阶-SWIG高级语法</title>
-    <link href="https://joryhe.github.io/2016/05/21/hexo-swig-advance-grammar.html"/>
-    <id>https://joryhe.github.io/2016/05/21/hexo-swig-advance-grammar.html</id>
+    <link href="http://blog.joryhe.com/2016/05/21/hexo-swig-advance-grammar.html"/>
+    <id>http://blog.joryhe.com/2016/05/21/hexo-swig-advance-grammar.html</id>
     <published>2016-05-21T03:57:11.000Z</published>
     <updated>2016-06-01T01:43:32.850Z</updated>
     
@@ -891,18 +891,18 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     </summary>
     
-      <category term="ittech" scheme="https://joryhe.github.io/categories/ittech/"/>
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
     
-      <category term="网站技术" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="hexo" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
-      <category term="HEXO进阶" scheme="https://joryhe.github.io/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
+      <category term="HEXO进阶" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
     
     
-      <category term="hexo" scheme="https://joryhe.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
     
-      <category term="SWIG" scheme="https://joryhe.github.io/tags/SWIG/"/>
+      <category term="SWIG" scheme="http://blog.joryhe.com/tags/SWIG/"/>
     
   </entry>
   
