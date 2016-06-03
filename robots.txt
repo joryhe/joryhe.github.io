@@ -10,5 +10,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://joryhe.github.io/sitemap.xml
-Sitemap: http://joryhe.coding.me/baidusitemap.xml
+Sitemap: https://blog.joryhe.com/sitemap.xml
+Sitemap: http://www.joryhe.com/baidusitemap.xml
