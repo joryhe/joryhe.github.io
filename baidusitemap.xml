@@ -4,6 +4,33 @@
 
     
   <url>
+    <loc>http://www.joryhe.com/2016/06/04/simple_to_create_something_to_all_article_of_buttom.html</loc>
+    <lastmod>2016-06-04T09:27:11.245Z</lastmod>
+    <data>
+        <display>
+        <title>为所有文章底部统一放点什么,就这么简答(易)</title>
+        <pubTime>2016-06-04T09:09:44.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="网站技术" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="hexo" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+          
+             
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.joryhe.com/2016/06/01/update_info_baidupush_python.html</loc>
     <lastmod>2016-06-04T09:00:45.924Z</lastmod>
     <data>
@@ -69,9 +96,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>lazyload</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>lazyload</tag>
          
          
            

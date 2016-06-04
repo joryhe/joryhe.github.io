@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-06-04T08:01:54.606Z</updated>
+  <updated>2016-06-04T09:27:11.245Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为所有文章底部统一放点什么,就这么简答(易)</title>
+    <link href="http://blog.joryhe.com/2016/06/04/simple_to_create_something_to_all_article_of_buttom.html"/>
+    <id>http://blog.joryhe.com/2016/06/04/simple_to_create_something_to_all_article_of_buttom.html</id>
+    <published>2016-06-04T09:09:44.000Z</published>
+    <updated>2016-06-04T09:27:11.245Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;有没有想为你的所有文章底部或者某些地方统一放点什么,我想大家肯定都有很多东西是所有文章所公用的，如签名，如某些统一的推荐。或许你在了解本篇文章前，你在做一些固定的每个文章都要显示的内容都在编写每个文章时候手动加入，但是这样很没有效率，如果你这些内容要更新或者修改，相信你可能不会疯掉，但是至少&lt;strong&gt;很郁闷！&lt;/strong&gt;，不要为这些小事郁闷，来Jory为你分享一个统一部署的方法。&lt;br&gt;以下是Hexo系列文章，推荐大家浏览。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;正文&quot;&gt;&lt;a href=&quot;#正文&quot; class=&quot;headerlink&quot; title=&quot;正文&quot;&gt;&lt;/a&gt;正文&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;实现&lt;/strong&gt;：实现方法简单，你只需要找到对应的文章模板文件，并找到对应的内容位置加上你的公共内容代码就行，本章以&lt;strong&gt;为每个文章底部放点什么！为例子&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;修改文章模板文件&quot;&gt;&lt;a href=&quot;#修改文章模板文件&quot; class=&quot;headerlink&quot; title=&quot;修改文章模板文件&quot;&gt;&lt;/a&gt;修改文章模板文件&lt;/h2&gt;&lt;p&gt;哪个是文章主要内容的模板文件，文件在哪里？，不用找啦，在这里&lt;code&gt;themes\next\layout\_macro\post.swig&lt;/code&gt;&lt;br&gt;&lt;strong&gt;文章底部的代码位置如下&lt;/strong&gt;：&lt;br&gt;&lt;figure class=&quot;highlight django&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;          &lt;/span&gt;&lt;span class=&quot;template-variable&quot;&gt;&amp;#123;&amp;#123; content.substring(0, theme.auto_excerpt.length) &amp;#125;&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;name&quot;&gt;if&lt;/span&gt;&lt;/span&gt; content.length &amp;gt; theme.auto_excerpt.length %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;name&quot;&gt;endif&lt;/span&gt;&lt;/span&gt; %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;post-more-link text-center&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;template-variable&quot;&gt;&amp;#123;&amp;#123; url_for(post.path) &amp;#125;&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&lt;span class=&quot;string&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;name&quot;&gt;if&lt;/span&gt;&lt;/span&gt; theme.scroll_to_more %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&lt;span class=&quot;string&quot;&gt;#more&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;name&quot;&gt;endif&lt;/span&gt;&lt;/span&gt; %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;rel&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;contents&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;/span&gt;&lt;span class=&quot;template-variable&quot;&gt;&amp;#123;&amp;#123; __(&#39;post.read_more&#39;) &amp;#125;&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt; &amp;amp;raquo;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;name&quot;&gt;else&lt;/span&gt;&lt;/span&gt; %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;name&quot;&gt;if&lt;/span&gt;&lt;/span&gt; post.type === &#39;picture&#39; %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;template-variable&quot;&gt;&amp;#123;&amp;#123; url_for(post.path) &amp;#125;&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;template-variable&quot;&gt;&amp;#123;&amp;#123; post.content &amp;#125;&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;name&quot;&gt;else&lt;/span&gt;&lt;/span&gt; %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;template-variable&quot;&gt;&amp;#123;&amp;#123; post.content &amp;#125;&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;name&quot;&gt;endif&lt;/span&gt;&lt;/span&gt; %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;name&quot;&gt;endif&lt;/span&gt;&lt;/span&gt; %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;name&quot;&gt;else&lt;/span&gt;&lt;/span&gt; %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;template-variable&quot;&gt;&amp;#123;&amp;#123; post.content &amp;#125;&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;&lt;span class=&quot;name&quot;&gt;endif&lt;/span&gt;&lt;/span&gt;  %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# Hello,大家好，这里是Next主题下的文章内容底部位置&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# 既然来啦，写点什么这里吧，写上去，所有文章底部都看到哦&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;OK ,找到如果你找到上面的位置，你就可以统一的为所有文章内容的底部放上你的内容，如果你还有想放到文章其他位置的，自己去”举一反三”吧。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;有没有想为你的所有文章底部或者某些地方统一放点什么,我想大家肯定都有很多东西是所有文章所公用的，如签名，如某些统一的推荐。或许你在了解本篇文章前，你在做一些固定的每个文章都要显示的内容都在编写每个文章时候手动加入，但是这样很没有效率，如果你这些内容要更新或者修改，相信你可能不会疯掉，但是至少&lt;strong&gt;很郁闷！&lt;/strong&gt;，不要为这些小事郁闷，来Jory为你分享一个统一部署的方法。&lt;br&gt;以下是Hexo系列文章，推荐大家浏览。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+    
+      <category term="HEXO进阶" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
+    
+    
+      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Dnspod+Namesilo域名结合实现域名选路解析(精)</title>
@@ -858,40 +894,6 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
       <category term="lazyload" scheme="http://blog.joryhe.com/tags/lazyload/"/>
     
       <category term="CDN加速" scheme="http://blog.joryhe.com/tags/CDN%E5%8A%A0%E9%80%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>好用的安卓音乐播放器介绍</title>
-    <link href="http://blog.joryhe.com/2016/05/21/music_player_recommend_anzhuo.html"/>
-    <id>http://blog.joryhe.com/2016/05/21/music_player_recommend_anzhuo.html</id>
-    <published>2016-05-21T13:42:29.000Z</published>
-    <updated>2016-06-04T08:41:48.049Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本人是音乐爱好者，分享几款音质很好的播放器&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;Powercamp播放器&quot;&gt;&lt;a href=&quot;#Powercamp播放器&quot; class=&quot;headerlink&quot; title=&quot;Powercamp播放器&quot;&gt;&lt;/a&gt;Powercamp播放器&lt;/h2&gt;&lt;p&gt;Poweramp，英文全称【PowerAMP Music Player】，是安卓（andriod）系统设备中音质最优秀的音频播放器之一&lt;br&gt;，堪称是安卓系统中用户体验最佳的音乐播放器，支持MP3，WAV，APE等等各种格式的音乐播放，支持CUE列表播放，&lt;br&gt;其独特拥有杜比（Dobly）/SRS音效，高低音旋钮和均衡器多样式效果调节，音效出众。POWERAMP 声音感觉非常有个性&lt;br&gt;（让人一听就知道是POWERAMP标志性的电子味）这是款名气大于实力的一款播放器，在安卓播放器比较匮乏的年代较早的上市积累了人气，&lt;br&gt;华丽的界面在中国积累了很大的人气。&lt;/p&gt;
-&lt;h2 id=&quot;中子播放器&quot;&gt;&lt;a href=&quot;#中子播放器&quot; class=&quot;headerlink&quot; title=&quot;中子播放器&quot;&gt;&lt;/a&gt;中子播放器&lt;/h2&gt;&lt;p&gt;中子播放器Neutron Music Player是一款专业播放器，具有专业高清32位音频渲染的核心，有助于从你的Android设备提供最佳音质外接扬声器或耳机&lt;br&gt;中子播放器 声音感觉是带有中子播放器独有的味道这就是 中    平和平淡和产品意义相称（因为中子播放器加了几个比较少见的音调功能）&lt;br&gt;这是一款实力大于名气的产品，不得不说是一批黑马，令人印象深刻的是它对乐器声音的 表现3个播放器表现最好的，加上不错的界面，&lt;br&gt;不太复杂的设置（许多复杂细节性的音调都已经调好的，只是罗列了几种不同口味让用户选择相比ROCKBOX要不太复杂的设置（许多复杂细节性的音调都已经调好的，&lt;br&gt;只是罗列了几种不同口味让用户选择相比ROCKBOX要 简单很多），可以作为主推音乐播放器之一 &lt;/p&gt;
-&lt;h2 id=&quot;Rockbox播播放器&quot;&gt;&lt;a href=&quot;#Rockbox播播放器&quot; class=&quot;headerlink&quot; title=&quot;Rockbox播播放器&quot;&gt;&lt;/a&gt;Rockbox播播放器&lt;/h2&gt;&lt;p&gt; ROCKBOX  声音感觉没有自己的个性味道（因为ROCKBOX最初就不是一个播放器，也不是针对普通用户的）最反人类体验的播放器（各种BUG也很 多）但也是上升空间最大的播放器，&lt;br&gt; 前提是你要懂，你要知道如何自己设置，自己心目中的那种感觉，最好不要去复制别人的EQ因为每个EQ都是和 ROCKBOX庞大复杂的声音设置想配套的，&lt;br&gt; 而且不同的硬件 耳机 最重要的是个人感觉都是不一样的。&lt;br&gt;三个播放器而言，我更加喜欢rockbox,rockbox播放器可以跳出个人合适音质，合适自己的才是最好，其他两个播放器也很是不错，其内置的音质效果非常棒，&lt;br&gt;如果你是发烧级的音乐爱好者，rockbox很适合您（现在去了解Rockbox？）,强大的EQ(什么是EQ?)设置让你随心所欲的设置您的音质，如果您是音乐爱好者，&lt;br&gt;Powercam,中子播放器也是强烈推荐。 &lt;/p&gt;
-&lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;+根据播放器的上手难易度来说（从难道易）  rockbox &amp;gt; powercamp&amp;gt;种子播放器&lt;br&gt;+根据播放器的音质来说：rockbox &amp;gt;powercamp &amp;gt;中子播放器&lt;br&gt;+根据界面友好来说：powercamp&amp;gt; 中子播放器&amp;gt;rockBox &lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本人是音乐爱好者，分享几款音质很好的播放器&lt;br&gt;
-    
-    </summary>
-    
-      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
-    
-      <category term="音乐" scheme="http://blog.joryhe.com/categories/essay/%E9%9F%B3%E4%B9%90/"/>
-    
-      <category term="音乐播放器" scheme="http://blog.joryhe.com/categories/essay/%E9%9F%B3%E4%B9%90/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
-    
-    
-      <category term="音乐" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-      <category term="音乐播放器" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
   </entry>
   
