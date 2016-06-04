@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-06-04T09:33:51.411Z</updated>
+  <updated>2016-06-04T10:00:21.075Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>魅族手机 锁屏密码忘记后的解决办法</title>
+    <link href="http://blog.joryhe.com/2016/06/04/how_to_deal_with_lock_of_meizu_phone.html"/>
+    <id>http://blog.joryhe.com/2016/06/04/how_to_deal_with_lock_of_meizu_phone.html</id>
+    <published>2016-06-04T09:54:39.000Z</published>
+    <updated>2016-06-04T10:00:21.075Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;魅族手机 锁屏密码忘记后的解决办法&lt;br&gt;很多机友都喜欢设置一个锁屏密码，用来保护手机内的私密信息。不过这密码如果被忘记了 ，应该肿么办捏？&lt;br&gt;这不只是一个假设 ，现实中，很多机友都遇到了这个问题，百度一下相关关键字，可以看到一大批焦急的机友发出的求助信息….&lt;br&gt;很多玩机大神可能会第一时间想到双清 ，刷机 这些终极大招。不过很遗憾的是，出于安全考虑，Flyme系统即使是双清或刷机 ，也是需要输入锁屏密码的，也就是说，双清或刷机的方式无效！！！&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;正文&quot;&gt;&lt;a href=&quot;#正文&quot; class=&quot;headerlink&quot; title=&quot;正文&quot;&gt;&lt;/a&gt;正文&lt;/h2&gt;&lt;p&gt;那么，魅族手机忘记了锁屏密码后，究竟应该怎么解锁呢 ？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.使用Flyme帐号解锁&lt;/strong&gt;。&lt;br&gt;有登录过flyme帐号的用户，可以不停的输入错误解锁密码，连续错15次，直到弹出Flyme密码锁定，您输入正确的Flyme密码就能解锁了哦！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.没有Flyme帐号的用户该怎么办呢 &lt;/strong&gt;？&lt;br&gt;联系魅族售后，由魅族售后远程取消屏幕锁。&lt;/p&gt;
+&lt;p&gt;具体操作方法&lt;br&gt;先确保手机处于以下状态：&lt;br&gt;1.您的魅族手机是使用Flyme4.5及以上版本固件；&lt;br&gt;2.忘记屏保锁密码且未登录Flyme账户；&lt;br&gt;3.机器在锁屏下能够保持正常联网。&lt;br&gt;注：如机器状态不满足以上三点的，请联系400-788-3333获取帮助指引。&lt;/p&gt;
+&lt;p&gt;具备了以上3点要求，再来准备以下这些内容。&lt;br&gt;1.屏幕被屏保密码锁定的界面照片；&lt;br&gt;2.填写完整的保修卡或其他有效购买凭证的照片（sn/imei等信息需清晰可见）；&lt;br&gt;然后，给魅族发一封邮件就可以了 ，发送地址：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：&lt;br&gt;1、发送邮件时，邮件主题请注明：SN：&lt;em&gt;**&lt;/em&gt;，申请解除屏幕密码锁；&lt;br&gt;2、请务必确认手机保持开机联网，工作人员将在3个工作日内处理好。&lt;/p&gt;
+&lt;p&gt;原文来自：&lt;a href=&quot;http://bbs.yunos.com/simple/?t263325571.html&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;魅族手机 锁屏密码忘记后的解决办法&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;魅族手机 锁屏密码忘记后的解决办法&lt;br&gt;很多机友都喜欢设置一个锁屏密码，用来保护手机内的私密信息。不过这密码如果被忘记了 ，应该肿么办捏？&lt;br&gt;这不只是一个假设 ，现实中，很多机友都遇到了这个问题，百度一下相关关键字，可以看到一大批焦急的机友发出的求助信息….&lt;br&gt;很多玩机大神可能会第一时间想到双清 ，刷机 这些终极大招。不过很遗憾的是，出于安全考虑，Flyme系统即使是双清或刷机 ，也是需要输入锁屏密码的，也就是说，双清或刷机的方式无效！！！&lt;br&gt;
+    
+    </summary>
+    
+      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
+    
+    
+      <category term="手机" scheme="http://blog.joryhe.com/tags/%E6%89%8B%E6%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>为所有文章底部统一放点什么,就这么简单(易)</title>
@@ -551,7 +585,7 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     <link href="http://blog.joryhe.com/2016/05/26/itboss-monitor-recommand.html"/>
     <id>http://blog.joryhe.com/2016/05/26/itboss-monitor-recommand.html</id>
     <published>2016-05-26T15:06:36.000Z</published>
-    <updated>2016-06-01T01:41:52.050Z</updated>
+    <updated>2016-06-04T09:59:11.148Z</updated>
     
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;您是否再找一款免费的IT运维监控软件，你是否希望找到免费而且又好用的IT运维监控软件&lt;br&gt;来这里有所需，介绍一个意外发现好用的IT运维监控软件，ITBOSS是一款免费IT运维监控平台。&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; alt=&quot;ITBOSS&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/f2651462503811.jpg&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -846,54 +880,6 @@ oid&lt;/code&gt;和&lt;code&gt;iOS&lt;/code&gt;系统和路由器（&lt;code&gt;
     
     
       <category term="lazyload" scheme="http://blog.joryhe.com/tags/lazyload/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CDN图片加速，实现图片慢加载</title>
-    <link href="http://blog.joryhe.com/2016/05/21/jory_cdn_lazyload.html"/>
-    <id>http://blog.joryhe.com/2016/05/21/jory_cdn_lazyload.html</id>
-    <published>2016-05-21T14:50:35.000Z</published>
-    <updated>2016-06-04T08:42:07.309Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文介绍如何利用Lazyload结合CDN实现是图片慢加载，本人为了实现图片的通过CDN服务器进行图片的存放，&lt;br&gt;并且通过LAZYLOAD实现CDN的慢加载，鉴于LAZYLOAD的慢加载设置要求特点，自己编写一个脚本实现批量添加HTML属性&lt;br&gt;通过我的脚本您可以做到自行设置您的CDN地址，CLASS,和临村图片设置。如果您不了解LAZYLOAD，请移步&lt;a href=&quot;http://joryhe.coding.me/2016/05/15/create-lazy-tag-in-html.html&quot; title=&quot;批量修改HTML TAG,实现LAZYLOAD慢加载图片&quot; target=&quot;_blank&quot;&gt;批量修改HTML TAG,实现LAZYLOAD慢加载图片&lt;/a&gt;，本章是针对此章的优化部分。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本脚本是结合jquery Lazyload的实现，你需要将&lt;code&gt;jquery lazyload&lt;/code&gt;预先加载，如和你需要获取&lt;code&gt;jquery lazyload&lt;/code&gt;的代码&lt;br&gt;请点击 &lt;a href=&quot;https://github.com/joryhe/joryhe.github.io/tree/master/vendors/jquery_lazyload&quot; title=&quot;jquery_lazyload&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;jquery_lazyload&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;实现步骤&quot;&gt;&lt;a href=&quot;#实现步骤&quot; class=&quot;headerlink&quot; title=&quot;实现步骤&quot;&gt;&lt;/a&gt;实现步骤&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;简单的实现过程步骤如下：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;1、下载本人编写的脚本文件”&lt;a href=&quot;http://o6sn177if.bkt.clouddn.com/zip/hexo-jorycdnload.zip&quot; title=&quot;jorycdnload&quot; target=&quot;_blank&quot; rel=&quot;external nofollow&quot;&gt;hexo-jorycdnload&lt;/a&gt;“&lt;/li&gt;
-&lt;li&gt;2、解压文件hexo-jorycdnload.zip，并将里面的hexo-jorycdnload文件夹，放到HEXO根目录下的&lt;code&gt;node_modules&lt;/code&gt;下面&lt;/li&gt;
-&lt;li&gt;3、修改HEXO根目录下的package.json，添加本脚本的相关信息&lt;/li&gt;
-&lt;li&gt;4、修改HEXO根目录下的_config.yml文件添加相应的字段属性&lt;/li&gt;
-&lt;li&gt;5、修改主题目录下的&lt;code&gt;layout\_layout.swig&lt;/code&gt;，在最尾添加LAZYLOAD的加载代码，并设置相关属性(在&lt;code&gt;_config.yml&lt;/code&gt;的属性)&lt;h2 id=&quot;实现过程&quot;&gt;&lt;a href=&quot;#实现过程&quot; class=&quot;headerlink&quot; title=&quot;实现过程&quot;&gt;&lt;/a&gt;实现过程&lt;/h2&gt;&lt;h3 id=&quot;下载hexo-jorycdnload-zip&quot;&gt;&lt;a href=&quot;#下载hexo-jorycdnload-zip&quot; class=&quot;headerlink&quot; title=&quot;下载hexo-jorycdnload.zip&quot;&gt;&lt;/a&gt;下载hexo-jorycdnload.zip&lt;/h3&gt;过程略&lt;h3 id=&quot;解压放到node-modules&quot;&gt;&lt;a href=&quot;#解压放到node-modules&quot; class=&quot;headerlink&quot; title=&quot;解压放到node_modules&quot;&gt;&lt;/a&gt;解压放到node_modules&lt;/h3&gt;注意：解压的文件必须以Node_modules下的hexo-jorycdnload根目录&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160522164827.jpg&quot;&gt;
-&lt;h3 id=&quot;配置package-json文件&quot;&gt;&lt;a href=&quot;#配置package-json文件&quot; class=&quot;headerlink&quot; title=&quot;配置package.json文件&quot;&gt;&lt;/a&gt;配置package.json文件&lt;/h3&gt;配置站点主目录下的package.json文件，添加如下属性&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/20160522165333.jpg&quot;&gt;    
-&lt;h3 id=&quot;修改主站点配置文件-config-yml&quot;&gt;&lt;a href=&quot;#修改主站点配置文件-config-yml&quot; class=&quot;headerlink&quot; title=&quot;修改主站点配置文件_config.yml&quot;&gt;&lt;/a&gt;修改主站点配置文件_config.yml&lt;/h3&gt;修改主站点配置文件_config.yuml,添加配置的选项如下&lt;figure class=&quot;highlight dts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;jorycdnload:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;  enable:&lt;/span&gt; true                              &lt;span class=&quot;meta&quot;&gt;#开启CDN慢加载&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;  tagclass:&lt;/span&gt; jory_lazyimg                    &lt;span class=&quot;meta&quot;&gt;#配置图片的CLASS属性，此部分方便您在启用图片LAZYLOAD的时候只针对此CLASS的图片&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;  tmpimglink:&lt;/span&gt; &lt;span class=&quot;meta-keyword&quot;&gt;/images/&lt;/span&gt;loading2.gif          &lt;span class=&quot;meta&quot;&gt;#临时图片就是没加载原始图片前的图片&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;  cdnlink:&lt;/span&gt; http:&lt;span class=&quot;comment&quot;&gt;//o6sn177if.bkt.clouddn.com #CDN服务器地址，本例为七牛的CDN地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; &lt;span class=&quot;meta&quot;&gt;#cdnlink:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;修改layout-layout-swig&quot;&gt;&lt;a href=&quot;#修改layout-layout-swig&quot; class=&quot;headerlink&quot; title=&quot;修改layout\_layout.swig&quot;&gt;&lt;/a&gt;修改&lt;code&gt;layout\_layout.swig&lt;/code&gt;&lt;/h3&gt;&lt;p&gt;这里介绍如何在你的网站开启lazyload的慢加载，操作前还是一句，您需要预先加载Jquery_lazyload.js的脚本。&lt;br&gt;以下是加载代码，放到&lt;code&gt;_layout.swig&lt;/code&gt;的最尾端&lt;br&gt;下面代码，&lt;code&gt;img.jory_lazyimg&lt;/code&gt;就是&lt;code&gt;lazyload&lt;/code&gt;只生效与这些&lt;code&gt;class(jory_lazyimg)&lt;/code&gt;的img标签&lt;br&gt;其次jory_lazyimg就是第四部设置的tagclass.&lt;br&gt;&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;actionscript&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      jQuery(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt; &lt;/span&gt;&amp;#123;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	  	  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          jQuery(&lt;span class=&quot;string&quot;&gt;&quot;img.jory_lazyimg&quot;&lt;/span&gt;).lazyload(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			  delay:&lt;span class=&quot;number&quot;&gt;5000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              effect:&lt;span class=&quot;string&quot;&gt;&quot;fadeIn&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &amp;#125;);	&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h3 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h3&gt;&lt;p&gt;到此您经已经设置好CDN慢加载的所有设置&lt;br&gt;测试方法：&lt;br&gt;你可以是IMG的swig语法或者其他语法，本以SWIG语法为例，图片您只需要填写相对位置即可。我的脚本会自动协助您加上您的CDN地址:&lt;a href=&quot;http://cndurl/images/yourpic&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;http://cndurl/images/yourpic&lt;/a&gt;&lt;br&gt;&lt;figure class=&quot;highlight django&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;span class=&quot;template-tag&quot;&gt;&amp;#123;% &lt;span class=&quot;name&quot;&gt;img&lt;/span&gt; /images/20160522164827.jpg %&amp;#125;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;直接的测试效果图&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/ssssss.gif&quot;&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文介绍如何利用Lazyload结合CDN实现是图片慢加载，本人为了实现图片的通过CDN服务器进行图片的存放，&lt;br&gt;并且通过LAZYLOAD实现CDN的慢加载，鉴于LAZYLOAD的慢加载设置要求特点，自己编写一个脚本实现批量添加HTML属性&lt;br&gt;通过我的脚本您可以做到自行设置您的CDN地址，CLASS,和临村图片设置。如果您不了解LAZYLOAD，请移步&lt;a href=&quot;http://joryhe.coding.me/2016/05/15/create-lazy-tag-in-html.html&quot; title=&quot;批量修改HTML TAG,实现LAZYLOAD慢加载图片&quot; target=&quot;_blank&quot;&gt;批量修改HTML TAG,实现LAZYLOAD慢加载图片&lt;/a&gt;，本章是针对此章的优化部分。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
-    
-    
-      <category term="lazyload" scheme="http://blog.joryhe.com/tags/lazyload/"/>
-    
-      <category term="CDN加速" scheme="http://blog.joryhe.com/tags/CDN%E5%8A%A0%E9%80%9F/"/>
     
   </entry>
   
