@@ -4,6 +4,35 @@
 
     
   <url>
+    <loc>http://www.joryhe.com/2016/06/01/update_info_baidupush_python.html</loc>
+    <lastmod>2016-06-04T08:56:12.038Z</lastmod>
+    <data>
+        <display>
+        <title>推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。</title>
+        <pubTime>2016-06-01T14:12:28.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>sitemap</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="网站技术" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="hexo" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+          
+             
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.joryhe.com/2016/05/31/baidu_google_both_tijiao.html</loc>
     <lastmod>2016-06-04T08:44:05.370Z</lastmod>
     <data>
@@ -475,35 +504,6 @@
              
               <breadCrumb title="翻墙" url="http://www.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.joryhe.com/2016/06/01/update_info_baidupush_python.html</loc>
-    <lastmod>2016-06-04T08:40:40.192Z</lastmod>
-    <data>
-        <display>
-        <title>推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。</title>
-        <pubTime>2016-06-01T14:12:28.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>sitemap</tag>
-         
-         
-           
-             
-              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
-          
-             
-              <breadCrumb title="网站技术" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-          
-             
-              <breadCrumb title="hexo" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-          
-             
         </display>
     </data>
     </url>
