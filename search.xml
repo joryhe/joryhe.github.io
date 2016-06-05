@@ -72,7 +72,7 @@
 <h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>以上的代码修改，如果会看代码的人应该很容易看懂，其实就是为了避免localSearch和swiftype 加载的冲突，因为Hexo模板默认是只显示某个搜索引擎。通过以上的修改，你会发现国外网站，点击”搜索”显示的是localSearch，在国外访问的网站是swiftype。这样避免的加载搜索而导致慢的问题</p>
 <h3 id="其他插件引用"><a href="#其他插件引用" class="headerlink" title="其他插件引用"></a>其他插件引用</h3><p>其他一些引用外部链接的插件都会影响到网站的速度，如<code>多说</code>，<code>discus</code>插件，如果你能了解上面操作的原理，你也可以应用于<code>多说</code>与<code>discus</code>，将你的网站优化的更好</p>
 <h3 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h3><blockquote>
-<p>引言：<br>如果你没有注册个人的域名，优化的操作截至到上面部分，如果你有个人域名，你可以继续上面操作往下操作域名部分，域名的优化其实就是利用<strong>个人域名</strong>和<strong>DNSPOD</strong>来实现国外和国内网站的分流，就是通过DNSPOD实现国内访问国内的域名，国外访问国外的域名，至于如何实现，请转致<a href="2016-06-03-dnspod_NameSilolo_double_line_analysis.html"></a>,里面详解的介绍实现过程</p>
+<p>引言：<br>如果你没有注册个人的域名，优化的操作截至到上面部分，如果你有个人域名，你可以继续上面操作往下操作域名部分，域名的优化其实就是利用<strong>个人域名</strong>和<strong>DNSPOD</strong>来实现国外和国内网站的分流，就是通过DNSPOD实现国内访问国内的域名，国外访问国外的域名，至于如何实现，请转致<a href="2016-06-03-dnspod_NameSilolo_double_line_analysis.html">Dnspod+Namesilo域名结合实现域名选路解析(精)</a>,里面详解的介绍实现过程</p>
 </blockquote>
 ]]></content>
     </entry>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-06-05T13:03:07.207Z</updated>
+  <updated>2016-06-05T13:13:10.762Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://blog.joryhe.com/2016-06-05-hexo_site_seo_speed_more_optimization.html"/>
     <id>http://blog.joryhe.com/2016-06-05-hexo_site_seo_speed_more_optimization.html</id>
     <published>2016-06-05T09:55:57.000Z</published>
-    <updated>2016-06-05T13:03:07.207Z</updated>
+    <updated>2016-06-05T13:13:10.762Z</updated>
     
     <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;很多人辛辛苦苦的搭建了Hexo博客，并且漫无目的加载很多插件功能，在访问页面时候总是感觉慢，特别是在于一些将博客统一部署在Coding或者GitHub的用户。相信很多用户解决慢的问题第一反应是&lt;strong&gt;“CDN优化静态文件”&lt;/strong&gt;、&lt;strong&gt;“压缩静态文件”&lt;/strong&gt;、等，没错这些方法如果合理使用确实起到优化速度的作用。但是不能盲目使用，以下是我的优化经验，考虑的比较细节。大家可以借鉴参考。&lt;/p&gt;
@@ -88,7 +88,7 @@
 &lt;h4 id=&quot;小结&quot;&gt;&lt;a href=&quot;#小结&quot; class=&quot;headerlink&quot; title=&quot;小结&quot;&gt;&lt;/a&gt;小结&lt;/h4&gt;&lt;p&gt;以上的代码修改，如果会看代码的人应该很容易看懂，其实就是为了避免localSearch和swiftype 加载的冲突，因为Hexo模板默认是只显示某个搜索引擎。通过以上的修改，你会发现国外网站，点击”搜索”显示的是localSearch，在国外访问的网站是swiftype。这样避免的加载搜索而导致慢的问题&lt;/p&gt;
 &lt;h3 id=&quot;其他插件引用&quot;&gt;&lt;a href=&quot;#其他插件引用&quot; class=&quot;headerlink&quot; title=&quot;其他插件引用&quot;&gt;&lt;/a&gt;其他插件引用&lt;/h3&gt;&lt;p&gt;其他一些引用外部链接的插件都会影响到网站的速度，如&lt;code&gt;多说&lt;/code&gt;，&lt;code&gt;discus&lt;/code&gt;插件，如果你能了解上面操作的原理，你也可以应用于&lt;code&gt;多说&lt;/code&gt;与&lt;code&gt;discus&lt;/code&gt;，将你的网站优化的更好&lt;/p&gt;
 &lt;h3 id=&quot;域名解析&quot;&gt;&lt;a href=&quot;#域名解析&quot; class=&quot;headerlink&quot; title=&quot;域名解析&quot;&gt;&lt;/a&gt;域名解析&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;引言：&lt;br&gt;如果你没有注册个人的域名，优化的操作截至到上面部分，如果你有个人域名，你可以继续上面操作往下操作域名部分，域名的优化其实就是利用&lt;strong&gt;个人域名&lt;/strong&gt;和&lt;strong&gt;DNSPOD&lt;/strong&gt;来实现国外和国内网站的分流，就是通过DNSPOD实现国内访问国内的域名，国外访问国外的域名，至于如何实现，请转致&lt;a href=&quot;2016-06-03-dnspod_NameSilolo_double_line_analysis.html&quot;&gt;&lt;/a&gt;,里面详解的介绍实现过程&lt;/p&gt;
+&lt;p&gt;引言：&lt;br&gt;如果你没有注册个人的域名，优化的操作截至到上面部分，如果你有个人域名，你可以继续上面操作往下操作域名部分，域名的优化其实就是利用&lt;strong&gt;个人域名&lt;/strong&gt;和&lt;strong&gt;DNSPOD&lt;/strong&gt;来实现国外和国内网站的分流，就是通过DNSPOD实现国内访问国内的域名，国外访问国外的域名，至于如何实现，请转致&lt;a href=&quot;2016-06-03-dnspod_NameSilolo_double_line_analysis.html&quot;&gt;Dnspod+Namesilo域名结合实现域名选路解析(精)&lt;/a&gt;,里面详解的介绍实现过程&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
     
