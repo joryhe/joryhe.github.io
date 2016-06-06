@@ -4,6 +4,33 @@
 
     
   <url>
+    <loc>http://www.joryhe.com/2016-06-06-hexo_wordcount_setting_your_post.html</loc>
+    <lastmod>2016-06-06T13:15:54.497Z</lastmod>
+    <data>
+        <display>
+        <title>hexo-wordcount实现文章标题栏显示更多的文章信息(精)</title>
+        <pubTime>2016-06-06T12:59:41.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="网站技术" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="hexo" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+          
+             
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.joryhe.com/2016-06-05-hexo_site_seo_speed_more_optimization.html</loc>
     <lastmod>2016-06-05T13:13:10.762Z</lastmod>
     <data>
@@ -498,9 +525,9 @@
         <title>好用的安卓音乐播放器介绍</title>
         <pubTime>2016-05-21T13:42:29.000Z</pubTime>
         
-        <tag>音乐播放器</tag>
-         
         <tag>音乐</tag>
+         
+        <tag>音乐播放器</tag>
          
          
            
