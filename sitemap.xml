@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.joryhe.com/2016-05-21-jory_cdn_lazyload.html</loc>
+    
+    <lastmod>2016-06-07T09:28:45.362Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.joryhe.com/2016-06-06-hexo_wordcount_setting_your_post.html</loc>
     
     <lastmod>2016-06-06T13:15:54.497Z</lastmod>
@@ -117,13 +124,6 @@
     <loc>http://blog.joryhe.com/2016-05-29-how_to_create_leancloud_read_Counter.html</loc>
     
     <lastmod>2016-06-04T08:42:25.737Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.joryhe.com/2016-05-21-jory_cdn_lazyload.html</loc>
-    
-    <lastmod>2016-06-04T08:42:07.309Z</lastmod>
     
   </url>
   

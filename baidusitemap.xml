@@ -4,6 +4,35 @@
 
     
   <url>
+    <loc>http://www.joryhe.com/2016-05-21-jory_cdn_lazyload.html</loc>
+    <lastmod>2016-06-07T09:28:45.362Z</lastmod>
+    <data>
+        <display>
+        <title>CDN图片加速，实现图片慢加载</title>
+        <pubTime>2016-05-21T14:50:35.000Z</pubTime>
+        
+        <tag>lazyload</tag>
+         
+        <tag>CDN加速</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="网站技术" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="hexo" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+          
+             
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.joryhe.com/2016-06-06-hexo_wordcount_setting_your_post.html</loc>
     <lastmod>2016-06-06T13:15:54.497Z</lastmod>
     <data>
@@ -445,35 +474,6 @@
         <pubTime>2016-05-29T15:03:50.000Z</pubTime>
         
         <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
-          
-             
-              <breadCrumb title="网站技术" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-          
-             
-              <breadCrumb title="hexo" url="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-          
-             
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.joryhe.com/2016-05-21-jory_cdn_lazyload.html</loc>
-    <lastmod>2016-06-04T08:42:07.309Z</lastmod>
-    <data>
-        <display>
-        <title>CDN图片加速，实现图片慢加载</title>
-        <pubTime>2016-05-21T14:50:35.000Z</pubTime>
-        
-        <tag>lazyload</tag>
-         
-        <tag>CDN加速</tag>
          
          
            
