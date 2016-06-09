@@ -874,4 +874,18 @@ npm uninstall &lt;plugin-name&gt; #卸载
     
   
   
+    
+    <entry>
+      <title><![CDATA[categories]]></title>
+      <url>http://blog.joryhe.com/categories/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>http://blog.joryhe.com/tags/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+  
 </search>
