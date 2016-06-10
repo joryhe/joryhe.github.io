@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-06-08T13:46:40.235Z</updated>
+  <updated>2016-06-10T08:10:24.275Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>简单实用的站内搜索实现，你值得拥有！(精)</title>
+    <link href="http://blog.joryhe.com/2016-06-10-the_local_search_you_should_own_yourself.html"/>
+    <id>http://blog.joryhe.com/2016-06-10-the_local_search_you_should_own_yourself.html</id>
+    <published>2016-06-10T07:03:54.000Z</published>
+    <updated>2016-06-10T08:10:24.275Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;很多的博客都需要搜索框，近段时间发现，用到的Swiftype等都需要收费了，所以说”&lt;strong&gt;世上没有免费的午餐&lt;/strong&gt;“，就此我决定放弃使用第三方的搜索，还是规规矩矩的使用本地搜索的功能，虽然使用了本地搜索，但是不甘于其太过简单，经过个人搜索了一大堆搜索框的优化方法，终于建立起一个实用的搜索框。特此分享出来。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;很多的博客都需要搜索框，近段时间发现，用到的Swiftype等都需要收费了，所以说”&lt;strong&gt;世上没有免费的午餐&lt;/strong&gt;“，就此我决定放弃使用第三方的搜索，还是规规矩矩的使用本地搜索的功能，虽然使用了本地搜索，但是不甘于其太过简单，经过个人搜索了一大堆搜索框的优化方法，终于建立起一个实用的搜索框。特此分享出来。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
+    
+      <category term="HEXO进阶" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
+    
+    
+      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>细说多说在双域名下的问题，多说进阶优化篇！(精)</title>
@@ -546,32 +580,6 @@
     
     
       <category term="音乐播放器" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>V4A系列 V4A设置的基本介绍指引</title>
-    <link href="http://blog.joryhe.com/2016-05-22-v4a-basic-setting-introduce.html"/>
-    <id>http://blog.joryhe.com/2016-05-22-v4a-basic-setting-introduce.html</id>
-    <published>2016-05-22T10:30:34.000Z</published>
-    <updated>2016-06-01T01:36:07.864Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本章为 “ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解&lt;br&gt;ViPER4Android FX”并知道如何安装，如果不了解请点击”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/22/easy-use-viper4android.html&quot;&gt;V4A系列 简单用上ViPER4Android&lt;/a&gt;“&lt;br&gt;以下针对主要的几个设置进行简单介绍：&lt;/p&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本章为 “ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解&lt;br&gt;ViPER4Android FX”并知道如何安装，如果不了解请点击”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/22/easy-use-viper4android.html&quot;&gt;V4A系列 简单用上ViPER4Android&lt;/a&gt;“&lt;br&gt;以下针对主要的几个设置进行简单介绍：&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
-    
-      <category term="音效" scheme="http://blog.joryhe.com/categories/essay/%E9%9F%B3%E6%95%88/"/>
-    
-    
-      <category term="v4a" scheme="http://blog.joryhe.com/tags/v4a/"/>
-    
-      <category term="音效" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E6%95%88/"/>
     
   </entry>
   
