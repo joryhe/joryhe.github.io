@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[细说多说在双域名下的问题，多说进阶优化篇！(精)]]></title>
-      <url>http://www.joryhe.com/2016-06-08-duoshuo_on_two_site_improve_with_question.html</url>
+      <url>http://blog.joryhe.com/2016-06-08-duoshuo_on_two_site_improve_with_question.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>相信很多人已经部署了coding和Github的博客，同时选择好的主题，使用了很多插件，本文就是针对这些插件之一<strong>多说</strong>来细讲一下。<a href="http://duoshuo.com/" rel="external nofollow" target="_blank">多说</a> 是一个热收欢迎的社会评论插件，相信很多的Hexo博客的同门应该都使用上次插件，并且成功运行。但是如果你部署了双域名的(coding+github)的博客，尽管你的多说成功运行，但是当你某一天看到多说后台的评论时，或许你发现多说评论的文章链接并非你想需要。或许还是一个错误的链接地址。本文针对双重域名下coding和gitHub下如何来理解和设置您的多说，让你的多说更加符合你的要求(或者是针对某个域名而生效)。由于本人研究的是NEXT,所以本文以Next主题模板而讲解。</p>
 </blockquote>
@@ -14,7 +14,7 @@
     
     <entry>
       <title><![CDATA[hexo-wordcount实现文章标题栏显示更多的文章信息(精)]]></title>
-      <url>http://www.joryhe.com/2016-06-06-hexo_wordcount_setting_your_post.html</url>
+      <url>http://blog.joryhe.com/2016-06-06-hexo_wordcount_setting_your_post.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>本文介绍Hexo一款插件hexo-wordcount，让你的文章标题位置更加富含信息，本插件可以为文章标题位置添加，文章字数，文章预计阅读时间。</p>
 </blockquote>
@@ -23,7 +23,7 @@
     
     <entry>
       <title><![CDATA[Hexo博客优化，如何加快你的博客访问速度(精)]]></title>
-      <url>http://www.joryhe.com/2016-06-05-hexo_site_seo_speed_more_optimization.html</url>
+      <url>http://blog.joryhe.com/2016-06-05-hexo_site_seo_speed_more_optimization.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>很多人辛辛苦苦的搭建了Hexo博客，并且漫无目的加载很多插件功能，在访问页面时候总是感觉慢，特别是在于一些将博客统一部署在Coding或者GitHub的用户。相信很多用户解决慢的问题第一反应是<strong>“CDN优化静态文件”</strong>、<strong>“压缩静态文件”</strong>、等，没错这些方法如果合理使用确实起到优化速度的作用。但是不能盲目使用，以下是我的优化经验，考虑的比较细节。大家可以借鉴参考。</p>
 </blockquote>
@@ -32,7 +32,7 @@
     
     <entry>
       <title><![CDATA[魅族手机 锁屏密码忘记后的解决办法]]></title>
-      <url>http://www.joryhe.com/2016-06-04-how_to_deal_with_lock_of_meizu_phone.html</url>
+      <url>http://blog.joryhe.com/2016-06-04-how_to_deal_with_lock_of_meizu_phone.html</url>
       <content type="html"><![CDATA[<blockquote>
 <p>魅族手机 锁屏密码忘记后的解决办法<br>很多机友都喜欢设置一个锁屏密码，用来保护手机内的私密信息。不过这密码如果被忘记了 ，应该肿么办捏？<br>这不只是一个假设 ，现实中，很多机友都遇到了这个问题，百度一下相关关键字，可以看到一大批焦急的机友发出的求助信息….<br>很多玩机大神可能会第一时间想到双清 ，刷机 这些终极大招。不过很遗憾的是，出于安全考虑，Flyme系统即使是双清或刷机 ，也是需要输入锁屏密码的，也就是说，双清或刷机的方式无效！！！</p>
 </blockquote>]]></content>
@@ -40,61 +40,61 @@
     
     <entry>
       <title><![CDATA[为所有文章底部统一放点什么,就这么简单(易)]]></title>
-      <url>http://www.joryhe.com/2016-06-04-simple_to_create_something_to_all_article_of_buttom.html</url>
+      <url>http://blog.joryhe.com/2016-06-04-simple_to_create_something_to_all_article_of_buttom.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>有没有想为你的所有文章底部或者某些地方统一放点什么,我想大家肯定都有很多东西是所有文章所公用的，如签名，如某些统一的推荐。或许你在了解本篇文章前，你在做一些固定的每个文章都要显示的内容都在编写每个文章时候手动加入，但是这样很没有效率，如果你这些内容要更新或者修改，相信你可能不会疯掉，但是至少<strong>很郁闷！</strong>，不要为这些小事郁闷，来Jory为你分享一个统一部署的方法。<br>以下是Hexo系列文章，推荐大家浏览。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Dnspod+Namesilo域名结合实现域名选路解析(精)]]></title>
-      <url>http://www.joryhe.com/2016-06-03-dnspod_NameSilolo_double_line_analysis.html</url>
+      <url>http://blog.joryhe.com/2016-06-03-dnspod_NameSilolo_double_line_analysis.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>通常情况下,如果您已经搭建好Hexo博客,并开始发布你的文章时,你可能会更多的考虑国内外搜索引擎的收录和用户访问的速度与体验,近期我也遇到此相关考虑问题,并花费了一定的时间去对此部分进行优化,发现了Dnspod的选路DNS解析结合口碑逐渐变好的域名namesilo实现国内外的Hexo博客的访问选路分流,此文章也是对到目前为止DNSPOD的选路分析是否仍然可用的最佳呈现。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。]]></title>
-      <url>http://www.joryhe.com/2016-06-01-update_info_baidupush_python.html</url>
+      <url>http://blog.joryhe.com/2016-06-01-update_info_baidupush_python.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>如果您了解百度提交的几种模式，相信大家都知道在提交的效率上：<strong>主动推送&gt;自动推送&gt;sitemap</strong>,本文针对主动推送进行讲解，非常感谢lovenight 提供的百度主动推送脚本<a href="https://github.com/loveNight/PythonScripts/blob/master/src/hexo%E5%90%91%E7%99%BE%E5%BA%A6%E6%8F%90%E4%BA%A4%E7%BD%91%E5%9D%80.py" rel="external nofollow" target="_blank">hexo向百度提交网址.py</a> ,但部分网上说法由于百度不会收录github网站域名的提交导致说此脚本失效。如果热衷于HEXO，你会发现相对于Github国内还有一个coding代码托管，所以我们可以将我们的网站都一同托管到Github和coding，通过某些方法实现让lovenight的百度推送脚本<strong>只</strong>推送coding域名的网址到百度(此为本文目的)。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)]]></title>
-      <url>http://www.joryhe.com/2016-05-31-baidu_google_both_tijiao.html</url>
+      <url>http://blog.joryhe.com/2016-05-31-baidu_google_both_tijiao.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[活用Lazyload.js，为你的CDN图片加上nofollow(绝招来啦！)]]></title>
-      <url>http://www.joryhe.com/2016-05-31-use_lazyload_add_nofollow.html</url>
+      <url>http://blog.joryhe.com/2016-05-31-use_lazyload_add_nofollow.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>不知道大家有没有了解lazyload的实现原理。如果没有请浏览以下给出的系列，本章将会介绍一个lazyload.js的脚本的一个活用方法，通过本章，相信你会了解到简单lazyload原理和通过lazyload修改<br>图片或者A标签的属性的绝招。通过绝招我们实现的为A或者图片IMG标签打上我们想要的属性。本章目的是为Fancybox的a标签打上nofollow属性，减少权重的丢失。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[shadowsocks系列之四 Bash实现限制端口IP连接数]]></title>
-      <url>http://www.joryhe.com/2016-05-31-shadowsocks_bash_limmit_ip.html</url>
+      <url>http://blog.joryhe.com/2016-05-31-shadowsocks_bash_limmit_ip.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本部分开始介绍如何简单保护一下Shadowsocks链接安全，如果你之前并没了解Shadowsocks，或者您还没成功<br>搭建您的Shadowsocks服务器，点击一下：获取相关资料<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/%E7%BF%BB%E5%A2%99/">Shadowsocks系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[shadowsocks系列之三 Shadowsock优化与加速]]></title>
-      <url>http://www.joryhe.com/2016-05-31-shadowsocks_serices_speeder_optmime.html</url>
+      <url>http://blog.joryhe.com/2016-05-31-shadowsocks_serices_speeder_optmime.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本部分开始介绍如何优化和加速Shadowsocks，如果你之前并没了解Shadowsocks，或者您还没成功<br>搭建您的Shadowsocks服务器，点击一下：获取相关资料<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/%E7%BF%BB%E5%A2%99/">Shadowsocks系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[多说优化，高级CSS设置]]></title>
-      <url>http://www.joryhe.com/2016-05-30-duoshuo_advance_setting_css.html</url>
+      <url>http://blog.joryhe.com/2016-05-30-duoshuo_advance_setting_css.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文是针对duoshuo的优化部分，实现优化多说显示和现实用户端的浏览器类型，相关的配置代码<br>通过搜罗网络上所给予的代码所得出。您仅仅需要简单的操作便高校的改变你的duoshuo评论框的样式。<br>样式简洁好看。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[shadowsocks系列之二 Shadowsocks安装与基本配置]]></title>
-      <url>http://www.joryhe.com/2016-05-30-shadowsocks_serices_setup_jieshao.html</url>
+      <url>http://blog.joryhe.com/2016-05-30-shadowsocks_serices_setup_jieshao.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本部分开始介绍如何安装shadowsocks，如果您不了解shadowsocks是什么，请点击此链接以<br>获取相关资料<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/%E7%BF%BB%E5%A2%99/">Shadowsocks系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[shadowsocks系列之一 Shadowsock介绍]]></title>
-      <url>http://www.joryhe.com/2016-05-30-shadowsocks_serices_one_inroduce.html</url>
+      <url>http://blog.joryhe.com/2016-05-30-shadowsocks_serices_one_inroduce.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p><code>Shadowsocks</code>（中文名称：影梭）是使用Python等语言开发的、基于Apache许可证开源的代理<br>软件。<code>Shadowsocks</code>使用<code>socks5</code>代理，用于保护网络流量。在中国大陆被广泛用于突破防火长城（GFW）<br>，以浏览被封锁的内容。Shadowsocks分为服务器端和客户端。在使用之前，需要先将服务器端部署<br>在支持Python的服务器上面，然后通过客户端连接并创建本地代理。<br>目前开发者已宣布停止维护。但仍有更新陆续推送.<br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/8d1d1462160415.png"></p>
 <p><strong>原作者：</strong>Clowwindy<br><strong>开发者：</strong>Shadowsocks贡献者<br><strong>操作系统：</strong>跨平台（基于客户端与远程）服务器<br><strong>类型：</strong>本地socks5代理</p>
 <p>访问以下链接获取更多内容<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/%E7%BF%BB%E5%A2%99/">Shadowsocks系列</a><br>]]></content>
@@ -102,98 +102,98 @@
     
     <entry>
       <title><![CDATA[leanCloud,实现文章阅读量统计]]></title>
-      <url>http://www.joryhe.com/2016-05-29-how_to_create_leancloud_read_Counter.html</url>
+      <url>http://blog.joryhe.com/2016-05-29-how_to_create_leancloud_read_Counter.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本章介绍如何实现通过leanCloud统计您网站的文章阅读量，并介绍一些基本实现方法。<br>值得庆喜的是Next主题默认就支持leanCloud的相关设置，您只需要进行几部操作就可以实现<br>你的网站文章阅读量的统计。如果您需要了解更多关于HEXO资料，请点击以下链接。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[强大的免费监控平台 WeADMIN ITBOSS]]></title>
-      <url>http://www.joryhe.com/2016-05-26-itboss-monitor-recommand.html</url>
+      <url>http://blog.joryhe.com/2016-05-26-itboss-monitor-recommand.html</url>
       <content type="html"><![CDATA[<blockquote>
 <p>您是否再找一款免费的IT运维监控软件，你是否希望找到免费而且又好用的IT运维监控软件<br>来这里有所需，介绍一个意外发现好用的IT运维监控软件，ITBOSS是一款免费IT运维监控平台。<br><img src="/images/loading2.gif" alt="ITBOSS" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/f2651462503811.jpg"><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[区分国内与国外GIT，分别显示多说与DISQUS]]></title>
-      <url>http://www.joryhe.com/2016-05-23-how_to_both_duoshuo_and_disqus.html</url>
+      <url>http://blog.joryhe.com/2016-05-23-how_to_both_duoshuo_and_disqus.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>相信很多人都已经实现的coding与Github的同时托管NEXT博客。但相信很多人都会碰到coding与github到<br>底是使用duoshuo还是disqus的问题，毕竟多说适合国内，而disqus适合国外。如何选择都不是最好的。那<br>有没办法实现国内coding使用多说。国外github使用disqus，其实是可以得。仅需您做部分代码的修改。本<br>章为此而介绍。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[RockBox播放器的均衡器详解（EQ）]]></title>
-      <url>http://www.joryhe.com/2016-05-22-rockbox-eq-introduce.html</url>
+      <url>http://blog.joryhe.com/2016-05-22-rockbox-eq-introduce.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>通过”<a class="mydomain" onclick="GO_url(this)" href="#" linkme="2016/05/22/rockbox-musci-player.html">rockbox 安卓强大的音乐播放神器</a>“你应该了解rockbox的强大之处，或者你已经成功<br>安装上rockbox，但是想要发挥rockbox的好音质，你还需要了解一下rockbox的均衡器，活<br>用Rockbox的均衡器（EQ），rockbox才会更好的发挥好音质效果。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[rockbox 安卓强大的音乐播放神器]]></title>
-      <url>http://www.joryhe.com/2016-05-22-rockbox-musci-player.html</url>
+      <url>http://blog.joryhe.com/2016-05-22-rockbox-musci-player.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>如果您是音乐的发烧人物，我想rockbox播放器很适合你，只需要您有一定的音乐基础和一点点手机动<br>手能力，如果您成功安装上rockbox和最佳配置，我相信rockbox播放器会每天让你最佳的<br>Enjoy Your Music!<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[V4A系列 V4A设置的基本介绍指引]]></title>
-      <url>http://www.joryhe.com/2016-05-22-v4a-basic-setting-introduce.html</url>
+      <url>http://blog.joryhe.com/2016-05-22-v4a-basic-setting-introduce.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本章为 “ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解<br>ViPER4Android FX”并知道如何安装，如果不了解请点击”<a class="mydomain" onclick="GO_url(this)" href="#" linkme="2016/05/22/easy-use-viper4android.html">V4A系列 简单用上ViPER4Android</a>“<br>以下针对主要的几个设置进行简单介绍：</p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[V4A系列 简单用上ViPER4Android]]></title>
-      <url>http://www.joryhe.com/2016-05-22-easy-use-viper4android.html</url>
+      <url>http://blog.joryhe.com/2016-05-22-easy-use-viper4android.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>如果您有看过V4A”系列 ViPER音效系统-安卓音效神器” ，我想你已经了解到V4A的魅力，<br>现在我们就体验一下安卓手机上的V4A音效系统 ViPER4Android是怎么样的一个界面，我<br>会简单的以我使用的理解来简介一下 重要的几个功能的作用。和安装指引。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[大数据分析，你在那哪个位置？]]></title>
-      <url>http://www.joryhe.com/2016-05-22-big_data_where_are_you.html</url>
+      <url>http://blog.joryhe.com/2016-05-22-big_data_where_are_you.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>随着时代的发展，从以前的MB,GB,到现在的PB,EB甚至更多，让我们知道现时代已经进入的<br>大数据时代，同时也是云计算时代，云计算与大数据的关系就如挖掘和利用宝藏的利剑，大<br>数据则是宝藏，如果您希望更加深入了解大数据与云计算请移步”云计算，大数据 您了解吗？<br>“本章主要是了解大数据分析，您的位置在哪里。本人并不是专业针对大数据分析的，这里只<br>是让大家了解，我们所认为的大数据，现时代热门的实现软件和级别关键。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[NEXT 加载您自定以的静态文件]]></title>
-      <url>http://www.joryhe.com/2016-05-22-create_the_custom_status_file.html</url>
+      <url>http://blog.joryhe.com/2016-05-22-create_the_custom_status_file.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何实现加载自定义的静态文件，如和css,js等。通过本篇，您应该会了解关于HEXO next主题静态文件加载原理。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[CDN图片加速，实现图片慢加载]]></title>
-      <url>http://www.joryhe.com/2016-05-21-jory_cdn_lazyload.html</url>
+      <url>http://blog.joryhe.com/2016-05-21-jory_cdn_lazyload.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何利用Lazyload结合CDN实现是图片慢加载，本人为了实现图片的通过CDN服务器进行图片的存放，<br>并且通过LAZYLOAD实现CDN的慢加载，鉴于LAZYLOAD的慢加载设置要求特点，自己编写一个脚本实现批量添加HTML属性<br>通过我的脚本您可以做到自行设置您的CDN地址，CLASS,和临村图片设置。如果您不了解LAZYLOAD，请移步<a href="http://joryhe.coding.me/2016/05/15/create-lazy-tag-in-html.html" title="批量修改HTML TAG,实现LAZYLOAD慢加载图片" target="_blank" rel="external nofollow">批量修改HTML TAG,实现LAZYLOAD慢加载图片</a>，本章是针对此章的优化部分。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[好用的安卓音乐播放器介绍]]></title>
-      <url>http://www.joryhe.com/2016-05-21-music_player_recommend_anzhuo.html</url>
+      <url>http://blog.joryhe.com/2016-05-21-music_player_recommend_anzhuo.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本人是音乐爱好者，分享几款音质很好的播放器<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[HEXO 进阶-SWIG高级语法]]></title>
-      <url>http://www.joryhe.com/2016-05-21-hexo-swig-advance-grammar.html</url>
+      <url>http://blog.joryhe.com/2016-05-21-hexo-swig-advance-grammar.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>网上关于SWIG语法的介绍甚少，本人也在学习SWIG语法以更好的优化自己的博客，本文介绍SWIG的高级语法<br>语法主要模板语法，通过了解本章，你可以了解基本主题模板的SWIG文件的高级语法，让你随心所欲的完善您自己网<br>站。本文的关键字:extends 、Block、include、for、if、set等.<br>相关推荐:<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[V4A系列-VIPER音效系统-安卓音效神器]]></title>
-      <url>http://www.joryhe.com/2016-05-18-muscic-technolocy-v4a-introduce.html</url>
+      <url>http://blog.joryhe.com/2016-05-18-muscic-technolocy-v4a-introduce.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文将介绍一款安卓音效提升的软件，此款软件系统在安卓的音效江湖上一度猖獗，<br>我也是在无疑中了解到此款音效系统，咱一试之下就爱不惜手。此款软件商名字为：ViPER （蝰蛇），<br>是一个音效更改系统，即可以通过软件系统来改变音乐的音效.<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[HEXO建站-基本设置]]></title>
-      <url>http://www.joryhe.com/2016-05-17-hexoxo-series-for-site-build-basic.html</url>
+      <url>http://blog.joryhe.com/2016-05-17-hexoxo-series-for-site-build-basic.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>或许您已经通<a class="mydomain" onclick="GO_url(this)" href="#" linkme="2016/05/12/git_and_hexo_create_blog.html">Git + Hexo 搭建个人博客网站</a>了解到<br>如何通过HEXO + GIT 实现个人博客网站的建立。但是尽管您已经成功建立博客网站，但是你需要对网站做合适的配置和调<br>整才能迎合你的网站要求。本文主要介绍HEXO的基本操作命令和网站的基本配置方法。<br>系列推荐:<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[HEXO技巧分享-文章列表实现]]></title>
-      <url>http://www.joryhe.com/2016-05-17-hexo-series-for-tips-01.html</url>
+      <url>http://blog.joryhe.com/2016-05-17-hexo-series-for-tips-01.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示<br>相关文章列表，如图<br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg"><br>系列推荐:<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[为Xenserver服务器添加本地磁盘]]></title>
-      <url>http://www.joryhe.com/2016-05-15-xenserver-add-local-disk.html</url>
+      <url>http://blog.joryhe.com/2016-05-15-xenserver-add-local-disk.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>Xenserver在何种场景，你需要进行添加本地磁盘</p>
 <ol>
 <li>当你需要在Xenserver添加磁盘作为扩容</li>
@@ -203,19 +203,19 @@
     
     <entry>
       <title><![CDATA[V4A系列 V4A设置的基本介绍指引]]></title>
-      <url>http://www.joryhe.com/2016-05-15-muscic-technolocy-v4a.html</url>
+      <url>http://blog.joryhe.com/2016-05-15-muscic-technolocy-v4a.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>“ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解”ViPER4Android FX”<br>并知道如何安装.如果不了解请点击”<a class="mydomain" onclick="GO_url(this)" href="#" linkme="2016/05/22/easy-use-viper4android.html">V4A系列 简单用上ViPER4Android</a>“<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[批量修改HTML TAG,实现LAZYLOAD慢加载图片]]></title>
-      <url>http://www.joryhe.com/2016-05-15-create-lazy-tag-in-html.html</url>
+      <url>http://blog.joryhe.com/2016-05-15-create-lazy-tag-in-html.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何利用Lazyload是图片慢加载，简单的针对lazyload去做慢加载，网上的文章有很多。<br>而且也有很多说法，主要是围绕是否能真正的实现慢加载，还是加重了服务器负担，本文基础，我已经<br>在搜索大量的上网技术文章和结合自己的此时得出的慢加载方法，是否成功请关注本章最后的GIF图片，<br>图片简单的发出了我关于慢加载的测试截图。不说其他，先回到正题：”如和批量修改HTML TAG实现，慢<br>加载”。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Git + Hexo 搭建个人博客网站]]></title>
-      <url>http://www.joryhe.com/2016-05-12-git_and_hexo_create_blog.html</url>
+      <url>http://blog.joryhe.com/2016-05-12-git_and_hexo_create_blog.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo<br>安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多<br>关于HEXO建站技术 请点击以下推荐的系列:<br>相关推荐:<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
