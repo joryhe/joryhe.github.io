@@ -223,14 +223,14 @@
   
     
     <entry>
-      <title><![CDATA[categories]]></title>
-      <url>http://blog.joryhe.com/categories/index.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>http://blog.joryhe.com/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>http://blog.joryhe.com/tags/index.html</url>
+      <title><![CDATA[categories]]></title>
+      <url>http://blog.joryhe.com/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
