@@ -1,1 +1,1223 @@
-<!doctype html><html class="theme-next pisces use-motion"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><meta http-equiv="content-language" content="zh-cn"><link rel="alternate" hreflang="zh-Hans" href="http://blog.joryhe.com"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"><link href="//fonts.useso.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css"><link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css"><link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css"><meta name="keywords" content="hexo,sitemap,"><link rel="alternate" href="/atom.xml" title="JORY'S BLOG" type="application/atom+xml"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1"><meta name="description" content="摘要如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。HEXO-建站系列HEXO-优化系列HEXO-进阶系列"><meta property="og:type" content="article"><meta property="og:title" content="Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)"><meta property="og:url" content="http://blog.joryhe.com/2016-05-31-baidu_google_both_tijiao.html"><meta property="og:site_name" content="JORY'S BLOG"><meta property="og:description" content="摘要如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。HEXO-建站系列HEXO-优化系列HEXO-进阶系列"><meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif"><meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif"><meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif"><meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif"><meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif"><meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif"><meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif"><meta property="og:updated_time" content="2016-06-04T08:44:05.370Z"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)"><meta name="twitter:description" content="摘要如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。HEXO-建站系列HEXO-优化系列HEXO-进阶系列"><meta name="twitter:image" content="http://blog.joryhe.com/images/loading2.gif"><script type="text/javascript" id="hexo.configuration">var NexT=window.NexT||{},CONFIG={scheme:"Pisces",sidebar:{position:"left",display:"post"},fancybox:!0,motion:!0,duoshuo:{userId:0x5722dbf63c400400,author:"博主"}}</script><title> Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！) | JORY'S BLOG</title></head><body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans"><script>hostan=window.location.href,chinadomaina="blog.joryhe.com",-1!=hostan.indexOf(chinadomaina)&&(!function(e,a,n,o,t,c,i){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,c=a.createElement(n),i=a.getElementsByTagName(n)[0],c.async=1,c.src=o,i.parentNode.insertBefore(c,i)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-78490343-1","auto"),ga("send","pageview"))</script><div class="container one-collumn sidebar-position-left page-post-detail"><div class="headband"></div><header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="header-inner"><div class="site-meta"><div class="custom-logo-site-title"><a href="/" class="brand" rel="start"><span class="logo-line-before"><i></i></span> <span class="site-title">JORY'S BLOG</span><span class="logo-line-after"><i></i></span></a></div><p class="site-subtitle">技术分享</p></div><div class="site-nav-toggle"> <button><span class="btn-bar"></span><span class="btn-bar"></span><span class="btn-bar"></span></button></div><div id="tstart-toolbar-top-jory"><div id="tstart-toolbar-top-jory-right" class="tstart-right"><form class="site-search-form"> <input type="text" id="search-input"><i class="menu-item-icon fa fa-search fa-fw"></i><div id="search-result"><ul class="search-result-list"><li><a href="//www.baidu.com/s?wd=XXX%20site%3Ahttp://blog.joryhe.com" class="search-result">百度搜索 <i class="search-keyword">XXX</i></a></li><li><a href="//www.google.com/search?q=XXX%20site%3Ahttp://blog.joryhe.com" class="search-result">谷歌搜索 <i class="search-keyword">XXX</i></a></li><li><a href="#" class="popup-trigger search-result">本地搜索</a></li></ul></div></form><div class="popup"> <input type="text" id="local-search-input"><div id="local-search-result"></div> <span class="popup-btn-close">close</span></div></div></div><nav class="site-nav"><ul id="menu" class="menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i><br> 首页</a></li><li class="menu-item menu-item-archives"><a href="/archives" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i><br> 归档</a></li><li class="menu-item menu-item-essay"><a href="/categories/essay" rel="section"><i class="menu-item-icon fa fa-fw fa-question-circle"></i><br> 随笔</a></li><li class="menu-item menu-item-ittech"><a href="/categories/ittech" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i><br> 技术</a></li><li class="menu-item menu-item-tags"><a href="/tags" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i><br> 标签</a></li></ul><div class="site-search"><form class="site-search-form"> <input type="text" id="search-input"><div id="search-result"><ul class="search-result-list"><li><a href="//www.baidu.com/s?wd=XXX%20site%3Ahttp://blog.joryhe.com" class="search-result">百度搜索 <i class="search-keyword">XXX</i></a></li><li><a href="//www.google.com/search?q=XXX%20site%3Ahttp://blog.joryhe.com" class="search-result">谷歌搜索 <i class="search-keyword">XXX</i></a></li><li><a href="#" class="popup-trigger search-result">本地搜索</a></li></ul></div></form><div class="popup"> <input type="text" id="local-search-input"><div id="local-search-result"></div> <span class="popup-btn-close">close</span></div></div></nav></div></header><main id="main" class="main"><div class="main-inner"><div class="content-wrap"><div id="content" class="content"><div id="posts" class="posts-expand"><article class="post post-type-normal" itemscope itemtype="http://schema.org/Article"><header class="post-header"><h1 class="post-title" itemprop="name headline"> Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)</h1><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><i class="fa fa-calendar-o"></i></span> <span class="post-meta-item-text">发表于</span> <time itemprop="dateCreated" datetime="2016-05-31T20:31:54+08:00" content="2016-05-31">2016-05-31</time></span> <span class="post-category">&nbsp; | &nbsp;<span class="post-meta-item-icon"><i class="fa fa-folder-o"></i></span> <span class="post-meta-item-text">分类于</span> <span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a href="/categories/ittech/网站技术/hexo/HEXO优化/" itemprop="url" rel="index"><span itemprop="name">HEXO优化</span></a></span></span> <span class="post-comments-count">&nbsp; | &nbsp;<a href="/2016-05-31-baidu_google_both_tijiao.html#comments" itemprop="discussionUrl"><span class="post-comments-count ds-thread-count" data-thread-key="2016-05-31-baidu_google_both_tijiao.html" itemprop="commentsCount" data-url="http://www.joryhe.com/2016-05-31-baidu_google_both_tijiao.html"></span></a></span> <span id="/2016-05-31-baidu_google_both_tijiao.html" class="leancloud_visitors" data-flag-title="Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)">&nbsp; | &nbsp;<span class="post-meta-item-icon"><i class="fa fa-eye"></i></span> <span class="post-meta-item-text">阅读次数</span><span class="leancloud-visitors-count"></span></span> <span class="post-time">&nbsp; | &nbsp;<span class="post-meta-item-icon"><i class="fa fa-calendar-o"></i></span> <span class="post-meta-item-text">字数统计:</span> <span class="post-count">6,110(字)</span></span> <span class="post-time">&nbsp; | &nbsp;<span class="post-meta-item-icon"><i class="fa fa-calendar-o"></i></span> <span class="post-meta-item-text">阅读时长:</span> <span class="post-count">33(分)</span></span></div></header><div class="post-body" itemprop="articleBody"><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p><a id="more"></a><hr><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="检查网站收录"><a href="#检查网站收录" class="headerlink" title="检查网站收录"></a>检查网站收录</h3><p>通常你会想了解你的网站的收录情况如何，使用以下命令确认博客的收录状态：<br></p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">site:你的网站域名(如joryhe<span class="selector-class">.github</span><span class="selector-class">.io</span>)</span><br></pre></td></tr></table></figure><p></p> <img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531205511.png"><p>百度雷同，就不贴出来啦！</p><h3 id="网站验证"><a href="#网站验证" class="headerlink" title="网站验证"></a>网站验证</h3><p>如果您的博客还没有进行相关搜索引擎的验证，参照以下操作可以协助在搜索引擎您验证的你网站，<br>列出Google和百度的网站验证链接：<br><a href="https://www.google.com/webmasters/tools/home?hl=zh-CN" rel="external nofollow" target="_blank">Google上搜索引擎</a><br><a href="http://zhanzhang.baidu.com/site/siteadd" rel="external nofollow" target="_blank">百度搜索引擎</a></p><h4 id="为什么要验证"><a href="#为什么要验证" class="headerlink" title="为什么要验证"></a>为什么要验证</h4><p>验证主要是方便百度了解的网站，其次你需要的百度统计等功能都需要验证后才能使用</p><h4 id="验证手段"><a href="#验证手段" class="headerlink" title="验证手段"></a>验证手段</h4><ul><li>[x] 文件验证(简单方便,推荐使用)</li><li>[] html标签验证</li><li>[] CNAME验证</li></ul><p><strong>文件验证</strong>：您需要下载验证文件，将文件上传至您的服务器，放置于域名根目录下<br><strong>html标签验证</strong>：将html标签添加至网站首页html代码的</p><head>标签与</head>标签之间<br><strong>CNAME验证</strong>：您需要登录域名提供商或托管服务提供商的网站，添加新的DNS记录。<p></p><p>本人推荐的验证手段是<strong>文件验证</strong><br>操作方式如下：<br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531210802.png"><br>验证文件的放置位置(建议在编译完后放到<code>Pubilc</code>根目录在提交，由于编译会更改验证文件的内容)导致验证失败，其次Google的操作方式雷同。当然你也可以放到主站点目录的<code>source</code>下，但是你需要修改验证文件如下(添加<code>layout: False</code>禁止Hexo编译转换)：<br><strong>Google验证文件</strong><br></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">layout:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">google-site-verification:</span> googlee8f47d983650c060.html</span><br></pre></td></tr></table></figure><p></p><p><strong>百度验证文件</strong><br></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">layout:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line">KAy0GB8nPs</span><br></pre></td></tr></table></figure><p></p><p>你还可以通过配置主站点配置文件_config.yml来实现避免特定文件的被编译<br>修改如下：(<strong>多文件方式</strong>)</p><figure class="highlight haml"><figcaption><span>code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">skip_render: </span><br><span class="line">    -<span class="ruby"> baidu_verify_KAy0GB8nPs.html</span><br><span class="line"></span>    -<span class="ruby"> googlee8f47d983650c06<span class="number">0</span>.html</span><br><span class="line"></span>    -<span class="ruby"> baidusitemap_zhanwei.xml</span></span><br></pre></td></tr></table></figure><p>修改如下：(<strong>多目录方式</strong>)</p><blockquote><p>请注意yml中的文件格式，输入单个数据请注意空格，输入数组请进行缩进<br> 单个文件夹下全部文件：skip_render: test/<em><br> 单个文件夹下指定类型文件：skip_render: test/</em>.html<br> 单个文件夹下全部文件以及子目录:skip_render: test/**</p></blockquote><p>多个文件夹以及各种复杂情况<br></p><figure class="highlight haml"><figcaption><span>code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">    -<span class="ruby"> test1/*.html</span><br><span class="line"></span>    -<span class="ruby"> test2/**</span></span><br></pre></td></tr></table></figure><p></p> <img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531211339.png"> <img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531211451.png"><h3 id="推送方式"><a href="#推送方式" class="headerlink" title="推送方式"></a>推送方式</h3><blockquote><p>如何选择链接提交方式<br>1、主动推送：最为快速的提交方式，推荐您将站点当天新产出链接立即通过此方式推送给百度，以保证新链接可以及时被百度收录。<br>2、自动推送：最为便捷的提交方式，请将自动推送的JS代码部署在站点的每一个页面源代码中，部署代码的页面在每次被浏览时，链接会被自动推送给百度。可以与主动推送配合使用。<br>3、sitemap：您可以定期将网站链接放到sitemap中，然后将sitemap提交给百度。百度会周期性的抓取检查您提交的sitemap，对其中的链接进行处理，但收录速度慢于主动推送。<br>4、手动提交：一次性提交链接给百度，可以使用此种方式</p></blockquote><p>效率：<code>主动推送&gt;自动推送&gt;sitemap</code></p><h3 id="站点地图推送"><a href="#站点地图推送" class="headerlink" title="站点地图推送"></a>站点地图推送</h3><blockquote><p>站点地图的作用是有利于搜索引擎的捉取你的文章信息。站点地图是保存你网站文章链接的文件，通常搜索引擎会读取此文件进行文章信息的捉取，建立一个完整的站点地图有利于搜索引擎的捉取。需要实现百度和Google的地图的生成，你需要安装对应的HEXO插件。</p></blockquote><h4 id="插件安装"><a href="#插件安装" class="headerlink" title="插件安装"></a>插件安装</h4><p>分别使用以下命令来安装针对百度和Google的地图插件<br></p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-generator-sitemap <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-baidu-sitemap <span class="comment">--save</span></span><br></pre></td></tr></table></figure><p></p><h4 id="配置站点配置文件"><a href="#配置站点配置文件" class="headerlink" title="配置站点配置文件"></a>配置站点配置文件</h4><p><strong>配置站点配置文件_config.yml，启用相应插件</strong><br></p><figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Plugins:</span><br><span class="line">-<span class="ruby"> hexo-generator-sitemap</span><br><span class="line"></span>-<span class="ruby"> hexo-generator-baidu-sitemap</span></span><br></pre></td></tr></table></figure><p></p><p><strong>配置站点地图文件</strong><br></p><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#sitemap</span></span><br><span class="line"><span class="symbol">sitemap:</span></span><br><span class="line"><span class="symbol">path:</span> sitemap.xml    </span><br><span class="line"><span class="symbol">baidusitemap:</span></span><br><span class="line"><span class="symbol">path:</span> baidusitemap.xml</span><br></pre></td></tr></table></figure><p></p><p><strong>编译运行</strong><br></p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo</span> g</span><br></pre></td></tr></table></figure><p></p><p>当你成功编译并在Public目录下生成对应的<code>baidusitemap.xml</code>(针对百度)，<code>sitemap.xml</code>(针对Google)表明你已经成功建立的站点地图。但是存在以下问题，当你使用Coding和Github两个托管平台搭建博客时，你会发现两个站点地图的域名相同，但是这样并不是我们所希望的，我们希望是<code>baidusitemap.xml</code>生成的域名对应的是coding.me的域名，而sitemap.xml对应的是Github的域名。这样才能实现对应搜索引擎收录对应的站点地图。如何实现 <strong>看绝招，绝招来啦</strong></p><h4 id="技巧实现-绝"><a href="#技巧实现-绝" class="headerlink" title="技巧实现(绝)"></a>技巧实现(绝)</h4><blockquote><p>在实现之前，我们先来了解的一下站点生成站点题图的原理:其实就是根据站点配置文件下的url所定义域名去生成对应的站点地图，导致百度和Google的站点地图的域名相通。本人经过辛苦查找,发现百度站点hexo-generator-baidu-sitemap插件的基本机制，通过修改插件的部分代码和结合主站点配置文件实现不同域名下的站点地图生成。</p></blockquote><h5 id="实现代码"><a href="#实现代码" class="headerlink" title="实现代码"></a><i class="icon-file">实现代码</i></h5><p>修改Hexo 根目录下的<code>node_modules\hexo-generator-baidu-sitemap\baidusitemap.ejs</code>此文件包含<br>如和实现生成对应站点地图的对应代码<br>原始代码：<br></p><figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="php"><span class="meta">&lt;?</span>xml version=<span class="string">"1.0"</span> encoding=<span class="string">"UTF-8"</span><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;<span class="name">urlset</span> <span class="attr">xmlns</span>=<span class="string">"http://www.sitemaps.org/schemas/sitemap/0.9"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> var url = config.url + config.root </span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> posts.forEach(function(post)&#123; </span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> <span class="keyword">if</span>(post.categories)&#123;</span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">url</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">loc</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby"> encodeURI(url + post.path) </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">loc</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">lastmod</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> post.updated.toDate().toISOString() <span class="params">||</span> post.date.toDate().toISOString() </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">lastmod</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">data</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">display</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby">: post.title </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">pubTime</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> post.date.toDate().toISOString() </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">pubTime</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="keyword">if</span>(post.tags)&#123; post.tags.toArray().forEach(function(tag)&#123; </span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tag</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> tag.name </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">tag</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> &#125;)&#125;/*</span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">content</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby">: post.content</span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">content</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> *<span class="regexp">/</span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">if(post.tags &amp;&amp; post.categories)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp"> post.categories.toArray().forEach(function(category,index)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">             <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">  if(index &lt; 3)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">breadCrumb</span> <span class="attr">title</span>=<span class="string">"&lt;%=</span></span></span><span class="ruby"><span class="regexp"> category.name </span></span><span class="xml"><span class="tag"><span class="string">%&gt;"</span> <span class="attr">url</span>=<span class="string">"&lt;%-</span></span></span><span class="ruby"><span class="regexp"> encodeURI(url + category.path) </span></span><span class="xml"><span class="tag"><span class="string">%&gt;"</span>/&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">&#125;&#125;)&#125; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">display</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">data</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">&#125;&#125;) </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">urlset</span>&gt;</span></span></span><br></pre></td></tr></table></figure><p></p><p>修改后的代码：<br>你需要修改对应的config.url为你的config.coding_url<br></p><figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="php"><span class="meta">&lt;?</span>xml version=<span class="string">"1.0"</span> encoding=<span class="string">"UTF-8"</span><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;<span class="name">urlset</span> <span class="attr">xmlns</span>=<span class="string">"http://www.sitemaps.org/schemas/sitemap/0.9"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> var url = config.coding_url + config.root </span><span class="xml"><span class="tag">%&gt;</span>  #修改的代码位置config.coding_url</span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> posts.forEach(function(post)&#123; </span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> <span class="keyword">if</span>(post.categories)&#123;</span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">url</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">loc</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby"> encodeURI(url + post.path) </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">loc</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">lastmod</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> post.updated.toDate().toISOString() <span class="params">||</span> post.date.toDate().toISOString() </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">lastmod</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">data</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">display</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby">: post.title </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">pubTime</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> post.date.toDate().toISOString() </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">pubTime</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="keyword">if</span>(post.tags)&#123; post.tags.toArray().forEach(function(tag)&#123; </span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tag</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> tag.name </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">tag</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> &#125;)&#125;/*</span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">content</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby">: post.content</span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">content</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> *<span class="regexp">/</span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">if(post.tags &amp;&amp; post.categories)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp"> post.categories.toArray().forEach(function(category,index)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">             <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">  if(index &lt; 3)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">breadCrumb</span> <span class="attr">title</span>=<span class="string">"&lt;%=</span></span></span><span class="ruby"><span class="regexp"> category.name </span></span><span class="xml"><span class="tag"><span class="string">%&gt;"</span> <span class="attr">url</span>=<span class="string">"&lt;%-</span></span></span><span class="ruby"><span class="regexp"> encodeURI(url + category.path) </span></span><span class="xml"><span class="tag"><span class="string">%&gt;"</span>/&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">&#125;&#125;)&#125; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">display</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">data</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">&#125;&#125;) </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">urlset</span>&gt;</span></span></span><br></pre></td></tr></table></figure><p></p><p>修改主站点配置文件<code>_config.yml</code>,定义<code>coding_url = 你的名字.coding.me</code>.<br></p><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># URL</span><br><span class="line">## If your site <span class="keyword">is</span> <span class="keyword">put</span> in <span class="keyword">a</span> subdirectory, <span class="keyword">set</span> url <span class="keyword">as</span> <span class="string">'http://yoursite.com/child'</span> <span class="built_in">and</span> root <span class="keyword">as</span> <span class="string">'/child/'</span></span><br><span class="line">ur<span class="variable">l:</span> http<span class="variable">s:</span>//joryhe.github.io/</span><br><span class="line">coding_ur<span class="variable">l:</span> http://joryhe.coding.<span class="keyword">me</span>   #修改位置</span><br><span class="line">roo<span class="variable">t:</span> /</span><br><span class="line">permalink: :year/:month/:day/:title.html</span><br><span class="line">permalink_default<span class="variable">s:</span></span><br></pre></td></tr></table></figure><p></p><p><strong>总结：</strong>通过以上部分的修改，你会发现生成的站点地图就会对应你的域名百度是coding.me,Google为Github的域名。从此你不在为域名的更换而烦恼。真实<strong>绝招一个阿</strong>！。</p><h3 id="收录站点地图"><a href="#收录站点地图" class="headerlink" title="收录站点地图"></a>收录站点地图</h3><h4 id="Google推送"><a href="#Google推送" class="headerlink" title="Google推送"></a>Google推送</h4><p>登录Google账号，添加了站点验证通过后，选择站点，之后在抓取——站点地图中就能看到添加/测试站点地图，如下图：<br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531221325.png"><br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/t20160531221444.png"></p><h4 id="百度推送"><a href="#百度推送" class="headerlink" title="百度推送"></a>百度推送</h4><p>点击<em>网页捉取</em>-&gt;<em>链接提交</em><br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531221840.png"></p><h3 id="自动推送"><a href="#自动推送" class="headerlink" title="自动推送"></a>自动推送</h3><p>自动推送你仅需要简单的添加以下代码可以实现：<br>修改<code>themes\next\layout\_partials\footer.swig</code> 添加如下代码<br></p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span><br><span class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> bp = <span class="built_in">document</span>.createElement(<span class="string">'script'</span>);</span><br><span class="line">    bp.src = <span class="string">'//push.zhanzhang.baidu.com/push.js'</span>;</span><br><span class="line">    <span class="keyword">var</span> s = <span class="built_in">document</span>.getElementsByTagName(<span class="string">"script"</span>)[<span class="number">0</span>];</span><br><span class="line">    s.parentNode.insertBefore(bp, s);</span><br><span class="line">&#125;)();</span><br><span class="line"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><p></p><p><strong>问题:</strong>在Github网站也会进行这样的推送，显然不合理，百度并不会收录GitHub的域名网站所以<br>你可以按照的我的操作，简单设置一下JS代码判断你的域名从而实现是否执行你的百度推送代码<br>新的代码如下：<br></p><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">  host3 = <span class="built_in">window</span>.location.href;</span><br><span class="line">  chinadomai3 = <span class="string">"http://joryhe.coding.me/"</span>;  <span class="comment">#修改为你的百度推送对应的域名</span></span><br><span class="line">  <span class="keyword">if</span> (host3.indexOf(chinadomain3)!=-<span class="number">1</span>)  &#123;</span><br><span class="line"></span><br><span class="line">  (<span class="keyword">function</span>()&#123;</span><br><span class="line">    <span class="keyword">var</span> bp = <span class="built_in">document</span>.createElement(<span class="string">'script'</span>);</span><br><span class="line">    bp.src = <span class="string">'//push.zhanzhang.baidu.com/push.js'</span>;</span><br><span class="line">    <span class="keyword">var</span> s = <span class="built_in">document</span>.getElementsByTagName(<span class="string">"script"</span>)[<span class="number">0</span>];</span><br><span class="line">    s.parentNode.insertBefore(bp, s);</span><br><span class="line">&#125;)();</span><br><span class="line"></span><br><span class="line">                                      &#125;</span><br></pre></td></tr></table></figure><p></p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><blockquote><p>如果你还需要了解更多技术文章信息，请继续关注Jory博客</p><footer><strong>Jory's Blog Share For you!</strong><cite><a href="#" onclick="go_my_site()" rel="external">Welcome to JORY'S BLOG</a></cite></footer></blockquote></div><div></div><div><div style="padding:10px 0;margin:20px auto;width:90%;text-align:center"><div>看一看，共同关注，共同分享与讨论！</div> <button id="rewardButton" disable="enable" onclick='var e=document.getElementById("QR");"none"===e.style.display?e.style.display="block":e.style.display="none"'> <span>点击关注</span></button><div id="QR" style="display:none"><div id="wechat" style="display:inline-block"> <img id="wechat_qr" src="http://o6sn177if.bkt.clouddn.com/images/666325761642577359.jpg" alt="Jory He WeChat Pay"><p>关注我的微信</p></div><div id="alipay" style="display:inline-block"> <img id="alipay_qr" src="http://o6sn177if.bkt.clouddn.com/images/qrcode_for_gh_da7270c3f94c_430.jpg" alt="Jory He Alipay"><p>关注我的微信公共号</p></div></div></div></div><footer class="post-footer"><div class="post-tags"> <a href="/tags/hexo/" rel="tag">#hexo</a> <a href="/tags/sitemap/" rel="tag">#sitemap</a></div><div class="post-nav"><div class="post-nav-next post-nav-item"><a href="/2016-05-31-use_lazyload_add_nofollow.html" rel="next" title="活用Lazyload.js，为你的CDN图片加上nofollow(绝招来啦！)"><i class="fa fa-chevron-left"></i> 活用Lazyload.js，为你的CDN图片加上nofollow(绝招来啦！)</a></div><div class="post-nav-prev post-nav-item"> <a href="/2016-06-01-update_info_baidupush_python.html" rel="prev" title="推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。">推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。<i class="fa fa-chevron-right"></i></a></div></div></footer></article><div class="post-spread"></div></div></div><div class="comments" id="comments"><div class="ds-thread" data-thread-key="2016-05-31-baidu_google_both_tijiao.html" data-title="Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)" data-url="http://www.joryhe.com/2016-05-31-baidu_google_both_tijiao.html" data-author-key="1"></div><div id="disqus_thread"><noscript> Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div></div></div><div class="sidebar-toggle"><div class="sidebar-toggle-line-wrap"><span class="sidebar-toggle-line sidebar-toggle-line-first"></span><span class="sidebar-toggle-line sidebar-toggle-line-middle"></span><span class="sidebar-toggle-line sidebar-toggle-line-last"></span></div></div><aside id="sidebar" class="sidebar"><div class="sidebar-inner"><ul class="sidebar-nav motion-element"><li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap"> 文章目录</li><li class="sidebar-nav-overview" data-target="site-overview"> 站点概览</li></ul><section class="site-overview sidebar-panel"><div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person"> <img class="site-author-image" itemprop="image" src="http://o6sn177if.bkt.clouddn.com/images/ITboy.jpg" alt="Jory He"><p class="site-author-name" itemprop="name">Jory He</p><p class="site-description motion-element" itemprop="description">分享技术文章</p></div><nav class="site-state motion-element"><div class="site-state-item site-state-posts"> <a href="/archives"><span class="site-state-item-count">34</span> <span class="site-state-item-name">日志</span></a></div><div class="site-state-item site-state-categories"> <span class="site-state-item-count">12</span> <span class="site-state-item-name">分类</span></div><div class="site-state-item site-state-tags"> <a href="/tags"><span class="site-state-item-count">22</span> <span class="site-state-item-name">标签</span></a></div></nav><div class="feed-link motion-element"><a href="/atom.xml" rel="alternate"><i class="fa fa-rss"></i> RSS</a></div><div class="links-of-author motion-element"></div><div class="links-of-blogroll motion-element links-of-blogroll-inline"><div class="links-of-blogroll-title"><i class="fa fa-fw fa-globe"></i> Links</div><ul class="links-of-blogroll-list"><li class="links-of-blogroll-item"> <a href="http://joryhe.coding.me/" title="coding_blog" target="_blank">coding_blog</a></li></ul></div></section><section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active"><div class="post-toc"><div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#摘要"><span class="nav-number">1.</span> <span class="nav-text">摘要</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#正文"><span class="nav-number">2.</span> <span class="nav-text">正文</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#检查网站收录"><span class="nav-number">2.1.</span> <span class="nav-text">检查网站收录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网站验证"><span class="nav-number">2.2.</span> <span class="nav-text">网站验证</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#为什么要验证"><span class="nav-number">2.2.1.</span> <span class="nav-text">为什么要验证</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#验证手段"><span class="nav-number">2.2.2.</span> <span class="nav-text">验证手段</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#推送方式"><span class="nav-number">2.3.</span> <span class="nav-text">推送方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#站点地图推送"><span class="nav-number">2.4.</span> <span class="nav-text">站点地图推送</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#插件安装"><span class="nav-number">2.4.1.</span> <span class="nav-text">插件安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#配置站点配置文件"><span class="nav-number">2.4.2.</span> <span class="nav-text">配置站点配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#技巧实现-绝"><span class="nav-number">2.4.3.</span> <span class="nav-text">技巧实现(绝)</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#实现代码"><span class="nav-number">2.4.3.1.</span> <span class="nav-text">实现代码</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#收录站点地图"><span class="nav-number">2.5.</span> <span class="nav-text">收录站点地图</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Google推送"><span class="nav-number">2.5.1.</span> <span class="nav-text">Google推送</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#百度推送"><span class="nav-number">2.5.2.</span> <span class="nav-text">百度推送</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#自动推送"><span class="nav-number">2.6.</span> <span class="nav-text">自动推送</span></a></li></ol></li></ol></div></div></section></div></aside></div></main><footer id="footer" class="footer"><div class="footer-inner"><div class="copyright"> &copy; <span itemprop="copyrightYear">2016</span><span class="with-love"><i class="fa fa-heart"></i></span> <span class="author" itemprop="copyrightHolder">Jory He</span></div><div class="powered-by"> 由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动</div><div class="theme-info"> 主题 - <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a></div><script>host3=window.location.href,chinadomain3="http://www.joryhe.com/",-1!=host3.indexOf(chinadomain3)&&!function(){var e=document.createElement("script");e.src="//push.zhanzhang.baidu.com/push.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)}()</script></div></footer><div class="back-to-top"><i class="fa fa-arrow-up"></i></div></div><script type="text/javascript">"[object Function]"!==Object.prototype.toString.call(window.Promise)&&(window.Promise=null)</script><script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script><script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script><script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script><script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script><script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script><script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script><script type="text/javascript" src="/vendors/custom/custom.js"></script><script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script><script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script><script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script><script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script><script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script><script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script><script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script><script type="text/javascript">if(host=window.location.href,chinadomain="http://www.joryhe.com/",-1!=host.indexOf(chinadomain)){var duoshuoQuery={short_name:"joryblog"};!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.id="duoshuo-script",t.src="http://o6sn177if.bkt.clouddn.com/js/embed.js",t.charset="UTF-8",(document.getElementById("footer")||document.getElementsByTagName("body")[0]).appendChild(t)}()}</script><script type="text/javascript">function run_disqus_script(i){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="//"+disqus_shortname+".disqus.com/"+i,(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(t)}if(host2=window.location.href,chinadomain2="blog.joryhe.com",-1!=host2.indexOf(chinadomain2)){var disqus_shortname="joryblog",disqus_identifier="2016-05-31-baidu_google_both_tijiao.html",disqus_title="Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)",disqus_url="http://blog.joryhe.com/2016-05-31-baidu_google_both_tijiao.html";run_disqus_script("count.js"),run_disqus_script("embed.js")}</script><script type="text/javascript">var scrollTop="",newHeight="100";checkhost=window.location.href,chinadomain1="www.joryhe.com",googledmain1="blog.joryhe.com";var search_path="search.xml";0==search_path.length&&(search_path="search.xml");var google_search_path="google_search.xml";0==search_path.length&&(google_search_path="google_search.xml");var path="/"+search_path,google_path="/"+google_search_path;$("#search-input").on("input",function(){return $(this).val().length<=0?void $("#search-result").hide():($("i.search-keyword").text($(this).val()),$('a.search-result[href!="#"]').each(function(){this.href=this.href.replace(/\=(.*?)(?=%20site)/,"="+$("#search-input").val())}),void $("#search-result").show())});var searchFunc=function(e,t,o){"use strict";searchFunc=function(){},$.ajax({url:e,dataType:"xml",async:!1,success:function(e){var a=$("entry",e).map(function(){return{title:$("title",this).text(),content:$("content",this).text(),url:$("url",this).text()}}).get(),c=document.getElementById(t),r=document.getElementById(o);c.addEventListener("input",function(){var e='<ul class="search-result-list">',t=this.value.trim().toLowerCase().split(/[\s\-]+/);r.innerHTML="",this.value.trim().length<=0||(a.forEach(function(o){var a=!0,c=o.title.trim().toLowerCase(),r=o.content.trim().replace(/<[^>]+>/g,"").toLowerCase(),s=o.url,n=-1,h=-1,l=-1;if(""!=c&&""!=r&&t.forEach(function(e,t){n=c.indexOf(e),h=r.indexOf(e),0>n&&0>h?a=!1:(0>h&&(h=0),0==t&&(l=h))}),a){e+="<li><a href='"+s+"' class='search-result-title'>"+c+"</a>";var i=o.content.trim().replace(/<[^>]+>/g,"");if(l>=0){var p=l-20,u=l+80;0>p&&(p=0),0==p&&(u=100),u>i.length&&(u=i.length);var g=i.substr(p,u);t.forEach(function(e){var t=new RegExp(e,"gi");g=g.replace(t,'<b class="search-keyword">'+e+"</b>")}),e+='<p class="search-result">'+g+"...</p>"}e+="</li>"}}),e+="</ul>",r.innerHTML=e)})}})};$(window).bind("scroll",function(){scrollTop=$(window).scrollTop(),newHeight=scrollTop+100}),$("#search-result a").mousedown(function(e){return this.className.indexOf("popup")<0?void(window.location.href=this.href):(-1!=checkhost.indexOf(chinadomain1)&&searchFunc(path,"local-search-input","local-search-result"),-1!=checkhost.indexOf(googledmain1)&&searchFunc(google_path,"local-search-input","local-search-result"),$("#local-search-input").val($("#search-input").val()),document.getElementById("local-search-input").dispatchEvent(new Event("input")),e.stopPropagation(),void(jQuery(window).width()<767?($(".site-search-form").after($(".popup")),$(".popup").show().addClass("popup-mobile").css("top",0),$("html, body").animate({scrollTop:$(".popup").offset().top},500)):$(".popup").removeClass("popup-mobile").css("top",newHeight).toggle()))}),$("#search-input").focus(function(){$(this).val().length>0&&$("#search-result").show()}),$("#search-input").blur(function(){$("#search-result").hide()}),$(".html").click(function(){$(".popup").hide()}),$(".popup-btn-close").click(function(e){$(".popup").hide()}),$(".popup").click(function(e){e.stopPropagation()})</script><script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script><script>AV.initialize("BIOAJVc0se1aNHCAue9d2rbG-gzGzoHsz","FzHmNloN9pypFxeXV58fA20p")</script><script>function showTime(e){var t=new AV.Query(e),n=[],o=$(".leancloud_visitors");o.each(function(){n.push($(this).attr("id").trim())}),t.containedIn("url",n),t.find().done(function(e){var t=".leancloud-visitors-count";if(0===e.length)return void o.find(t).text(0);for(var n=0;n<e.length;n++){var i=e[n],r=i.get("url"),s=i.get("time"),c=document.getElementById(r);$(c).find(t).text(s)}}).fail(function(e,t){console.log("Error: "+t.code+" "+t.message)})}function addCount(e){var t=$(".leancloud_visitors"),n=t.attr("id").trim(),o=t.attr("data-flag-title").trim(),i=new AV.Query(e);i.equalTo("url",n),i.find({success:function(t){if(t.length>0){var i=t[0];i.fetchWhenSave(!0),i.increment("time"),i.save(null,{success:function(e){var t=$(document.getElementById(n));t.find(".leancloud-visitors-count").text(e.get("time"))},error:function(e,t){console.log("Failed to save Visitor num, with error message: "+t.message)}})}else{var r=new e,s=new AV.ACL;s.setPublicReadAccess(!0),s.setPublicWriteAccess(!0),r.setACL(s),r.set("title",o),r.set("url",n),r.set("time",1),r.save(null,{success:function(e){var t=$(document.getElementById(n));t.find(".leancloud-visitors-count").text(e.get("time"))},error:function(e,t){console.log("Failed to create")}})}},error:function(e){console.log("Error:"+e.code+" "+e.message)}})}$(function(){var e=AV.Object.extend("Counter");1==$(".leancloud_visitors").length?addCount(e):$(".post-title-link").length>1&&showTime(e)})</script><script type="text/javascript">jQuery(function(){jQuery("img.jory_lazyimg").lazyload({delay:5e3,effect:"fadeIn"})})</script></body></html>
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+  <meta http-equiv="content-language" content="zh-cn">
+
+
+
+  <link rel="alternate" hreflang="zh-Hans" href="http://blog.joryhe.com" />
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.useso.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="hexo,sitemap," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="JORY'S BLOG" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="摘要如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。HEXO-建站系列HEXO-优化系列HEXO-进阶系列">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)">
+<meta property="og:url" content="http://blog.joryhe.com/2016-05-31-baidu_google_both_tijiao.html">
+<meta property="og:site_name" content="JORY'S BLOG">
+<meta property="og:description" content="摘要如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。HEXO-建站系列HEXO-优化系列HEXO-进阶系列">
+<meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif">
+<meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif">
+<meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif">
+<meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif">
+<meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif">
+<meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif">
+<meta property="og:image" content="http://blog.joryhe.com/images/loading2.gif">
+<meta property="og:updated_time" content="2016-06-04T08:44:05.370Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)">
+<meta name="twitter:description" content="摘要如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。HEXO-建站系列HEXO-优化系列HEXO-进阶系列">
+<meta name="twitter:image" content="http://blog.joryhe.com/images/loading2.gif">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 6278822681127159000,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！) | JORY'S BLOG </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+<script>
+
+  hostan = window.location.href;
+  chinadomaina = "blog.joryhe.com";
+  if (hostan.indexOf(chinadomaina)!=-1)  {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-78490343-1', 'auto');
+  ga('send', 'pageview');
+  
+                                      }
+</script>
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">JORY'S BLOG</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">技术分享</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+	<div id="tstart-toolbar-top-jory">
+				   <div id="tstart-toolbar-top-jory-right" class="tstart-right">
+	<form class="site-search-form" >
+		  <input type="text" id="search-input">
+		  	
+              <i class="menu-item-icon fa fa-search fa-fw"></i>
+            
+		  <div id="search-result"><ul class="search-result-list"><li><a href="//www.baidu.com/s?wd=XXX%20site%3Ahttp://blog.joryhe.com" class="search-result">百度搜索 <i class="search-keyword">XXX</i></a></li><li><a href="//www.google.com/search?q=XXX%20site%3Ahttp://blog.joryhe.com" class="search-result">谷歌搜索 <i class="search-keyword">XXX</i></a></li><li><a href="#" class="popup-trigger search-result">本地搜索</a></li></ul>
+	  </div>
+    </form>
+		  <div class="popup">
+		  <input type="text" id="local-search-input">
+		  <div id="local-search-result"></div>
+		  <span class="popup-btn-close">close</span>
+		</div>
+		</div>       
+	</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-essay">
+          <a href="/categories/essay" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-edit"></i> <br />
+            
+            随笔
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-ittech">
+          <a href="/categories/ittech" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-desktop"></i> <br />
+            
+            技术
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-documents">
+          <a href="/documents" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-file-pdf-o"></i> <br />
+            
+            文档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+
+
+  <form class="site-search-form" >
+  <input type="text" id="search-input">
+  <div id="search-result"><ul class="search-result-list"><li><a href="//www.baidu.com/s?wd=XXX%20site%3Ahttp://blog.joryhe.com" class="search-result">百度搜索 <i class="search-keyword">XXX</i></a></li><li><a href="//www.google.com/search?q=XXX%20site%3Ahttp://blog.joryhe.com" class="search-result">谷歌搜索 <i class="search-keyword">XXX</i></a></li><li><a href="#" class="popup-trigger search-result">本地搜索</a></li></ul>
+  </div>
+</form>
+  <div class="popup">
+  <input type="text" id="local-search-input">
+  <div id="local-search-result"></div>
+  <span class="popup-btn-close">close</span>
+  </div>
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-31T20:31:54+08:00" content="2016-05-31">
+              2016-05-31
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+
+                
+                
+                
+
+                
+
+              
+
+                
+                
+                
+
+                
+
+              
+
+                
+                
+                
+
+                
+
+              
+
+                
+                
+                
+
+              
+			  
+		          <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/ittech/网站技术/hexo/HEXO优化/" itemprop="url" rel="index">
+                    <span itemprop="name">HEXO优化</span>
+                  </a>
+                </span>	  
+			  
+			
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016-05-31-baidu_google_both_tijiao.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016-05-31-baidu_google_both_tijiao.html" itemprop="commentsCount" data-url="http://www.joryhe.com/2016-05-31-baidu_google_both_tijiao.html"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016-05-31-baidu_google_both_tijiao.html" class="leancloud_visitors" data-flag-title="Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)">
+			 &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+		  
+		
+          <span class="post-time">
+		   &nbsp; | &nbsp;
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">字数统计:</span>
+            <span class="post-count">6,110(字)</span>
+            
+          </span>
+		  
+	      <span class="post-time">
+		   &nbsp; | &nbsp;
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">阅读时长:</span>
+            <span class="post-count">33(分)</span>
+            
+          </span>
+		  
+		  
+		  
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>
+<a id="more"></a>
+<hr>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="检查网站收录"><a href="#检查网站收录" class="headerlink" title="检查网站收录"></a>检查网站收录</h3><p>通常你会想了解你的网站的收录情况如何，使用以下命令确认博客的收录状态：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">site:你的网站域名(如joryhe<span class="selector-class">.github</span><span class="selector-class">.io</span>)</span><br></pre></td></tr></table></figure></p>
+<img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531205511.png">
+<p>百度雷同，就不贴出来啦！</p>
+<h3 id="网站验证"><a href="#网站验证" class="headerlink" title="网站验证"></a>网站验证</h3><p>如果您的博客还没有进行相关搜索引擎的验证，参照以下操作可以协助在搜索引擎您验证的你网站，<br>列出Google和百度的网站验证链接：<br><a href="https://www.google.com/webmasters/tools/home?hl=zh-CN" rel="external nofollow" target="_blank">Google上搜索引擎</a><br><a href="http://zhanzhang.baidu.com/site/siteadd" rel="external nofollow" target="_blank">百度搜索引擎</a></p>
+<h4 id="为什么要验证"><a href="#为什么要验证" class="headerlink" title="为什么要验证"></a>为什么要验证</h4><p>验证主要是方便百度了解的网站，其次你需要的百度统计等功能都需要验证后才能使用</p>
+<h4 id="验证手段"><a href="#验证手段" class="headerlink" title="验证手段"></a>验证手段</h4><ul>
+<li>[x] 文件验证(简单方便,推荐使用)</li>
+<li>[] html标签验证</li>
+<li>[] CNAME验证</li>
+</ul>
+<p><strong>文件验证</strong>：您需要下载验证文件，将文件上传至您的服务器，放置于域名根目录下<br><strong>html标签验证</strong>：将html标签添加至网站首页html代码的<head>标签与</head>标签之间<br><strong>CNAME验证</strong>：您需要登录域名提供商或托管服务提供商的网站，添加新的DNS记录。</p>
+<p>本人推荐的验证手段是<strong>文件验证</strong><br>操作方式如下：<br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531210802.png"><br>验证文件的放置位置(建议在编译完后放到<code>Pubilc</code>根目录在提交，由于编译会更改验证文件的内容)导致验证失败，其次Google的操作方式雷同。当然你也可以放到主站点目录的<code>source</code>下，但是你需要修改验证文件如下(添加<code>layout: False</code>禁止Hexo编译转换)：<br><strong>Google验证文件</strong><br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">layout:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">google-site-verification:</span> googlee8f47d983650c060.html</span><br></pre></td></tr></table></figure></p>
+<p><strong>百度验证文件</strong><br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">layout:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line">KAy0GB8nPs</span><br></pre></td></tr></table></figure></p>
+<p>你还可以通过配置主站点配置文件_config.yml来实现避免特定文件的被编译<br>修改如下：(<strong>多文件方式</strong>)</p>
+<figure class="highlight haml"><figcaption><span>code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">skip_render: </span><br><span class="line">    -<span class="ruby"> baidu_verify_KAy0GB8nPs.html</span><br><span class="line"></span>    -<span class="ruby"> googlee8f47d983650c06<span class="number">0</span>.html</span><br><span class="line"></span>    -<span class="ruby"> baidusitemap_zhanwei.xml</span></span><br></pre></td></tr></table></figure>
+<p>修改如下：(<strong>多目录方式</strong>)</p>
+<blockquote>
+<p>请注意yml中的文件格式，输入单个数据请注意空格，输入数组请进行缩进<br>    单个文件夹下全部文件：skip_render: test/<em><br>    单个文件夹下指定类型文件：skip_render: test/</em>.html<br>    单个文件夹下全部文件以及子目录:skip_render: test/**</p>
+</blockquote>
+<p>多个文件夹以及各种复杂情况<br><figure class="highlight haml"><figcaption><span>code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">    -<span class="ruby"> test1/*.html</span><br><span class="line"></span>    -<span class="ruby"> test2/**</span></span><br></pre></td></tr></table></figure></p>
+<img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531211339.png">
+<img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531211451.png">
+<h3 id="推送方式"><a href="#推送方式" class="headerlink" title="推送方式"></a>推送方式</h3><blockquote>
+<p>如何选择链接提交方式<br>1、主动推送：最为快速的提交方式，推荐您将站点当天新产出链接立即通过此方式推送给百度，以保证新链接可以及时被百度收录。<br>2、自动推送：最为便捷的提交方式，请将自动推送的JS代码部署在站点的每一个页面源代码中，部署代码的页面在每次被浏览时，链接会被自动推送给百度。可以与主动推送配合使用。<br>3、sitemap：您可以定期将网站链接放到sitemap中，然后将sitemap提交给百度。百度会周期性的抓取检查您提交的sitemap，对其中的链接进行处理，但收录速度慢于主动推送。<br>4、手动提交：一次性提交链接给百度，可以使用此种方式</p>
+</blockquote>
+<p>效率：<code>主动推送&gt;自动推送&gt;sitemap</code></p>
+<h3 id="站点地图推送"><a href="#站点地图推送" class="headerlink" title="站点地图推送"></a>站点地图推送</h3><blockquote>
+<p>站点地图的作用是有利于搜索引擎的捉取你的文章信息。站点地图是保存你网站文章链接的文件，通常搜索引擎会读取此文件进行文章信息的捉取，建立一个完整的站点地图有利于搜索引擎的捉取。需要实现百度和Google的地图的生成，你需要安装对应的HEXO插件。</p>
+</blockquote>
+<h4 id="插件安装"><a href="#插件安装" class="headerlink" title="插件安装"></a>插件安装</h4><p>分别使用以下命令来安装针对百度和Google的地图插件<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-generator-sitemap <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-baidu-sitemap <span class="comment">--save</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="配置站点配置文件"><a href="#配置站点配置文件" class="headerlink" title="配置站点配置文件"></a>配置站点配置文件</h4><p><strong>配置站点配置文件_config.yml，启用相应插件</strong><br><figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Plugins:</span><br><span class="line">-<span class="ruby"> hexo-generator-sitemap</span><br><span class="line"></span>-<span class="ruby"> hexo-generator-baidu-sitemap</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>配置站点地图文件</strong><br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#sitemap</span></span><br><span class="line"><span class="symbol">sitemap:</span></span><br><span class="line"><span class="symbol">path:</span> sitemap.xml    </span><br><span class="line"><span class="symbol">baidusitemap:</span></span><br><span class="line"><span class="symbol">path:</span> baidusitemap.xml</span><br></pre></td></tr></table></figure></p>
+<p><strong>编译运行</strong><br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo</span> g</span><br></pre></td></tr></table></figure></p>
+<p>当你成功编译并在Public目录下生成对应的<code>baidusitemap.xml</code>(针对百度)，<code>sitemap.xml</code>(针对Google)表明你已经成功建立的站点地图。但是存在以下问题，当你使用Coding和Github两个托管平台搭建博客时，你会发现两个站点地图的域名相同，但是这样并不是我们所希望的，我们希望是<code>baidusitemap.xml</code>生成的域名对应的是coding.me的域名，而sitemap.xml对应的是Github的域名。这样才能实现对应搜索引擎收录对应的站点地图。如何实现 <strong>看绝招，绝招来啦</strong></p>
+<h4 id="技巧实现-绝"><a href="#技巧实现-绝" class="headerlink" title="技巧实现(绝)"></a>技巧实现(绝)</h4><blockquote>
+<p>在实现之前，我们先来了解的一下站点生成站点题图的原理:其实就是根据站点配置文件下的url所定义域名去生成对应的站点地图，导致百度和Google的站点地图的域名相通。本人经过辛苦查找,发现百度站点hexo-generator-baidu-sitemap插件的基本机制，通过修改插件的部分代码和结合主站点配置文件实现不同域名下的站点地图生成。</p>
+</blockquote>
+<h5 id="实现代码"><a href="#实现代码" class="headerlink" title="实现代码"></a><i class="icon-file">实现代码</i></h5><p>修改Hexo 根目录下的<code>node_modules\hexo-generator-baidu-sitemap\baidusitemap.ejs</code>此文件包含<br>如和实现生成对应站点地图的对应代码<br>原始代码：<br><figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="php"><span class="meta">&lt;?</span>xml version=<span class="string">"1.0"</span> encoding=<span class="string">"UTF-8"</span><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;<span class="name">urlset</span> <span class="attr">xmlns</span>=<span class="string">"http://www.sitemaps.org/schemas/sitemap/0.9"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> var url = config.url + config.root </span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> posts.forEach(function(post)&#123; </span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> <span class="keyword">if</span>(post.categories)&#123;</span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">url</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">loc</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby"> encodeURI(url + post.path) </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">loc</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">lastmod</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> post.updated.toDate().toISOString() <span class="params">||</span> post.date.toDate().toISOString() </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">lastmod</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">data</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">display</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby">: post.title </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">pubTime</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> post.date.toDate().toISOString() </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">pubTime</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="keyword">if</span>(post.tags)&#123; post.tags.toArray().forEach(function(tag)&#123; </span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tag</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> tag.name </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">tag</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> &#125;)&#125;/*</span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">content</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby">: post.content</span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">content</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> *<span class="regexp">/</span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">if(post.tags &amp;&amp; post.categories)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp"> post.categories.toArray().forEach(function(category,index)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">             <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">  if(index &lt; 3)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">breadCrumb</span> <span class="attr">title</span>=<span class="string">"&lt;%=</span></span></span><span class="ruby"><span class="regexp"> category.name </span></span><span class="xml"><span class="tag"><span class="string">%&gt;"</span> <span class="attr">url</span>=<span class="string">"&lt;%-</span></span></span><span class="ruby"><span class="regexp"> encodeURI(url + category.path) </span></span><span class="xml"><span class="tag"><span class="string">%&gt;"</span>/&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">&#125;&#125;)&#125; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">display</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">data</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">&#125;&#125;) </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">urlset</span>&gt;</span></span></span><br></pre></td></tr></table></figure></p>
+<p>修改后的代码：<br>你需要修改对应的config.url为你的config.coding_url<br><figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="php"><span class="meta">&lt;?</span>xml version=<span class="string">"1.0"</span> encoding=<span class="string">"UTF-8"</span><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;<span class="name">urlset</span> <span class="attr">xmlns</span>=<span class="string">"http://www.sitemaps.org/schemas/sitemap/0.9"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> var url = config.coding_url + config.root </span><span class="xml"><span class="tag">%&gt;</span>  #修改的代码位置config.coding_url</span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> posts.forEach(function(post)&#123; </span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> <span class="keyword">if</span>(post.categories)&#123;</span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">url</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">loc</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby"> encodeURI(url + post.path) </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">loc</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">lastmod</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> post.updated.toDate().toISOString() <span class="params">||</span> post.date.toDate().toISOString() </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">lastmod</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">data</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">display</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby">: post.title </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">pubTime</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> post.date.toDate().toISOString() </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">pubTime</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="keyword">if</span>(post.tags)&#123; post.tags.toArray().forEach(function(tag)&#123; </span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tag</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> tag.name </span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">tag</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> &#125;)&#125;/*</span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">content</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby">: post.content</span><span class="xml"><span class="tag">%&gt;</span><span class="tag">&lt;/<span class="name">content</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> *<span class="regexp">/</span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">if(post.tags &amp;&amp; post.categories)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp"> post.categories.toArray().forEach(function(category,index)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">             <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">  if(index &lt; 3)&#123; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">breadCrumb</span> <span class="attr">title</span>=<span class="string">"&lt;%=</span></span></span><span class="ruby"><span class="regexp"> category.name </span></span><span class="xml"><span class="tag"><span class="string">%&gt;"</span> <span class="attr">url</span>=<span class="string">"&lt;%-</span></span></span><span class="ruby"><span class="regexp"> encodeURI(url + category.path) </span></span><span class="xml"><span class="tag"><span class="string">%&gt;"</span>/&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">&#125;&#125;)&#125; </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">display</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">data</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"><span class="regexp">&#125;&#125;) </span></span><span class="xml"><span class="tag">%&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">urlset</span>&gt;</span></span></span><br></pre></td></tr></table></figure></p>
+<p>修改主站点配置文件<code>_config.yml</code>,定义<code>coding_url = 你的名字.coding.me</code>.<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># URL</span><br><span class="line">## If your site <span class="keyword">is</span> <span class="keyword">put</span> in <span class="keyword">a</span> subdirectory, <span class="keyword">set</span> url <span class="keyword">as</span> <span class="string">'http://yoursite.com/child'</span> <span class="built_in">and</span> root <span class="keyword">as</span> <span class="string">'/child/'</span></span><br><span class="line">ur<span class="variable">l:</span> http<span class="variable">s:</span>//joryhe.github.io/</span><br><span class="line">coding_ur<span class="variable">l:</span> http://joryhe.coding.<span class="keyword">me</span>   #修改位置</span><br><span class="line">roo<span class="variable">t:</span> /</span><br><span class="line">permalink: :year/:month/:day/:title.html</span><br><span class="line">permalink_default<span class="variable">s:</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>总结：</strong>通过以上部分的修改，你会发现生成的站点地图就会对应你的域名百度是coding.me,Google为Github的域名。从此你不在为域名的更换而烦恼。真实<strong>绝招一个阿</strong>！。</p>
+<h3 id="收录站点地图"><a href="#收录站点地图" class="headerlink" title="收录站点地图"></a>收录站点地图</h3><h4 id="Google推送"><a href="#Google推送" class="headerlink" title="Google推送"></a>Google推送</h4><p>登录Google账号，添加了站点验证通过后，选择站点，之后在抓取——站点地图中就能看到添加/测试站点地图，如下图：<br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531221325.png"><br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/t20160531221444.png"></p>
+<h4 id="百度推送"><a href="#百度推送" class="headerlink" title="百度推送"></a>百度推送</h4><p>点击<em>网页捉取</em>-&gt;<em>链接提交</em><br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/20160531221840.png"></p>
+<h3 id="自动推送"><a href="#自动推送" class="headerlink" title="自动推送"></a>自动推送</h3><p>自动推送你仅需要简单的添加以下代码可以实现：<br>修改<code>themes\next\layout\_partials\footer.swig</code> 添加如下代码<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span><br><span class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> bp = <span class="built_in">document</span>.createElement(<span class="string">'script'</span>);</span><br><span class="line">    bp.src = <span class="string">'//push.zhanzhang.baidu.com/push.js'</span>;</span><br><span class="line">    <span class="keyword">var</span> s = <span class="built_in">document</span>.getElementsByTagName(<span class="string">"script"</span>)[<span class="number">0</span>];</span><br><span class="line">    s.parentNode.insertBefore(bp, s);</span><br><span class="line">&#125;)();</span><br><span class="line"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>问题:</strong>在Github网站也会进行这样的推送，显然不合理，百度并不会收录GitHub的域名网站所以<br>你可以按照的我的操作，简单设置一下JS代码判断你的域名从而实现是否执行你的百度推送代码<br>新的代码如下：<br><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">  host3 = <span class="built_in">window</span>.location.href;</span><br><span class="line">  chinadomai3 = <span class="string">"http://joryhe.coding.me/"</span>;  <span class="comment">#修改为你的百度推送对应的域名</span></span><br><span class="line">  <span class="keyword">if</span> (host3.indexOf(chinadomain3)!=-<span class="number">1</span>)  &#123;</span><br><span class="line"></span><br><span class="line">  (<span class="keyword">function</span>()&#123;</span><br><span class="line">    <span class="keyword">var</span> bp = <span class="built_in">document</span>.createElement(<span class="string">'script'</span>);</span><br><span class="line">    bp.src = <span class="string">'//push.zhanzhang.baidu.com/push.js'</span>;</span><br><span class="line">    <span class="keyword">var</span> s = <span class="built_in">document</span>.getElementsByTagName(<span class="string">"script"</span>)[<span class="number">0</span>];</span><br><span class="line">    s.parentNode.insertBefore(bp, s);</span><br><span class="line">&#125;)();</span><br><span class="line"></span><br><span class="line">                                      &#125;</span><br></pre></td></tr></table></figure></p>
+
+	<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2>
+	<blockquote><p>如果你还需要了解更多技术文章信息，请继续关注Jory博客</p><footer><strong>Jory's Blog Share For you!</strong><cite><a href="#" onclick="go_my_site()" rel="external">Welcome to JORY'S BLOG</a></cite></footer></blockquote>
+	</div>
+      
+	 
+
+
+
+
+	
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>看一看，共同关注，共同分享与讨论！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>点击关注</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="http://o6sn177if.bkt.clouddn.com/images/666325761642577359.jpg" alt="Jory He WeChat Pay"/>
+          <p>关注我的微信</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="http://o6sn177if.bkt.clouddn.com/images/qrcode_for_gh_da7270c3f94c_430.jpg" alt="Jory He Alipay"/>
+          <p>关注我的微信公共号</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag">#hexo</a>
+          
+            <a href="/tags/sitemap/" rel="tag">#sitemap</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016-05-31-use_lazyload_add_nofollow.html" rel="next" title="活用Lazyload.js，为你的CDN图片加上nofollow(绝招来啦！)">
+                <i class="fa fa-chevron-left"></i> 活用Lazyload.js，为你的CDN图片加上nofollow(绝招来啦！)
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016-06-01-update_info_baidupush_python.html" rel="prev" title="推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。">
+                推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016-05-31-baidu_google_both_tijiao.html"
+           data-title="Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)" data-url="http://www.joryhe.com/2016-05-31-baidu_google_both_tijiao.html" data-author-key="1">
+      </div>
+	
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://o6sn177if.bkt.clouddn.com/images/ITboy.jpg"
+               alt="Jory He" />
+          <p class="site-author-name" itemprop="name">Jory He</p>
+          <p class="site-description motion-element" itemprop="description">分享技术文章</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">34</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">22</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://joryhe.coding.me/" title="coding_blog" target="_blank">coding_blog</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#摘要"><span class="nav-number">1.</span> <span class="nav-text">摘要</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#正文"><span class="nav-number">2.</span> <span class="nav-text">正文</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#检查网站收录"><span class="nav-number">2.1.</span> <span class="nav-text">检查网站收录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网站验证"><span class="nav-number">2.2.</span> <span class="nav-text">网站验证</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#为什么要验证"><span class="nav-number">2.2.1.</span> <span class="nav-text">为什么要验证</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#验证手段"><span class="nav-number">2.2.2.</span> <span class="nav-text">验证手段</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#推送方式"><span class="nav-number">2.3.</span> <span class="nav-text">推送方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#站点地图推送"><span class="nav-number">2.4.</span> <span class="nav-text">站点地图推送</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#插件安装"><span class="nav-number">2.4.1.</span> <span class="nav-text">插件安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#配置站点配置文件"><span class="nav-number">2.4.2.</span> <span class="nav-text">配置站点配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#技巧实现-绝"><span class="nav-number">2.4.3.</span> <span class="nav-text">技巧实现(绝)</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#实现代码"><span class="nav-number">2.4.3.1.</span> <span class="nav-text">实现代码</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#收录站点地图"><span class="nav-number">2.5.</span> <span class="nav-text">收录站点地图</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Google推送"><span class="nav-number">2.5.1.</span> <span class="nav-text">Google推送</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#百度推送"><span class="nav-number">2.5.2.</span> <span class="nav-text">百度推送</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#自动推送"><span class="nav-number">2.6.</span> <span class="nav-text">自动推送</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jory He</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+<script>
+  host3 = window.location.href;
+  chinadomain3 = "http://www.joryhe.com/";
+  if (host3.indexOf(chinadomain3)!=-1)  {
+
+  (function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+
+                                      }  
+</script>
+		  
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/vendors/custom/custom.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+  
+    
+  
+
+  <script type="text/javascript">
+  host = window.location.href;
+  chinadomain = "http://www.joryhe.com/";
+  if (host.indexOf(chinadomain)!=-1)  {
+    var duoshuoQuery = {short_name:"joryblog"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = 'http://o6sn177if.bkt.clouddn.com/js/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementById('footer')
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+	                                 }
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+
+    <script type="text/javascript">
+  host2 = window.location.href;
+  chinadomain2 = "blog.joryhe.com";
+  if (host2.indexOf(chinadomain2)!=-1)  {
+      var disqus_shortname = 'joryblog';
+      var disqus_identifier = '2016-05-31-baidu_google_both_tijiao.html';
+      var disqus_title = 'Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)';
+      var disqus_url = 'http://blog.joryhe.com/2016-05-31-baidu_google_both_tijiao.html';
+
+      function run_disqus_script(disqus_script){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+      
+        run_disqus_script('embed.js');
+      
+	                                   }
+    </script>
+  
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var scrollTop = '';
+    var newHeight = '100';
+    checkhost = window.location.href;
+	chinadomain1 = "www.joryhe.com";
+	googledmain1 = "blog.joryhe.com";
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+	var google_search_path = "google_search.xml";
+    if (search_path.length == 0) {
+       google_search_path = "google_search.xml";
+    }
+    var path = "/" + search_path;
+    var google_path = "/" + google_search_path;
+	
+    // monitor main search box;
+    $('#search-input').on('input', function() {
+    if ($(this).val().length <= 0) {
+      $('#search-result').hide();
+      return;
+    }
+    $('i.search-keyword').text($(this).val());
+    $('a.search-result[href!="#"]').each(function(){
+      this.href = this.href.replace(/\=(.*?)(?=%20site)/,'='+$('#search-input').val())
+    });
+    $('#search-result').show();
+    });
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    searchFunc = function(){};
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: false,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length <= 0) {
+                    return;
+                }
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 100;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substr(start, end); 
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                });
+                str += "</ul>";
+                $resultContent.innerHTML = str;
+            });
+        }
+    });}
+
+    // handle and trigger popup window;
+    $(window).bind('scroll', function() {
+      scrollTop = $( window ).scrollTop();
+      newHeight = scrollTop + 100;
+    });
+    $('#search-result a').mousedown(function(e) {
+      if (this.className.indexOf('popup') < 0) {
+        window.location.href = this.href;
+        return;
+      }
+	  if (checkhost.indexOf(chinadomain1)!=-1)  {
+	   searchFunc(path, 'local-search-input', 'local-search-result');                                   
+										   }
+										  
+	  if (checkhost.indexOf(googledmain1)!=-1)  {
+	   searchFunc(google_path, 'local-search-input', 'local-search-result');                                   
+										   }
+	  
+      
+      $('#local-search-input').val($('#search-input').val());
+      document.getElementById('local-search-input').dispatchEvent(new Event('input'));
+      e.stopPropagation();
+      if(jQuery(window).width() < 767) {
+        $('.site-search-form').after( $( ".popup" ) );
+        $('.popup').show().addClass('popup-mobile').css('top', 0);
+        $('html, body').animate({
+          scrollTop: $('.popup').offset().top
+        }, 500);
+      } else {
+        $('.popup').removeClass('popup-mobile').css('top', newHeight).    toggle();
+      };
+    });
+
+    $('#search-input').focus(function() {
+    if ($(this).val().length > 0) {	  
+      $('#search-result').show();
+      }
+    });
+    $('#search-input').blur(function() {
+      $('#search-result').hide();
+    });
+
+    $('.html').click(function() {
+      $('.popup').hide();
+    });
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("BIOAJVc0se1aNHCAue9d2rbG-gzGzoHsz", "FzHmNloN9pypFxeXV58fA20p");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+<script type="text/javascript">
+      jQuery(function() {  
+	  	  
+          jQuery("img.jory_lazyimg").lazyload({
+			  delay:5000,
+              effect:"fadeIn"
+            });	
+
+          });
+		  
+
+
+</script> 
+
+
+
+</body>
+</html>
