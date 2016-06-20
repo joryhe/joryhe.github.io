@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-06-10T08:20:35.525Z</updated>
+  <updated>2016-06-20T15:04:31.346Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Brocade系列之二 博科交换机简单配置实例</title>
+    <link href="http://blog.joryhe.com/2016-06-20-easy_to_configure_boke_switch_on_zone.html"/>
+    <id>http://blog.joryhe.com/2016-06-20-easy_to_configure_boke_switch_on_zone.html</id>
+    <published>2016-06-20T14:00:54.000Z</published>
+    <updated>2016-06-20T15:04:31.346Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍博科交换机的基本配置，zone配置。&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍博科交换机的基本配置，zone配置。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="博客交换机" scheme="http://blog.joryhe.com/categories/ittech/%E5%8D%9A%E5%AE%A2%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
+    
+    
+      <category term="博客交换机" scheme="http://blog.joryhe.com/tags/%E5%8D%9A%E5%AE%A2%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>简单实用的站内搜索实现，你值得拥有！(精)</title>
@@ -551,28 +579,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;通过”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/22/rockbox-musci-player.html&quot;&gt;rockbox 安卓强大的音乐播放神器&lt;/a&gt;“你应该了解rockbox的强大之处，或者你已经成功&lt;br&gt;安装上rockbox，但是想要发挥rockbox的好音质，你还需要了解一下rockbox的均衡器，活&lt;br&gt;用Rockbox的均衡器（EQ），rockbox才会更好的发挥好音质效果。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
-    
-    
-      <category term="音乐播放器" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>rockbox 安卓强大的音乐播放神器</title>
-    <link href="http://blog.joryhe.com/2016-05-22-rockbox-musci-player.html"/>
-    <id>http://blog.joryhe.com/2016-05-22-rockbox-musci-player.html</id>
-    <published>2016-05-22T13:23:50.000Z</published>
-    <updated>2016-06-01T01:38:42.843Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;如果您是音乐的发烧人物，我想rockbox播放器很适合你，只需要您有一定的音乐基础和一点点手机动&lt;br&gt;手能力，如果您成功安装上rockbox和最佳配置，我相信rockbox播放器会每天让你最佳的&lt;br&gt;Enjoy Your Music!&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;如果您是音乐的发烧人物，我想rockbox播放器很适合你，只需要您有一定的音乐基础和一点点手机动&lt;br&gt;手能力，如果您成功安装上rockbox和最佳配置，我相信rockbox播放器会每天让你最佳的&lt;br&gt;Enjoy Your Music!&lt;br&gt;
     
     </summary>
     
