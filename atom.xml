@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-06-20T15:04:31.346Z</updated>
+  <updated>2016-06-20T15:19:56.558Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Brocade系列之一 博科日常运维命令</title>
+    <link href="http://blog.joryhe.com/2016-06-20-easy_know_boke_daily_yunwei.html"/>
+    <id>http://blog.joryhe.com/2016-06-20-easy_know_boke_daily_yunwei.html</id>
+    <published>2016-06-20T15:12:41.000Z</published>
+    <updated>2016-06-20T15:19:56.558Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍博科交换机日常运维命令。&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍博科交换机日常运维命令。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="博客交换机" scheme="http://blog.joryhe.com/categories/ittech/%E5%8D%9A%E5%AE%A2%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
+    
+    
+      <category term="博客交换机" scheme="http://blog.joryhe.com/tags/%E5%8D%9A%E5%AE%A2%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>Brocade系列之二 博科交换机简单配置实例</title>
@@ -564,28 +592,6 @@
       <category term="多说" scheme="http://blog.joryhe.com/tags/%E5%A4%9A%E8%AF%B4/"/>
     
       <category term="disqus" scheme="http://blog.joryhe.com/tags/disqus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RockBox播放器的均衡器详解（EQ）</title>
-    <link href="http://blog.joryhe.com/2016-05-22-rockbox-eq-introduce.html"/>
-    <id>http://blog.joryhe.com/2016-05-22-rockbox-eq-introduce.html</id>
-    <published>2016-05-22T13:37:25.000Z</published>
-    <updated>2016-06-01T01:38:57.537Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;通过”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/22/rockbox-musci-player.html&quot;&gt;rockbox 安卓强大的音乐播放神器&lt;/a&gt;“你应该了解rockbox的强大之处，或者你已经成功&lt;br&gt;安装上rockbox，但是想要发挥rockbox的好音质，你还需要了解一下rockbox的均衡器，活&lt;br&gt;用Rockbox的均衡器（EQ），rockbox才会更好的发挥好音质效果。&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;通过”&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;2016/05/22/rockbox-musci-player.html&quot;&gt;rockbox 安卓强大的音乐播放神器&lt;/a&gt;“你应该了解rockbox的强大之处，或者你已经成功&lt;br&gt;安装上rockbox，但是想要发挥rockbox的好音质，你还需要了解一下rockbox的均衡器，活&lt;br&gt;用Rockbox的均衡器（EQ），rockbox才会更好的发挥好音质效果。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="essay" scheme="http://blog.joryhe.com/categories/essay/"/>
-    
-    
-      <category term="音乐播放器" scheme="http://blog.joryhe.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
   </entry>
   
