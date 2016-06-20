@@ -5,6 +5,29 @@
     
     
   <url>
+    <loc>http://www.joryhe.com/2016-06-20-easy_boke_commandnd_create_zone.html</loc>
+    <lastmod>2016-06-20T15:33:16.095Z</lastmod>
+    <data>
+        <display>
+        <title>Brocade系列之三 博科通过命令创建ZONE</title>
+        <pubTime>2016-06-20T15:29:34.000Z</pubTime>
+        
+        <tag>博客交换机</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="博客交换机" url="http://www.joryhe.com/categories/ittech/%E5%8D%9A%E5%AE%A2%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.joryhe.com/2016-06-20-easy_know_boke_daily_yunwei.html</loc>
     <lastmod>2016-06-20T15:19:56.558Z</lastmod>
     <data>
@@ -323,9 +346,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>lazyload</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>lazyload</tag>
          
          
            

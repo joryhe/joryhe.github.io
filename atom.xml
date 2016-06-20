@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-06-20T15:19:56.558Z</updated>
+  <updated>2016-06-20T15:33:16.095Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Brocade系列之三 博科通过命令创建ZONE</title>
+    <link href="http://blog.joryhe.com/2016-06-20-easy_boke_commandnd_create_zone.html"/>
+    <id>http://blog.joryhe.com/2016-06-20-easy_boke_commandnd_create_zone.html</id>
+    <published>2016-06-20T15:29:34.000Z</published>
+    <updated>2016-06-20T15:33:16.095Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="博客交换机" scheme="http://blog.joryhe.com/categories/ittech/%E5%8D%9A%E5%AE%A2%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
+    
+    
+      <category term="博客交换机" scheme="http://blog.joryhe.com/tags/%E5%8D%9A%E5%AE%A2%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>Brocade系列之一 博科日常运维命令</title>
@@ -562,36 +587,6 @@
     
     
       <category term="IT运维" scheme="http://blog.joryhe.com/tags/IT%E8%BF%90%E7%BB%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>区分国内与国外GIT，分别显示多说与DISQUS</title>
-    <link href="http://blog.joryhe.com/2016-05-23-how_to_both_duoshuo_and_disqus.html"/>
-    <id>http://blog.joryhe.com/2016-05-23-how_to_both_duoshuo_and_disqus.html</id>
-    <published>2016-05-23T14:47:42.000Z</published>
-    <updated>2016-06-04T08:42:33.831Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;相信很多人都已经实现的coding与Github的同时托管NEXT博客。但相信很多人都会碰到coding与github到&lt;br&gt;底是使用duoshuo还是disqus的问题，毕竟多说适合国内，而disqus适合国外。如何选择都不是最好的。那&lt;br&gt;有没办法实现国内coding使用多说。国外github使用disqus，其实是可以得。仅需您做部分代码的修改。本&lt;br&gt;章为此而介绍。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;相信很多人都已经实现的coding与Github的同时托管NEXT博客。但相信很多人都会碰到coding与github到&lt;br&gt;底是使用duoshuo还是disqus的问题，毕竟多说适合国内，而disqus适合国外。如何选择都不是最好的。那&lt;br&gt;有没办法实现国内coding使用多说。国外github使用disqus，其实是可以得。仅需您做部分代码的修改。本&lt;br&gt;章为此而介绍。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO进阶" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
-    
-    
-      <category term="多说" scheme="http://blog.joryhe.com/tags/%E5%A4%9A%E8%AF%B4/"/>
-    
-      <category term="disqus" scheme="http://blog.joryhe.com/tags/disqus/"/>
     
   </entry>
   
