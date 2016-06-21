@@ -3,6 +3,30 @@
 
 
     
+    
+  <url>
+    <loc>http://www.joryhe.com/2016-06-21-kabasiji_for_linux_install_guide.html</loc>
+    <lastmod>2016-06-21T13:25:30.129Z</lastmod>
+    <data>
+        <display>
+        <title>卡巴斯基之Linux客户端安装指引</title>
+        <pubTime>2016-06-21T05:21:57.000Z</pubTime>
+        
+        <tag>卡巴斯基</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="卡巴斯基" url="http://www.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.joryhe.com/2016-06-20-easy_boke_commandnd_create_zone.html</loc>
     <lastmod>2016-06-20T15:39:48.123Z</lastmod>
@@ -25,7 +49,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://www.joryhe.com/2016-06-20-easy_know_boke_daily_yunwei.html</loc>
@@ -346,9 +369,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>lazyload</tag>
+         
+        <tag>hexo</tag>
          
          
            
@@ -649,9 +672,9 @@
         <title>好用的安卓音乐播放器介绍</title>
         <pubTime>2016-05-21T13:42:29.000Z</pubTime>
         
-        <tag>音乐</tag>
-         
         <tag>音乐播放器</tag>
+         
+        <tag>音乐</tag>
          
          
            
