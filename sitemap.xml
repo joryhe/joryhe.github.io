@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.joryhe.com/tags/index.html</loc>
+    
+    <lastmod>2016-06-26T10:33:55.763Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.joryhe.com/documents/index.html</loc>
     
     <lastmod>2016-06-26T07:03:29.241Z</lastmod>
@@ -278,13 +285,6 @@
     <loc>http://blog.joryhe.com/2016-05-15-xenserver-add-local-disk.html</loc>
     
     <lastmod>2016-06-01T01:35:02.358Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.joryhe.com/tags/index.html</loc>
-    
-    <lastmod>2016-05-20T06:07:04.562Z</lastmod>
     
   </url>
   
