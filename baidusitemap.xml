@@ -3,6 +3,30 @@
 
 
     
+    
+  <url>
+    <loc>http://www.joryhe.com/2016-06-26-kabsiji_package_on_skipcheck_360.html</loc>
+    <lastmod>2016-06-26T07:02:11.979Z</lastmod>
+    <data>
+        <display>
+        <title>卡巴斯基10制作兼容(绕过检测)360客户端安装包</title>
+        <pubTime>2016-06-26T06:33:17.000Z</pubTime>
+        
+        <tag>卡巴斯基</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="卡巴斯基" url="http://www.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.joryhe.com/2016-06-20-easy_to_configure_boke_switch_on_zone.html</loc>
     <lastmod>2016-06-21T13:39:28.948Z</lastmod>
@@ -71,7 +95,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://www.joryhe.com/2016-06-21-kabasiji_for_linux_install_guide.html</loc>
@@ -369,9 +392,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>lazyload</tag>
+         
+        <tag>hexo</tag>
          
          
            

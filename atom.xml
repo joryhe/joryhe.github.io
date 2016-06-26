@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-06-21T13:25:30.129Z</updated>
+  <updated>2016-06-26T07:02:11.979Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>卡巴斯基10制作兼容(绕过检测)360客户端安装包</title>
+    <link href="http://blog.joryhe.com/2016-06-26-kabsiji_package_on_skipcheck_360.html"/>
+    <id>http://blog.joryhe.com/2016-06-26-kabsiji_package_on_skipcheck_360.html</id>
+    <published>2016-06-26T06:33:17.000Z</published>
+    <updated>2016-06-26T07:02:11.979Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;我们在装有360的电脑上安装卡巴斯基杀毒经常出现杀毒软件不兼容而无法安装卡巴斯基杀毒客户端，为此本文针对此问题介绍如何制作一个可以绕过360检测的卡巴斯基客户端安装包。&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;我们在装有360的电脑上安装卡巴斯基杀毒经常出现杀毒软件不兼容而无法安装卡巴斯基杀毒客户端，为此本文针对此问题介绍如何制作一个可以绕过360检测的卡巴斯基客户端安装包。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="卡巴斯基" scheme="http://blog.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+    
+    
+      <category term="卡巴斯基" scheme="http://blog.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>卡巴斯基之Linux客户端安装指引</title>
@@ -564,34 +592,6 @@
       <category term="翻墙" scheme="http://blog.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
     
       <category term="shadowsocks" scheme="http://blog.joryhe.com/tags/shadowsocks/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leanCloud,实现文章阅读量统计</title>
-    <link href="http://blog.joryhe.com/2016-05-29-how_to_create_leancloud_read_Counter.html"/>
-    <id>http://blog.joryhe.com/2016-05-29-how_to_create_leancloud_read_Counter.html</id>
-    <published>2016-05-29T15:03:50.000Z</published>
-    <updated>2016-06-04T08:42:25.737Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本章介绍如何实现通过leanCloud统计您网站的文章阅读量，并介绍一些基本实现方法。&lt;br&gt;值得庆喜的是Next主题默认就支持leanCloud的相关设置，您只需要进行几部操作就可以实现&lt;br&gt;你的网站文章阅读量的统计。如果您需要了解更多关于HEXO资料，请点击以下链接。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本章介绍如何实现通过leanCloud统计您网站的文章阅读量，并介绍一些基本实现方法。&lt;br&gt;值得庆喜的是Next主题默认就支持leanCloud的相关设置，您只需要进行几部操作就可以实现&lt;br&gt;你的网站文章阅读量的统计。如果您需要了解更多关于HEXO资料，请点击以下链接。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
-    
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
     
   </entry>
   
