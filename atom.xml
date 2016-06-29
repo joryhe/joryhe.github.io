@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-06-29T07:04:52.527Z</updated>
+  <updated>2016-06-29T13:29:00.267Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>轻松部署vmware esxi6.0与vCenter</title>
+    <link href="http://blog.joryhe.com/2016-06-29-vmwaware_and_vcenter_install_guide.html"/>
+    <id>http://blog.joryhe.com/2016-06-29-vmwaware_and_vcenter_install_guide.html</id>
+    <published>2016-06-29T12:50:06.000Z</published>
+    <updated>2016-06-29T13:29:00.267Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Vmware 为现时代有名的服务器虚拟化实现软件，本文简单的介绍如何部署vmwawre服务器虚拟化和部署vCenter服务器。&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Vmware 为现时代有名的服务器虚拟化实现软件，本文简单的介绍如何部署vmwawre服务器虚拟化和部署vCenter服务器。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="vmware" scheme="http://blog.joryhe.com/categories/ittech/vmware/"/>
+    
+    
+      <category term="vmware" scheme="http://blog.joryhe.com/tags/vmware/"/>
+    
+  </entry>
   
   <entry>
     <title>赛门铁克DLP防泄漏部署指引</title>
@@ -568,30 +596,6 @@
       <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
     
       <category term="多说" scheme="http://blog.joryhe.com/tags/%E5%A4%9A%E8%AF%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shadowsocks系列之二 Shadowsocks安装与基本配置</title>
-    <link href="http://blog.joryhe.com/2016-05-30-shadowsocks_serices_setup_jieshao.html"/>
-    <id>http://blog.joryhe.com/2016-05-30-shadowsocks_serices_setup_jieshao.html</id>
-    <published>2016-05-30T05:41:48.000Z</published>
-    <updated>2016-06-04T08:40:59.753Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本部分开始介绍如何安装shadowsocks，如果您不了解shadowsocks是什么，请点击此链接以&lt;br&gt;获取相关资料&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本部分开始介绍如何安装shadowsocks，如果您不了解shadowsocks是什么，请点击此链接以&lt;br&gt;获取相关资料&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="翻墙" scheme="http://blog.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
-    
-    
-      <category term="翻墙" scheme="http://blog.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
-    
-      <category term="shadowsocks" scheme="http://blog.joryhe.com/tags/shadowsocks/"/>
     
   </entry>
   
