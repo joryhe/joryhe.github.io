@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-06-29T13:29:00.267Z</updated>
+  <updated>2016-06-29T14:55:37.691Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VMware_物理机迁移到虚拟机P2V(热迁移)</title>
+    <link href="http://blog.joryhe.com/2016-06-29-vmware_hot_on_line_p2v.html"/>
+    <id>http://blog.joryhe.com/2016-06-29-vmware_hot_on_line_p2v.html</id>
+    <published>2016-06-29T14:36:58.000Z</published>
+    <updated>2016-06-29T14:55:37.691Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;本文介绍如何将一台物理服务器通过vmware P2v迁移至vmware的宿主机。迁移过程为热迁移，保证了系统不会因为迁移而断线。&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;本文介绍如何将一台物理服务器通过vmware P2v迁移至vmware的宿主机。迁移过程为热迁移，保证了系统不会因为迁移而断线。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="vmware" scheme="http://blog.joryhe.com/categories/ittech/vmware/"/>
+    
+    
+      <category term="vmware" scheme="http://blog.joryhe.com/tags/vmware/"/>
+    
+  </entry>
   
   <entry>
     <title>轻松部署vmware esxi6.0与vCenter</title>
@@ -566,36 +594,6 @@
       <category term="翻墙" scheme="http://blog.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
     
       <category term="shadowsocks" scheme="http://blog.joryhe.com/tags/shadowsocks/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>多说优化，高级CSS设置</title>
-    <link href="http://blog.joryhe.com/2016-05-30-duoshuo_advance_setting_css.html"/>
-    <id>http://blog.joryhe.com/2016-05-30-duoshuo_advance_setting_css.html</id>
-    <published>2016-05-30T14:40:58.000Z</published>
-    <updated>2016-06-04T08:43:20.606Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文是针对duoshuo的优化部分，实现优化多说显示和现实用户端的浏览器类型，相关的配置代码&lt;br&gt;通过搜罗网络上所给予的代码所得出。您仅仅需要简单的操作便高校的改变你的duoshuo评论框的样式。&lt;br&gt;样式简洁好看。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文是针对duoshuo的优化部分，实现优化多说显示和现实用户端的浏览器类型，相关的配置代码&lt;br&gt;通过搜罗网络上所给予的代码所得出。您仅仅需要简单的操作便高校的改变你的duoshuo评论框的样式。&lt;br&gt;样式简洁好看。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
-    
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
-    
-      <category term="多说" scheme="http://blog.joryhe.com/tags/%E5%A4%9A%E8%AF%B4/"/>
     
   </entry>
   

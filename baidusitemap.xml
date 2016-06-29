@@ -5,6 +5,29 @@
     
     
   <url>
+    <loc>http://www.joryhe.com/2016-06-29-vmware_hot_on_line_p2v.html</loc>
+    <lastmod>2016-06-29T14:55:37.691Z</lastmod>
+    <data>
+        <display>
+        <title>VMware_物理机迁移到虚拟机P2V(热迁移)</title>
+        <pubTime>2016-06-29T14:36:58.000Z</pubTime>
+        
+        <tag>vmware</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="vmware" url="http://www.joryhe.com/categories/ittech/vmware/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.joryhe.com/2016-06-29-vmwaware_and_vcenter_install_guide.html</loc>
     <lastmod>2016-06-29T13:29:00.267Z</lastmod>
     <data>
@@ -742,9 +765,9 @@
         <title>好用的安卓音乐播放器介绍</title>
         <pubTime>2016-05-21T13:42:29.000Z</pubTime>
         
-        <tag>音乐</tag>
-         
         <tag>音乐播放器</tag>
+         
+        <tag>音乐</tag>
          
          
            
