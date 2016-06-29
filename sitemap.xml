@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.joryhe.com/tags/index.html</loc>
+    <loc>http://blog.joryhe.com/documents/index.html</loc>
     
-    <lastmod>2016-06-26T10:36:55.618Z</lastmod>
+    <lastmod>2016-06-29T07:07:11.596Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.joryhe.com/documents/index.html</loc>
+    <loc>http://blog.joryhe.com/2016-06-29-symantec_dlp_install_guide.html</loc>
     
-    <lastmod>2016-06-26T07:03:29.241Z</lastmod>
+    <lastmod>2016-06-29T07:04:52.527Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.joryhe.com/tags/index.html</loc>
+    
+    <lastmod>2016-06-26T10:36:55.618Z</lastmod>
     
   </url>
   

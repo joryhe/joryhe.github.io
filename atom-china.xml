@@ -5,7 +5,7 @@
   <link href="/atom-china.xml" rel="self"/>
   
   <link href="http://www.joryhe.com/"/>
-  <updated>2016-06-26T07:02:11.979Z</updated>
+  <updated>2016-06-29T07:04:52.527Z</updated>
   <id>http://www.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>赛门铁克DLP防泄漏部署指引</title>
+    <link href="http://www.joryhe.com/2016-06-29-symantec_dlp_install_guide.html"/>
+    <id>http://www.joryhe.com/2016-06-29-symantec_dlp_install_guide.html</id>
+    <published>2016-06-29T05:14:13.000Z</published>
+    <updated>2016-06-29T07:04:52.527Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;本文介绍Symantec DLP防泄漏的部署安装，Symantec DLP防泄漏指通过对内外网的数据进行监控分析，并对重要信息进行拦截保护企业内部信息安全。&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;本文介绍Symantec DLP防泄漏的部署安装，Symantec DLP防泄漏指通过对内外网的数据进行监控分析，并对重要信息进行拦截保护企业内部信息安全。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+    
+      <category term="DLP" scheme="http://www.joryhe.com/categories/ittech/DLP/"/>
+    
+    
+      <category term="DLP" scheme="http://www.joryhe.com/tags/DLP/"/>
+    
+  </entry>
   
   <entry>
     <title>卡巴斯基10制作兼容(绕过检测)360客户端安装包</title>
@@ -555,34 +583,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本部分开始介绍如何安装shadowsocks，如果您不了解shadowsocks是什么，请点击此链接以&lt;br&gt;获取相关资料&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="翻墙" scheme="http://www.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
-    
-    
-      <category term="翻墙" scheme="http://www.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
-    
-      <category term="shadowsocks" scheme="http://www.joryhe.com/tags/shadowsocks/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shadowsocks系列之一 Shadowsock介绍</title>
-    <link href="http://www.joryhe.com/2016-05-30-shadowsocks_serices_one_inroduce.html"/>
-    <id>http://www.joryhe.com/2016-05-30-shadowsocks_serices_one_inroduce.html</id>
-    <published>2016-05-30T05:26:57.000Z</published>
-    <updated>2016-06-04T08:41:15.228Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Shadowsocks&lt;/code&gt;（中文名称：影梭）是使用Python等语言开发的、基于Apache许可证开源的代理&lt;br&gt;软件。&lt;code&gt;Shadowsocks&lt;/code&gt;使用&lt;code&gt;socks5&lt;/code&gt;代理，用于保护网络流量。在中国大陆被广泛用于突破防火长城（GFW）&lt;br&gt;，以浏览被封锁的内容。Shadowsocks分为服务器端和客户端。在使用之前，需要先将服务器端部署&lt;br&gt;在支持Python的服务器上面，然后通过客户端连接并创建本地代理。&lt;br&gt;目前开发者已宣布停止维护。但仍有更新陆续推送.&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/8d1d1462160415.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;原作者：&lt;/strong&gt;Clowwindy&lt;br&gt;&lt;strong&gt;开发者：&lt;/strong&gt;Shadowsocks贡献者&lt;br&gt;&lt;strong&gt;操作系统：&lt;/strong&gt;跨平台（基于客户端与远程）服务器&lt;br&gt;&lt;strong&gt;类型：&lt;/strong&gt;本地socks5代理&lt;/p&gt;
-&lt;p&gt;访问以下链接获取更多内容&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Shadowsocks&lt;/code&gt;（中文名称：影梭）是使用Python等语言开发的、基于Apache许可证开源的代理&lt;br&gt;软件。&lt;code&gt;Shadowsocks&lt;/code&gt;使用&lt;code&gt;socks5&lt;/code&gt;代理，用于保护网络流量。在中国大陆被广泛用于突破防火长城（GFW）&lt;br&gt;，以浏览被封锁的内容。Shadowsocks分为服务器端和客户端。在使用之前，需要先将服务器端部署&lt;br&gt;在支持Python的服务器上面，然后通过客户端连接并创建本地代理。&lt;br&gt;目前开发者已宣布停止维护。但仍有更新陆续推送.&lt;br&gt;&lt;img src=&quot;/images/loading2.gif&quot; class=&quot;&#39;jory_lazyimg&#39;&quot; data-original=&quot;http://o6sn177if.bkt.clouddn.com/images/8d1d1462160415.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;原作者：&lt;/strong&gt;Clowwindy&lt;br&gt;&lt;strong&gt;开发者：&lt;/strong&gt;Shadowsocks贡献者&lt;br&gt;&lt;strong&gt;操作系统：&lt;/strong&gt;跨平台（基于客户端与远程）服务器&lt;br&gt;&lt;strong&gt;类型：&lt;/strong&gt;本地socks5代理&lt;/p&gt;
-&lt;p&gt;访问以下链接获取更多内容&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
