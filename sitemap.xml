@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.joryhe.com/documents/index.html</loc>
+    <loc>http://blog.joryhe.com/2016-06-29-vmware_hot_on_line_p2v.html</loc>
     
-    <lastmod>2016-06-29T14:56:29.597Z</lastmod>
+    <lastmod>2016-08-02T05:06:51.717Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.joryhe.com/2016-06-29-vmware_hot_on_line_p2v.html</loc>
+    <loc>http://blog.joryhe.com/documents/index.html</loc>
     
-    <lastmod>2016-06-29T14:55:37.691Z</lastmod>
+    <lastmod>2016-08-02T05:04:24.427Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.joryhe.com/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html</loc>
+    
+    <lastmod>2016-08-02T04:31:13.915Z</lastmod>
     
   </url>
   

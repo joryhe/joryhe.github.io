@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-06-29T14:55:37.691Z</updated>
+  <updated>2016-08-02T04:31:13.915Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -16,11 +16,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>卡巴斯基KVM下的虚拟化防病毒</title>
+    <link href="http://blog.joryhe.com/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html"/>
+    <id>http://blog.joryhe.com/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html</id>
+    <published>2016-08-01T02:45:03.000Z</published>
+    <updated>2016-08-02T04:31:13.915Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;前沿&quot;&gt;&lt;a href=&quot;#前沿&quot; class=&quot;headerlink&quot; title=&quot;前沿&quot;&gt;&lt;/a&gt;前沿&lt;/h2&gt;&lt;p&gt;随着时代的发展，虚拟化逐渐成为主流，现在很多的设备都使用了虚拟化技术，主流的虚拟化平台有Vmware、Xen、Hyperv、KVM等。同时对虚拟化计算机的防病毒有心的要求，传统的防病毒客户端不适合于虚拟化的计算机，为了更大提高虚拟化的性能和减少反病毒所消耗的资源，卡巴斯基推出虚拟化方案下的轻代理防病毒。&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前沿&quot;&gt;&lt;a href=&quot;#前沿&quot; class=&quot;headerlink&quot; title=&quot;前沿&quot;&gt;&lt;/a&gt;前沿&lt;/h2&gt;&lt;p&gt;随着时代的发展，虚拟化逐渐成为主流，现在很多的设备都使用了虚拟化技术，主流的虚拟化平台有Vmware、Xen、Hyperv、KVM等。同时对虚拟化计算机的防病毒有心的要求，传统的防病毒客户端不适合于虚拟化的计算机，为了更大提高虚拟化的性能和减少反病毒所消耗的资源，卡巴斯基推出虚拟化方案下的轻代理防病毒。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="卡巴斯基" scheme="http://blog.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+    
+    
+      <category term="卡巴斯基" scheme="http://blog.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>VMware_物理机迁移到虚拟机P2V(热迁移)</title>
     <link href="http://blog.joryhe.com/2016-06-29-vmware_hot_on_line_p2v.html"/>
     <id>http://blog.joryhe.com/2016-06-29-vmware_hot_on_line_p2v.html</id>
     <published>2016-06-29T14:36:58.000Z</published>
-    <updated>2016-06-29T14:55:37.691Z</updated>
+    <updated>2016-08-02T05:06:51.717Z</updated>
     
     <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;本文介绍如何将一台物理服务器通过vmware P2v迁移至vmware的宿主机。迁移过程为热迁移，保证了系统不会因为迁移而断线。&lt;/p&gt;
@@ -561,30 +585,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本部分开始介绍如何简单保护一下Shadowsocks链接安全，如果你之前并没了解Shadowsocks，或者您还没成功&lt;br&gt;搭建您的Shadowsocks服务器，点击一下：获取相关资料&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="翻墙" scheme="http://blog.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
-    
-    
-      <category term="翻墙" scheme="http://blog.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
-    
-      <category term="shadowsocks" scheme="http://blog.joryhe.com/tags/shadowsocks/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shadowsocks系列之三 Shadowsock优化与加速</title>
-    <link href="http://blog.joryhe.com/2016-05-31-shadowsocks_serices_speeder_optmime.html"/>
-    <id>http://blog.joryhe.com/2016-05-31-shadowsocks_serices_speeder_optmime.html</id>
-    <published>2016-05-31T01:07:42.000Z</published>
-    <updated>2016-06-04T08:40:48.843Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本部分开始介绍如何优化和加速Shadowsocks，如果你之前并没了解Shadowsocks，或者您还没成功&lt;br&gt;搭建您的Shadowsocks服务器，点击一下：获取相关资料&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本部分开始介绍如何优化和加速Shadowsocks，如果你之前并没了解Shadowsocks，或者您还没成功&lt;br&gt;搭建您的Shadowsocks服务器，点击一下：获取相关资料&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
