@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-08-11T05:44:34.270Z</updated>
+  <updated>2016-08-11T07:01:36.192Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -16,11 +16,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>LNMP日常主机操作,伪静态</title>
+    <link href="http://blog.joryhe.com/2016-08-11-lnmp_host_add_guide_2.html"/>
+    <id>http://blog.joryhe.com/2016-08-11-lnmp_host_add_guide_2.html</id>
+    <published>2016-08-11T06:28:41.000Z</published>
+    <updated>2016-08-11T07:01:36.192Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;假定你已经成功通过一键LNMP搭建成功属于自己的WEB环境，&lt;a href=&quot;/2016-08-11-lnmp_install_guidede_1.html&quot;&gt;了解一键LNMP安装？&lt;/a&gt;，本章将会介绍如何通过LNMP环境提供的工具建立虚拟主机，删除虚拟机主机，开启伪静态等操作&lt;/p&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;假定你已经成功通过一键LNMP搭建成功属于自己的WEB环境，&lt;a href=&quot;/2016-08-11-lnmp_install_guidede_1.html&quot;&gt;了解一键LNMP安装？&lt;/a&gt;，本章将会介绍如何通过LNMP环境提供的工具建立虚拟主机，删除虚拟机主机，开启伪静态等操作&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="LNMP" scheme="http://blog.joryhe.com/categories/ittech/LNMP/"/>
+    
+    
+      <category term="LNMP" scheme="http://blog.joryhe.com/tags/LNMP/"/>
+    
+  </entry>
+  
+  <entry>
     <title>一键LNMP安装包搭建web环境</title>
     <link href="http://blog.joryhe.com/2016-08-11-lnmp_install_guidede_1.html"/>
     <id>http://blog.joryhe.com/2016-08-11-lnmp_install_guidede_1.html</id>
     <published>2016-08-11T05:09:28.000Z</published>
-    <updated>2016-08-11T05:44:34.270Z</updated>
+    <updated>2016-08-11T07:01:57.971Z</updated>
     
     <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RadHat/Fedora、Debian/Ubuntu/Raspbian/Deepin VPS或独立主机安装LNMP(Nginx/MySQL/PHP)、LNMPA(Nginx/MySQL/PHP/Apache)、LAMP(Apache/MySQL/PHP)生产环境的Shell程序。同时提供一些实用的辅助工具如：虚拟主机管理、FTP用户管理、Nginx、MySQL/MariaDB、PHP的升级、常用缓存组件Redis、Xcache等的安装、重置MySQL root密码、502自动重启、日志切割、SSH防护DenyHosts/Fail2Ban、备份等许多实用脚本。&lt;/p&gt;</content>
     
@@ -564,36 +588,6 @@
       <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
     
       <category term="sitemap" scheme="http://blog.joryhe.com/tags/sitemap/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>活用Lazyload.js，为你的CDN图片加上nofollow(绝招来啦！)</title>
-    <link href="http://blog.joryhe.com/2016-05-31-use_lazyload_add_nofollow.html"/>
-    <id>http://blog.joryhe.com/2016-05-31-use_lazyload_add_nofollow.html</id>
-    <published>2016-05-31T05:21:17.000Z</published>
-    <updated>2016-06-04T08:40:29.329Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;不知道大家有没有了解lazyload的实现原理。如果没有请浏览以下给出的系列，本章将会介绍一个lazyload.js的脚本的一个活用方法，通过本章，相信你会了解到简单lazyload原理和通过lazyload修改&lt;br&gt;图片或者A标签的属性的绝招。通过绝招我们实现的为A或者图片IMG标签打上我们想要的属性。本章目的是为Fancybox的a标签打上nofollow属性，减少权重的丢失。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;不知道大家有没有了解lazyload的实现原理。如果没有请浏览以下给出的系列，本章将会介绍一个lazyload.js的脚本的一个活用方法，通过本章，相信你会了解到简单lazyload原理和通过lazyload修改&lt;br&gt;图片或者A标签的属性的绝招。通过绝招我们实现的为A或者图片IMG标签打上我们想要的属性。本章目的是为Fancybox的a标签打上nofollow属性，减少权重的丢失。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
-    
-    
-      <category term="lazyload" scheme="http://blog.joryhe.com/tags/lazyload/"/>
-    
-      <category term="nofollow" scheme="http://blog.joryhe.com/tags/nofollow/"/>
     
   </entry>
   

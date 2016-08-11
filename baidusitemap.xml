@@ -5,11 +5,34 @@
     
   <url>
     <loc>http://www.joryhe.com/2016-08-11-lnmp_install_guidede_1.html</loc>
-    <lastmod>2016-08-11T05:44:34.270Z</lastmod>
+    <lastmod>2016-08-11T07:01:57.971Z</lastmod>
     <data>
         <display>
         <title>一键LNMP安装包搭建web环境</title>
         <pubTime>2016-08-11T05:09:28.000Z</pubTime>
+        
+        <tag>LNMP</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="LNMP" url="http://www.joryhe.com/categories/ittech/LNMP/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.joryhe.com/2016-08-11-lnmp_host_add_guide_2.html</loc>
+    <lastmod>2016-08-11T07:01:36.192Z</lastmod>
+    <data>
+        <display>
+        <title>LNMP日常主机操作,伪静态</title>
+        <pubTime>2016-08-11T06:28:41.000Z</pubTime>
         
         <tag>LNMP</tag>
          
@@ -508,9 +531,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>lazyload</tag>
+         
+        <tag>hexo</tag>
          
          
            
@@ -564,9 +587,9 @@
         <title>多说优化，高级CSS设置</title>
         <pubTime>2016-05-30T14:40:58.000Z</pubTime>
         
-        <tag>多说</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>多说</tag>
          
          
            
@@ -811,9 +834,9 @@
         <title>好用的安卓音乐播放器介绍</title>
         <pubTime>2016-05-21T13:42:29.000Z</pubTime>
         
-        <tag>音乐播放器</tag>
-         
         <tag>音乐</tag>
+         
+        <tag>音乐播放器</tag>
          
          
            

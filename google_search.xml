@@ -4,6 +4,12 @@
   
     
     <entry>
+      <title><![CDATA[LNMP日常主机操作,伪静态]]></title>
+      <url>http://blog.joryhe.com/2016-08-11-lnmp_host_add_guide_2.html</url>
+      <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>假定你已经成功通过一键LNMP搭建成功属于自己的WEB环境，<a href="/2016-08-11-lnmp_install_guidede_1.html">了解一键LNMP安装？</a>，本章将会介绍如何通过LNMP环境提供的工具建立虚拟主机，删除虚拟机主机，开启伪静态等操作</p>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[一键LNMP安装包搭建web环境]]></title>
       <url>http://blog.joryhe.com/2016-08-11-lnmp_install_guidede_1.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RadHat/Fedora、Debian/Ubuntu/Raspbian/Deepin VPS或独立主机安装LNMP(Nginx/MySQL/PHP)、LNMPA(Nginx/MySQL/PHP/Apache)、LAMP(Apache/MySQL/PHP)生产环境的Shell程序。同时提供一些实用的辅助工具如：虚拟主机管理、FTP用户管理、Nginx、MySQL/MariaDB、PHP的升级、常用缓存组件Redis、Xcache等的安装、重置MySQL root密码、502自动重启、日志切割、SSH防护DenyHosts/Fail2Ban、备份等许多实用脚本。</p>]]></content>
