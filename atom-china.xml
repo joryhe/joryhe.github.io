@@ -5,7 +5,7 @@
   <link href="/atom-china.xml" rel="self"/>
   
   <link href="http://www.joryhe.com/"/>
-  <updated>2016-08-11T12:47:10.808Z</updated>
+  <updated>2016-08-11T13:18:37.218Z</updated>
   <id>http://www.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>卡巴斯基功能测试之-反网络攻击测试</title>
+    <link href="http://www.joryhe.com/2016-08-11-kakaspersky_network_hack_defend.html"/>
+    <id>http://www.joryhe.com/2016-08-11-kakaspersky_network_hack_defend.html</id>
+    <published>2016-08-11T13:03:15.000Z</published>
+    <updated>2016-08-11T13:18:37.218Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;了解通过卡巴斯基反网络攻击，保护计算机安全。通常计算机漏洞是通过微软的windows 更新实现补丁更新修复漏洞，但是我们无法100%判断补丁更新和漏洞修复对系统的的影响。所以一个更好的方式是利用卡巴斯基提供的反网络攻击实现对利用网络进行系统的漏洞渗透与攻击的防御。&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;了解通过卡巴斯基反网络攻击，保护计算机安全。通常计算机漏洞是通过微软的windows 更新实现补丁更新修复漏洞，但是我们无法100%判断补丁更新和漏洞修复对系统的的影响。所以一个更好的方式是利用卡巴斯基提供的反网络攻击实现对利用网络进行系统的漏洞渗透与攻击的防御。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+    
+      <category term="卡巴斯基" scheme="http://www.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+    
+    
+      <category term="卡巴斯基" scheme="http://www.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>卡巴斯基功能测试之-linux防病毒测试</title>
@@ -552,36 +576,6 @@
       <category term="hexo" scheme="http://www.joryhe.com/tags/hexo/"/>
     
       <category term="dnspod" scheme="http://www.joryhe.com/tags/dnspod/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。</title>
-    <link href="http://www.joryhe.com/2016-06-01-update_info_baidupush_python.html"/>
-    <id>http://www.joryhe.com/2016-06-01-update_info_baidupush_python.html</id>
-    <published>2016-06-01T14:12:28.000Z</published>
-    <updated>2016-06-04T09:00:45.924Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;如果您了解百度提交的几种模式，相信大家都知道在提交的效率上：&lt;strong&gt;主动推送&amp;gt;自动推送&amp;gt;sitemap&lt;/strong&gt;,本文针对主动推送进行讲解，非常感谢lovenight 提供的百度主动推送脚本&lt;a href=&quot;https://github.com/loveNight/PythonScripts/blob/master/src/hexo%E5%90%91%E7%99%BE%E5%BA%A6%E6%8F%90%E4%BA%A4%E7%BD%91%E5%9D%80.py&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;hexo向百度提交网址.py&lt;/a&gt; ,但部分网上说法由于百度不会收录github网站域名的提交导致说此脚本失效。如果热衷于HEXO，你会发现相对于Github国内还有一个coding代码托管，所以我们可以将我们的网站都一同托管到Github和coding，通过某些方法实现让lovenight的百度推送脚本&lt;strong&gt;只&lt;/strong&gt;推送coding域名的网址到百度(此为本文目的)。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;如果您了解百度提交的几种模式，相信大家都知道在提交的效率上：&lt;strong&gt;主动推送&amp;gt;自动推送&amp;gt;sitemap&lt;/strong&gt;,本文针对主动推送进行讲解，非常感谢lovenight 提供的百度主动推送脚本&lt;a href=&quot;https://github.com/loveNight/PythonScripts/blob/master/src/hexo%E5%90%91%E7%99%BE%E5%BA%A6%E6%8F%90%E4%BA%A4%E7%BD%91%E5%9D%80.py&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;hexo向百度提交网址.py&lt;/a&gt; ,但部分网上说法由于百度不会收录github网站域名的提交导致说此脚本失效。如果热衷于HEXO，你会发现相对于Github国内还有一个coding代码托管，所以我们可以将我们的网站都一同托管到Github和coding，通过某些方法实现让lovenight的百度推送脚本&lt;strong&gt;只&lt;/strong&gt;推送coding域名的网址到百度(此为本文目的)。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO优化" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
-    
-    
-      <category term="hexo" scheme="http://www.joryhe.com/tags/hexo/"/>
-    
-      <category term="sitemap" scheme="http://www.joryhe.com/tags/sitemap/"/>
     
   </entry>
   
