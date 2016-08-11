@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://www.joryhe.com/2016-08-11-kakaspersky_kes_for_linux_to_check.html</loc>
+    <lastmod>2016-08-11T12:47:10.808Z</lastmod>
+    <data>
+        <display>
+        <title>卡巴斯基功能测试之-linux防病毒测试</title>
+        <pubTime>2016-08-11T09:33:07.000Z</pubTime>
+        
+        <tag>卡巴斯基</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="卡巴斯基" url="http://www.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
     <loc>http://www.joryhe.com/2016-08-11-lnmp_install_guidede_1.html</loc>
     <lastmod>2016-08-11T07:01:57.971Z</lastmod>
     <data>
@@ -71,7 +95,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://www.joryhe.com/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html</loc>
@@ -531,9 +554,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>lazyload</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>lazyload</tag>
          
          
            

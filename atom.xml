@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-08-11T07:01:36.192Z</updated>
+  <updated>2016-08-11T12:47:10.808Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>卡巴斯基功能测试之-linux防病毒测试</title>
+    <link href="http://blog.joryhe.com/2016-08-11-kakaspersky_kes_for_linux_to_check.html"/>
+    <id>http://blog.joryhe.com/2016-08-11-kakaspersky_kes_for_linux_to_check.html</id>
+    <published>2016-08-11T09:33:07.000Z</published>
+    <updated>2016-08-11T12:47:10.808Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本部分主要是对卡巴斯基的Linux客户端的防病毒功能进行测试，在往以前，很多都是部署完成并没有实际的测试一下Linux的防病毒功能，本章将以实际图例显示Linux的防病毒客户端的测试效果。&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本部分主要是对卡巴斯基的Linux客户端的防病毒功能进行测试，在往以前，很多都是部署完成并没有实际的测试一下Linux的防病毒功能，本章将以实际图例显示Linux的防病毒客户端的测试效果。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="卡巴斯基" scheme="http://blog.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+    
+    
+      <category term="卡巴斯基" scheme="http://blog.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>LNMP日常主机操作,伪静态</title>
@@ -543,36 +567,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;如果您了解百度提交的几种模式，相信大家都知道在提交的效率上：&lt;strong&gt;主动推送&amp;gt;自动推送&amp;gt;sitemap&lt;/strong&gt;,本文针对主动推送进行讲解，非常感谢lovenight 提供的百度主动推送脚本&lt;a href=&quot;https://github.com/loveNight/PythonScripts/blob/master/src/hexo%E5%90%91%E7%99%BE%E5%BA%A6%E6%8F%90%E4%BA%A4%E7%BD%91%E5%9D%80.py&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;hexo向百度提交网址.py&lt;/a&gt; ,但部分网上说法由于百度不会收录github网站域名的提交导致说此脚本失效。如果热衷于HEXO，你会发现相对于Github国内还有一个coding代码托管，所以我们可以将我们的网站都一同托管到Github和coding，通过某些方法实现让lovenight的百度推送脚本&lt;strong&gt;只&lt;/strong&gt;推送coding域名的网址到百度(此为本文目的)。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
-    
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
-    
-      <category term="sitemap" scheme="http://blog.joryhe.com/tags/sitemap/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)</title>
-    <link href="http://blog.joryhe.com/2016-05-31-baidu_google_both_tijiao.html"/>
-    <id>http://blog.joryhe.com/2016-05-31-baidu_google_both_tijiao.html</id>
-    <published>2016-05-31T12:31:54.000Z</published>
-    <updated>2016-06-04T08:44:05.370Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     

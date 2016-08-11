@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.joryhe.com/2016-08-11-kakaspersky_kes_for_linux_to_check.html</loc>
+    
+    <lastmod>2016-08-11T12:47:10.808Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.joryhe.com/documents/index.html</loc>
+    
+    <lastmod>2016-08-11T12:46:06.083Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.joryhe.com/2016-08-11-lnmp_install_guidede_1.html</loc>
     
     <lastmod>2016-08-11T07:01:57.971Z</lastmod>
@@ -19,13 +33,6 @@
     <loc>http://blog.joryhe.com/2016-06-29-vmware_hot_on_line_p2v.html</loc>
     
     <lastmod>2016-08-02T05:06:51.717Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.joryhe.com/documents/index.html</loc>
-    
-    <lastmod>2016-08-02T05:04:24.427Z</lastmod>
     
   </url>
   
