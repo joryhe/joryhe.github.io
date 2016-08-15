@@ -3,6 +3,30 @@
 
 
     
+    
+  <url>
+    <loc>http://www.joryhe.com/2016-08-15-kabaspersky_svm_configuration_on_manul.html</loc>
+    <lastmod>2016-08-15T12:57:23.426Z</lastmod>
+    <data>
+        <display>
+        <title>卡巴斯基虚拟化方案之-手动配置SVM</title>
+        <pubTime>2016-08-15T12:40:03.000Z</pubTime>
+        
+        <tag>卡巴斯基</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="卡巴斯基" url="http://www.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.joryhe.com/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html</loc>
     <lastmod>2016-08-15T06:05:30.908Z</lastmod>
@@ -25,7 +49,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://www.joryhe.com/2016-08-11-kakaspersky_network_hack_defend.html</loc>
@@ -600,9 +623,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>lazyload</tag>
+         
+        <tag>hexo</tag>
          
          
            
@@ -903,9 +926,9 @@
         <title>好用的安卓音乐播放器介绍</title>
         <pubTime>2016-05-21T13:42:29.000Z</pubTime>
         
-        <tag>音乐</tag>
-         
         <tag>音乐播放器</tag>
+         
+        <tag>音乐</tag>
          
          
            

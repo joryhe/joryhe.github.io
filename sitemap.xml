@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.joryhe.com/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html</loc>
+    <loc>http://blog.joryhe.com/documents/index.html</loc>
     
-    <lastmod>2016-08-15T06:05:30.908Z</lastmod>
+    <lastmod>2016-08-15T12:58:19.561Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.joryhe.com/documents/index.html</loc>
+    <loc>http://blog.joryhe.com/2016-08-15-kabaspersky_svm_configuration_on_manul.html</loc>
     
-    <lastmod>2016-08-15T05:52:31.186Z</lastmod>
+    <lastmod>2016-08-15T12:57:23.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.joryhe.com/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html</loc>
+    
+    <lastmod>2016-08-15T06:05:30.908Z</lastmod>
     
   </url>
   

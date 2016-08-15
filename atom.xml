@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-08-15T06:05:30.908Z</updated>
+  <updated>2016-08-15T12:57:23.426Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>卡巴斯基虚拟化方案之-手动配置SVM</title>
+    <link href="http://blog.joryhe.com/2016-08-15-kabaspersky_svm_configuration_on_manul.html"/>
+    <id>http://blog.joryhe.com/2016-08-15-kabaspersky_svm_configuration_on_manul.html</id>
+    <published>2016-08-15T12:40:03.000Z</published>
+    <updated>2016-08-15T12:57:23.426Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;在了解本章前，你应该需要了解到卡巴斯基的虚拟化防病毒过程与实现，了解”&lt;a href=&quot;/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html&quot;&gt;卡巴斯基KVM下的虚拟化防病毒&lt;/a&gt;“，通常情况下，你可以通过卡巴斯基管理控制台下的lightAgent控件部署SVM到KVM，一般情况下会成功过，但是也可能是因为一些其他的原因导致无法推送成功，本章假定你已经获取到SVM的raw文件，您尝试通过kvm下的磁盘导入到kvm并生成一个svm虚拟机。这样你在部署SVM需要手动配置SVM已达到正确的拔SVM部署到KVM宿主机上。&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;在了解本章前，你应该需要了解到卡巴斯基的虚拟化防病毒过程与实现，了解”&lt;a href=&quot;/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html&quot;&gt;卡巴斯基KVM下的虚拟化防病毒&lt;/a&gt;“，通常情况下，你可以通过卡巴斯基管理控制台下的lightAgent控件部署SVM到KVM，一般情况下会成功过，但是也可能是因为一些其他的原因导致无法推送成功，本章假定你已经获取到SVM的raw文件，您尝试通过kvm下的磁盘导入到kvm并生成一个svm虚拟机。这样你在部署SVM需要手动配置SVM已达到正确的拔SVM部署到KVM宿主机上。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="卡巴斯基" scheme="http://blog.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+    
+    
+      <category term="卡巴斯基" scheme="http://blog.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>赛门铁克LiveUpdate服务器安装配置</title>
@@ -542,34 +566,6 @@
     
     
       <category term="手机" scheme="http://blog.joryhe.com/tags/%E6%89%8B%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为所有文章底部统一放点什么,就这么简单(易)</title>
-    <link href="http://blog.joryhe.com/2016-06-04-simple_to_create_something_to_all_article_of_buttom.html"/>
-    <id>http://blog.joryhe.com/2016-06-04-simple_to_create_something_to_all_article_of_buttom.html</id>
-    <published>2016-06-04T09:09:44.000Z</published>
-    <updated>2016-06-04T09:33:51.411Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;有没有想为你的所有文章底部或者某些地方统一放点什么,我想大家肯定都有很多东西是所有文章所公用的，如签名，如某些统一的推荐。或许你在了解本篇文章前，你在做一些固定的每个文章都要显示的内容都在编写每个文章时候手动加入，但是这样很没有效率，如果你这些内容要更新或者修改，相信你可能不会疯掉，但是至少&lt;strong&gt;很郁闷！&lt;/strong&gt;，不要为这些小事郁闷，来Jory为你分享一个统一部署的方法。&lt;br&gt;以下是Hexo系列文章，推荐大家浏览。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;有没有想为你的所有文章底部或者某些地方统一放点什么,我想大家肯定都有很多东西是所有文章所公用的，如签名，如某些统一的推荐。或许你在了解本篇文章前，你在做一些固定的每个文章都要显示的内容都在编写每个文章时候手动加入，但是这样很没有效率，如果你这些内容要更新或者修改，相信你可能不会疯掉，但是至少&lt;strong&gt;很郁闷！&lt;/strong&gt;，不要为这些小事郁闷，来Jory为你分享一个统一部署的方法。&lt;br&gt;以下是Hexo系列文章，推荐大家浏览。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO进阶" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
-    
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
     
   </entry>
   
