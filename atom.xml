@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-08-11T13:18:37.218Z</updated>
+  <updated>2016-08-15T06:05:30.908Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>赛门铁克LiveUpdate服务器安装配置</title>
+    <link href="http://blog.joryhe.com/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html"/>
+    <id>http://blog.joryhe.com/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html</id>
+    <published>2016-08-14T12:04:30.000Z</published>
+    <updated>2016-08-15T06:05:30.908Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文主要介绍如何部署分支机构Liveupdate SEP病毒更新服务器，实现Liveupdate的需求主要是为了让分支机构的病毒更新可以在本地的liveupdate服务器上进行病毒更新，而不需要链接到主服务器SEPM.这个适用于多分支机构的SEP防病毒更新和统一管理的场景。&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文主要介绍如何部署分支机构Liveupdate SEP病毒更新服务器，实现Liveupdate的需求主要是为了让分支机构的病毒更新可以在本地的liveupdate服务器上进行病毒更新，而不需要链接到主服务器SEPM.这个适用于多分支机构的SEP防病毒更新和统一管理的场景。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="SEP" scheme="http://blog.joryhe.com/categories/ittech/SEP/"/>
+    
+    
+      <category term="SEP" scheme="http://blog.joryhe.com/tags/SEP/"/>
+    
+  </entry>
   
   <entry>
     <title>卡巴斯基功能测试之-反网络攻击测试</title>
@@ -546,36 +570,6 @@
     
     
       <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Dnspod+Namesilo域名结合实现域名选路解析(精)</title>
-    <link href="http://blog.joryhe.com/2016-06-03-dnspod_NameSilolo_double_line_analysis.html"/>
-    <id>http://blog.joryhe.com/2016-06-03-dnspod_NameSilolo_double_line_analysis.html</id>
-    <published>2016-06-03T14:05:17.000Z</published>
-    <updated>2016-06-04T08:01:54.606Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;通常情况下,如果您已经搭建好Hexo博客,并开始发布你的文章时,你可能会更多的考虑国内外搜索引擎的收录和用户访问的速度与体验,近期我也遇到此相关考虑问题,并花费了一定的时间去对此部分进行优化,发现了Dnspod的选路DNS解析结合口碑逐渐变好的域名namesilo实现国内外的Hexo博客的访问选路分流,此文章也是对到目前为止DNSPOD的选路分析是否仍然可用的最佳呈现。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;通常情况下,如果您已经搭建好Hexo博客,并开始发布你的文章时,你可能会更多的考虑国内外搜索引擎的收录和用户访问的速度与体验,近期我也遇到此相关考虑问题,并花费了一定的时间去对此部分进行优化,发现了Dnspod的选路DNS解析结合口碑逐渐变好的域名namesilo实现国内外的Hexo博客的访问选路分流,此文章也是对到目前为止DNSPOD的选路分析是否仍然可用的最佳呈现。&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
-    
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
-    
-      <category term="dnspod" scheme="http://blog.joryhe.com/tags/dnspod/"/>
     
   </entry>
   
