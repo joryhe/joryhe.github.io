@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://www.joryhe.com/2016-08-19-lnmp_phpcms_v9_configure_memcache.html</loc>
-    <lastmod>2016-08-19T08:02:22.548Z</lastmod>
+    <lastmod>2016-08-19T08:14:38.128Z</lastmod>
     <data>
         <display>
         <title>PHPCMS开启memcache缓存</title>
@@ -648,9 +648,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>lazyload</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>lazyload</tag>
          
          
            
