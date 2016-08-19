@@ -3,6 +3,31 @@
 
 
     
+  <url>
+    <loc>http://www.joryhe.com/2016-08-19-lnmp_phpcms_v9_configure_memcache.html</loc>
+    <lastmod>2016-08-19T08:02:22.548Z</lastmod>
+    <data>
+        <display>
+        <title>PHPCMS开启memcache缓存</title>
+        <pubTime>2016-08-19T07:30:27.000Z</pubTime>
+        
+        <tag>LNMP</tag>
+         
+        <tag>PHPCMS</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="LNMP" url="http://www.joryhe.com/categories/ittech/LNMP/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://www.joryhe.com/2016-08-15-kabaspersky_svm_configuration_on_manul.html</loc>
@@ -926,9 +951,9 @@
         <title>好用的安卓音乐播放器介绍</title>
         <pubTime>2016-05-21T13:42:29.000Z</pubTime>
         
-        <tag>音乐播放器</tag>
-         
         <tag>音乐</tag>
+         
+        <tag>音乐播放器</tag>
          
          
            

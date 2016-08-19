@@ -5,7 +5,7 @@
   <link href="/atom-china.xml" rel="self"/>
   
   <link href="http://www.joryhe.com/"/>
-  <updated>2016-08-15T12:57:23.426Z</updated>
+  <updated>2016-08-19T08:02:22.548Z</updated>
   <id>http://www.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PHPCMS开启memcache缓存</title>
+    <link href="http://www.joryhe.com/2016-08-19-lnmp_phpcms_v9_configure_memcache.html"/>
+    <id>http://www.joryhe.com/2016-08-19-lnmp_phpcms_v9_configure_memcache.html</id>
+    <published>2016-08-19T07:30:27.000Z</published>
+    <updated>2016-08-19T08:02:22.548Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本章介绍如何利用lnmp搭建的WEB环境，并利用LNMP安装memcache缓存功能，并指导如何修改PHPCMS的缓存为memcache。&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本章介绍如何利用lnmp搭建的WEB环境，并利用LNMP安装memcache缓存功能，并指导如何修改PHPCMS的缓存为memcache。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+    
+      <category term="LNMP" scheme="http://www.joryhe.com/categories/ittech/LNMP/"/>
+    
+    
+      <category term="LNMP" scheme="http://www.joryhe.com/tags/LNMP/"/>
+    
+      <category term="PHPCMS" scheme="http://www.joryhe.com/tags/PHPCMS/"/>
+    
+  </entry>
   
   <entry>
     <title>卡巴斯基虚拟化方案之-手动配置SVM</title>
@@ -540,32 +566,6 @@
     
     
       <category term="hexo" scheme="http://www.joryhe.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>魅族手机 锁屏密码忘记后的解决办法</title>
-    <link href="http://www.joryhe.com/2016-06-04-how_to_deal_with_lock_of_meizu_phone.html"/>
-    <id>http://www.joryhe.com/2016-06-04-how_to_deal_with_lock_of_meizu_phone.html</id>
-    <published>2016-06-04T09:54:39.000Z</published>
-    <updated>2016-06-04T10:04:17.055Z</updated>
-    
-    <content type="html">&lt;blockquote&gt;
-&lt;p&gt;魅族手机 锁屏密码忘记后的解决办法&lt;br&gt;很多机友都喜欢设置一个锁屏密码，用来保护手机内的私密信息。不过这密码如果被忘记了 ，应该肿么办捏？&lt;br&gt;这不只是一个假设 ，现实中，很多机友都遇到了这个问题，百度一下相关关键字，可以看到一大批焦急的机友发出的求助信息….&lt;br&gt;很多玩机大神可能会第一时间想到双清 ，刷机 这些终极大招。不过很遗憾的是，出于安全考虑，Flyme系统即使是双清或刷机 ，也是需要输入锁屏密码的，也就是说，双清或刷机的方式无效！！！&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;魅族手机 锁屏密码忘记后的解决办法&lt;br&gt;很多机友都喜欢设置一个锁屏密码，用来保护手机内的私密信息。不过这密码如果被忘记了 ，应该肿么办捏？&lt;br&gt;这不只是一个假设 ，现实中，很多机友都遇到了这个问题，百度一下相关关键字，可以看到一大批焦急的机友发出的求助信息….&lt;br&gt;很多玩机大神可能会第一时间想到双清 ，刷机 这些终极大招。不过很遗憾的是，出于安全考虑，Flyme系统即使是双清或刷机 ，也是需要输入锁屏密码的，也就是说，双清或刷机的方式无效！！！&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="essay" scheme="http://www.joryhe.com/categories/essay/"/>
-    
-    
-      <category term="手机" scheme="http://www.joryhe.com/tags/%E6%89%8B%E6%9C%BA/"/>
     
   </entry>
   
