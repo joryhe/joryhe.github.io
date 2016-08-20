@@ -5,7 +5,7 @@
   <link href="/atom-china.xml" rel="self"/>
   
   <link href="http://www.joryhe.com/"/>
-  <updated>2016-08-20T07:21:48.498Z</updated>
+  <updated>2016-08-20T07:46:44.863Z</updated>
   <id>http://www.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>LNMP之jemalloc内存管理使用</title>
+    <link href="http://www.joryhe.com/2016-08-20-lnmp_memory_manage_jemalloc.html"/>
+    <id>http://www.joryhe.com/2016-08-20-lnmp_memory_manage_jemalloc.html</id>
+    <published>2016-08-20T07:36:49.000Z</published>
+    <updated>2016-08-20T07:46:44.863Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文介绍LNMP带有的jemalloc内存管理使用，介绍如何安装和使用jemalloc，来提高你的系统，网页，数据库的内存管理。本章主要围绕一键安装包lnmp来说，如果您还没了解LNMP,请移步&lt;a href=&quot;/2016-08-11-lnmp_install_guidede_1.html&quot;&gt;一键LNMP安装包搭建web环境&lt;/a&gt;&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文介绍LNMP带有的jemalloc内存管理使用，介绍如何安装和使用jemalloc，来提高你的系统，网页，数据库的内存管理。本章主要围绕一键安装包lnmp来说，如果您还没了解LNMP,请移步&lt;a href=&quot;/2016-08-11-lnmp_install_guidede_1.html&quot;&gt;一键LNMP安装包搭建web环境&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+    
+      <category term="LNMP" scheme="http://www.joryhe.com/categories/ittech/LNMP/"/>
+    
+    
+      <category term="LNMP" scheme="http://www.joryhe.com/tags/LNMP/"/>
+    
+  </entry>
   
   <entry>
     <title>Centos6.5 磁盘扩容</title>
@@ -511,40 +535,6 @@
       <category term="hexo" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
       <category term="HEXO进阶" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
-    
-    
-      <category term="hexo" scheme="http://www.joryhe.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>细说多说在双域名下的问题，多说进阶优化篇！(精)</title>
-    <link href="http://www.joryhe.com/2016-06-08-duoshuo_on_two_site_improve_with_question.html"/>
-    <id>http://www.joryhe.com/2016-06-08-duoshuo_on_two_site_improve_with_question.html</id>
-    <published>2016-06-08T05:31:54.000Z</published>
-    <updated>2016-06-08T13:46:40.235Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;相信很多人已经部署了coding和Github的博客，同时选择好的主题，使用了很多插件，本文就是针对这些插件之一&lt;strong&gt;多说&lt;/strong&gt;来细讲一下。&lt;a href=&quot;http://duoshuo.com/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;多说&lt;/a&gt; 是一个热收欢迎的社会评论插件，相信很多的Hexo博客的同门应该都使用上次插件，并且成功运行。但是如果你部署了双域名的(coding+github)的博客，尽管你的多说成功运行，但是当你某一天看到多说后台的评论时，或许你发现多说评论的文章链接并非你想需要。或许还是一个错误的链接地址。本文针对双重域名下coding和gitHub下如何来理解和设置您的多说，让你的多说更加符合你的要求(或者是针对某个域名而生效)。由于本人研究的是NEXT,所以本文以Next主题模板而讲解。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;相信很多人已经部署了coding和Github的博客，同时选择好的主题，使用了很多插件，本文就是针对这些插件之一&lt;strong&gt;多说&lt;/strong&gt;来细讲一下。&lt;a href=&quot;http://duoshuo.com/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;多说&lt;/a&gt; 是一个热收欢迎的社会评论插件，相信很多的Hexo博客的同门应该都使用上次插件，并且成功运行。但是如果你部署了双域名的(coding+github)的博客，尽管你的多说成功运行，但是当你某一天看到多说后台的评论时，或许你发现多说评论的文章链接并非你想需要。或许还是一个错误的链接地址。本文针对双重域名下coding和gitHub下如何来理解和设置您的多说，让你的多说更加符合你的要求(或者是针对某个域名而生效)。由于本人研究的是NEXT,所以本文以Next主题模板而讲解。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO优化" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
       <category term="hexo" scheme="http://www.joryhe.com/tags/hexo/"/>
