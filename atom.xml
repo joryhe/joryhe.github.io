@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-08-20T07:17:04.398Z</updated>
+  <updated>2016-08-20T07:21:48.498Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://blog.joryhe.com/2016-08-20-centos_6_5_resize_disksapce.html"/>
     <id>http://blog.joryhe.com/2016-08-20-centos_6_5_resize_disksapce.html</id>
     <published>2016-08-20T06:46:53.000Z</published>
-    <updated>2016-08-20T07:17:04.398Z</updated>
+    <updated>2016-08-20T07:21:48.498Z</updated>
     
     <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文介绍如何对Centos6.5 进行磁盘扩容，很多人都了解如何在windows上进行磁盘扩容，但是很少人了解如何对Linux的磁盘扩容。现在我来介绍一下如何磁盘扩容，另外提出一点：&lt;strong&gt;如果您的数据很重要，在做任何操作前，建议备份数据&lt;/strong&gt;&lt;br&gt;</content>
     
