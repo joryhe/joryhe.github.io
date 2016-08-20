@@ -4,6 +4,12 @@
   
     
     <entry>
+      <title><![CDATA[memcache测试介绍]]></title>
+      <url>http://blog.joryhe.com/2016-08-19-memcache_check_introduce.html</url>
+      <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>在我的博客<a href="/2016-08-19-lnmp_phpcms_v9_configure_memcache.html">PHPCMS开启memcache缓存</a>篇章中部分描述了一下在LNMP下如何安装memcache，本章介绍如何监控和测试memcache的运行状态。<br>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[PHPCMS开启memcache缓存]]></title>
       <url>http://blog.joryhe.com/2016-08-19-lnmp_phpcms_v9_configure_memcache.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本章介绍如何利用lnmp搭建的WEB环境，并利用LNMP安装memcache缓存功能，并指导如何修改PHPCMS的缓存为memcache。<br>]]></content>

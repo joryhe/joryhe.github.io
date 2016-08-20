@@ -5,7 +5,7 @@
   <link href="/atom-china.xml" rel="self"/>
   
   <link href="http://www.joryhe.com/"/>
-  <updated>2016-08-19T08:14:38.128Z</updated>
+  <updated>2016-08-20T03:55:17.479Z</updated>
   <id>http://www.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>memcache测试介绍</title>
+    <link href="http://www.joryhe.com/2016-08-19-memcache_check_introduce.html"/>
+    <id>http://www.joryhe.com/2016-08-19-memcache_check_introduce.html</id>
+    <published>2016-08-19T08:27:43.000Z</published>
+    <updated>2016-08-20T03:55:17.479Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;在我的博客&lt;a href=&quot;/2016-08-19-lnmp_phpcms_v9_configure_memcache.html&quot;&gt;PHPCMS开启memcache缓存&lt;/a&gt;篇章中部分描述了一下在LNMP下如何安装memcache，本章介绍如何监控和测试memcache的运行状态。&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;在我的博客&lt;a href=&quot;/2016-08-19-lnmp_phpcms_v9_configure_memcache.html&quot;&gt;PHPCMS开启memcache缓存&lt;/a&gt;篇章中部分描述了一下在LNMP下如何安装memcache，本章介绍如何监控和测试memcache的运行状态。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+    
+      <category term="LNMP" scheme="http://www.joryhe.com/categories/ittech/LNMP/"/>
+    
+    
+      <category term="LNMP" scheme="http://www.joryhe.com/tags/LNMP/"/>
+    
+      <category term="memcache" scheme="http://www.joryhe.com/tags/memcache/"/>
+    
+  </entry>
   
   <entry>
     <title>PHPCMS开启memcache缓存</title>
@@ -529,40 +555,6 @@
       <category term="hexo" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
       <category term="HEXO进阶" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
-    
-    
-      <category term="hexo" scheme="http://www.joryhe.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo博客优化，如何加快你的博客访问速度(精)</title>
-    <link href="http://www.joryhe.com/2016-06-05-hexo_site_seo_speed_more_optimization.html"/>
-    <id>http://www.joryhe.com/2016-06-05-hexo_site_seo_speed_more_optimization.html</id>
-    <published>2016-06-05T09:55:57.000Z</published>
-    <updated>2016-06-05T13:13:10.762Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;很多人辛辛苦苦的搭建了Hexo博客，并且漫无目的加载很多插件功能，在访问页面时候总是感觉慢，特别是在于一些将博客统一部署在Coding或者GitHub的用户。相信很多用户解决慢的问题第一反应是&lt;strong&gt;“CDN优化静态文件”&lt;/strong&gt;、&lt;strong&gt;“压缩静态文件”&lt;/strong&gt;、等，没错这些方法如果合理使用确实起到优化速度的作用。但是不能盲目使用，以下是我的优化经验，考虑的比较细节。大家可以借鉴参考。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;很多人辛辛苦苦的搭建了Hexo博客，并且漫无目的加载很多插件功能，在访问页面时候总是感觉慢，特别是在于一些将博客统一部署在Coding或者GitHub的用户。相信很多用户解决慢的问题第一反应是&lt;strong&gt;“CDN优化静态文件”&lt;/strong&gt;、&lt;strong&gt;“压缩静态文件”&lt;/strong&gt;、等，没错这些方法如果合理使用确实起到优化速度的作用。但是不能盲目使用，以下是我的优化经验，考虑的比较细节。大家可以借鉴参考。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO优化" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
     
     
       <category term="hexo" scheme="http://www.joryhe.com/tags/hexo/"/>

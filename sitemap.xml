@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.joryhe.com/2016-08-19-memcache_check_introduce.html</loc>
+    
+    <lastmod>2016-08-20T03:55:17.479Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.joryhe.com/2016-08-19-lnmp_phpcms_v9_configure_memcache.html</loc>
     
     <lastmod>2016-08-19T08:14:38.128Z</lastmod>
