@@ -5,7 +5,7 @@
   <link href="/atom-china.xml" rel="self"/>
   
   <link href="http://www.joryhe.com/"/>
-  <updated>2016-08-20T08:04:14.019Z</updated>
+  <updated>2016-08-20T08:12:12.905Z</updated>
   <id>http://www.joryhe.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.joryhe.com/2016-08-20-lnmp_memory_manage_jemalloc.html"/>
     <id>http://www.joryhe.com/2016-08-20-lnmp_memory_manage_jemalloc.html</id>
     <published>2016-08-20T07:36:49.000Z</published>
-    <updated>2016-08-20T08:04:14.019Z</updated>
+    <updated>2016-08-20T08:12:12.905Z</updated>
     
     <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文介绍LNMP带有的jemalloc内存管理使用，介绍如何安装和使用jemalloc，来提高你的系统，网页，数据库的内存管理。本章主要围绕一键安装包lnmp来说，如果您还没了解LNMP,请移步&lt;a href=&quot;/2016-08-11-lnmp_install_guidede_1.html&quot;&gt;一键LNMP安装包搭建web环境&lt;/a&gt;&lt;br&gt;</content>
     
