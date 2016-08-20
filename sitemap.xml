@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.joryhe.com/2016-08-20-centos_6_5_resize_disksapce.html</loc>
+    
+    <lastmod>2016-08-20T07:17:04.398Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.joryhe.com/2016-08-19-memcache_check_introduce.html</loc>
     
     <lastmod>2016-08-20T04:09:55.859Z</lastmod>

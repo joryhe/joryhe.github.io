@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-08-20T04:09:55.859Z</updated>
+  <updated>2016-08-20T07:17:04.398Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Centos6.5 磁盘扩容</title>
+    <link href="http://blog.joryhe.com/2016-08-20-centos_6_5_resize_disksapce.html"/>
+    <id>http://blog.joryhe.com/2016-08-20-centos_6_5_resize_disksapce.html</id>
+    <published>2016-08-20T06:46:53.000Z</published>
+    <updated>2016-08-20T07:17:04.398Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文介绍如何对Centos6.5 进行磁盘扩容，很多人都了解如何在windows上进行磁盘扩容，但是很少人了解如何对Linux的磁盘扩容。现在我来介绍一下如何磁盘扩容，另外提出一点：&lt;strong&gt;如果您的数据很重要，在做任何操作前，建议备份数据&lt;/strong&gt;&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本文介绍如何对Centos6.5 进行磁盘扩容，很多人都了解如何在windows上进行磁盘扩容，但是很少人了解如何对Linux的磁盘扩容。现在我来介绍一下如何磁盘扩容，另外提出一点：&lt;strong&gt;如果您的数据很重要，在做任何操作前，建议备份数据&lt;/strong&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="Linux" scheme="http://blog.joryhe.com/categories/ittech/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://blog.joryhe.com/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>memcache测试介绍</title>
@@ -521,40 +545,6 @@
       <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
     
       <category term="HEXO优化" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/"/>
-    
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo-wordcount实现文章标题栏显示更多的文章信息(精)</title>
-    <link href="http://blog.joryhe.com/2016-06-06-hexo_wordcount_setting_your_post.html"/>
-    <id>http://blog.joryhe.com/2016-06-06-hexo_wordcount_setting_your_post.html</id>
-    <published>2016-06-06T12:59:41.000Z</published>
-    <updated>2016-06-06T13:15:54.497Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;本文介绍Hexo一款插件hexo-wordcount，让你的文章标题位置更加富含信息，本插件可以为文章标题位置添加，文章字数，文章预计阅读时间。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;本文介绍Hexo一款插件hexo-wordcount，让你的文章标题位置更加富含信息，本插件可以为文章标题位置添加，文章字数，文章预计阅读时间。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/&quot;&gt;HEXO-建站系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/&quot;&gt;HEXO-优化系列&lt;/a&gt;&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/&quot;&gt;HEXO-进阶系列&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="网站技术" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="hexo" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/"/>
-    
-      <category term="HEXO进阶" scheme="http://blog.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/"/>
     
     
       <category term="hexo" scheme="http://blog.joryhe.com/tags/hexo/"/>
