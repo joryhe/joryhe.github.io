@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://www.joryhe.com/2016-08-29-shadowsocks_with_Proxifier_to_custom_app.html</loc>
+    <lastmod>2016-08-30T02:52:00.227Z</lastmod>
+    <data>
+        <display>
+        <title>shadowsocks配置proxifier实现自定义程序代理翻墙</title>
+        <pubTime>2016-08-29T12:41:36.000Z</pubTime>
+        
+        <tag>翻墙</tag>
+         
+        <tag>shadowsocks</tag>
+         
+         
+           
+             
+              <breadCrumb title="翻墙" url="http://www.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.joryhe.com/2016-08-19-memcache_check_introduce.html</loc>
     <lastmod>2016-08-21T13:17:46.036Z</lastmod>
     <data>
@@ -1022,9 +1044,9 @@
         <title>好用的安卓音乐播放器介绍</title>
         <pubTime>2016-05-21T13:42:29.000Z</pubTime>
         
-        <tag>音乐播放器</tag>
-         
         <tag>音乐</tag>
+         
+        <tag>音乐播放器</tag>
          
          
            

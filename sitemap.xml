@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.joryhe.com/2016-08-29-shadowsocks_with_Proxifier_to_custom_app.html</loc>
+    
+    <lastmod>2016-08-30T02:52:00.227Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.joryhe.com/2016-08-19-memcache_check_introduce.html</loc>
     
     <lastmod>2016-08-21T13:17:46.036Z</lastmod>
