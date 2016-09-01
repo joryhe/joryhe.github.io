@@ -9,6 +9,13 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
+Disallow: /google_search.xml
+Disallow: /search.xml
+Disallow: /atom-china.xml
+Disallow: /atom.xml
+Disallow: /baidu_verify_JthtS8yOXM.html
+Disallow: /googlee8f47d983650c060.html
+Disallow: /75bb1b9739f17457e35101965c46cf98.txt
 
 Sitemap: https://blog.joryhe.com/sitemap.xml
 Sitemap: http://www.joryhe.com/baidusitemap.xml
