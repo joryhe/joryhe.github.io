@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://www.joryhe.com/2016-09-07-swithysharp_with_shadowsock_easy_to_switch_your_access.html</loc>
+    <lastmod>2016-09-07T01:59:59.624Z</lastmod>
+    <data>
+        <display>
+        <title>Google浏览器+swithysharp实现自动情景切换流量分流（精）</title>
+        <pubTime>2016-09-07T01:19:00.000Z</pubTime>
+        
+        <tag>翻墙</tag>
+         
+        <tag>shadowsocks</tag>
+         
+        <tag>swithysharp</tag>
+         
+         
+           
+             
+              <breadCrumb title="翻墙" url="http://www.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.joryhe.com/2016-08-29-shadowsocks_with_Proxifier_to_custom_app.html</loc>
     <lastmod>2016-08-30T02:52:00.227Z</lastmod>
     <data>
@@ -741,9 +765,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>lazyload</tag>
+         
+        <tag>hexo</tag>
          
          
            

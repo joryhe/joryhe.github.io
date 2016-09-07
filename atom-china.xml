@@ -5,7 +5,7 @@
   <link href="/atom-china.xml" rel="self"/>
   
   <link href="http://www.joryhe.com/"/>
-  <updated>2016-08-30T02:52:00.227Z</updated>
+  <updated>2016-09-07T01:59:59.624Z</updated>
   <id>http://www.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Google浏览器+swithysharp实现自动情景切换流量分流（精）</title>
+    <link href="http://www.joryhe.com/2016-09-07-swithysharp_with_shadowsock_easy_to_switch_your_access.html"/>
+    <id>http://www.joryhe.com/2016-09-07-swithysharp_with_shadowsock_easy_to_switch_your_access.html</id>
+    <published>2016-09-07T01:19:00.000Z</published>
+    <updated>2016-09-07T01:59:59.624Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;为什么要实现分流，什么情况才叫分流？，场景很多，比如当你通过代理如shadowsock实现代理翻墙，翻墙访问Google便是一种流量，而单纯的访问国内网站却有是一种流量，两种流量就要进行分流，使其在正确的流量上访问对应的内容。当然Shadowsock客户端软件本身已经可以通过PAC实现分流，本章的主要描述部分是关于Google浏览器的场景切换的方式实现分流，比较有意思，分流的方式可以按照您设定好的规则情景实现完全自动的切换。实现的工具为Google浏览器的插件swithysharp，如果你对shadowsock不了解请点击一下链接：&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;为什么要实现分流，什么情况才叫分流？，场景很多，比如当你通过代理如shadowsock实现代理翻墙，翻墙访问Google便是一种流量，而单纯的访问国内网站却有是一种流量，两种流量就要进行分流，使其在正确的流量上访问对应的内容。当然Shadowsock客户端软件本身已经可以通过PAC实现分流，本章的主要描述部分是关于Google浏览器的场景切换的方式实现分流，比较有意思，分流的方式可以按照您设定好的规则情景实现完全自动的切换。实现的工具为Google浏览器的插件swithysharp，如果你对shadowsock不了解请点击一下链接：&lt;br&gt;&lt;a class=&quot;mydomain&quot; onclick=&quot;GO_url(this)&quot; href=&quot;#&quot; linkme=&quot;categories/%E7%BF%BB%E5%A2%99/&quot;&gt;Shadowsocks系列&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="翻墙" scheme="http://www.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
+    
+    
+      <category term="翻墙" scheme="http://www.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
+    
+      <category term="shadowsocks" scheme="http://www.joryhe.com/tags/shadowsocks/"/>
+    
+      <category term="swithysharp" scheme="http://www.joryhe.com/tags/swithysharp/"/>
+    
+  </entry>
   
   <entry>
     <title>shadowsocks配置proxifier实现自定义程序代理翻墙</title>
@@ -490,34 +516,6 @@
     
       &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍博科交换机日常运维命令。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
-    
-      <category term="博科交换机" scheme="http://www.joryhe.com/categories/ittech/%E5%8D%9A%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
-    
-    
-      <category term="博科交换机" scheme="http://www.joryhe.com/tags/%E5%8D%9A%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Brocade系列之二 博科交换机简单配置实例</title>
-    <link href="http://www.joryhe.com/2016-06-20-easy_to_configure_boke_switch_on_zone.html"/>
-    <id>http://www.joryhe.com/2016-06-20-easy_to_configure_boke_switch_on_zone.html</id>
-    <published>2016-06-20T14:00:54.000Z</published>
-    <updated>2016-06-21T13:39:28.948Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍博科交换机的基本配置，zone配置。&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍博科交换机的基本配置，zone配置。&lt;/p&gt;
 &lt;/blockquote&gt;
     
     </summary>
