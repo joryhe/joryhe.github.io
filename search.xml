@@ -4,6 +4,12 @@
   
     
     <entry>
+      <title><![CDATA[几个好用的Google浏览器插件]]></title>
+      <url>http://www.joryhe.com/2016-09-18-good_tools_for_google_browser.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Google浏览器+swithysharp实现自动情景切换流量分流（精）]]></title>
       <url>http://www.joryhe.com/2016-09-07-swithysharp_with_shadowsock_easy_to_switch_your_access.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>为什么要实现分流，什么情况才叫分流？，场景很多，比如当你通过代理如shadowsock实现代理翻墙，翻墙访问Google便是一种流量，而单纯的访问国内网站却有是一种流量，两种流量就要进行分流，使其在正确的流量上访问对应的内容。当然Shadowsock客户端软件本身已经可以通过PAC实现分流，本章的主要描述部分是关于Google浏览器的场景切换的方式实现分流，比较有意思，分流的方式可以按照您设定好的规则情景实现完全自动的切换。实现的工具为Google浏览器的插件swithysharp，如果你对shadowsock不了解请点击一下链接：<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/%E7%BF%BB%E5%A2%99/">Shadowsocks系列</a><br>]]></content>
