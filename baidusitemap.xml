@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://www.joryhe.com/2016-09-18-good_tools_for_google_browser.html</loc>
-    <lastmod>2016-09-18T05:42:52.200Z</lastmod>
+    <lastmod>2016-09-18T05:48:05.015Z</lastmod>
     <data>
         <display>
         <title>几个好用的Google浏览器插件</title>
@@ -790,9 +790,9 @@
         <title>批量修改HTML TAG,实现LAZYLOAD慢加载图片</title>
         <pubTime>2016-05-15T06:46:06.000Z</pubTime>
         
-        <tag>lazyload</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>lazyload</tag>
          
          
            
