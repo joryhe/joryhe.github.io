@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-09-18T05:48:05.015Z</updated>
+  <updated>2016-09-29T07:52:50.054Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Gzip提高你的网页访问速度</title>
+    <link href="http://blog.joryhe.com/2016-09-29-lnmp_nginx_gzip_make_website_speed_well.html"/>
+    <id>http://blog.joryhe.com/2016-09-29-lnmp_nginx_gzip_make_website_speed_well.html</id>
+    <published>2016-09-29T07:35:17.000Z</published>
+    <updated>2016-09-29T07:52:50.054Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;如何提高你的网站速度，第一步你要考虑如何减少你的网站文件所占用的带宽，所以网站的压缩尤为重要，这里提到的是通过Gzip压缩传输到客户端的文件大小实现带宽的占用，Gzip能实现高达70%的压缩比例。有效的提高的网页的压缩效率。&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;如何提高你的网站速度，第一步你要考虑如何减少你的网站文件所占用的带宽，所以网站的压缩尤为重要，这里提到的是通过Gzip压缩传输到客户端的文件大小实现带宽的占用，Gzip能实现高达70%的压缩比例。有效的提高的网页的压缩效率。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="LNMP" scheme="http://blog.joryhe.com/categories/ittech/LNMP/"/>
+    
+    
+      <category term="LNMP" scheme="http://blog.joryhe.com/tags/LNMP/"/>
+    
+      <category term="Gzip" scheme="http://blog.joryhe.com/tags/Gzip/"/>
+    
+  </entry>
   
   <entry>
     <title>几个好用的Google浏览器插件</title>
@@ -162,32 +188,6 @@
       <category term="LNMP" scheme="http://blog.joryhe.com/tags/LNMP/"/>
     
       <category term="memcache" scheme="http://blog.joryhe.com/tags/memcache/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PHPCMS开启memcache缓存</title>
-    <link href="http://blog.joryhe.com/2016-08-19-lnmp_phpcms_v9_configure_memcache.html"/>
-    <id>http://blog.joryhe.com/2016-08-19-lnmp_phpcms_v9_configure_memcache.html</id>
-    <published>2016-08-19T07:30:27.000Z</published>
-    <updated>2016-08-19T08:14:38.128Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本章介绍如何利用lnmp搭建的WEB环境，并利用LNMP安装memcache缓存功能，并指导如何修改PHPCMS的缓存为memcache。&lt;br&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本章介绍如何利用lnmp搭建的WEB环境，并利用LNMP安装memcache缓存功能，并指导如何修改PHPCMS的缓存为memcache。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="LNMP" scheme="http://blog.joryhe.com/categories/ittech/LNMP/"/>
-    
-    
-      <category term="LNMP" scheme="http://blog.joryhe.com/tags/LNMP/"/>
-    
-      <category term="PHPCMS" scheme="http://blog.joryhe.com/tags/PHPCMS/"/>
     
   </entry>
   
