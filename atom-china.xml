@@ -5,7 +5,7 @@
   <link href="/atom-china.xml" rel="self"/>
   
   <link href="http://www.joryhe.com/"/>
-  <updated>2016-09-29T07:52:50.054Z</updated>
+  <updated>2016-10-20T02:32:04.336Z</updated>
   <id>http://www.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>教你如何部署nigix SSL证书</title>
+    <link href="http://www.joryhe.com/2016-10-20-ngnix_ssl_cert_install.html"/>
+    <id>http://www.joryhe.com/2016-10-20-ngnix_ssl_cert_install.html</id>
+    <published>2016-10-20T01:59:05.000Z</published>
+    <updated>2016-10-20T02:32:04.336Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;Nginx是目前最新的高性能Web服务器，和传统的Apache服务器相比，特别在大量的客户并发连接下，性能要提高10倍以上。很多大型的PHP网站都采用了Nginx服务器。同时为保证Nigix的服务器网站安全，以下介绍如何为ngnix安装ssl 证书&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;Nginx是目前最新的高性能Web服务器，和传统的Apache服务器相比，特别在大量的客户并发连接下，性能要提高10倍以上。很多大型的PHP网站都采用了Nginx服务器。同时为保证Nigix的服务器网站安全，以下介绍如何为ngnix安装ssl 证书&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+    
+      <category term="网站证书" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E8%AF%81%E4%B9%A6/"/>
+    
+    
+      <category term="网站证书" scheme="http://www.joryhe.com/tags/%E7%BD%91%E7%AB%99%E8%AF%81%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>Gzip提高你的网页访问速度</title>
@@ -496,34 +520,6 @@
     
     
       <category term="卡巴斯基" scheme="http://www.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Brocade系列之三 博科通过命令创建ZONE</title>
-    <link href="http://www.joryhe.com/2016-06-20-easy_boke_commandnd_create_zone.html"/>
-    <id>http://www.joryhe.com/2016-06-20-easy_boke_commandnd_create_zone.html</id>
-    <published>2016-06-20T15:29:34.000Z</published>
-    <updated>2016-06-21T13:39:21.369Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍如何通过博科命令完成zone的创建。&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍如何通过博科命令完成zone的创建。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
-    
-      <category term="博科交换机" scheme="http://www.joryhe.com/categories/ittech/%E5%8D%9A%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
-    
-    
-      <category term="博科交换机" scheme="http://www.joryhe.com/tags/%E5%8D%9A%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
     
   </entry>
   
