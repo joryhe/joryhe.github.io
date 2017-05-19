@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2016-10-20T02:32:04.336Z</updated>
+  <updated>2017-03-05T14:23:49.062Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>玩转阿里云之SLB证书配置</title>
+    <link href="http://blog.joryhe.com/2017-03-05-play_over_aliyun_cloud_computing_of_slb.html"/>
+    <id>http://blog.joryhe.com/2017-03-05-play_over_aliyun_cloud_computing_of_slb.html</id>
+    <published>2017-03-05T14:00:16.000Z</published>
+    <updated>2017-03-05T14:23:49.062Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本章节是玩转阿里云系列的之SLB证书配置，本章将介绍如何使用阿里云的SLB实现证书加密。由于实验资源要求，本章将通过OPENSSL实现自签名的证书，并通过自签名证书测试SLB证书加密。&lt;/p&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;本章节是玩转阿里云系列的之SLB证书配置，本章将介绍如何使用阿里云的SLB实现证书加密。由于实验资源要求，本章将通过OPENSSL实现自签名的证书，并通过自签名证书测试SLB证书加密。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="玩转阿里云" scheme="http://blog.joryhe.com/categories/ittech/%E7%8E%A9%E8%BD%AC%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+    
+    
+      <category term="玩转阿里云" scheme="http://blog.joryhe.com/tags/%E7%8E%A9%E8%BD%AC%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+    
+  </entry>
   
   <entry>
     <title>教你如何部署nigix SSL证书</title>
@@ -482,34 +506,6 @@
     
       &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;我们在装有360的电脑上安装卡巴斯基杀毒经常出现杀毒软件不兼容而无法安装卡巴斯基杀毒客户端，为此本文针对此问题介绍如何制作一个可以绕过360检测的卡巴斯基客户端安装包。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="卡巴斯基" scheme="http://blog.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
-    
-    
-      <category term="卡巴斯基" scheme="http://blog.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>卡巴斯基之Linux客户端安装指引</title>
-    <link href="http://blog.joryhe.com/2016-06-21-kabasiji_for_linux_install_guide.html"/>
-    <id>http://blog.joryhe.com/2016-06-21-kabasiji_for_linux_install_guide.html</id>
-    <published>2016-06-21T05:21:57.000Z</published>
-    <updated>2016-06-21T13:25:30.129Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;本文主要是介绍关于卡巴斯基的Linux安装方法，相信很多人从事卡巴斯基都知道，卡巴斯基在安装Linux客户端的时候会遇到很多问题，我这里主要描述一些普遍可能存在的问题的安装思路和方法。&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;本文主要是介绍关于卡巴斯基的Linux安装方法，相信很多人从事卡巴斯基都知道，卡巴斯基在安装Linux客户端的时候会遇到很多问题，我这里主要描述一些普遍可能存在的问题的安装思路和方法。&lt;/p&gt;
 &lt;/blockquote&gt;
     
     </summary>
