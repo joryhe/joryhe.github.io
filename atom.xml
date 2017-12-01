@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joryhe.com/"/>
-  <updated>2017-11-30T07:15:21.674Z</updated>
+  <updated>2017-12-01T06:53:42.913Z</updated>
   <id>http://blog.joryhe.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>玩转阿里云之建立阿里云Docker私有仓库</title>
+    <link href="http://blog.joryhe.com/2017-12-01-aliyun_docker_service_of_private_store.html"/>
+    <id>http://blog.joryhe.com/2017-12-01-aliyun_docker_service_of_private_store.html</id>
+    <published>2017-12-01T06:05:19.000Z</published>
+    <updated>2017-12-01T06:53:42.913Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;阿里云提供一整套容器集群服务，本章介绍如何使用阿里云容器服务建立自己的企业私有镜像仓库。&lt;br&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;阿里云提供一整套容器集群服务，本章介绍如何使用阿里云容器服务建立自己的企业私有镜像仓库。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
+    
+      <category term="docker" scheme="http://blog.joryhe.com/categories/ittech/docker/"/>
+    
+    
+      <category term="玩转阿里云" scheme="http://blog.joryhe.com/tags/%E7%8E%A9%E8%BD%AC%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+    
+      <category term="阿里云容器服务" scheme="http://blog.joryhe.com/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%B9%E5%99%A8%E6%9C%8D%E5%8A%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>玩转阿里云之SLB证书配置</title>
@@ -488,34 +514,6 @@
     
     
       <category term="DLP" scheme="http://blog.joryhe.com/tags/DLP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>卡巴斯基10制作兼容(绕过检测)360客户端安装包</title>
-    <link href="http://blog.joryhe.com/2016-06-26-kabsiji_package_on_skipcheck_360.html"/>
-    <id>http://blog.joryhe.com/2016-06-26-kabsiji_package_on_skipcheck_360.html</id>
-    <published>2016-06-26T06:33:17.000Z</published>
-    <updated>2016-06-26T07:02:11.979Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;我们在装有360的电脑上安装卡巴斯基杀毒经常出现杀毒软件不兼容而无法安装卡巴斯基杀毒客户端，为此本文针对此问题介绍如何制作一个可以绕过360检测的卡巴斯基客户端安装包。&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;我们在装有360的电脑上安装卡巴斯基杀毒经常出现杀毒软件不兼容而无法安装卡巴斯基杀毒客户端，为此本文针对此问题介绍如何制作一个可以绕过360检测的卡巴斯基客户端安装包。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="ittech" scheme="http://blog.joryhe.com/categories/ittech/"/>
-    
-      <category term="卡巴斯基" scheme="http://blog.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
-    
-    
-      <category term="卡巴斯基" scheme="http://blog.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
     
   </entry>
   

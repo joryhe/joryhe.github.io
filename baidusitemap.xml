@@ -4,6 +4,31 @@
 
     
   <url>
+    <loc>http://www.joryhe.com/2017-12-01-aliyun_docker_service_of_private_store.html</loc>
+    <lastmod>2017-12-01T06:53:42.913Z</lastmod>
+    <data>
+        <display>
+        <title>玩转阿里云之建立阿里云Docker私有仓库</title>
+        <pubTime>2017-12-01T06:05:19.000Z</pubTime>
+        
+        <tag>玩转阿里云</tag>
+         
+        <tag>阿里云容器服务</tag>
+         
+         
+           
+             
+              <breadCrumb title="ittech" url="http://www.joryhe.com/categories/ittech/"/>
+          
+             
+              <breadCrumb title="docker" url="http://www.joryhe.com/categories/ittech/docker/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.joryhe.com/2017-03-05-play_over_aliyun_cloud_computing_of_slb.html</loc>
     <lastmod>2017-11-30T07:15:21.674Z</lastmod>
     <data>

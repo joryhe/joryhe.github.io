@@ -4,6 +4,12 @@
   
     
     <entry>
+      <title><![CDATA[玩转阿里云之建立阿里云Docker私有仓库]]></title>
+      <url>http://www.joryhe.com/2017-12-01-aliyun_docker_service_of_private_store.html</url>
+      <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>阿里云提供一整套容器集群服务，本章介绍如何使用阿里云容器服务建立自己的企业私有镜像仓库。<br>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[玩转阿里云之SLB证书配置]]></title>
       <url>http://www.joryhe.com/2017-03-05-play_over_aliyun_cloud_computing_of_slb.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本章节是玩转阿里云系列的之SLB证书配置，本章将介绍如何使用阿里云的SLB实现证书加密。由于实验资源要求，本章将通过OPENSSL实现自签名的证书，并通过自签名证书测试SLB证书加密。</p>]]></content>
