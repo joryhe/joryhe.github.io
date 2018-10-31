@@ -5,109 +5,109 @@
     
     <entry>
       <title><![CDATA[玩转阿里云之建立阿里云Docker私有仓库]]></title>
-      <url>http://www.joryhe.com/2017-12-01-aliyun_docker_service_of_private_store.html</url>
+      <url>http://joryhe.coding.me/2017-12-01-aliyun_docker_service_of_private_store.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>阿里云提供一整套容器集群服务，本章介绍如何使用阿里云容器服务建立自己的企业私有镜像仓库。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[玩转阿里云之SLB证书配置]]></title>
-      <url>http://www.joryhe.com/2017-03-05-play_over_aliyun_cloud_computing_of_slb.html</url>
+      <url>http://joryhe.coding.me/2017-03-05-play_over_aliyun_cloud_computing_of_slb.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本章节是玩转阿里云系列的之SLB证书配置，本章将介绍如何使用阿里云的SLB实现证书加密。由于实验资源要求，本章将通过OPENSSL实现自签名的证书，并通过自签名证书测试SLB证书加密。</p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[教你如何部署nigix SSL证书]]></title>
-      <url>http://www.joryhe.com/2016-10-20-ngnix_ssl_cert_install.html</url>
+      <url>http://joryhe.coding.me/2016-10-20-ngnix_ssl_cert_install.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>Nginx是目前最新的高性能Web服务器，和传统的Apache服务器相比，特别在大量的客户并发连接下，性能要提高10倍以上。很多大型的PHP网站都采用了Nginx服务器。同时为保证Nigix的服务器网站安全，以下介绍如何为ngnix安装ssl 证书<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Gzip提高你的网页访问速度]]></title>
-      <url>http://www.joryhe.com/2016-09-29-lnmp_nginx_gzip_make_website_speed_well.html</url>
+      <url>http://joryhe.coding.me/2016-09-29-lnmp_nginx_gzip_make_website_speed_well.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>如何提高你的网站速度，第一步你要考虑如何减少你的网站文件所占用的带宽，所以网站的压缩尤为重要，这里提到的是通过Gzip压缩传输到客户端的文件大小实现带宽的占用，Gzip能实现高达70%的压缩比例。有效的提高的网页的压缩效率。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[几个好用的Google浏览器插件]]></title>
-      <url>http://www.joryhe.com/2016-09-18-good_tools_for_google_browser.html</url>
+      <url>http://joryhe.coding.me/2016-09-18-good_tools_for_google_browser.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍几款实用的Google浏览器插件，好用的插件会有更有效的管理你的Google，Google有很多强大的插件，这里将介绍网上好评，而您却不知道的好动西。</p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Google浏览器+swithysharp实现自动情景切换流量分流（精）]]></title>
-      <url>http://www.joryhe.com/2016-09-07-swithysharp_with_shadowsock_easy_to_switch_your_access.html</url>
+      <url>http://joryhe.coding.me/2016-09-07-swithysharp_with_shadowsock_easy_to_switch_your_access.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>为什么要实现分流，什么情况才叫分流？，场景很多，比如当你通过代理如shadowsock实现代理翻墙，翻墙访问Google便是一种流量，而单纯的访问国内网站却有是一种流量，两种流量就要进行分流，使其在正确的流量上访问对应的内容。当然Shadowsock客户端软件本身已经可以通过PAC实现分流，本章的主要描述部分是关于Google浏览器的场景切换的方式实现分流，比较有意思，分流的方式可以按照您设定好的规则情景实现完全自动的切换。实现的工具为Google浏览器的插件swithysharp，如果你对shadowsock不了解请点击一下链接：<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/%E7%BF%BB%E5%A2%99/">Shadowsocks系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[shadowsocks配置proxifier实现自定义程序代理翻墙]]></title>
-      <url>http://www.joryhe.com/2016-08-29-shadowsocks_with_Proxifier_to_custom_app.html</url>
+      <url>http://joryhe.coding.me/2016-08-29-shadowsocks_with_Proxifier_to_custom_app.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何通过proxifier，结合shadowsock客户端，实现只能程序流量分流，意思你可以定制你希望哪些程序允许利用shadowsock的流量。更多的信息请点击<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/%E7%BF%BB%E5%A2%99/">Shadowsocks系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[LNMP之jemalloc内存管理使用]]></title>
-      <url>http://www.joryhe.com/2016-08-20-lnmp_memory_manage_jemalloc.html</url>
+      <url>http://joryhe.coding.me/2016-08-20-lnmp_memory_manage_jemalloc.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍LNMP带有的jemalloc内存管理使用，介绍如何安装和使用jemalloc，来提高你的系统，网页，数据库的内存管理。本章主要围绕一键安装包lnmp来说，如果您还没了解LNMP,请移步<a href="/2016-08-11-lnmp_install_guidede_1.html">一键LNMP安装包搭建web环境</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Centos6.5 磁盘扩容]]></title>
-      <url>http://www.joryhe.com/2016-08-20-centos_6_5_resize_disksapce.html</url>
+      <url>http://joryhe.coding.me/2016-08-20-centos_6_5_resize_disksapce.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何对Centos6.5 进行磁盘扩容，很多人都了解如何在windows上进行磁盘扩容，但是很少人了解如何对Linux的磁盘扩容。现在我来介绍一下如何磁盘扩容，另外提出一点：<strong>如果您的数据很重要，在做任何操作前，建议备份数据</strong><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[memcache测试介绍]]></title>
-      <url>http://www.joryhe.com/2016-08-19-memcache_check_introduce.html</url>
+      <url>http://joryhe.coding.me/2016-08-19-memcache_check_introduce.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>在我的博客<a href="/2016-08-19-lnmp_phpcms_v9_configure_memcache.html">PHPCMS开启memcache缓存</a>篇章中部分描述了一下在LNMP下如何安装memcache，本章介绍如何监控和测试memcache的运行状态。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[卡巴斯基虚拟化方案之-手动配置SVM]]></title>
-      <url>http://www.joryhe.com/2016-08-15-kabaspersky_svm_configuration_on_manul.html</url>
+      <url>http://joryhe.coding.me/2016-08-15-kabaspersky_svm_configuration_on_manul.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>在了解本章前，你应该需要了解到卡巴斯基的虚拟化防病毒过程与实现，了解”<a href="/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html">卡巴斯基KVM下的虚拟化防病毒</a>“，通常情况下，你可以通过卡巴斯基管理控制台下的lightAgent控件部署SVM到KVM，一般情况下会成功过，但是也可能是因为一些其他的原因导致无法推送成功，本章假定你已经获取到SVM的raw文件，您尝试通过kvm下的磁盘导入到kvm并生成一个svm虚拟机。这样你在部署SVM需要手动配置SVM已达到正确的拔SVM部署到KVM宿主机上。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[赛门铁克LiveUpdate服务器安装配置]]></title>
-      <url>http://www.joryhe.com/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html</url>
+      <url>http://joryhe.coding.me/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文主要介绍如何部署分支机构Liveupdate SEP病毒更新服务器，实现Liveupdate的需求主要是为了让分支机构的病毒更新可以在本地的liveupdate服务器上进行病毒更新，而不需要链接到主服务器SEPM.这个适用于多分支机构的SEP防病毒更新和统一管理的场景。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[卡巴斯基功能测试之-反网络攻击测试]]></title>
-      <url>http://www.joryhe.com/2016-08-11-kakaspersky_network_hack_defend.html</url>
+      <url>http://joryhe.coding.me/2016-08-11-kakaspersky_network_hack_defend.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>了解通过卡巴斯基反网络攻击，保护计算机安全。通常计算机漏洞是通过微软的windows 更新实现补丁更新修复漏洞，但是我们无法100%判断补丁更新和漏洞修复对系统的的影响。所以一个更好的方式是利用卡巴斯基提供的反网络攻击实现对利用网络进行系统的漏洞渗透与攻击的防御。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[卡巴斯基功能测试之-linux防病毒测试]]></title>
-      <url>http://www.joryhe.com/2016-08-11-kakaspersky_kes_for_linux_to_check.html</url>
+      <url>http://joryhe.coding.me/2016-08-11-kakaspersky_kes_for_linux_to_check.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本部分主要是对卡巴斯基的Linux客户端的防病毒功能进行测试，在往以前，很多都是部署完成并没有实际的测试一下Linux的防病毒功能，本章将以实际图例显示Linux的防病毒客户端的测试效果。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[LNMP日常主机操作,伪静态]]></title>
-      <url>http://www.joryhe.com/2016-08-11-lnmp_host_add_guide_2.html</url>
+      <url>http://joryhe.coding.me/2016-08-11-lnmp_host_add_guide_2.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>假定你已经成功通过一键LNMP搭建成功属于自己的WEB环境，<a href="/2016-08-11-lnmp_install_guidede_1.html">了解一键LNMP安装？</a>，本章将会介绍如何通过LNMP环境提供的工具建立虚拟主机，删除虚拟机主机，开启伪静态等操作</p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[一键LNMP安装包搭建web环境]]></title>
-      <url>http://www.joryhe.com/2016-08-11-lnmp_install_guidede_1.html</url>
+      <url>http://joryhe.coding.me/2016-08-11-lnmp_install_guidede_1.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RadHat/Fedora、Debian/Ubuntu/Raspbian/Deepin VPS或独立主机安装LNMP(Nginx/MySQL/PHP)、LNMPA(Nginx/MySQL/PHP/Apache)、LAMP(Apache/MySQL/PHP)生产环境的Shell程序。同时提供一些实用的辅助工具如：虚拟主机管理、FTP用户管理、Nginx、MySQL/MariaDB、PHP的升级、常用缓存组件Redis、Xcache等的安装、重置MySQL root密码、502自动重启、日志切割、SSH防护DenyHosts/Fail2Ban、备份等许多实用脚本。</p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[卡巴斯基KVM下的虚拟化防病毒]]></title>
-      <url>http://www.joryhe.com/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html</url>
+      <url>http://joryhe.coding.me/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html</url>
       <content type="html"><![CDATA[<h2 id="前沿"><a href="#前沿" class="headerlink" title="前沿"></a>前沿</h2><p>随着时代的发展，虚拟化逐渐成为主流，现在很多的设备都使用了虚拟化技术，主流的虚拟化平台有Vmware、Xen、Hyperv、KVM等。同时对虚拟化计算机的防病毒有心的要求，传统的防病毒客户端不适合于虚拟化的计算机，为了更大提高虚拟化的性能和减少反病毒所消耗的资源，卡巴斯基推出虚拟化方案下的轻代理防病毒。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[VMware_物理机迁移到虚拟机P2V(热迁移)]]></title>
-      <url>http://www.joryhe.com/2016-06-29-vmware_hot_on_line_p2v.html</url>
+      <url>http://joryhe.coding.me/2016-06-29-vmware_hot_on_line_p2v.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>本文介绍如何将一台物理服务器通过vmware P2v迁移至vmware的宿主机。迁移过程为热迁移，保证了系统不会因为迁移而断线。</p>
 </blockquote>]]></content>
@@ -115,7 +115,7 @@
     
     <entry>
       <title><![CDATA[轻松部署vmware esxi6.0与vCenter]]></title>
-      <url>http://www.joryhe.com/2016-06-29-vmwaware_and_vcenter_install_guide.html</url>
+      <url>http://joryhe.coding.me/2016-06-29-vmwaware_and_vcenter_install_guide.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>Vmware 为现时代有名的服务器虚拟化实现软件，本文简单的介绍如何部署vmwawre服务器虚拟化和部署vCenter服务器。</p>
 </blockquote>]]></content>
@@ -123,7 +123,7 @@
     
     <entry>
       <title><![CDATA[赛门铁克DLP防泄漏部署指引]]></title>
-      <url>http://www.joryhe.com/2016-06-29-symantec_dlp_install_guide.html</url>
+      <url>http://joryhe.coding.me/2016-06-29-symantec_dlp_install_guide.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>本文介绍Symantec DLP防泄漏的部署安装，Symantec DLP防泄漏指通过对内外网的数据进行监控分析，并对重要信息进行拦截保护企业内部信息安全。</p>
 </blockquote>]]></content>
@@ -131,7 +131,7 @@
     
     <entry>
       <title><![CDATA[卡巴斯基10制作兼容(绕过检测)360客户端安装包]]></title>
-      <url>http://www.joryhe.com/2016-06-26-kabsiji_package_on_skipcheck_360.html</url>
+      <url>http://joryhe.coding.me/2016-06-26-kabsiji_package_on_skipcheck_360.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>我们在装有360的电脑上安装卡巴斯基杀毒经常出现杀毒软件不兼容而无法安装卡巴斯基杀毒客户端，为此本文针对此问题介绍如何制作一个可以绕过360检测的卡巴斯基客户端安装包。</p>
 </blockquote>]]></content>
@@ -139,7 +139,7 @@
     
     <entry>
       <title><![CDATA[卡巴斯基之Linux客户端安装指引]]></title>
-      <url>http://www.joryhe.com/2016-06-21-kabasiji_for_linux_install_guide.html</url>
+      <url>http://joryhe.coding.me/2016-06-21-kabasiji_for_linux_install_guide.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>本文主要是介绍关于卡巴斯基的Linux安装方法，相信很多人从事卡巴斯基都知道，卡巴斯基在安装Linux客户端的时候会遇到很多问题，我这里主要描述一些普遍可能存在的问题的安装思路和方法。</p>
 </blockquote>]]></content>
@@ -147,7 +147,7 @@
     
     <entry>
       <title><![CDATA[Brocade系列之三 博科通过命令创建ZONE]]></title>
-      <url>http://www.joryhe.com/2016-06-20-easy_boke_commandnd_create_zone.html</url>
+      <url>http://joryhe.coding.me/2016-06-20-easy_boke_commandnd_create_zone.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍如何通过博科命令完成zone的创建。</p>
 </blockquote>]]></content>
@@ -155,7 +155,7 @@
     
     <entry>
       <title><![CDATA[Brocade系列之一 博科日常运维命令]]></title>
-      <url>http://www.joryhe.com/2016-06-20-easy_know_boke_daily_yunwei.html</url>
+      <url>http://joryhe.coding.me/2016-06-20-easy_know_boke_daily_yunwei.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍博科交换机日常运维命令。</p>
 </blockquote>]]></content>
@@ -163,7 +163,7 @@
     
     <entry>
       <title><![CDATA[Brocade系列之二 博科交换机简单配置实例]]></title>
-      <url>http://www.joryhe.com/2016-06-20-easy_to_configure_boke_switch_on_zone.html</url>
+      <url>http://joryhe.coding.me/2016-06-20-easy_to_configure_boke_switch_on_zone.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>博科交换机(Brocade)，作为主流的存储网络交换机设备，被广泛的用于连接各个厂商的存储，实现SAN存储网络，提供高速的数据读写。本例将简单介绍博科交换机的基本配置，zone配置。</p>
 </blockquote>]]></content>
@@ -171,7 +171,7 @@
     
     <entry>
       <title><![CDATA[简单实用的站内搜索实现，你值得拥有！(精)]]></title>
-      <url>http://www.joryhe.com/2016-06-10-the_local_search_you_should_own_yourself.html</url>
+      <url>http://joryhe.coding.me/2016-06-10-the_local_search_you_should_own_yourself.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>很多的博客都需要搜索框，近段时间发现，用到的Swiftype等都需要收费了，所以说”<strong>世上没有免费的午餐</strong>“，就此我决定放弃使用第三方的搜索，还是规规矩矩的使用本地搜索的功能，虽然使用了本地搜索，但是不甘于其太过简单，经过个人搜索了一大堆搜索框的优化方法，终于建立起一个实用的搜索框。特此分享出来。</p>
 </blockquote>
@@ -180,7 +180,7 @@
     
     <entry>
       <title><![CDATA[细说多说在双域名下的问题，多说进阶优化篇！(精)]]></title>
-      <url>http://www.joryhe.com/2016-06-08-duoshuo_on_two_site_improve_with_question.html</url>
+      <url>http://joryhe.coding.me/2016-06-08-duoshuo_on_two_site_improve_with_question.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>相信很多人已经部署了coding和Github的博客，同时选择好的主题，使用了很多插件，本文就是针对这些插件之一<strong>多说</strong>来细讲一下。<a href="http://duoshuo.com/" rel="external nofollow" target="_blank">多说</a> 是一个热收欢迎的社会评论插件，相信很多的Hexo博客的同门应该都使用上次插件，并且成功运行。但是如果你部署了双域名的(coding+github)的博客，尽管你的多说成功运行，但是当你某一天看到多说后台的评论时，或许你发现多说评论的文章链接并非你想需要。或许还是一个错误的链接地址。本文针对双重域名下coding和gitHub下如何来理解和设置您的多说，让你的多说更加符合你的要求(或者是针对某个域名而生效)。由于本人研究的是NEXT,所以本文以Next主题模板而讲解。</p>
 </blockquote>
@@ -189,7 +189,7 @@
     
     <entry>
       <title><![CDATA[hexo-wordcount实现文章标题栏显示更多的文章信息(精)]]></title>
-      <url>http://www.joryhe.com/2016-06-06-hexo_wordcount_setting_your_post.html</url>
+      <url>http://joryhe.coding.me/2016-06-06-hexo_wordcount_setting_your_post.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>本文介绍Hexo一款插件hexo-wordcount，让你的文章标题位置更加富含信息，本插件可以为文章标题位置添加，文章字数，文章预计阅读时间。</p>
 </blockquote>
@@ -198,7 +198,7 @@
     
     <entry>
       <title><![CDATA[Hexo博客优化，如何加快你的博客访问速度(精)]]></title>
-      <url>http://www.joryhe.com/2016-06-05-hexo_site_seo_speed_more_optimization.html</url>
+      <url>http://joryhe.coding.me/2016-06-05-hexo_site_seo_speed_more_optimization.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><blockquote>
 <p>很多人辛辛苦苦的搭建了Hexo博客，并且漫无目的加载很多插件功能，在访问页面时候总是感觉慢，特别是在于一些将博客统一部署在Coding或者GitHub的用户。相信很多用户解决慢的问题第一反应是<strong>“CDN优化静态文件”</strong>、<strong>“压缩静态文件”</strong>、等，没错这些方法如果合理使用确实起到优化速度的作用。但是不能盲目使用，以下是我的优化经验，考虑的比较细节。大家可以借鉴参考。</p>
 </blockquote>
@@ -207,7 +207,7 @@
     
     <entry>
       <title><![CDATA[魅族手机 锁屏密码忘记后的解决办法]]></title>
-      <url>http://www.joryhe.com/2016-06-04-how_to_deal_with_lock_of_meizu_phone.html</url>
+      <url>http://joryhe.coding.me/2016-06-04-how_to_deal_with_lock_of_meizu_phone.html</url>
       <content type="html"><![CDATA[<blockquote>
 <p>魅族手机 锁屏密码忘记后的解决办法<br>很多机友都喜欢设置一个锁屏密码，用来保护手机内的私密信息。不过这密码如果被忘记了 ，应该肿么办捏？<br>这不只是一个假设 ，现实中，很多机友都遇到了这个问题，百度一下相关关键字，可以看到一大批焦急的机友发出的求助信息….<br>很多玩机大神可能会第一时间想到双清 ，刷机 这些终极大招。不过很遗憾的是，出于安全考虑，Flyme系统即使是双清或刷机 ，也是需要输入锁屏密码的，也就是说，双清或刷机的方式无效！！！</p>
 </blockquote>]]></content>
@@ -215,61 +215,61 @@
     
     <entry>
       <title><![CDATA[为所有文章底部统一放点什么,就这么简单(易)]]></title>
-      <url>http://www.joryhe.com/2016-06-04-simple_to_create_something_to_all_article_of_buttom.html</url>
+      <url>http://joryhe.coding.me/2016-06-04-simple_to_create_something_to_all_article_of_buttom.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>有没有想为你的所有文章底部或者某些地方统一放点什么,我想大家肯定都有很多东西是所有文章所公用的，如签名，如某些统一的推荐。或许你在了解本篇文章前，你在做一些固定的每个文章都要显示的内容都在编写每个文章时候手动加入，但是这样很没有效率，如果你这些内容要更新或者修改，相信你可能不会疯掉，但是至少<strong>很郁闷！</strong>，不要为这些小事郁闷，来Jory为你分享一个统一部署的方法。<br>以下是Hexo系列文章，推荐大家浏览。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Dnspod+Namesilo域名结合实现域名选路解析(精)]]></title>
-      <url>http://www.joryhe.com/2016-06-03-dnspod_NameSilolo_double_line_analysis.html</url>
+      <url>http://joryhe.coding.me/2016-06-03-dnspod_NameSilolo_double_line_analysis.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>通常情况下,如果您已经搭建好Hexo博客,并开始发布你的文章时,你可能会更多的考虑国内外搜索引擎的收录和用户访问的速度与体验,近期我也遇到此相关考虑问题,并花费了一定的时间去对此部分进行优化,发现了Dnspod的选路DNS解析结合口碑逐渐变好的域名namesilo实现国内外的Hexo博客的访问选路分流,此文章也是对到目前为止DNSPOD的选路分析是否仍然可用的最佳呈现。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[推广脚本优化，百度推送 hexo 博客所有链接的 Python 脚本。]]></title>
-      <url>http://www.joryhe.com/2016-06-01-update_info_baidupush_python.html</url>
+      <url>http://joryhe.coding.me/2016-06-01-update_info_baidupush_python.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>如果您了解百度提交的几种模式，相信大家都知道在提交的效率上：<strong>主动推送&gt;自动推送&gt;sitemap</strong>,本文针对主动推送进行讲解，非常感谢lovenight 提供的百度主动推送脚本<a href="https://github.com/loveNight/PythonScripts/blob/master/src/hexo%E5%90%91%E7%99%BE%E5%BA%A6%E6%8F%90%E4%BA%A4%E7%BD%91%E5%9D%80.py" rel="external nofollow" target="_blank">hexo向百度提交网址.py</a> ,但部分网上说法由于百度不会收录github网站域名的提交导致说此脚本失效。如果热衷于HEXO，你会发现相对于Github国内还有一个coding代码托管，所以我们可以将我们的网站都一同托管到Github和coding，通过某些方法实现让lovenight的百度推送脚本<strong>只</strong>推送coding域名的网址到百度(此为本文目的)。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Github(google提交)+Coding(百度提交)，自适应提交搜索引擎(绝招来啦！)]]></title>
-      <url>http://www.joryhe.com/2016-05-31-baidu_google_both_tijiao.html</url>
+      <url>http://joryhe.coding.me/2016-05-31-baidu_google_both_tijiao.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>如果您看到这篇文章却没有离开，相信您已经建立你的Hexo博客，但是在百度搜索或者Google的搜索引擎无法搜索到你的博客内容，没关系，本篇文章将为你带来详细的两个搜索引擎的提交方法和技巧，相信通过本文你将会建立起一个完整的搜索引擎提交体系。如果你需要了解更多的Hexo建站内容，点击以下链接,获取相关资料。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[活用Lazyload.js，为你的CDN图片加上nofollow(绝招来啦！)]]></title>
-      <url>http://www.joryhe.com/2016-05-31-use_lazyload_add_nofollow.html</url>
+      <url>http://joryhe.coding.me/2016-05-31-use_lazyload_add_nofollow.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>不知道大家有没有了解lazyload的实现原理。如果没有请浏览以下给出的系列，本章将会介绍一个lazyload.js的脚本的一个活用方法，通过本章，相信你会了解到简单lazyload原理和通过lazyload修改<br>图片或者A标签的属性的绝招。通过绝招我们实现的为A或者图片IMG标签打上我们想要的属性。本章目的是为Fancybox的a标签打上nofollow属性，减少权重的丢失。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[shadowsocks系列之四 Bash实现限制端口IP连接数]]></title>
-      <url>http://www.joryhe.com/2016-05-31-shadowsocks_bash_limmit_ip.html</url>
+      <url>http://joryhe.coding.me/2016-05-31-shadowsocks_bash_limmit_ip.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本部分开始介绍如何简单保护一下Shadowsocks链接安全，如果你之前并没了解Shadowsocks，或者您还没成功<br>搭建您的Shadowsocks服务器，点击一下：获取相关资料<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/%E7%BF%BB%E5%A2%99/">Shadowsocks系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[shadowsocks系列之三 Shadowsock优化与加速]]></title>
-      <url>http://www.joryhe.com/2016-05-31-shadowsocks_serices_speeder_optmime.html</url>
+      <url>http://joryhe.coding.me/2016-05-31-shadowsocks_serices_speeder_optmime.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本部分开始介绍如何优化和加速Shadowsocks，如果你之前并没了解Shadowsocks，或者您还没成功<br>搭建您的Shadowsocks服务器，点击一下：获取相关资料<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/%E7%BF%BB%E5%A2%99/">Shadowsocks系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[多说优化，高级CSS设置]]></title>
-      <url>http://www.joryhe.com/2016-05-30-duoshuo_advance_setting_css.html</url>
+      <url>http://joryhe.coding.me/2016-05-30-duoshuo_advance_setting_css.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文是针对duoshuo的优化部分，实现优化多说显示和现实用户端的浏览器类型，相关的配置代码<br>通过搜罗网络上所给予的代码所得出。您仅仅需要简单的操作便高校的改变你的duoshuo评论框的样式。<br>样式简洁好看。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[shadowsocks系列之二 Shadowsocks安装与基本配置]]></title>
-      <url>http://www.joryhe.com/2016-05-30-shadowsocks_serices_setup_jieshao.html</url>
+      <url>http://joryhe.coding.me/2016-05-30-shadowsocks_serices_setup_jieshao.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本部分开始介绍如何安装shadowsocks，如果您不了解shadowsocks是什么，请点击此链接以<br>获取相关资料<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/%E7%BF%BB%E5%A2%99/">Shadowsocks系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[shadowsocks系列之一 Shadowsock介绍]]></title>
-      <url>http://www.joryhe.com/2016-05-30-shadowsocks_serices_one_inroduce.html</url>
+      <url>http://joryhe.coding.me/2016-05-30-shadowsocks_serices_one_inroduce.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p><code>Shadowsocks</code>（中文名称：影梭）是使用Python等语言开发的、基于Apache许可证开源的代理<br>软件。<code>Shadowsocks</code>使用<code>socks5</code>代理，用于保护网络流量。在中国大陆被广泛用于突破防火长城（GFW）<br>，以浏览被封锁的内容。Shadowsocks分为服务器端和客户端。在使用之前，需要先将服务器端部署<br>在支持Python的服务器上面，然后通过客户端连接并创建本地代理。<br>目前开发者已宣布停止维护。但仍有更新陆续推送.<br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/8d1d1462160415.png"></p>
 <p><strong>原作者：</strong>Clowwindy<br><strong>开发者：</strong>Shadowsocks贡献者<br><strong>操作系统：</strong>跨平台（基于客户端与远程）服务器<br><strong>类型：</strong>本地socks5代理</p>
 <p>访问以下链接获取更多内容<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/%E7%BF%BB%E5%A2%99/">Shadowsocks系列</a><br>]]></content>
@@ -277,98 +277,98 @@
     
     <entry>
       <title><![CDATA[leanCloud,实现文章阅读量统计]]></title>
-      <url>http://www.joryhe.com/2016-05-29-how_to_create_leancloud_read_Counter.html</url>
+      <url>http://joryhe.coding.me/2016-05-29-how_to_create_leancloud_read_Counter.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本章介绍如何实现通过leanCloud统计您网站的文章阅读量，并介绍一些基本实现方法。<br>值得庆喜的是Next主题默认就支持leanCloud的相关设置，您只需要进行几部操作就可以实现<br>你的网站文章阅读量的统计。如果您需要了解更多关于HEXO资料，请点击以下链接。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[强大的免费监控平台 WeADMIN ITBOSS]]></title>
-      <url>http://www.joryhe.com/2016-05-26-itboss-monitor-recommand.html</url>
+      <url>http://joryhe.coding.me/2016-05-26-itboss-monitor-recommand.html</url>
       <content type="html"><![CDATA[<blockquote>
 <p>您是否再找一款免费的IT运维监控软件，你是否希望找到免费而且又好用的IT运维监控软件<br>来这里有所需，介绍一个意外发现好用的IT运维监控软件，ITBOSS是一款免费IT运维监控平台。<br><img src="/images/loading2.gif" alt="ITBOSS" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/f2651462503811.jpg"><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[区分国内与国外GIT，分别显示多说与DISQUS]]></title>
-      <url>http://www.joryhe.com/2016-05-23-how_to_both_duoshuo_and_disqus.html</url>
+      <url>http://joryhe.coding.me/2016-05-23-how_to_both_duoshuo_and_disqus.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>相信很多人都已经实现的coding与Github的同时托管NEXT博客。但相信很多人都会碰到coding与github到<br>底是使用duoshuo还是disqus的问题，毕竟多说适合国内，而disqus适合国外。如何选择都不是最好的。那<br>有没办法实现国内coding使用多说。国外github使用disqus，其实是可以得。仅需您做部分代码的修改。本<br>章为此而介绍。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[RockBox播放器的均衡器详解（EQ）]]></title>
-      <url>http://www.joryhe.com/2016-05-22-rockbox-eq-introduce.html</url>
+      <url>http://joryhe.coding.me/2016-05-22-rockbox-eq-introduce.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>通过”<a class="mydomain" onclick="GO_url(this)" href="#" linkme="2016/05/22/rockbox-musci-player.html">rockbox 安卓强大的音乐播放神器</a>“你应该了解rockbox的强大之处，或者你已经成功<br>安装上rockbox，但是想要发挥rockbox的好音质，你还需要了解一下rockbox的均衡器，活<br>用Rockbox的均衡器（EQ），rockbox才会更好的发挥好音质效果。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[rockbox 安卓强大的音乐播放神器]]></title>
-      <url>http://www.joryhe.com/2016-05-22-rockbox-musci-player.html</url>
+      <url>http://joryhe.coding.me/2016-05-22-rockbox-musci-player.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>如果您是音乐的发烧人物，我想rockbox播放器很适合你，只需要您有一定的音乐基础和一点点手机动<br>手能力，如果您成功安装上rockbox和最佳配置，我相信rockbox播放器会每天让你最佳的<br>Enjoy Your Music!<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[V4A系列 V4A设置的基本介绍指引]]></title>
-      <url>http://www.joryhe.com/2016-05-22-v4a-basic-setting-introduce.html</url>
+      <url>http://joryhe.coding.me/2016-05-22-v4a-basic-setting-introduce.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本章为 “ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解<br>ViPER4Android FX”并知道如何安装，如果不了解请点击”<a class="mydomain" onclick="GO_url(this)" href="#" linkme="2016/05/22/easy-use-viper4android.html">V4A系列 简单用上ViPER4Android</a>“<br>以下针对主要的几个设置进行简单介绍：</p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[V4A系列 简单用上ViPER4Android]]></title>
-      <url>http://www.joryhe.com/2016-05-22-easy-use-viper4android.html</url>
+      <url>http://joryhe.coding.me/2016-05-22-easy-use-viper4android.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>如果您有看过V4A”系列 ViPER音效系统-安卓音效神器” ，我想你已经了解到V4A的魅力，<br>现在我们就体验一下安卓手机上的V4A音效系统 ViPER4Android是怎么样的一个界面，我<br>会简单的以我使用的理解来简介一下 重要的几个功能的作用。和安装指引。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[大数据分析，你在那哪个位置？]]></title>
-      <url>http://www.joryhe.com/2016-05-22-big_data_where_are_you.html</url>
+      <url>http://joryhe.coding.me/2016-05-22-big_data_where_are_you.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>随着时代的发展，从以前的MB,GB,到现在的PB,EB甚至更多，让我们知道现时代已经进入的<br>大数据时代，同时也是云计算时代，云计算与大数据的关系就如挖掘和利用宝藏的利剑，大<br>数据则是宝藏，如果您希望更加深入了解大数据与云计算请移步”云计算，大数据 您了解吗？<br>“本章主要是了解大数据分析，您的位置在哪里。本人并不是专业针对大数据分析的，这里只<br>是让大家了解，我们所认为的大数据，现时代热门的实现软件和级别关键。<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[NEXT 加载您自定以的静态文件]]></title>
-      <url>http://www.joryhe.com/2016-05-22-create_the_custom_status_file.html</url>
+      <url>http://joryhe.coding.me/2016-05-22-create_the_custom_status_file.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何实现加载自定义的静态文件，如和css,js等。通过本篇，您应该会了解关于HEXO next主题静态文件加载原理。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[CDN图片加速，实现图片慢加载]]></title>
-      <url>http://www.joryhe.com/2016-05-21-jory_cdn_lazyload.html</url>
+      <url>http://joryhe.coding.me/2016-05-21-jory_cdn_lazyload.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何利用Lazyload结合CDN实现是图片慢加载，本人为了实现图片的通过CDN服务器进行图片的存放，<br>并且通过LAZYLOAD实现CDN的慢加载，鉴于LAZYLOAD的慢加载设置要求特点，自己编写一个脚本实现批量添加HTML属性<br>通过我的脚本您可以做到自行设置您的CDN地址，CLASS,和临村图片设置。如果您不了解LAZYLOAD，请移步<a href="http://joryhe.coding.me/2016/05/15/create-lazy-tag-in-html.html" title="批量修改HTML TAG,实现LAZYLOAD慢加载图片" target="_blank" rel="external nofollow">批量修改HTML TAG,实现LAZYLOAD慢加载图片</a>，本章是针对此章的优化部分。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[好用的安卓音乐播放器介绍]]></title>
-      <url>http://www.joryhe.com/2016-05-21-music_player_recommend_anzhuo.html</url>
+      <url>http://joryhe.coding.me/2016-05-21-music_player_recommend_anzhuo.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本人是音乐爱好者，分享几款音质很好的播放器<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[HEXO 进阶-SWIG高级语法]]></title>
-      <url>http://www.joryhe.com/2016-05-21-hexo-swig-advance-grammar.html</url>
+      <url>http://joryhe.coding.me/2016-05-21-hexo-swig-advance-grammar.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>网上关于SWIG语法的介绍甚少，本人也在学习SWIG语法以更好的优化自己的博客，本文介绍SWIG的高级语法<br>语法主要模板语法，通过了解本章，你可以了解基本主题模板的SWIG文件的高级语法，让你随心所欲的完善您自己网<br>站。本文的关键字:extends 、Block、include、for、if、set等.<br>相关推荐:<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[V4A系列-VIPER音效系统-安卓音效神器]]></title>
-      <url>http://www.joryhe.com/2016-05-18-muscic-technolocy-v4a-introduce.html</url>
+      <url>http://joryhe.coding.me/2016-05-18-muscic-technolocy-v4a-introduce.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文将介绍一款安卓音效提升的软件，此款软件系统在安卓的音效江湖上一度猖獗，<br>我也是在无疑中了解到此款音效系统，咱一试之下就爱不惜手。此款软件商名字为：ViPER （蝰蛇），<br>是一个音效更改系统，即可以通过软件系统来改变音乐的音效.<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[HEXO建站-基本设置]]></title>
-      <url>http://www.joryhe.com/2016-05-17-hexoxo-series-for-site-build-basic.html</url>
+      <url>http://joryhe.coding.me/2016-05-17-hexoxo-series-for-site-build-basic.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>或许您已经通<a class="mydomain" onclick="GO_url(this)" href="#" linkme="2016/05/12/git_and_hexo_create_blog.html">Git + Hexo 搭建个人博客网站</a>了解到<br>如何通过HEXO + GIT 实现个人博客网站的建立。但是尽管您已经成功建立博客网站，但是你需要对网站做合适的配置和调<br>整才能迎合你的网站要求。本文主要介绍HEXO的基本操作命令和网站的基本配置方法。<br>系列推荐:<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[HEXO技巧分享-文章列表实现]]></title>
-      <url>http://www.joryhe.com/2016-05-17-hexo-series-for-tips-01.html</url>
+      <url>http://joryhe.coding.me/2016-05-17-hexo-series-for-tips-01.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何通过分类实现文章列表显示，主要是迎合博客希望点击某个导航栏栏链接页面直接显示<br>相关文章列表，如图<br><img src="/images/loading2.gif" class="'jory_lazyimg'" data-original="http://o6sn177if.bkt.clouddn.com/images/Unnamed%20QQ%20Screenshot20160517220602.jpg"><br>系列推荐:<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[为Xenserver服务器添加本地磁盘]]></title>
-      <url>http://www.joryhe.com/2016-05-15-xenserver-add-local-disk.html</url>
+      <url>http://joryhe.coding.me/2016-05-15-xenserver-add-local-disk.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>Xenserver在何种场景，你需要进行添加本地磁盘</p>
 <ol>
 <li>当你需要在Xenserver添加磁盘作为扩容</li>
@@ -378,19 +378,19 @@
     
     <entry>
       <title><![CDATA[V4A系列 V4A设置的基本介绍指引]]></title>
-      <url>http://www.joryhe.com/2016-05-15-muscic-technolocy-v4a.html</url>
+      <url>http://joryhe.coding.me/2016-05-15-muscic-technolocy-v4a.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>“ViPER4Android FX”的基本设置选项原理简单指引,本章节前提您已经了解”ViPER4Android FX”<br>并知道如何安装.如果不了解请点击”<a class="mydomain" onclick="GO_url(this)" href="#" linkme="2016/05/22/easy-use-viper4android.html">V4A系列 简单用上ViPER4Android</a>“<br>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[批量修改HTML TAG,实现LAZYLOAD慢加载图片]]></title>
-      <url>http://www.joryhe.com/2016-05-15-create-lazy-tag-in-html.html</url>
+      <url>http://joryhe.coding.me/2016-05-15-create-lazy-tag-in-html.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何利用Lazyload是图片慢加载，简单的针对lazyload去做慢加载，网上的文章有很多。<br>而且也有很多说法，主要是围绕是否能真正的实现慢加载，还是加重了服务器负担，本文基础，我已经<br>在搜索大量的上网技术文章和结合自己的此时得出的慢加载方法，是否成功请关注本章最后的GIF图片，<br>图片简单的发出了我关于慢加载的测试截图。不说其他，先回到正题：”如和批量修改HTML TAG实现，慢<br>加载”。<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Git + Hexo 搭建个人博客网站]]></title>
-      <url>http://www.joryhe.com/2016-05-12-git_and_hexo_create_blog.html</url>
+      <url>http://joryhe.coding.me/2016-05-12-git_and_hexo_create_blog.html</url>
       <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本文介绍如何通过git 和hexo 结合搭建一个纯静态的博客网站，本文将会详细介绍git与hexo<br>安装与配置过程，通过本章你将会搭建起您基本的博客网站。您的博客之旅将会开始。如果您需要了解更多<br>关于HEXO建站技术 请点击以下推荐的系列:<br>相关推荐:<br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E5%BB%BA%E7%AB%99/">HEXO-建站系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E4%BC%98%E5%8C%96/">HEXO-优化系列</a><br><a class="mydomain" onclick="GO_url(this)" href="#" linkme="categories/ittech/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/hexo/HEXO%E8%BF%9B%E9%98%B6/">HEXO-进阶系列</a><br>]]></content>
     </entry>
     
@@ -399,21 +399,21 @@
     
     <entry>
       <title><![CDATA[categories]]></title>
-      <url>http://www.joryhe.com/categories/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>http://www.joryhe.com/tags/index.html</url>
+      <url>http://joryhe.coding.me/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
       <title><![CDATA[Jory's Blog 文档]]></title>
-      <url>http://www.joryhe.com/documents/index.html</url>
+      <url>http://joryhe.coding.me/documents/index.html</url>
       <content type="html"><![CDATA[<div id="menu_document"><br>    <h1 class="tree1">技术文档分享</h1><br>    <ul id="tree_root"><br>        <li><br>            <span class="tree2"><b class="Off">赛门铁克</b></span><br>            <ul style="display:none;"><br>                <li><br>                    <span class="tree3"><b class="Off">SEP杀毒</b></span><br>                    <ul style="display:none;"><br>                        <li><span class="tree4"><b><a href="http://o6sn177if.bkt.clouddn.com/pdfsSymantec_Endpoint_Protection_Manager%28SEPM_MOVE_B_FROM_A%29.pdf" rel="external nofollow" target="_blank">如何迁移SEPM 从当前计算机A到另一台计算机B.pdf</a></b></span></li><br>                        <li><span class="tree4"><b><a href="/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html">赛门铁克LiveUpdate服务器安装配置</a></b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                    </ul><br>                </li><br>                <li><br>                    <span class="tree3"><b class="Off">NBU备份</b></span><br>                    <ul style="display:none;"><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                    </ul><br>                </li><br>                <li><br>                    <span class="tree3"><b class="Off">DLP防泄漏</b></span><br>                    <ul style="display:none;"><br>                        <li><span class="tree4"><b><a href="/2016-06-29-symantec_dlp_install_guide.html">赛门铁克DLP防泄漏部署指</a></b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                    </ul><br>                </li><br>            </ul><br>        </li><br>         <li><br>            <span class="tree2"><b class="Off">卡巴斯基</b></span><br>            <ul style="display:none;"><br>                <li><br>                    <span class="tree3"><b class="Off">卡巴斯基杀毒</b></span><br>                    <ul style="display:none;"><br>                        <li><span class="tree4"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/kabasiji/shadu/%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7AK8%E5%8D%87%E7%BA%A7%E5%88%B0KSC10.pdf" rel="external nofollow" target="_blank">管理工具AK8升级到KSC10.pdf</a></b></span></li><br>                        <li><span class="tree4"><b><a href="/2016-06-21-kabasiji_for_linux_install_guide.html">卡巴斯基之Linux客户端安装指引</a></b></span></li><br>                        <li><span class="tree4"><b><a href="/2016-06-26-kabsiji_package_on_skipcheck_360.html">卡巴斯基10制作兼容(绕过检测)360客户端安装包</a></b></span></li><br>                        <li><span class="tree4"><b><a href="/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html">卡巴斯基KVM下的虚拟化防病毒</a></b></span></li><br>                        <li><span class="tree4"><b><a href="/2016-08-15-kabaspersky_svm_configuration_on_manul.html">卡巴斯基虚拟化方案之-手动配置SVM</a></b></span></li><br>                        <li><span class="tree4"><b><a href="/2016-08-11-kakaspersky_kes_for_linux_to_check.html">卡巴斯基功能测试之-linux防病毒测试</a></b></span></li><br>                        <li><span class="tree4"><b><a href="/2016-08-11-kakaspersky_network_hack_defend.html">卡巴斯基功能测试之-反网络攻击测试</a></b></span></li><br>                        </ul><br>                </li><br>                <li><br>                    <span class="tree3"><b class="Off">杀毒虚拟化</b></span><br>                    <ul style="display:none;"><br>                        <li><span class="tree4"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/kabasiji/virtualization/Kaspersky%20Security%20for%20Virtualization%203.0%20Agentless%20By%20ESXi.pdf" rel="external nofollow" target="_blank">Kaspersky Security for Virtualization 3.0 Agentless By ESXi.pdf</a></b></span></li><br>                        <li><span class="tree4"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/kabasiji/virtualization/Kaspersky%20Security%20for%20Virtualization%203.0%20Light%20Agent%20By%20ESXi.pdf" rel="external nofollow" target="_blank">Kaspersky Security for Virtualization 3.0 Light Agent By ESXi.pdf</a></b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                    </ul><br>                </li><br>                <li><br>                    <span class="tree3"><b class="Off">其他技术</b></span><br>                    <ul style="display:none;"><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                    </ul><br>                </li><br>            </ul><br>        </li><br>        <li><br>            <span class="tree2"><b class="Off">虚拟化</b></span><br>            <ul style="display:none;"><br>                <li><br>                    <span class="tree3"><b class="Off">服务器虚拟化</b></span><br>                    <ul style="display:none;"><br>                        <li><span class="tree4"><b class="Off">Vmware服务器虚拟化</b></span><br>                            <ul style="display:none;"><br>                                <li><span class="tree6"><b><a href="/2016-06-29-vmwaware_and_vcenter_install_guide.html">轻松部署vmware esxi6.0与vCenter</a></b></span></li><br>                                <li><span class="tree6"><b><a href="/2016-06-29-vmware_hot_on_line_p2v.html">VMware_物理机迁移到虚拟机P2V(热迁移)</a></b></span></li><br>                            </ul><br>                        </li><br>                        <li><span class="tree4"><b>Xenserver服务器虚拟化</b></span></li><br>                        <li><span class="tree4"><b>Hyperv服务器虚拟化</b></span></li><br>                    </ul><br>                </li><br>                <li><br>                    <span class="tree3"><b class="Off">桌面虚拟化</b></span><br>                    <ul style="display:none;"><br>                        <li><br>                            <span class="tree4"><b class="Off">Citrix桌面虚拟化</b></span><br>                            <ul style="display:none;"><br>                                <li><br>                                    <span class="tree5"><b class="Off">Xendesktop系列桌面虚拟化</b></span><br>                                    <ul style="display:none;"><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%20_%E7%AE%80%E4%BB%8B%E5%8F%8A%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87.pdf" rel="external nofollow" target="_blank">简介及环境准备.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2001%20%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%851.0.pdf" rel="external nofollow" target="_blank">01 虚拟主机基础环境安装.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2002%20%E5%BE%AE%E8%BD%AF%E5%9F%BA%E7%A1%80%E6%9E%84%E6%9E%B6%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%851.0.pdf" rel="external nofollow" target="_blank">02 微软基础构架环境安装.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2003%20XenDesktop%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE1.0.pdf" rel="external nofollow" target="_blank">03 XenDesktop基本安装及配置.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2004%20XenDesktop%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2%E7%9A%84%E4%BA%A4%E4%BB%981.0.pdf" rel="external nofollow" target="_blank">04 XenDesktop虚拟桌面的交付.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2005%20XenApp%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE1.0.pdf" rel="external nofollow" target="_blank">05 XenApp安装与配置.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2006%20StoreFront%E9%85%8D%E7%BD%AEv1.0.pdf" rel="external nofollow" target="_blank">06 StoreFront配置.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2007%20NetScaler%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE1.0.pdf" rel="external nofollow" target="_blank">07 NetScaler基本安装及配置.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2008%20Receiver%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E5%92%8C%E8%AE%BF%E9%97%AE1.1.pdf" rel="external nofollow" target="_blank">08 Receiver客户端配置和访问.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2009%20XenDesktop%E6%9C%AC%E5%9C%B0%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E8%AE%BF%E9%97%AE1.0.pdf" rel="external nofollow" target="_blank">09 XenDesktop本地应用程序访问.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2010%20Director%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%971.0.pdf" rel="external nofollow" target="_blank">10 Director使用指南.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2011%20PVS%E6%89%B9%E9%87%8F%E4%BA%A4%E4%BB%98%E6%A1%8C%E9%9D%A21.0.pdf" rel="external nofollow" target="_blank">11 PVS批量交付桌面.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%201%20%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%20-%20Lab%2012%20Windows%207%20%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%B8%B8%E7%94%A8%E4%BC%98%E5%8C%96%E6%AD%A5%E9%AA%A4%201.0.pdf" rel="external nofollow" target="_blank">12 Windows 7 虚拟机常用优化步骤.pdf</a></b></span></li><br>                                        <li><span class="tree6"><b><a href="http://o6sn177if.bkt.clouddn.com/pdf/Citrxi/VirtualizationDesktop/PoC%E6%89%8B%E5%86%8C%20-%20%E9%99%84%E5%BD%95%20-%20PC%20root%20%E8%AF%81%E4%B9%A6%E7%9A%84%E5%AF%BC%E5%85%A5.pdf" rel="external nofollow" target="_blank">13 PC root 证书的导入.pdf</a></b></span></li><br>                                    </ul><br>                                </li><br>                                <li><br>                                    <span class="tree5"><b class="Off">XenApp系列桌面虚拟化</b></span><br>                                    <ul style="display:none;"><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                    </ul><br>                                </li><br>                                <li><br>                                   <span class="tree5"><b class="Off">Citrix桌面虚拟化其他资料</b></span><br>                                    <ul style="display:none;"><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                    </ul><br>                                </li><br>                            </ul><br>                        </li><br>                        <li><br>                        <span class="tree4"><b class="Off">Vmware桌面虚拟化</b></span><br>                            <ul style="display:none;"><br>                                <li><br>                                    <span class="tree5"><b class="Off">View系列桌面虚拟化</b></span><br>                                    <ul style="display:none;"><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                    </ul><br>                                </li><br>                            </ul><br>                        </li><br>                        <li><br>                        <span class="tree4"><b class="Off">其他产品桌面虚拟化</b></span><br>                            <ul style="display:none;"><br>                                <li><br>                                    <span class="tree5"><b class="Off">其他系列桌面虚拟化</b></span><br>                                    <ul style="display:none;"><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                        <li><span class="tree6"><b>文档链接</b></span></li><br>                                    </ul><br>                                </li><br>                            </ul><br>                        </li><br>                    </ul><br>                </li><br>            </ul><br>        </li><br>        <li><br>            <span class="tree2"><b class="Off">存储技术</b></span><br>            <ul style="display:none;"><br>                <li><br>                    <span class="tree3"><b class="Off">华为存储</b></span><br>                    <ul style="display:none;"><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                    </ul><br>                </li><br>                <li><br>                    <span class="tree3"><b class="Off">宏衫存储</b></span><br>                    <ul style="display:none;"><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                    </ul><br>                </li><br>                <li><br>                    <span class="tree3"><b class="Off">EMC存储</b></span><br>                    <ul style="display:none;"><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                        <li><span class="tree4"><b>文档链接</b></span></li><br>                    </ul><br>                </li><br>                <li><br>                    <span class="tree3"><b class="Off">博客交换机</b></span><br>                    <ul style="display:none;"><br>                        <li><span class="tree4"><b><a href="/2016-06-20-easy_know_boke_daily_yunwei.html">Brocade系列之一 博科日常运维命令</a></b></span></li><br>                        <li><span class="tree4"><b><a href="/2016-06-20-easy_to_configure_boke_switch_on_zone.html">Brocade系列之二 博科交换机简单配置实例</a></b></span></li><br>                        <li><span class="tree4"><b><a href="/2016-06-20-easy_boke_commandnd_create_zone.html">Brocade系列之三 博科通过命令创建ZONE</a></b></span></li><br>                    </ul><br>                </li><br>            </ul><br>        </li><br>        <li><br>            <span class="tree2"><b class="Off">其他技术</b></span><br>            <ul style="display:none;"><br>                <li><span class="tree3"><b>文档链接</b></span></li><br>                <li><span class="tree3"><b>文档链接</b></span></li><br>                <li><span class="tree3"><b>文档链接</b></span></li><br>            </ul><br>        </li><br>    </ul><br></div>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>http://joryhe.coding.me/tags/index.html</url>
+      <content type="html"></content>
     </entry>
     
   

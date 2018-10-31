@@ -4,9 +4,9 @@
   <subtitle>技术分享</subtitle>
   <link href="/atom-china.xml" rel="self"/>
   
-  <link href="http://www.joryhe.com/"/>
+  <link href="http://joryhe.coding.me/"/>
   <updated>2017-12-01T06:53:42.913Z</updated>
-  <id>http://www.joryhe.com/</id>
+  <id>http://joryhe.coding.me/</id>
   
   <author>
     <name>Jory He</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>玩转阿里云之建立阿里云Docker私有仓库</title>
-    <link href="http://www.joryhe.com/2017-12-01-aliyun_docker_service_of_private_store.html"/>
-    <id>http://www.joryhe.com/2017-12-01-aliyun_docker_service_of_private_store.html</id>
+    <link href="http://joryhe.coding.me/2017-12-01-aliyun_docker_service_of_private_store.html"/>
+    <id>http://joryhe.coding.me/2017-12-01-aliyun_docker_service_of_private_store.html</id>
     <published>2017-12-01T06:05:19.000Z</published>
     <updated>2017-12-01T06:53:42.913Z</updated>
     
@@ -30,21 +30,21 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="docker" scheme="http://www.joryhe.com/categories/ittech/docker/"/>
+      <category term="docker" scheme="http://joryhe.coding.me/categories/ittech/docker/"/>
     
     
-      <category term="玩转阿里云" scheme="http://www.joryhe.com/tags/%E7%8E%A9%E8%BD%AC%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+      <category term="玩转阿里云" scheme="http://joryhe.coding.me/tags/%E7%8E%A9%E8%BD%AC%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
-      <category term="阿里云容器服务" scheme="http://www.joryhe.com/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%B9%E5%99%A8%E6%9C%8D%E5%8A%A1/"/>
+      <category term="阿里云容器服务" scheme="http://joryhe.coding.me/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%B9%E5%99%A8%E6%9C%8D%E5%8A%A1/"/>
     
   </entry>
   
   <entry>
     <title>玩转阿里云之SLB证书配置</title>
-    <link href="http://www.joryhe.com/2017-03-05-play_over_aliyun_cloud_computing_of_slb.html"/>
-    <id>http://www.joryhe.com/2017-03-05-play_over_aliyun_cloud_computing_of_slb.html</id>
+    <link href="http://joryhe.coding.me/2017-03-05-play_over_aliyun_cloud_computing_of_slb.html"/>
+    <id>http://joryhe.coding.me/2017-03-05-play_over_aliyun_cloud_computing_of_slb.html</id>
     <published>2017-03-05T14:00:16.000Z</published>
     <updated>2017-11-30T07:15:21.674Z</updated>
     
@@ -56,19 +56,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="玩转阿里云" scheme="http://www.joryhe.com/categories/ittech/%E7%8E%A9%E8%BD%AC%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+      <category term="玩转阿里云" scheme="http://joryhe.coding.me/categories/ittech/%E7%8E%A9%E8%BD%AC%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
     
-      <category term="玩转阿里云" scheme="http://www.joryhe.com/tags/%E7%8E%A9%E8%BD%AC%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+      <category term="玩转阿里云" scheme="http://joryhe.coding.me/tags/%E7%8E%A9%E8%BD%AC%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
   </entry>
   
   <entry>
     <title>教你如何部署nigix SSL证书</title>
-    <link href="http://www.joryhe.com/2016-10-20-ngnix_ssl_cert_install.html"/>
-    <id>http://www.joryhe.com/2016-10-20-ngnix_ssl_cert_install.html</id>
+    <link href="http://joryhe.coding.me/2016-10-20-ngnix_ssl_cert_install.html"/>
+    <id>http://joryhe.coding.me/2016-10-20-ngnix_ssl_cert_install.html</id>
     <published>2016-10-20T01:59:05.000Z</published>
     <updated>2016-10-20T02:32:04.336Z</updated>
     
@@ -80,19 +80,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="网站证书" scheme="http://www.joryhe.com/categories/ittech/%E7%BD%91%E7%AB%99%E8%AF%81%E4%B9%A6/"/>
+      <category term="网站证书" scheme="http://joryhe.coding.me/categories/ittech/%E7%BD%91%E7%AB%99%E8%AF%81%E4%B9%A6/"/>
     
     
-      <category term="网站证书" scheme="http://www.joryhe.com/tags/%E7%BD%91%E7%AB%99%E8%AF%81%E4%B9%A6/"/>
+      <category term="网站证书" scheme="http://joryhe.coding.me/tags/%E7%BD%91%E7%AB%99%E8%AF%81%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>Gzip提高你的网页访问速度</title>
-    <link href="http://www.joryhe.com/2016-09-29-lnmp_nginx_gzip_make_website_speed_well.html"/>
-    <id>http://www.joryhe.com/2016-09-29-lnmp_nginx_gzip_make_website_speed_well.html</id>
+    <link href="http://joryhe.coding.me/2016-09-29-lnmp_nginx_gzip_make_website_speed_well.html"/>
+    <id>http://joryhe.coding.me/2016-09-29-lnmp_nginx_gzip_make_website_speed_well.html</id>
     <published>2016-09-29T07:35:17.000Z</published>
     <updated>2016-09-29T07:52:50.054Z</updated>
     
@@ -104,21 +104,21 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="LNMP" scheme="http://www.joryhe.com/categories/ittech/LNMP/"/>
+      <category term="LNMP" scheme="http://joryhe.coding.me/categories/ittech/LNMP/"/>
     
     
-      <category term="LNMP" scheme="http://www.joryhe.com/tags/LNMP/"/>
+      <category term="LNMP" scheme="http://joryhe.coding.me/tags/LNMP/"/>
     
-      <category term="Gzip" scheme="http://www.joryhe.com/tags/Gzip/"/>
+      <category term="Gzip" scheme="http://joryhe.coding.me/tags/Gzip/"/>
     
   </entry>
   
   <entry>
     <title>几个好用的Google浏览器插件</title>
-    <link href="http://www.joryhe.com/2016-09-18-good_tools_for_google_browser.html"/>
-    <id>http://www.joryhe.com/2016-09-18-good_tools_for_google_browser.html</id>
+    <link href="http://joryhe.coding.me/2016-09-18-good_tools_for_google_browser.html"/>
+    <id>http://joryhe.coding.me/2016-09-18-good_tools_for_google_browser.html</id>
     <published>2016-09-18T05:14:13.000Z</published>
     <updated>2016-09-18T05:48:05.015Z</updated>
     
@@ -130,21 +130,21 @@
     
     </summary>
     
-      <category term="浏览器" scheme="http://www.joryhe.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+      <category term="浏览器" scheme="http://joryhe.coding.me/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
     
-      <category term="插件" scheme="http://www.joryhe.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/%E6%8F%92%E4%BB%B6/"/>
+      <category term="插件" scheme="http://joryhe.coding.me/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/%E6%8F%92%E4%BB%B6/"/>
     
     
-      <category term="插件" scheme="http://www.joryhe.com/tags/%E6%8F%92%E4%BB%B6/"/>
+      <category term="插件" scheme="http://joryhe.coding.me/tags/%E6%8F%92%E4%BB%B6/"/>
     
-      <category term="浏览器" scheme="http://www.joryhe.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+      <category term="浏览器" scheme="http://joryhe.coding.me/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>Google浏览器+swithysharp实现自动情景切换流量分流（精）</title>
-    <link href="http://www.joryhe.com/2016-09-07-swithysharp_with_shadowsock_easy_to_switch_your_access.html"/>
-    <id>http://www.joryhe.com/2016-09-07-swithysharp_with_shadowsock_easy_to_switch_your_access.html</id>
+    <link href="http://joryhe.coding.me/2016-09-07-swithysharp_with_shadowsock_easy_to_switch_your_access.html"/>
+    <id>http://joryhe.coding.me/2016-09-07-swithysharp_with_shadowsock_easy_to_switch_your_access.html</id>
     <published>2016-09-07T01:19:00.000Z</published>
     <updated>2016-09-07T01:59:59.624Z</updated>
     
@@ -156,21 +156,21 @@
     
     </summary>
     
-      <category term="翻墙" scheme="http://www.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://joryhe.coding.me/categories/%E7%BF%BB%E5%A2%99/"/>
     
     
-      <category term="翻墙" scheme="http://www.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://joryhe.coding.me/tags/%E7%BF%BB%E5%A2%99/"/>
     
-      <category term="shadowsocks" scheme="http://www.joryhe.com/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="http://joryhe.coding.me/tags/shadowsocks/"/>
     
-      <category term="swithysharp" scheme="http://www.joryhe.com/tags/swithysharp/"/>
+      <category term="swithysharp" scheme="http://joryhe.coding.me/tags/swithysharp/"/>
     
   </entry>
   
   <entry>
     <title>shadowsocks配置proxifier实现自定义程序代理翻墙</title>
-    <link href="http://www.joryhe.com/2016-08-29-shadowsocks_with_Proxifier_to_custom_app.html"/>
-    <id>http://www.joryhe.com/2016-08-29-shadowsocks_with_Proxifier_to_custom_app.html</id>
+    <link href="http://joryhe.coding.me/2016-08-29-shadowsocks_with_Proxifier_to_custom_app.html"/>
+    <id>http://joryhe.coding.me/2016-08-29-shadowsocks_with_Proxifier_to_custom_app.html</id>
     <published>2016-08-29T12:41:36.000Z</published>
     <updated>2016-08-30T02:52:00.227Z</updated>
     
@@ -182,19 +182,19 @@
     
     </summary>
     
-      <category term="翻墙" scheme="http://www.joryhe.com/categories/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://joryhe.coding.me/categories/%E7%BF%BB%E5%A2%99/"/>
     
     
-      <category term="翻墙" scheme="http://www.joryhe.com/tags/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="http://joryhe.coding.me/tags/%E7%BF%BB%E5%A2%99/"/>
     
-      <category term="shadowsocks" scheme="http://www.joryhe.com/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="http://joryhe.coding.me/tags/shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title>LNMP之jemalloc内存管理使用</title>
-    <link href="http://www.joryhe.com/2016-08-20-lnmp_memory_manage_jemalloc.html"/>
-    <id>http://www.joryhe.com/2016-08-20-lnmp_memory_manage_jemalloc.html</id>
+    <link href="http://joryhe.coding.me/2016-08-20-lnmp_memory_manage_jemalloc.html"/>
+    <id>http://joryhe.coding.me/2016-08-20-lnmp_memory_manage_jemalloc.html</id>
     <published>2016-08-20T07:36:49.000Z</published>
     <updated>2016-08-20T08:12:12.905Z</updated>
     
@@ -206,19 +206,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="LNMP" scheme="http://www.joryhe.com/categories/ittech/LNMP/"/>
+      <category term="LNMP" scheme="http://joryhe.coding.me/categories/ittech/LNMP/"/>
     
     
-      <category term="LNMP" scheme="http://www.joryhe.com/tags/LNMP/"/>
+      <category term="LNMP" scheme="http://joryhe.coding.me/tags/LNMP/"/>
     
   </entry>
   
   <entry>
     <title>Centos6.5 磁盘扩容</title>
-    <link href="http://www.joryhe.com/2016-08-20-centos_6_5_resize_disksapce.html"/>
-    <id>http://www.joryhe.com/2016-08-20-centos_6_5_resize_disksapce.html</id>
+    <link href="http://joryhe.coding.me/2016-08-20-centos_6_5_resize_disksapce.html"/>
+    <id>http://joryhe.coding.me/2016-08-20-centos_6_5_resize_disksapce.html</id>
     <published>2016-08-20T06:46:53.000Z</published>
     <updated>2016-08-20T07:21:48.498Z</updated>
     
@@ -230,19 +230,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="Linux" scheme="http://www.joryhe.com/categories/ittech/Linux/"/>
+      <category term="Linux" scheme="http://joryhe.coding.me/categories/ittech/Linux/"/>
     
     
-      <category term="Linux" scheme="http://www.joryhe.com/tags/Linux/"/>
+      <category term="Linux" scheme="http://joryhe.coding.me/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>memcache测试介绍</title>
-    <link href="http://www.joryhe.com/2016-08-19-memcache_check_introduce.html"/>
-    <id>http://www.joryhe.com/2016-08-19-memcache_check_introduce.html</id>
+    <link href="http://joryhe.coding.me/2016-08-19-memcache_check_introduce.html"/>
+    <id>http://joryhe.coding.me/2016-08-19-memcache_check_introduce.html</id>
     <published>2016-08-19T08:27:43.000Z</published>
     <updated>2016-08-21T13:17:46.036Z</updated>
     
@@ -254,21 +254,21 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="LNMP" scheme="http://www.joryhe.com/categories/ittech/LNMP/"/>
+      <category term="LNMP" scheme="http://joryhe.coding.me/categories/ittech/LNMP/"/>
     
     
-      <category term="LNMP" scheme="http://www.joryhe.com/tags/LNMP/"/>
+      <category term="LNMP" scheme="http://joryhe.coding.me/tags/LNMP/"/>
     
-      <category term="memcache" scheme="http://www.joryhe.com/tags/memcache/"/>
+      <category term="memcache" scheme="http://joryhe.coding.me/tags/memcache/"/>
     
   </entry>
   
   <entry>
     <title>卡巴斯基虚拟化方案之-手动配置SVM</title>
-    <link href="http://www.joryhe.com/2016-08-15-kabaspersky_svm_configuration_on_manul.html"/>
-    <id>http://www.joryhe.com/2016-08-15-kabaspersky_svm_configuration_on_manul.html</id>
+    <link href="http://joryhe.coding.me/2016-08-15-kabaspersky_svm_configuration_on_manul.html"/>
+    <id>http://joryhe.coding.me/2016-08-15-kabaspersky_svm_configuration_on_manul.html</id>
     <published>2016-08-15T12:40:03.000Z</published>
     <updated>2016-08-15T12:57:23.426Z</updated>
     
@@ -280,19 +280,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="卡巴斯基" scheme="http://www.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+      <category term="卡巴斯基" scheme="http://joryhe.coding.me/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
     
     
-      <category term="卡巴斯基" scheme="http://www.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+      <category term="卡巴斯基" scheme="http://joryhe.coding.me/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
     
   </entry>
   
   <entry>
     <title>赛门铁克LiveUpdate服务器安装配置</title>
-    <link href="http://www.joryhe.com/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html"/>
-    <id>http://www.joryhe.com/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html</id>
+    <link href="http://joryhe.coding.me/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html"/>
+    <id>http://joryhe.coding.me/2016-08-14-Symantec_Endpoint_Protection_liveUpdate_guide.html</id>
     <published>2016-08-14T12:04:30.000Z</published>
     <updated>2016-08-15T06:05:30.908Z</updated>
     
@@ -304,19 +304,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="SEP" scheme="http://www.joryhe.com/categories/ittech/SEP/"/>
+      <category term="SEP" scheme="http://joryhe.coding.me/categories/ittech/SEP/"/>
     
     
-      <category term="SEP" scheme="http://www.joryhe.com/tags/SEP/"/>
+      <category term="SEP" scheme="http://joryhe.coding.me/tags/SEP/"/>
     
   </entry>
   
   <entry>
     <title>卡巴斯基功能测试之-反网络攻击测试</title>
-    <link href="http://www.joryhe.com/2016-08-11-kakaspersky_network_hack_defend.html"/>
-    <id>http://www.joryhe.com/2016-08-11-kakaspersky_network_hack_defend.html</id>
+    <link href="http://joryhe.coding.me/2016-08-11-kakaspersky_network_hack_defend.html"/>
+    <id>http://joryhe.coding.me/2016-08-11-kakaspersky_network_hack_defend.html</id>
     <published>2016-08-11T13:03:15.000Z</published>
     <updated>2016-08-11T13:18:37.218Z</updated>
     
@@ -328,19 +328,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="卡巴斯基" scheme="http://www.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+      <category term="卡巴斯基" scheme="http://joryhe.coding.me/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
     
     
-      <category term="卡巴斯基" scheme="http://www.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+      <category term="卡巴斯基" scheme="http://joryhe.coding.me/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
     
   </entry>
   
   <entry>
     <title>卡巴斯基功能测试之-linux防病毒测试</title>
-    <link href="http://www.joryhe.com/2016-08-11-kakaspersky_kes_for_linux_to_check.html"/>
-    <id>http://www.joryhe.com/2016-08-11-kakaspersky_kes_for_linux_to_check.html</id>
+    <link href="http://joryhe.coding.me/2016-08-11-kakaspersky_kes_for_linux_to_check.html"/>
+    <id>http://joryhe.coding.me/2016-08-11-kakaspersky_kes_for_linux_to_check.html</id>
     <published>2016-08-11T09:33:07.000Z</published>
     <updated>2016-08-11T12:47:10.808Z</updated>
     
@@ -352,19 +352,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="卡巴斯基" scheme="http://www.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+      <category term="卡巴斯基" scheme="http://joryhe.coding.me/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
     
     
-      <category term="卡巴斯基" scheme="http://www.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+      <category term="卡巴斯基" scheme="http://joryhe.coding.me/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
     
   </entry>
   
   <entry>
     <title>LNMP日常主机操作,伪静态</title>
-    <link href="http://www.joryhe.com/2016-08-11-lnmp_host_add_guide_2.html"/>
-    <id>http://www.joryhe.com/2016-08-11-lnmp_host_add_guide_2.html</id>
+    <link href="http://joryhe.coding.me/2016-08-11-lnmp_host_add_guide_2.html"/>
+    <id>http://joryhe.coding.me/2016-08-11-lnmp_host_add_guide_2.html</id>
     <published>2016-08-11T06:28:41.000Z</published>
     <updated>2016-08-11T07:01:36.192Z</updated>
     
@@ -376,19 +376,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="LNMP" scheme="http://www.joryhe.com/categories/ittech/LNMP/"/>
+      <category term="LNMP" scheme="http://joryhe.coding.me/categories/ittech/LNMP/"/>
     
     
-      <category term="LNMP" scheme="http://www.joryhe.com/tags/LNMP/"/>
+      <category term="LNMP" scheme="http://joryhe.coding.me/tags/LNMP/"/>
     
   </entry>
   
   <entry>
     <title>一键LNMP安装包搭建web环境</title>
-    <link href="http://www.joryhe.com/2016-08-11-lnmp_install_guidede_1.html"/>
-    <id>http://www.joryhe.com/2016-08-11-lnmp_install_guidede_1.html</id>
+    <link href="http://joryhe.coding.me/2016-08-11-lnmp_install_guidede_1.html"/>
+    <id>http://joryhe.coding.me/2016-08-11-lnmp_install_guidede_1.html</id>
     <published>2016-08-11T05:09:28.000Z</published>
     <updated>2016-08-11T07:01:57.971Z</updated>
     
@@ -400,19 +400,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="LNMP" scheme="http://www.joryhe.com/categories/ittech/LNMP/"/>
+      <category term="LNMP" scheme="http://joryhe.coding.me/categories/ittech/LNMP/"/>
     
     
-      <category term="LNMP" scheme="http://www.joryhe.com/tags/LNMP/"/>
+      <category term="LNMP" scheme="http://joryhe.coding.me/tags/LNMP/"/>
     
   </entry>
   
   <entry>
     <title>卡巴斯基KVM下的虚拟化防病毒</title>
-    <link href="http://www.joryhe.com/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html"/>
-    <id>http://www.joryhe.com/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html</id>
+    <link href="http://joryhe.coding.me/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html"/>
+    <id>http://joryhe.coding.me/2016-08-01-kakaspersky_security_for_virtualization_lightAgent_of_KVM.html</id>
     <published>2016-08-01T02:45:03.000Z</published>
     <updated>2016-08-02T04:31:13.915Z</updated>
     
@@ -424,19 +424,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="卡巴斯基" scheme="http://www.joryhe.com/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+      <category term="卡巴斯基" scheme="http://joryhe.coding.me/categories/ittech/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
     
     
-      <category term="卡巴斯基" scheme="http://www.joryhe.com/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
+      <category term="卡巴斯基" scheme="http://joryhe.coding.me/tags/%E5%8D%A1%E5%B7%B4%E6%96%AF%E5%9F%BA/"/>
     
   </entry>
   
   <entry>
     <title>VMware_物理机迁移到虚拟机P2V(热迁移)</title>
-    <link href="http://www.joryhe.com/2016-06-29-vmware_hot_on_line_p2v.html"/>
-    <id>http://www.joryhe.com/2016-06-29-vmware_hot_on_line_p2v.html</id>
+    <link href="http://joryhe.coding.me/2016-06-29-vmware_hot_on_line_p2v.html"/>
+    <id>http://joryhe.coding.me/2016-06-29-vmware_hot_on_line_p2v.html</id>
     <published>2016-06-29T14:36:58.000Z</published>
     <updated>2016-08-02T05:06:51.717Z</updated>
     
@@ -452,19 +452,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="vmware" scheme="http://www.joryhe.com/categories/ittech/vmware/"/>
+      <category term="vmware" scheme="http://joryhe.coding.me/categories/ittech/vmware/"/>
     
     
-      <category term="vmware" scheme="http://www.joryhe.com/tags/vmware/"/>
+      <category term="vmware" scheme="http://joryhe.coding.me/tags/vmware/"/>
     
   </entry>
   
   <entry>
     <title>轻松部署vmware esxi6.0与vCenter</title>
-    <link href="http://www.joryhe.com/2016-06-29-vmwaware_and_vcenter_install_guide.html"/>
-    <id>http://www.joryhe.com/2016-06-29-vmwaware_and_vcenter_install_guide.html</id>
+    <link href="http://joryhe.coding.me/2016-06-29-vmwaware_and_vcenter_install_guide.html"/>
+    <id>http://joryhe.coding.me/2016-06-29-vmwaware_and_vcenter_install_guide.html</id>
     <published>2016-06-29T12:50:06.000Z</published>
     <updated>2016-06-29T13:29:00.267Z</updated>
     
@@ -480,19 +480,19 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="vmware" scheme="http://www.joryhe.com/categories/ittech/vmware/"/>
+      <category term="vmware" scheme="http://joryhe.coding.me/categories/ittech/vmware/"/>
     
     
-      <category term="vmware" scheme="http://www.joryhe.com/tags/vmware/"/>
+      <category term="vmware" scheme="http://joryhe.coding.me/tags/vmware/"/>
     
   </entry>
   
   <entry>
     <title>赛门铁克DLP防泄漏部署指引</title>
-    <link href="http://www.joryhe.com/2016-06-29-symantec_dlp_install_guide.html"/>
-    <id>http://www.joryhe.com/2016-06-29-symantec_dlp_install_guide.html</id>
+    <link href="http://joryhe.coding.me/2016-06-29-symantec_dlp_install_guide.html"/>
+    <id>http://joryhe.coding.me/2016-06-29-symantec_dlp_install_guide.html</id>
     <published>2016-06-29T05:14:13.000Z</published>
     <updated>2016-06-29T07:04:52.527Z</updated>
     
@@ -508,12 +508,12 @@
     
     </summary>
     
-      <category term="ittech" scheme="http://www.joryhe.com/categories/ittech/"/>
+      <category term="ittech" scheme="http://joryhe.coding.me/categories/ittech/"/>
     
-      <category term="DLP" scheme="http://www.joryhe.com/categories/ittech/DLP/"/>
+      <category term="DLP" scheme="http://joryhe.coding.me/categories/ittech/DLP/"/>
     
     
-      <category term="DLP" scheme="http://www.joryhe.com/tags/DLP/"/>
+      <category term="DLP" scheme="http://joryhe.coding.me/tags/DLP/"/>
     
   </entry>
   
